@@ -179,6 +179,19 @@
     color: var(--ink-mute);
   }
 
+  /* ADVANCED DETAILS SECTION */
+  #advanced-details {
+    display: none;
+  }
+  #advanced-details.expanded {
+    display: block;
+    animation: slideDown 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
   /* OFFICE INFO */
   .office-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: start; }
   @media (max-width: 980px) { .office-grid { grid-template-columns: 1fr; gap: 40px; } }
@@ -349,7 +362,7 @@
         <div class="path-icon" style="font-size: 28px; border-radius: 12px;"><i class="fa-solid fa-file-invoice"></i></div>
         <div class="path-tag"><span class="tri tri-sm"></span> Recommended</div>
         <h3>Request a <em>quote</em></h3>
-        <p>The full deal. Send your tech pack, brand info, and what you need made. We come back within 24-48 hours with a digital mockup, fabric recommendations, and a clear quote. The form below.</p>
+        <p>The full deal. Send your tech pack, brand info, and what you need made. We come back within 24 hours with a digital mockup, fabric recommendations, and a clear quote. The form below.</p>
         <div class="contact-info"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Reply within 24 hours</div>
         <a href="#quote-form" class="btn btn-light btn-block">Open Quote Form ↓</a>
       </div>
@@ -391,7 +404,7 @@
       <div class="form-side">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> Quote Form</span>
         <h2 class="sec-h2" style="margin-top: 18px;">Tell us about your <em>project.</em></h2>
-        <p>Fill out the form to get a digital mockup and a clear quote within 48 hours. The more detail you can give, the faster we can come back with something useful.</p>
+        <p>Fill out the form to get a digital mockup and a clear quote within 24 hours. The more detail you can give, the faster we can come back with something useful.</p>
 
         <div class="form-helper-list">
           <h4><span class="tri tri-sm"></span> What helps us most</h4>
@@ -410,7 +423,7 @@
           <div class="info-callout-block">
             <div class="info-callout-eyebrow"><span class="tri tri-sm"></span> Free Service</div>
             <h4 class="info-callout-title">Design &amp; mockups, <em>always free.</em></h4>
-            <p class="info-callout-desc">Digital mockups for every quote, no commitment, no design fee, no upfront cost. Free for brands, suppliers, teams, and first-time customers alike. Send us what you have and we'll send back a full digital mockup within 48 hours.</p>
+            <p class="info-callout-desc">Digital mockups for every quote, no commitment, no design fee, no upfront cost. Free for brands, suppliers, teams, and first-time customers alike. Send us what you have and we'll send back a full digital mockup within 24 hours.</p>
           </div>
           <div class="info-callout-block">
             <div class="info-callout-eyebrow"><span class="tri tri-sm"></span> Shipping Terms</div>
@@ -437,10 +450,18 @@
           <div class="field"><label>Website / Instagram <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="@yourhandle or URL"></div>
         </div>
 
-        <h3 class="form-section-title"><span class="form-step">Step 02</span> Project Type</h3>
+        <div class="submit-row" id="step1-submit-row" style="justify-content: flex-end;">
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; width: 100%; justify-content: flex-end;">
+            <button type="button" class="btn btn-outline btn-lg" id="btn-add-details">Add Project Details (Optional) <span class="arrow">↓</span></button>
+            <button type="button" class="btn btn-primary btn-lg">Submit Quick Request <span class="arrow">→</span></button>
+          </div>
+        </div>
+
+        <div id="advanced-details">
+          <h3 class="form-section-title"><span class="form-step">Step 02</span> Project Type</h3>
 
         <div class="field">
-          <label>What category?</label>
+          <label>What category? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
           <select>
             <option>Select category</option>
             <option>Fightwear · MMA · BJJ</option>
@@ -502,10 +523,12 @@
           </select>
         </div>
 
-        <div class="submit-row">
-          <span class="submit-note"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Reply within 24-48 hours</span>
-          <button class="btn btn-primary btn-lg">Submit Quote Request <span class="arrow">→</span></button>
+        <div class="submit-row" style="flex-direction: column; align-items: flex-start; gap: 12px;">
+          <span class="submit-note"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Reply within 24 hours</span>
+          <button type="button" class="btn btn-primary btn-lg">Submit Quote Request <span class="arrow">→</span></button>
         </div>
+
+        </div> <!-- /#advanced-details -->
 
       </div>
     </div>
@@ -602,10 +625,10 @@
         <ul>
           <li><a href="products.html">All Products</a></li>
           <li><a href="products.html?cat=fightwear">Fightwear</a></li>
-          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
           <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
           <li><a href="products.html?cat=team-sports">Team Sports</a></li>
-          <li><a href="products.html?cat=womens">Women's</a></li>
+          <li><a href="products.html?cat=casual-wear">Casual Wear</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -615,8 +638,7 @@
           <li><a href="fabrics.html">Fabric Library</a></li>
           <li><a href="how-it-works.html">How It Works</a></li>
           <li><a href="sample-pack.html">Sample Pack</a></li>
-          <li><a href="#">Tech Pack Template</a></li>
-          <li><a href="#">Capability Deck (PDF)</a></li>
+          <li><a href="print-methods.html">Print Methods</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -671,6 +693,18 @@
       document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
     }
   });
+
+  // Progressive Disclosure Form Logic
+  var btnAddDetails = document.getElementById('btn-add-details');
+  var advancedDetails = document.getElementById('advanced-details');
+  var step1SubmitRow = document.getElementById('step1-submit-row');
+
+  if (btnAddDetails && advancedDetails && step1SubmitRow) {
+    btnAddDetails.addEventListener('click', function() {
+      advancedDetails.classList.add('expanded');
+      step1SubmitRow.style.display = 'none';
+    });
+  }
 })();
 </script>
 

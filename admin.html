@@ -162,16 +162,90 @@
       box-shadow: 0 0 0 3px rgba(227, 76, 38, 0.1);
     }
     
-    .image-uploads { 
-      display: grid; 
-      grid-template-columns: 1fr 1fr; 
-      gap: 20px; 
-      background: #f8fafc; 
-      padding: 24px; 
-      border-radius: 12px; 
-      border: 1px dashed var(--border); 
+    /* Dynamic image rows */
+    .img-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 10px;
     }
-    .image-uploads .form-group { margin-bottom: 0; }
+    .img-row-num {
+      font-size: 11px;
+      font-weight: 700;
+      color: #fff;
+      background: #94a3b8;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .img-row-num.primary { background: var(--primary); }
+    .img-row-thumb {
+      width: 68px;
+      height: 68px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: #e2e8f0;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .img-row-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .img-row-thumb .no-img { font-size: 10px; color: #94a3b8; text-align: center; padding: 6px; line-height: 1.3; }
+    .img-row-fields { flex: 1; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+    .img-row-fields select {
+      padding: 7px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 13px;
+      background: #fff;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .img-row-fields input[type="file"] {
+      font-size: 13px;
+      padding: 3px 0;
+      width: 100%;
+      background: transparent;
+      border: none;
+      font-family: inherit;
+    }
+    .img-row-actions { display: flex; flex-direction: column; gap: 4px; flex-shrink: 0; }
+    .img-row-actions button {
+      padding: 5px 10px;
+      font-size: 13px;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: #fff;
+      border-radius: 6px;
+      font-family: inherit;
+      transition: background 0.15s;
+      line-height: 1;
+    }
+    .img-row-actions button:hover { background: #f1f5f9; }
+    .img-row-actions .rm-btn { color: var(--danger); border-color: #fca5a5; }
+    .img-row-actions .rm-btn:hover { background: #fef2f2; }
+    #img-rows-container:empty::before {
+      content: 'No images yet — click \'+ Add Image\' below.';
+      display: block;
+      padding: 18px;
+      text-align: center;
+      color: var(--text-soft);
+      font-size: 13px;
+      background: #f8fafc;
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+    }
     
     .actions { display: flex; gap: 12px; margin-top: 32px; justify-content: flex-end; }
   </style>
@@ -420,29 +494,10 @@
 
       <div class="form-group"><label>Description</label><textarea id="p_desc" rows="3"></textarea></div>
 
-      <h4 style="margin-top: 20px; margin-bottom: 10px;">Images</h4>
-      <div class="form-group" style="margin-bottom: 15px;">
-        <label>Primary Image (Default View)</label>
-        <select id="p_primaryImageKey">
-          <option value="">Auto-select (Default)</option>
-          <option value="ghost_front">Ghost Front</option>
-          <option value="ghost_back">Ghost Back</option>
-          <option value="model_action">Model Action</option>
-          <option value="model_torso">Model Torso</option>
-          <option value="model_bottom">Model Bottom</option>
-          <option value="model_back">Model Back</option>
-          <option value="flat_lay">Flat Lay</option>
-          <option value="detail">Detail</option>
-        </select>
-      </div>
-      <div class="image-uploads">
-        <div class="form-group"><label>Model Torso</label><input type="file" id="img_model_torso" accept="image/*"></div>
-        <div class="form-group"><label>Model Bottom</label><input type="file" id="img_model_bottom" accept="image/*"></div>
-        <div class="form-group"><label>Model Action</label><input type="file" id="img_model_action" accept="image/*"></div>
-        <div class="form-group"><label>Ghost Front</label><input type="file" id="img_ghost_front" accept="image/*"></div>
-        <div class="form-group"><label>Flat Lay</label><input type="file" id="img_flat_lay" accept="image/*"></div>
-        <div class="form-group"><label>Detail</label><input type="file" id="img_detail" accept="image/*"></div>
-      </div>
+      <h4 style="margin-top: 24px; margin-bottom: 4px;">Images</h4>
+      <p style="font-size: 13px; color: var(--text-soft); margin: 0 0 14px;">The <strong>first image</strong> in the list is shown first on the product detail page. Use ↑↓ to reorder. Add as many images as needed.</p>
+      <div id="img-rows-container"></div>
+      <button type="button" class="btn btn-secondary" onclick="addImgRow()" style="margin-top: 10px; width: 100%;">+ Add Image</button>
       
       <div class="actions">
         <button type="button" class="btn btn-secondary" onclick="closeModal('productModal')">Cancel</button>
@@ -470,7 +525,82 @@
     const h2 = document.getElementById(id).querySelector('h2');
     if(h2) h2.innerText = 'Add New ' + id.replace('Modal','').charAt(0).toUpperCase() + id.replace('Modal','').slice(1);
   }
-  function closeModal(id) { document.getElementById(id).style.display = 'none'; document.querySelector('#'+id+' form').reset(); }
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+    document.querySelector('#'+id+' form').reset();
+    if (id === 'productModal') document.getElementById('img-rows-container').innerHTML = '';
+  }
+
+
+  // ── Image row helpers ────────────────────────────────────────────────
+  const IMG_TYPE_OPTIONS = [
+    ['ghost_front','Ghost Front'],['ghost_back','Ghost Back'],['ghost_side','Ghost Side'],
+    ['model_front','Model Front'],['model_torso','Model Torso'],['model_bottom','Model Bottom'],
+    ['model_action','Model Action'],['model_back','Model Back'],['flat_lay','Flat Lay'],['detail','Detail']
+  ];
+
+  function addImgRow(key, existingPath) {
+    const container = document.getElementById('img-rows-container');
+    const idx = container.children.length;
+    const row = document.createElement('div');
+    row.className = 'img-row';
+
+    const optHtml = IMG_TYPE_OPTIONS.map(([v,l]) =>
+      `<option value="${v}"${key === v ? ' selected' : ''}>${l}</option>`
+    ).join('');
+
+    const thumbHtml = existingPath
+      ? `<img src="${existingPath}" alt="" onerror="this.parentElement.innerHTML='<div class=no-img>No preview</div>'">`
+      : '<div class="no-img">No image</div>';
+
+    row.innerHTML = `
+      <div class="img-row-num${idx === 0 ? ' primary' : ''}">${idx + 1}</div>
+      <div class="img-row-thumb">${thumbHtml}</div>
+      <div class="img-row-fields">
+        <select class="img-type-select">${optHtml}</select>
+        <input type="file" class="img-file-input" accept="image/*">
+        <input type="hidden" class="img-existing-path" value="${existingPath || ''}">
+      </div>
+      <div class="img-row-actions">
+        <button type="button" onclick="moveImgRow(this,-1)">↑</button>
+        <button type="button" onclick="moveImgRow(this,1)">↓</button>
+        <button type="button" class="rm-btn" onclick="removeImgRow(this)">×</button>
+      </div>`;
+
+    row.querySelector('.img-file-input').addEventListener('change', function() {
+      if (this.files[0]) {
+        row.querySelector('.img-row-thumb').innerHTML = `<img src="${URL.createObjectURL(this.files[0])}" alt="">`;
+        row.querySelector('.img-existing-path').value = '';
+      }
+    });
+
+    container.appendChild(row);
+    updateImgRowNums();
+  }
+
+  function removeImgRow(btn) {
+    btn.closest('.img-row').remove();
+    updateImgRowNums();
+  }
+
+  function moveImgRow(btn, dir) {
+    const container = document.getElementById('img-rows-container');
+    const row = btn.closest('.img-row');
+    const rows = [...container.children];
+    const idx = rows.indexOf(row);
+    if (dir === -1 && idx > 0) container.insertBefore(row, rows[idx - 1]);
+    else if (dir === 1 && idx < rows.length - 1) container.insertBefore(rows[idx + 1], row);
+    updateImgRowNums();
+  }
+
+  function updateImgRowNums() {
+    document.querySelectorAll('#img-rows-container .img-row').forEach((row, i) => {
+      const num = row.querySelector('.img-row-num');
+      num.textContent = i + 1;
+      i === 0 ? num.classList.add('primary') : num.classList.remove('primary');
+    });
+  }
+  // ────────────────────────────────────────────────────────────────────
 
   function editProduct(id) {
     modalMode = 'edit';
@@ -495,8 +625,17 @@
     document.getElementById('p_leadTime').value = p.leadTime || '';
     document.getElementById('p_fabric').value = p.fabric || '';
     document.getElementById('p_desc').value = p.description || '';
-    document.getElementById('p_primaryImageKey').value = p.primaryImageKey || '';
-    
+
+    // Populate image rows (primaryImageKey first, then IMG_ORDER, then extras)
+    document.getElementById('img-rows-container').innerHTML = '';
+    const imgs = p.images || {};
+    const IMG_LOAD_ORDER = ['ghost_front','model_torso','model_bottom','model_action','model_front','model_back','flat_lay','ghost_back','ghost_side','detail'];
+    const orderedKeys = [];
+    if (p.primaryImageKey && imgs[p.primaryImageKey]) orderedKeys.push(p.primaryImageKey);
+    IMG_LOAD_ORDER.forEach(k => { if (imgs[k] && !orderedKeys.includes(k)) orderedKeys.push(k); });
+    Object.keys(imgs).forEach(k => { if (!orderedKeys.includes(k)) orderedKeys.push(k); });
+    orderedKeys.forEach(k => addImgRow(k, imgs[k]));
+
     document.getElementById('productModal').style.display = 'flex';
   }
 
@@ -686,21 +825,25 @@
     const btn = document.getElementById('btnSaveProduct');
     btn.innerText = 'Saving...'; btn.disabled = true;
 
-    // Helper for uploading single image
-    async function uploadImg(inputId) {
-      const file = document.getElementById(inputId).files[0];
-      if (!file) return null;
-      const fd = new FormData(); fd.append('image', file);
-      const res = await fetch('/api/upload', { method: 'POST', body: fd });
-      const data = await res.json();
-      return data.path;
-    }
-
+    // Collect images from dynamic rows in list order
     const images = {};
-    const imgKeys = ['model_torso', 'model_bottom', 'model_action', 'ghost_front', 'flat_lay', 'detail'];
-    for (const key of imgKeys) {
-      const path = await uploadImg('img_' + key);
-      if (path) images[key] = path;
+    let primaryImageKey = '';
+    const imgRows = document.querySelectorAll('#img-rows-container .img-row');
+    for (const row of imgRows) {
+      const key = row.querySelector('.img-type-select').value;
+      const fileInput = row.querySelector('.img-file-input');
+      const existingPath = row.querySelector('.img-existing-path').value;
+      let path = existingPath || null;
+      if (fileInput.files[0]) {
+        const fd = new FormData(); fd.append('image', fileInput.files[0]);
+        const res = await fetch('/api/upload', { method: 'POST', body: fd });
+        const data = await res.json();
+        path = data.path;
+      }
+      if (path && key) {
+        images[key] = path;
+        if (!primaryImageKey) primaryImageKey = key;
+      }
     }
 
     const product = {
@@ -717,21 +860,14 @@
       sizeRange: document.getElementById('p_sizeRange').value,
       leadTime: document.getElementById('p_leadTime').value,
       moq: parseInt(document.getElementById('p_moq').value, 10),
-      primaryImageKey: document.getElementById('p_primaryImageKey').value,
-      is_featured: false, // Default to false, overridden below if editing
+      primaryImageKey,
+      is_featured: false,
       images
     };
 
     if (modalMode === 'edit') {
       const existing = catalogData.products.find(x => x.id === product.id);
-      if (existing) {
-        product.is_featured = existing.is_featured;
-        if (existing.images) {
-        for (const k in existing.images) {
-          if (!product.images[k]) product.images[k] = existing.images[k];
-        }
-        }
-      }
+      if (existing) product.is_featured = existing.is_featured;
     }
 
     const url = modalMode === 'edit' ? '/api/products/' + product.id : '/api/products';

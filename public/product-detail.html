@@ -78,6 +78,11 @@
         margin-bottom: 12px;
         overflow: hidden;
         cursor: zoom-in;
+        border-radius: 3px;
+        box-shadow:
+          0 4px 6px -1px rgba(0,0,0,0.08),
+          0 10px 24px -4px rgba(0,0,0,0.12),
+          0 0 0 1px rgba(0,0,0,0.04);
       }
       .main-img img {
         position: absolute;
@@ -86,6 +91,45 @@
         height: 100%;
         object-fit: cover;
         transition: opacity 0.3s ease;
+      }
+
+      /* LENS MAGNIFIER */
+      .zoom-lens {
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        border: 2px solid rgba(255,255,255,0.9);
+        outline: 1px solid rgba(0,0,0,0.18);
+        background: rgba(255,255,255,0.12);
+        box-shadow: 0 0 0 9999px rgba(0,0,0,0.04) inset;
+        cursor: crosshair;
+        display: none;
+        z-index: 20;
+        pointer-events: none;
+        border-radius: 2px;
+        backdrop-filter: blur(0.5px);
+      }
+      .zoom-result {
+        position: absolute;
+        left: calc(100% + 16px);
+        top: 0;
+        width: 380px;
+        aspect-ratio: 4/5;
+        background-repeat: no-repeat;
+        background-color: var(--bg-soft);
+        border: 1px solid var(--bg-line);
+        box-shadow:
+          0 4px 6px -1px rgba(0,0,0,0.08),
+          0 16px 40px -8px rgba(0,0,0,0.14),
+          0 0 0 1px rgba(0,0,0,0.04);
+        border-radius: 3px;
+        display: none;
+        z-index: 200;
+        overflow: hidden;
+        pointer-events: none;
+      }
+      @media (max-width: 980px) {
+        .zoom-lens, .zoom-result { display: none !important; }
       }
       .main-img-placeholder {
         position: absolute;
@@ -98,6 +142,43 @@
         width: 38%;
         height: 38%;
         opacity: 0.3;
+      }
+
+      /* IMAGE NAV ARROWS */
+      .img-nav-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 38px;
+        height: 38px;
+        background: rgba(255,255,255,0.92);
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(0,0,0,0.10);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.22s ease, transform 0.22s ease, background 0.18s;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.14);
+      }
+      .img-nav-arrow:hover {
+        background: #fff;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+      }
+      .img-nav-arrow.prev { left: 10px; }
+      .img-nav-arrow.next { right: 10px; }
+      .img-nav-arrow svg { width: 16px; height: 16px; stroke: var(--ink); stroke-width: 2; fill: none; }
+      .main-img:hover .img-nav-arrow {
+        opacity: 1;
+      }
+      .main-img:hover .img-nav-arrow.prev {
+        transform: translateY(-50%) translateX(2px);
+      }
+      .main-img:hover .img-nav-arrow.next {
+        transform: translateY(-50%) translateX(-2px);
       }
 
       .thumbs {
@@ -682,10 +763,10 @@
         <ul>
           <li><a href="products.html">All Products</a></li>
           <li><a href="products.html?cat=fightwear">Fightwear</a></li>
-          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
           <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
           <li><a href="products.html?cat=team-sports">Team Sports</a></li>
-          <li><a href="products.html?cat=womens">Women's</a></li>
+          <li><a href="products.html?cat=casual-wear">Casual Wear</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -695,8 +776,7 @@
           <li><a href="fabrics.html">Fabric Library</a></li>
           <li><a href="how-it-works.html">How It Works</a></li>
           <li><a href="sample-pack.html">Sample Pack</a></li>
-          <li><a href="#">Tech Pack Template</a></li>
-          <li><a href="#">Capability Deck (PDF)</a></li>
+          <li><a href="print-methods.html">Print Methods</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -826,8 +906,7 @@
           let mainImgHtml;
           const firstKey = allImgs[0];
           if (firstKey) {
-            mainImgHtml = `<img id="main-product-img" src="${window.optImg(imgs[firstKey], 1000)}" alt="${esc(prod.name)}" />
-        <div class="img-label-badge" id="main-img-label">${esc(IMG_LABELS[firstKey] || firstKey)}</div>`;
+            mainImgHtml = `<img id="main-product-img" src="${window.optImg(imgs[firstKey], 1000)}" alt="${esc(prod.name)}" />`;
           } else {
             mainImgHtml = `<div class="main-img-placeholder">${PLACEHOLDER_SVG}</div>`;
           }
@@ -848,6 +927,12 @@
         <div class="main-img" id="main-img-wrap">
           <div class="skeleton-overlay" id="main-skeleton"></div>
           ${mainImgHtml}
+          <button class="img-nav-arrow prev" onclick="navigateImg(-1)" aria-label="Previous image">
+            <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="img-nav-arrow next" onclick="navigateImg(1)" aria-label="Next image">
+            <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+          </button>
         </div>
         <div class="thumbs">${thumbsHtml}</div>
         ${preloadHtml}
@@ -1003,6 +1088,9 @@
         ${buildInfo(prod)}
       </div>
       ${buildRelated(prod)}`;
+
+          // Init lens magnifier after DOM is ready
+          initZoom();
         }
 
         // ── Thumb switcher (global so inline onclick works) ───────────
@@ -1010,7 +1098,6 @@
           const src = thumb.dataset.img;
           const label = thumb.dataset.label;
           const mainImg = document.getElementById('main-product-img');
-          const mainLabel = document.getElementById('main-img-label');
           const skeleton = document.getElementById('main-skeleton');
           
           if (mainImg && mainImg.src !== src) {
@@ -1031,12 +1118,119 @@
             
             mainImg.alt = label;
           }
-          if (mainLabel) mainLabel.textContent = label;
           document
             .querySelectorAll('.thumb')
             .forEach((t) => t.classList.remove('active'));
           thumb.classList.add('active');
         };
+
+        // ── Arrow navigation ──────────────────────────────────────────
+        window.navigateImg = function (dir) {
+          const thumbs = [...document.querySelectorAll('.thumb')];
+          if (!thumbs.length) return;
+          const activeIdx = thumbs.findIndex(t => t.classList.contains('active'));
+          const nextIdx = (activeIdx + dir + thumbs.length) % thumbs.length;
+          window.switchImg(thumbs[nextIdx]);
+        };
+
+        // ── Lens magnifier ────────────────────────────────────────────
+        function initZoom() {
+          const wrap = document.getElementById('main-img-wrap');
+          if (!wrap) return;
+
+          const LENS_W = 130, LENS_H = 130;
+
+          // Build lens element
+          const lens = document.createElement('div');
+          lens.className = 'zoom-lens';
+          wrap.appendChild(lens);
+
+          // Build result panel (sibling of main-img inside .gallery)
+          const result = document.createElement('div');
+          result.className = 'zoom-result';
+          result.id = 'zoom-result-panel';
+          wrap.parentElement.appendChild(result);
+
+          function refreshResultImage() {
+            const img = document.getElementById('main-product-img');
+            if (!img) return;
+            const src = img.src || img.getAttribute('src');
+            if (src) result.style.backgroundImage = `url(${src})`;
+          }
+
+          function updateZoom(e) {
+            const img = document.getElementById('main-product-img');
+            if (!img) return;
+            const rect = wrap.getBoundingClientRect();
+            const W = rect.width, H = rect.height;
+
+            // Raw cursor position relative to image
+            let cx = e.clientX - rect.left;
+            let cy = e.clientY - rect.top;
+
+            // Clamp lens centre so it never goes outside the image
+            cx = Math.max(LENS_W / 2, Math.min(cx, W - LENS_W / 2));
+            cy = Math.max(LENS_H / 2, Math.min(cy, H - LENS_H / 2));
+
+            lens.style.left = (cx - LENS_W / 2) + 'px';
+            lens.style.top  = (cy - LENS_H / 2) + 'px';
+
+            // Zoom factor = result panel size / lens size
+            const rW = result.offsetWidth  || 380;
+            const rH = result.offsetHeight || 475;
+            const zx = rW / LENS_W;
+            const zy = rH / LENS_H;
+
+            // Background size = full image blown up by zoom factor
+            result.style.backgroundSize     = `${W * zx}px ${H * zy}px`;
+            // Background position = offset so the lens region fills the panel
+            result.style.backgroundPosition =
+              `-${(cx - LENS_W / 2) * zx}px -${(cy - LENS_H / 2) * zy}px`;
+          }
+
+          let arrowHovered = false;
+
+          // Disable zoom while hovering arrow buttons
+          wrap.querySelectorAll('.img-nav-arrow').forEach(function (arrow) {
+            arrow.addEventListener('mouseenter', function () {
+              arrowHovered = true;
+              lens.style.display   = 'none';
+              result.style.display = 'none';
+            });
+            arrow.addEventListener('mouseleave', function () {
+              arrowHovered = false;
+            });
+          });
+
+          wrap.addEventListener('mouseenter', function (e) {
+            if (window.innerWidth < 980 || arrowHovered) return;
+            refreshResultImage();
+            lens.style.display   = 'block';
+            result.style.display = 'block';
+            updateZoom(e);
+          });
+          wrap.addEventListener('mousemove', function (e) {
+            if (window.innerWidth < 980 || arrowHovered) return;
+            // Re-show if coming back from an arrow
+            if (lens.style.display === 'none') {
+              refreshResultImage();
+              lens.style.display   = 'block';
+              result.style.display = 'block';
+            }
+            updateZoom(e);
+          });
+          wrap.addEventListener('mouseleave', function () {
+            lens.style.display   = 'none';
+            result.style.display = 'none';
+          });
+
+          // When image changes via arrows / thumbs → refresh result bg
+          const observer = new MutationObserver(function () {
+            if (result.style.display !== 'none') refreshResultImage();
+          });
+          const mainImg = document.getElementById('main-product-img');
+          if (mainImg) observer.observe(mainImg, { attributes: true, attributeFilter: ['src'] });
+        }
 
         // ── Init ──────────────────────────────────────────────────────
         if (document.readyState === 'loading') {
