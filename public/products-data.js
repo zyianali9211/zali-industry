@@ -1108,19 +1108,19 @@ window.ZALI_CATALOG = {
               "title": "Hooded Windbreaker",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "hooded windbreaker",
-              "fabric": "smooth woven polyester windbreaker shell with a lightweight crisp hand, slight synthetic sheen, thin airy drape, and subtle wrinkling; appears water-resistant with a tightly woven surface and printed tonal pattern on the body.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_action",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/01_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/03_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/05_model_torso.webp"
+                "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/02_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/05_model_torso.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/OUterwear/Windbreaker-581df3/01_detail.webp"
               }
             }
           ]
