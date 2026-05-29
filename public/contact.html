@@ -506,12 +506,12 @@
 
         <div class="field">
           <label>Upload Tech Pack, Sketches, or References <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
-          <div class="file-drop" onclick="document.getElementById('file-upload').click();" style="cursor: pointer;">
+          <label class="file-drop" style="cursor: pointer; display: block;">
             <div class="file-drop-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15 V19 a2 2 0 0 1 -2 2 H5 a2 2 0 0 1 -2 -2 V15"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
             <div class="file-drop-text"><strong>Click to upload</strong> or drag and drop</div>
             <div class="file-drop-help">PDF · AI · PSD · PNG · JPG · ZIP · up to 50MB</div>
-            <input type="file" id="file-upload" name="Attachment" accept=".pdf,.ai,.psd,.png,.jpg,.jpeg,.zip" style="display:none;" onchange="this.parentElement.querySelector('.file-drop-text').innerHTML = '<strong>Selected:</strong> ' + this.files[0].name;">
-          </div>
+            <input type="file" id="file-upload" name="Attachment" accept=".pdf,.ai,.psd,.png,.jpg,.jpeg,.zip" style="display:none;" onchange="if(this.files.length > 0) { this.parentElement.querySelector('.file-drop-text').innerHTML = '<strong>Selected:</strong> ' + this.files[0].name; }">
+          </label>
         </div>
 
         <div class="field">
