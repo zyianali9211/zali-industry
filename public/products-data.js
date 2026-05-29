@@ -859,19 +859,18 @@ window.ZALI_CATALOG = {
               "title": "Sublimated Sweatpants",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "sublimated sweatpants",
-              "fabric": "midweight polyester fleece / sweatshirt knit with a smooth printed face, matte surface, soft slightly plush hand, relaxed drape, and visible sublimated color saturation; looks warm and cozy rather than shiny or slick",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/03_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/04_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/05_model_torso.webp"
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Sweatpants%20subliamted-8d133d/01_detail.webp"
               }
             },
             {
