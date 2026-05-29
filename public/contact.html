@@ -510,7 +510,7 @@
             <div class="file-drop-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15 V19 a2 2 0 0 1 -2 2 H5 a2 2 0 0 1 -2 -2 V15"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
             <div class="file-drop-text"><strong>Click to upload</strong> or drag and drop</div>
             <div class="file-drop-help">PDF · AI · PSD · PNG · JPG · ZIP · up to 50MB</div>
-            <input type="file" id="file-upload" name="Attachment" accept=".pdf,.ai,.psd,.png,.jpg,.jpeg,.zip" style="display:none;" onchange="if(this.files.length > 0) { this.parentElement.querySelector('.file-drop-text').innerHTML = '<strong>Selected:</strong> ' + this.files[0].name; }">
+            <input type="file" id="file-upload" name="Attachment" multiple accept=".pdf,.ai,.psd,.png,.jpg,.jpeg,.zip" style="display:none;" onchange="if(this.files.length > 0) { this.parentElement.querySelector('.file-drop-text').innerHTML = '<strong>Selected:</strong> ' + (this.files.length > 1 ? this.files.length + ' files' : this.files[0].name); }">
           </label>
         </div>
 
@@ -536,6 +536,13 @@
         </div> <!-- /#advanced-details -->
 
       </form>
+      
+      <!-- Toast Notification -->
+      <div id="toast" style="opacity:0; pointer-events:none; position:fixed; bottom:24px; right:24px; background:var(--ink); color:var(--white); padding:16px 24px; z-index:9999; box-shadow:0 10px 40px rgba(0,0,0,0.2); display:flex; align-items:center; gap:12px; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); transform: translateY(20px);">
+        <span class="tri tri-sm" style="border-bottom-color:var(--accent); margin:0;"></span> 
+        <span style="font-weight: 500; font-size: 14px;">Form sent successfully! We'll be in touch.</span>
+      </div>
+
     </div>
   </div>
 </section>
@@ -708,6 +715,65 @@
     btnAddDetails.addEventListener('click', function() {
       advancedDetails.classList.add('expanded');
       step1SubmitRow.style.display = 'none';
+    });
+  }
+
+  // AJAX Form Submission
+  var contactForm = document.querySelector('.form-card-main');
+  var toast = document.getElementById('toast');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      var submitBtns = contactForm.querySelectorAll('button[type="submit"]');
+      submitBtns.forEach(function(btn) { 
+        btn.disabled = true; 
+        var originalText = btn.innerHTML;
+        btn.innerHTML = 'Sending...';
+        btn.dataset.original = originalText;
+      });
+
+      var formData = new FormData(contactForm);
+
+      fetch(contactForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(function(response) {
+        if (response.ok) {
+          contactForm.reset();
+          
+          // Reset file drop text
+          var fileDropText = document.querySelector('.file-drop-text');
+          if (fileDropText) {
+            fileDropText.innerHTML = '<strong>Click to upload</strong> or drag and drop';
+          }
+          
+          // Hide advanced details if open
+          if (advancedDetails) advancedDetails.classList.remove('expanded');
+          if (step1SubmitRow) step1SubmitRow.style.display = 'flex';
+          
+          // Show toast
+          toast.style.opacity = '1';
+          toast.style.transform = 'translateY(0)';
+          
+          setTimeout(function() {
+            toast.style.opacity = '0';
+            toast.style.transform = 'translateY(20px)';
+          }, 4000);
+        } else {
+          alert('Oops! There was a problem submitting your form');
+        }
+      }).catch(function(error) {
+        alert('Oops! There was a problem submitting your form');
+      }).finally(function() {
+        submitBtns.forEach(function(btn) { 
+          btn.disabled = false; 
+          if(btn.dataset.original) btn.innerHTML = btn.dataset.original;
+        });
+      });
     });
   }
 })();
