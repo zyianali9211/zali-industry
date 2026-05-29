@@ -1,0 +1,17 @@
+Product: Flag Football Set
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless flag football uniform set made from lightweight athletic performance knit with a smooth matte finish and slight synthetic sheen. The main jersey and shorts are sublimated with an all-over wavy camo-like graphic, while the separate arm sleeves and gloves match the same printed team graphics.
+PANEL_MAP: Front body: one continuous panel, teal base with dark wavy camo-style sublimation print, large mascot graphic and "CANTON TUSKERS" wordmark printed on chest, number 23 printed at upper chest, no seams between color areas. Back body: one continuous panel, teal base with matching wavy sublimation print, continuation of the same design, no color-block seams. Sleeves: separate panels, teal with matching printed graphic elements. Collar: black ribbed crewneck trim. Shorts: one front panel and one back panel, teal with matching wavy sublimation print and small printed logo near hem.
+LOGOS: small white infinity-style logo on right chest and lower shorts, mascot/team logo on chest, no yellow highlights
+GARMENT_TYPE: sleeveless flag football jersey and shorts set
+BACK_VIEW: back is mostly teal with the same all-over wavy sublimation print, plain center without front mascot graphics, with the printed pattern continuing uninterrupted across the single back panel
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester athletic knit, fine surface texture with a soft matte-to-slight-sheen finish, thin breathable drape, sublimation-friendly synthetic performance fabric with moderate stretch and clean print saturation
+
+--- GENERATED TEXT ---
+(no text generated)

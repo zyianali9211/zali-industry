@@ -1,0 +1,24 @@
+Product: Long Sleeve Polo
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve polo shirt with a structured collar and partial button placket, made from smooth performance knit fabric. The body is color-blocked in red and black with a sharp diagonal graphic sweep and a small white accent near the lower front, giving it a lightweight athletic look.
+PANEL_MAP: 4 panels: main front body red, left sleeve black, right sleeve red, diagonal lower-front graphic panel in black with white curved accent and small red inset along left side seam
+LOGOS: left chest logo (white, remove), no other logos
+GARMENT_TYPE: long sleeve polo
+BACK_VIEW: back is primarily solid red with black continuing onto the left sleeve and a simplified continuation of the diagonal side graphic without the white accent on the center back
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a fine, tight jersey surface, matte to slight low-sheen finish, lightweight drape, and subtle stretch typical of athletic polo fabric
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Polo
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

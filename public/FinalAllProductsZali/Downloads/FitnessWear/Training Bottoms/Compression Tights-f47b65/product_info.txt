@@ -1,0 +1,24 @@
+Product: Compression Tights
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Tight compression leggings/tights with a high elastic waistband, body-contouring fit, and flatlock seam construction. The fabric appears smooth, matte, and dense with a sleek athletic finish, designed for stretch and muscle support.
+PANEL_MAP: 4 panels: main body dark charcoal/black, wide black waistband, curved left hip/side yoke panel with logo, center front crotch/inner-leg gusset and seam panels in matching dark charcoal
+LOGOS: small "REP" logo on left upper thigh/hip panel, no other logos
+GARMENT_TYPE: compression tights
+BACK_VIEW: back is solid dark charcoal with center back seam and contoured seam lines continuing down the legs, no visible logos
+LOGO_COLOR: white
+FABRIC: compression spandex / lycra knit with a smooth tight surface, matte-to-slightly satin sheen, heavy stretch recovery, close body-hugging drape, and subtle flatlock seam definition
+
+--- GENERATED TEXT ---
+TITLE: Compression Tights
+
+DESCRIPTION:
+Available in compression spandex and lycra knit.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on waistband, legs, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

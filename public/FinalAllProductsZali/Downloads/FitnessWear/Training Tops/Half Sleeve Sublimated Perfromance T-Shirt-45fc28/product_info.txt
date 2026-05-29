@@ -1,0 +1,24 @@
+Product: Half Sleeve Sublimated Perfromance  T-Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Half sleeve performance T-shirt with a raglan-style construction, featuring a plain white center body and fully sublimated patterned sleeves and upper shoulder yoke. The silhouette is slim/athletic with a rounded hem and clean crew neckline, made from a lightweight smooth performance knit.
+PANEL_MAP: 3 panels: main front body white, raglan sleeves/shoulder yoke black-red-white sublimated floral camo print, crew neck binding black/red/white patterned trim
+LOGOS: center chest "ILLUSIVE" logo, no other logos
+GARMENT_TYPE: half sleeve sublimated performance T-shirt
+BACK_VIEW: back is primarily solid white with the same sublimated patterned raglan sleeves and upper shoulder/yoke continuing across the back neckline.
+LOGO_COLOR: black
+FABRIC: smooth lightweight polyester performance knit, fine flat jersey surface with slight soft matte sheen, thin breathable drape, low-texture technical feel, likely moisture-wicking and slightly stretchy
+
+--- GENERATED TEXT ---
+TITLE: Half Sleeve Sublimated Performance T-Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

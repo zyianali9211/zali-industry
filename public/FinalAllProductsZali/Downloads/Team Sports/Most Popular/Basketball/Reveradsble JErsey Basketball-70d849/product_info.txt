@@ -1,0 +1,27 @@
+Product: Reveradsble JErsey Basketball
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless reversible basketball jersey with a V-neck trim, sporty athletic cut, and a smooth performance-knit body. The garment uses a single continuous front panel and a single continuous back panel, with all red/black variation and stripe effects appearing as printed graphics rather than separate fabric pieces.
+PANEL_MAP: Front body: one continuous panel, black base with red diagonal stripe print fading from upper chest to lower torso; large “WOOTER” wordmark and “23” number are printed on top of the panel. Back body: one continuous panel, expected solid black/red reversible side with printed graphic treatment rather than cut-and-sew color blocking. Sleeves: none. Collar/neck trim: separate V-neck trim in black with red edge binding; reversible interior shown in red.
+LOGOS: upper left chest small white infinity-like logo, upper right chest “23” player number, no other logos
+GARMENT_TYPE: reversible basketball jersey
+BACK_VIEW: Back is a plain continuous panel with the same sporty reversible construction, likely solid black on one side and red on the reverse, with minimal or no front-style wordmark treatment.
+LOGO_COLOR: white
+FABRIC: smooth polyester mesh or smooth athletic polyester knit with a soft matte-to-slightly-sheen finish, lightweight drape, and breathable sportswear handfeel; surface appears tightly knitted and printed cleanly, not textured like fleece or rib fabric.
+TEXT_AND_GRAPHICS: Front torso: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; the only decoration is a diagonal stripe graphic pattern made of many thin red lines of varying thickness running from the upper left chest area down toward the lower right torso, denser and wider across the center-left chest and becoming finer toward the right side, with no lettering or symbols.
+COLOR_LAYOUT: Black/dark charcoal body with a bright red inner collar and red diagonal stripe graphics sweeping across the front from upper left to lower right.
+TRIM_DETAILS: Sleeveless V-neck jersey with black self-fabric collar bound in red, red piping around both armholes, and a straight hemmed bottom edge.
+
+--- GENERATED TEXT ---
+TITLE: Reversible Basketball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

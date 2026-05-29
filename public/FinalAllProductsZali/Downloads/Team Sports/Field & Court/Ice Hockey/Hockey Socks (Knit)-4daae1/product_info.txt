@@ -1,0 +1,27 @@
+Product: Hockey Socks (Knit)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Knee-high hockey sock knit in a smooth, medium-weight athletic knit with a matte, slightly fuzzy surface and visible vertical knit ribs. Single-piece front and back body construction with printed stripe graphics around the lower leg; no visible seams, closures, or separate color-block panels.
+PANEL_MAP: Front body: one continuous panel, light gray/white base with printed horizontal banding near lower leg—dark blue stripe above, wide green center band, dark blue stripe below (PRINT only, no separate seams). Back body: one continuous panel, matching light gray/white base with the same printed stripe placement continuing around the leg. No sleeves or collar.
+LOGOS: none
+GARMENT_TYPE: hockey sock (knit)
+BACK_VIEW: Back is plain light gray/white knit with the same lower-leg printed stripe wrap continuing around the sock, no additional graphics or construction changes.
+LOGO_COLOR: dark blue
+FABRIC: medium-weight knit polyester hockey-sock fabric with a matte finish, soft slightly fuzzy yarn texture, subtle vertical ribbed knit structure, and moderate stretch with a structured tubular drape.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs; only horizontal color-block stripe details on the sleeve: a wide dark green band centered around the lower-middle sleeve, bordered above and below by thin white stripes and then wider navy blue bands, all wrapping fully around the sleeve.
+COLOR_LAYOUT: White sleeve with a wide dark green horizontal band around the lower-middle, bordered by thin white lines and navy blue bands above and below.
+TRIM_DETAILS: Plain ribbed cuff at the top edge and a clean stitched hem at the bottom edge, with no additional collars, buttons, or decorative trim visible.
+
+--- GENERATED TEXT ---
+TITLE: Hockey Sock (Knit)
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

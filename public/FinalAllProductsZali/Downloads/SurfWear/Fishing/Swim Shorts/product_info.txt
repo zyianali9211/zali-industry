@@ -1,0 +1,24 @@
+Product: Swim Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Swim shorts with a relaxed athletic fit, elasticated waistband, and drawcord closure. The body appears to be a smooth lightweight synthetic fabric with a soft drape and slight matte-to-low-sheen finish, suitable for swim or leisure wear.
+PANEL_MAP: Front body: one continuous panel, light blue base with no visible printed graphics or color blocking, center front seam visible, no separate color panels. Back body: one continuous panel, light blue base, plain with clean construction and no printed design. Waistband: separate elastic waistband in matching light blue. Drawcord: white with metal tips. Pockets: side seam pockets integrated into body.
+LOGOS: none
+GARMENT_TYPE: swim shorts
+BACK_VIEW: back is plain light blue with the same continuous body fabric and waistband, no visible print, clean simple rear construction.
+LOGO_COLOR: white
+FABRIC: smooth polyester swim fabric with a fine tightly woven surface, lightweight and fluid drape, soft matte finish with a slight silky sheen, thin quick-dry hand feel, minimal texture visible.
+
+--- GENERATED TEXT ---
+TITLE: Swim Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

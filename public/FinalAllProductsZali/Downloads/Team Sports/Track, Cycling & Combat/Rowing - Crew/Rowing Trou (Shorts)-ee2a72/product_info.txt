@@ -1,0 +1,27 @@
+Product: Rowing Trou (Shorts)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Athletic rowing shorts made from smooth, lightweight synthetic performance fabric with a slight satin sheen and soft drape. Construction appears to be a single front body panel and single back body panel with sewn side seams and an elastic waistband; all body color blocking is printed, not cut-and-sewn.
+PANEL_MAP: Front body: one continuous navy panel with sublimation print elements including large vertical red/white “USA” on right thigh and small white “BOATHOUSE” on left lower leg; thin white stripe and thin light gray stripe printed above red hem band near leg openings. Back body: one continuous navy panel, plain except for continuation of side seams and hem treatment; all color accents on body are print only. Waistband: separate elastic waistband in gray with repeated BOATHOUSE text on inner lining.
+LOGOS: no visible brand logos other than BOATHOUSE text and USA graphic
+GARMENT_TYPE: rowing shorts
+BACK_VIEW: Back is solid navy with the same elastic waistband and leg hem striping continuing around the sides, with no large graphic on the back.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit or tricot-like athletic fabric with a fine, tightly knit surface, moderate sheen, lightweight feel, and fluid drape; looks slightly slippery/silky rather than matte, with visible soft wrinkles and stretch at the waistband and seams.
+TEXT_AND_GRAPHICS: Right leg outer side: large vertical “USA” wordmark stacked top-to-bottom with “U” above “S” above “A”, in bold collegiate block letters, red fill with a thin white outline; each letter is tall and oversized, occupying the upper-to-mid right leg area. Left lower leg near hem: small “BOATHOUSE” wordmark in white, all caps, condensed sans-serif/block style, horizontally aligned and modest size. No other text or graphics.
+COLOR_LAYOUT: Dark navy body with a light gray elastic waistband and a red hem band at the bottom of each leg, separated by a thin white stripe and a thinner gray stripe above the red.
+TRIM_DETAILS: Wide light gray elastic waistband with visible inner white lining at the top opening; straight hems with a red cuff band and thin white/gray striping above it; no visible pockets, buttons, or drawstrings.
+
+--- GENERATED TEXT ---
+TITLE: Rowing Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

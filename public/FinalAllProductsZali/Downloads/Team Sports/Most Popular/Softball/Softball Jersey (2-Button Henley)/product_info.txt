@@ -1,0 +1,17 @@
+Product: Softball Jersey (2-Button Henley)
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Softball jersey with single continuous front and back body panels in a smooth athletic knit, short raglan sleeves, and a white 2-button henley collar. The garment is sublimated with a navy main body and red shoulder/sleeve areas, plus thin blue piping-like edge accents and printed front graphics.
+PANEL_MAP: Front body: one continuous navy panel with red sublimation print on the upper shoulders/sides, large printed red-and-white "Majors" script and red swoosh graphic centered chest, printed number "33" at right lower chest, NO seams between color areas. Back body: one continuous navy panel with red sublimation print continuing over shoulders and side body, likely plain center back, NO separate color-block panels. Sleeves: separate short raglan sleeve panels, red with navy trim/piping print near body edge and white cuff edge. Collar: separate white 2-button henley collar/neck trim.
+LOGOS: small hem patch at lower right front, no other logos
+GARMENT_TYPE: softball jersey (2-button henley)
+BACK_VIEW: back is mostly solid navy with red sublimated shoulder and side accents continuing from the front, plain center back without graphics.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit with a lightweight performance feel, matte to very low-sheen surface, fine tight jersey face, soft drape, and slight stretch typical of sublimated team uniforms.
+
+--- GENERATED TEXT ---
+(no text generated)

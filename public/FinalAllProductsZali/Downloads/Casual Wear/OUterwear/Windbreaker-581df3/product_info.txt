@@ -1,0 +1,24 @@
+Product: Windbreaker 
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Lightweight hooded windbreaker with a loose, boxy pullover construction and raglan-style sleeves. The body uses a black matte shell with contrast printed center panel, bright pink graphic accents, and a full hood lined in red printed fabric; elastic cuffs and hem suggest a packable athletic outer layer.
+PANEL_MAP: 7 panels: black hood exterior, red printed hood lining, black upper sleeves/shoulders, black center front body with tonal pattern, black lower body/side panels, pink printed side inserts running from underarm to hem on both sides, black sleeve cuffs/hem
+LOGOS: front chest "K7" mark, center chest "RISE UP" text, small right chest text, large right sleeve text, all visible and not highlighted
+GARMENT_TYPE: hooded windbreaker
+BACK_VIEW: back is mostly solid black with continuation of the side pink printed inserts and hood, with minimal graphics compared to the front.
+LOGO_COLOR: pink
+FABRIC: smooth woven polyester windbreaker shell with a lightweight crisp hand, slight synthetic sheen, thin airy drape, and subtle wrinkling; appears water-resistant with a tightly woven surface and printed tonal pattern on the body.
+
+--- GENERATED TEXT ---
+TITLE: Hooded Windbreaker
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

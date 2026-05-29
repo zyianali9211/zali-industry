@@ -1,0 +1,24 @@
+Product: Cuban Collar Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve Cuban collar shirt with a relaxed, boxy silhouette, open camp collar, straight hem, and center-front button placket. The shirt is made from a lightweight woven fabric with a bold all-over zebra-style print in teal and pale pink, showing a smooth matte surface and soft drape.
+PANEL_MAP: 1 panel: all-over printed front and back body in teal with pale pink zebra pattern, short sleeves cut from same continuous print, collar and front placket self-fabric in matching print, no contrast side panels
+LOGOS: none
+GARMENT_TYPE: Cuban collar shirt
+BACK_VIEW: back is solid continuation of the same all-over zebra print with no yoke break visible, same short sleeves and straight hem, no visible back embellishment
+LOGO_COLOR: white
+FABRIC: lightweight woven rayon-viscose or polyester blend with a smooth, slightly crisp matte surface, soft fluid drape, and no visible knit texture; fabric appears breathable and shirtweight with a clean printed finish and minimal sheen
+
+--- GENERATED TEXT ---
+TITLE: Cuban collar shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,27 @@
+Product: Motocross Pants (Vented)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Motocross pants in a lightweight synthetic performance fabric with a smooth matte body and fine micro-perforated/vented texture throughout. Athletic cut with articulated knees, reinforced stretch/abrasion panels, and a built-in adjustable waist buckle; all visible color blocking appears as sublimated print on continuous panels rather than separate body sections.
+PANEL_MAP: Front body: one continuous panel, white base with sublimated blue geometric brand mark on left thigh and small blue “LAUNCH” wordmark on lower left thigh; black micro-dot vent pattern printed around upper thigh/knee area and near waistband. Back body: one continuous panel, white base with continuation of subtle vent texture and light grey lower-leg/seat contrast areas visible as print/continuous surface treatment, no separate colored body panels. Waist/closure: separate waistband with integrated white belt and black buckle hardware. Knee reinforcement areas appear as shaped construction overlays at knees, but body color changes remain print on continuous panels.
+LOGOS: left thigh blue geometric logo, lower left thigh “LAUNCH” wordmark, right upper hip small black technical mark/text block
+GARMENT_TYPE: motocross pants (vented)
+BACK_VIEW: Back is predominantly white with the same vented performance texture, subtle continuation of the grey/blue graphic language, and no large central back graphics.
+LOGO_COLOR: blue
+FABRIC: lightweight woven synthetic motocross fabric, likely polyester/nylon blend with a tight smooth face and fine micro-perforated vent texture; matte to very slight sheen, crisp structure with moderate stiffness, durable abrasion-resistant feel, and segmented stretch-reinforced knee/seat areas for articulation.
+TEXT_AND_GRAPHICS: Left thigh, mid-lower area: blue geometric logo made of two slanted parallelogram bars forming a stylized “L”/chevron mark, solid medium-blue, no text, medium size. Right thigh, mid-lower area: small blue italic wordmark “LAUNCH” in all caps, sans-serif, slanted forward, compact width, medium-small size. No other visible text, numbers, emblems, badges, or graphics.
+COLOR_LAYOUT: Predominantly white pants with light gray perforated mesh/textured paneling and subtle gray shading; blue accent logo on left thigh and blue wordmark on right thigh; black buckle at waistband.
+TRIM_DETAILS: White elastic waistband with integrated white belt and centered black plastic buckle closure; no visible cuffs; straight hems at ankles with clean white finishing and articulated knee-panel construction.
+
+--- GENERATED TEXT ---
+TITLE: Motocross Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

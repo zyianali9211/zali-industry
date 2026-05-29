@@ -1,0 +1,24 @@
+Product: Boxing Walkout Robe
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Knee-length boxing walkout robe with a loose wrap front, oversized hood, and self-tie waist belt. The garment appears to be made from a plush velour or velveteen outer with a smooth satin-like black contrast lining and trim at the hood, front opening, cuffs, and hem.
+PANEL_MAP: 5 panels: main body pink velour, hood black lining/trim, front opening black trim running from neckline to hem, sleeve cuffs black, lower hem/edge black trim
+LOGOS: right upper sleeve logo patch (visible, remove), no other logos
+GARMENT_TYPE: boxing walkout robe
+BACK_VIEW: back is mostly solid pink velour with black hood lining visible at the edge and black trim continuing at the hem and cuffs, with a center back seam likely hidden by the loose drape.
+LOGO_COLOR: white
+FABRIC: plush velour / velveteen with a soft short-pile nap, high sheen and reflective highlights, medium-heavy drape, smooth satin-like contrast trim, and a luxurious slightly fuzzy surface texture
+
+--- GENERATED TEXT ---
+TITLE: Boxing Walkout Robe
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

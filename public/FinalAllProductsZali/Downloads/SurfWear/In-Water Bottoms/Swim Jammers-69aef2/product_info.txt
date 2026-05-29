@@ -1,0 +1,24 @@
+Product: Swim Jammers
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Form-fitting swim jammers with a smooth, compression-style body and a mid-thigh length. The design is mostly dark navy/black with a subtle fitted waistband and athletic contour seams, plus a dotted gradient side graphic for a performance swim look.
+PANEL_MAP: 3 panels: main body solid dark navy/black, right side panel with red-to-white dotted gradient running from hip to hem, left side panel mostly solid dark navy/black with small dotted edge fade near lower thigh
+LOGOS: "NABAIJI" logo on front right hip in white, no other logos
+GARMENT_TYPE: swim jammers
+BACK_VIEW: Back is mostly solid dark navy/black with continuation of the side dotted gradient panels wrapping around the outer thighs, plus a clean center back with no major graphic.
+LOGO_COLOR: white
+FABRIC: compression swim knit in smooth polyester-elastane / lycra blend with a tight, slick surface, slight glossy sheen, thin lightweight construction, and high four-way stretch; fabric appears body-hugging with minimal texture and water-ready performance finish
+
+--- GENERATED TEXT ---
+TITLE: Swim Jammers
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

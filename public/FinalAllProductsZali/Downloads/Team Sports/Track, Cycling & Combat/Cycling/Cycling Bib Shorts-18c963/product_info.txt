@@ -1,0 +1,27 @@
+Product: Cycling Bib Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless cycling bib shorts with a fitted aerodynamic cut, featuring a white perforated mesh upper bib section and black compressive lower shorts. The garment appears to use smooth stretch performance knit on the lower body with a matte-to-slightly-satin finish and a technical mesh texture on the torso for breathability.
+PANEL_MAP: Front body: one continuous panel in the upper torso area, white perforated mesh with black bib straps running vertically over the shoulders and down the sides; lower front body is one continuous black panel with no color-section seams, only printed/constructed style lines and shaping seams for the bib shorts. Back body: one continuous black panel with continuation of the black bib straps and lower shorts, no visible text or graphic print.
+LOGOS: centered upper chest logo, no other logos
+GARMENT_TYPE: cycling bib shorts
+BACK_VIEW: Back is predominantly solid black with the bib straps continuing over the shoulders and down into the shorts, plain center back with no visible graphics.
+LOGO_COLOR: white
+FABRIC: Upper bib section appears to be lightweight perforated sport mesh, fine micro-hole texture, matte and breathable with soft stretch. Lower shorts appear to be smooth compression spandex/lycra knit, dense and tightly woven/knit surface, body-hugging with a slight technical sheen and high elasticity.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Black bib and shorts with a white mesh center panel and white edge trim/piping; small white mesh side inserts at the underarm/waist area.
+TRIM_DETAILS: Wide scoop back neckline with white binding, thick black shoulder straps with white outer edging, deep U-shaped lower bib opening, and finished leg hems with wide black bands.
+
+--- GENERATED TEXT ---
+TITLE: Cycling Bib Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Football Pants (Slotted, No Pads)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Football pants made from a smooth athletic knit with a slight synthetic sheen, shown in a fitted, padded-style cut but here without pads. The fabric appears medium-weight with a flexible drape and lightly structured leg shape, featuring elasticized cuffs and a lace-up front waistband.
+PANEL_MAP: Front body: one continuous panel per leg section, solid white on the left garment and solid black on the right garment, with no visible color-block seam; all visible color is print/garment color on single panels. Back body: one continuous panel per leg section, matching the front in solid white or solid black, plain with no added graphics. Waistband/crotch: separate waistband/upper construction with lace-up closure; cuffs: elasticized hem trim.
+LOGOS: left thigh logo/mark (highlighted, remove), no other logos
+GARMENT_TYPE: football pants
+BACK_VIEW: Back is plain and solid in the same color as the front, with no visible graphic treatment and a continuous clean leg surface.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit with a tight, fine surface texture, slight sheen, and medium-weight drape; looks durable and flexible with a clean, non-brushed finish.
+
+--- GENERATED TEXT ---
+TITLE: Football Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

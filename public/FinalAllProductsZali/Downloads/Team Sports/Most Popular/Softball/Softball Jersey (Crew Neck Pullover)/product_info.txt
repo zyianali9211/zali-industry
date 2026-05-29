@@ -1,0 +1,17 @@
+Product: Softball Jersey (Crew Neck Pullover)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve crew neck softball jersey with a single-piece front body and single-piece back body, plus separate sleeves and a ribbed crew collar. The garment is a sublimated performance tee with a bright pink-to-cyan gradient body, smooth athletic finish, and visible cover stitching at the seams.
+PANEL_MAP: Front body: one continuous panel, hot pink upper fading through lavender into cyan at the hem, with “Dingers” and number “10” as PRINT only, no separate color panels. Back body: one continuous panel, same sublimated pink-to-cyan gradient with no structural color blocking. Sleeves: separate panels, matching hot pink. Collar: separate ribbed crew neck trim, hot pink.
+LOGOS: small white chest logo on right/upper chest, American flag patch on left sleeve
+GARMENT_TYPE: softball jersey (crew neck pullover)
+BACK_VIEW: back is a plain continuation of the same sublimated gradient from hot pink at the shoulders to cyan at the hem, with no large graphics or seam-separated color sections.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a soft matte-to-slight-sheen surface, lightweight drape, subtle fine-knit texture, and breathable athletic handfeel; looks like moisture-wicking jersey fabric with light stretch.
+
+--- GENERATED TEXT ---
+(no text generated)

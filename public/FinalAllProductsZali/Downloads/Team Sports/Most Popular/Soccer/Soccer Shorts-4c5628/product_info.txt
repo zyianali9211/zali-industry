@@ -1,0 +1,27 @@
+Product: Soccer Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Soccer shorts in smooth, lightweight polyester athletic knit with a subtle sheen and soft drape. Elastic waistband with gathered top and a clean hemmed leg opening; overall relaxed sports fit.
+PANEL_MAP: Front body: one continuous red panel with sublimation print only, including the large white "10" on the left leg and the crest emblem on the right leg; black side stripe/edge detail appears as print or trim, not separate body panels. Back body: one continuous red panel with no visible graphics in the reference. Waistband: separate elastic waistband in matching red with gathered texture.
+LOGOS: front right leg crest emblem, no other logos
+GARMENT_TYPE: soccer shorts
+BACK_VIEW: back is solid red with no visible graphics, same elastic waistband and simple athletic construction.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a fine flat surface, light sheen, and fluid drape; appears thin, breathable, and slightly stretchy rather than brushed or textured.
+TEXT_AND_GRAPHICS: Lower left front leg: large white number "10" in bold block athletic font, vertically stacked and slightly slanted, occupying the lower-left quadrant above the hem. Lower right front leg: shield/crest emblem outlined in black and white with a red upper field and black lower vertical stripes separated by a thin white band; no text inside the crest. No other visible text, numbers, wordmarks, or graphics.
+COLOR_LAYOUT: Bright red shorts body with black side panels running down both outer seams, white number on the left leg, and a red/black/white crest on the right leg.
+TRIM_DETAILS: Elastic waistband in matching red with gathered stitching and a clean straight-leg hem; black trim visible only as side panels, with no visible cuffs, drawstrings, or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Soccer Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Neck Gaiter
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Seamless tubular neck gaiter with a form-fitting, stretch wrap around the face and neck; the visible edge is finished with overlock stitching near the eye opening and hem. The surface is a smooth, lightweight performance knit with all-over sublimated topographic pattern and printed graphics.
+PANEL_MAP: 1 panel: continuous all-over printed tube in light gray with dark gray/black topographic line pattern, no separate color-blocked panels
+LOGOS: front center chest/face graphic logo, no other logos
+GARMENT_TYPE: neck gaiter
+BACK_VIEW: back is a continuous extension of the same printed tube, with no distinct back panel or color change, just uninterrupted topographic pattern.
+LOGO_COLOR: black
+FABRIC: smooth polyester performance knit with slight matte finish, thin lightweight drape, four-way stretch, closely knit surface, sublimation-printed graphics, no visible pile or mesh texture
+
+--- GENERATED TEXT ---
+TITLE: Neck Gaiter
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

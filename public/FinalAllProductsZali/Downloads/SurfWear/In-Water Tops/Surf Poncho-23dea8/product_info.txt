@@ -1,0 +1,24 @@
+Product: Surf Poncho
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Oversized hooded surf poncho with a loose, pullover construction, short open side drape, and knee-length coverage. The front is a single solid olive/tan color with a centered chest logo and a soft terry-like texture that appears absorbent and plush.
+PANEL_MAP: 1 panel: full-body main panel olive/tan, integrated hood in same fabric/color, no visible color blocking, open side slits at hem edges
+LOGOS: center chest RIP CURL logo (black, remove), no other logos
+GARMENT_TYPE: surf poncho
+BACK_VIEW: back is solid olive/tan with the same hood and continuous single-panel construction, no visible back graphics or color changes
+LOGO_COLOR: black
+FABRIC: soft cotton terry / toweling fabric with a brushed, slightly fuzzy looped texture, medium weight, matte finish, and relaxed drape; looks highly absorbent with a washed, lived-in surface rather than smooth athletic knit
+
+--- GENERATED TEXT ---
+TITLE: Surf Poncho
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

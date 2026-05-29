@@ -1,0 +1,24 @@
+Product: Brazilian bikini bottom
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Low-rise Brazilian bikini bottom with a high-cut leg and cheeky rear coverage, constructed from a smooth printed swim knit with narrow bound edges. The front waistband sits flat against the body with a continuous allover ornamental floral/baroque print in black, white, tan, and gold tones.
+PANEL_MAP: 2 panels: front main panel with printed center front and waistband, back main panel with matching printed rear and continuous waistband; no contrasting side inserts, no separate gusset visible
+LOGOS: none
+GARMENT_TYPE: Brazilian bikini bottom
+BACK_VIEW: Back is a single cheeky center panel with the same allover print, dipping into a narrow V-shaped waist and rising high on the hips with no added back yoke.
+LOGO_COLOR: white
+FABRIC: smooth polyester/elastane swim fabric with a fine knit surface, soft matte-to-slight-sheen finish, lightweight and tightly stretched, body-hugging with good recovery and a sleek, non-textured handfeel
+
+--- GENERATED TEXT ---
+TITLE: Brazilian bikini bottom
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,27 @@
+Product: Pickleball Skirt
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: A performance pickleball skirt with a clean athletic silhouette, designed for mobility, breathability, and a lightweight feel on court. It features a comfortable elastic waistband, a gently flared outer skirt, and integrated short lining for coverage and support during quick lateral movement.
+PANEL_MAP: 1) Front waistband panel; 2) Front left skirt panel; 3) Front right skirt panel; 4) Back waistband panel; 5) Back left skirt panel; 6) Back right skirt panel; 7) Integrated inner short liner with left and right leg panels; 8) Side seam gusset for added range of motion.
+LOGOS: none
+GARMENT_TYPE: Performance Pickleball Skirt
+BACK_VIEW: The back view shows a slightly fuller flare with a center-back seam and a smooth, uninterrupted waistband for a streamlined athletic finish.
+LOGO_COLOR: white
+FABRIC: Lightweight polyester-spandex double-knit performance fabric with a smooth matte surface, fine compact knit texture, and subtle technical sheen under light. The outer skirt should have a soft, fluid drape with moderate structure, while the inner short lining uses a slightly tighter, more supportive knit for stretch and moisture management; overall weight is medium-light and sportswear appropriate.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Solid white garment with no color blocking or contrasting panels visible.
+TRIM_DETAILS: Wide smooth waistband at the top, subtle stitched seam below the waistband, and a clean straight hem with a layered inner short/liner peeking out beneath; no visible cuffs, logos, or decorative trim.
+
+--- GENERATED TEXT ---
+TITLE: Performance Pickleball Skirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

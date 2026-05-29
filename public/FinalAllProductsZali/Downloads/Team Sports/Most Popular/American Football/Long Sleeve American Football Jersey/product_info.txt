@@ -1,0 +1,24 @@
+Product: Long Sleeve American Football Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sublimated long sleeve American football jersey with a smooth, lightweight polyester athletic knit surface and a slightly matte finish. The body is loose-fitting with a V-neck collar and separate long sleeves, designed for team sports and print-heavy graphics rather than sewn color-block construction.
+PANEL_MAP: Front body: one continuous royal blue panel with white/orange printed shoulder striping, printed chest name "ZAVORA," printed number "5," and printed horizontal white/orange bands near the hem (PRINT only, NO seams between colors). Back body: one continuous royal blue panel with continuation of printed striping and team graphics, no separate body color panels. Sleeves: separate long sleeves, royal blue with printed white/orange bands and orange cuffs. Collar: separate V-neck trim, white with orange edging.
+LOGOS: small sleeve patch/logo near shoulder (remove), no other logos
+GARMENT_TYPE: long sleeve American football jersey
+BACK_VIEW: back is solid royal blue with printed shoulder striping continuing across the upper back and printed sleeve banding, plain center with no seam breaks between color areas.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester athletic jersey knit, fine flat-knit surface, matte to low-sheen finish, soft drape with breathable sportswear hand feel, slight stretch and clean printed graphic saturation
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve American Football Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

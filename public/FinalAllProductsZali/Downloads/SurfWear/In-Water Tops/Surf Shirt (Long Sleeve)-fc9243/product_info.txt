@@ -1,0 +1,24 @@
+Product: Surf Shirt (Long Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve surf shirt/rashguard with a fitted athletic cut, raglan-style contrasting sleeves, and a crew neck collar. The body is a muted olive/khaki stretch knit with smooth surface and minimal sheen, while the sleeves are black and appear slightly darker and sleeker for sun/sea performance wear.
+PANEL_MAP: 3 panels: main front/back body olive/khaki, two black raglan sleeves running from collar to cuffs, black collar binding
+LOGOS: small chest logo on left chest, vertical logo on left forearm/sleeve
+GARMENT_TYPE: long sleeve rashguard
+BACK_VIEW: back is olive/khaki with black raglan sleeves and a small tonal upper-back neck detail, otherwise plain with no large back graphic
+LOGO_COLOR: black
+FABRIC: smooth performance stretch knit, likely polyester-spandex or nylon-spandex rashguard fabric, with tight fine-gauge surface, matte to low-sheen finish, lightweight body-hugging drape, and a soft slick technical hand feel
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Rashguard
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

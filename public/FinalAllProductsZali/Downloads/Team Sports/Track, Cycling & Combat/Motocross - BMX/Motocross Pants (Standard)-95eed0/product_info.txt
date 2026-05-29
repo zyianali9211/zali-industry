@@ -1,0 +1,27 @@
+Product: Motocross Pants (Standard)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Motocross pants with a fitted articulated cut, black and charcoal gray sublimated surface graphics on a single continuous body panel construction, plus reinforced textured knee/seat area and elastic waistband. Lightweight technical synthetic fabric with a matte finish and visible panel contouring from the print/design rather than separate color-block seams.
+PANEL_MAP: Front body: one continuous panel, black base with charcoal gray sublimation print blocks and diagonal accents; all color changes and graphics are PRINT only, no separate sewn color panels. Back body: one continuous panel, mostly black with continuation of dark gray printed reinforcement and subtle tonal graphic transitions; no visible separate body color panels. Legs: integrated into the single front/back body construction with articulated shaping and printed contrast zones; knee/shin graphics are print only. Waistband: black elastic waistband/trim.
+LOGOS: small light blue/gray O’Neal-style oval logo on upper front hip, small vertical O’Neal text near waistband, large diagonal ONEAL wordmark on outer thigh, small ONEAL the RIDER mark on lower leg.
+GARMENT_TYPE: motocross pants
+BACK_VIEW: Back is predominantly black with the same tonal black/gray sublimated reinforcement styling and no large front-style thigh wordmark, maintaining a cleaner rear appearance with subtle printed texture only.
+LOGO_COLOR: light gray
+FABRIC: technical woven synthetic motocross fabric, likely durable polyester/nylon blend with matte surface, medium-light weight, slight rugged texture, and reinforced abrasion zones that appear denser and more textured than the smooth main body; minimal sheen, structured drape, and stretch-panel feel in articulated areas.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; the garment features only tonal/charcoal geometric panel graphics on both legs, including angled chevron-like streaks near the upper outer thighs, broad angular side panels around the knees, and narrow diagonal stripe accents along the lower outer calves, all in slightly lighter matte charcoal-gray on black fabric.
+COLOR_LAYOUT: Black athletic pants with tonal charcoal-gray geometric accent panels and striping concentrated on the outer thighs, knees, and lower calves.
+TRIM_DETAILS: Elasticated gathered waistband with no visible drawstring, straight leg openings with clean hems, and visible seam construction including a center front rise seam and panel stitching throughout.
+
+--- GENERATED TEXT ---
+TITLE: Motocross Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

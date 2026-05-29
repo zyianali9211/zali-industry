@@ -1,0 +1,24 @@
+Product: 7-on-7 Compression Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Compression shorts made from smooth, lightweight stretch performance knit with a slightly glossy synthetic finish and a body-hugging fit. The shorts use flatlock-style seam construction with a contoured center crotch gusset and printed sublimation graphics across the main body.
+PANEL_MAP: Front body: one continuous panel, dark gray base with orange waistband and orange lower hem print, large white/orange/black graphic logos and desert silhouette print only; center crotch/gusset area is a separate sewn piece in darker gray mesh-like knit with visible flatlock seams. Back body: one continuous panel, dark gray base with matching orange sublimation print elements and no separate color-block panels; waistband is orange print/trim. No sleeves or collar.
+LOGOS: large chest/hip-style graphic logos on left and right front legs, small "GB" logo near lower left front leg
+GARMENT_TYPE: 7-on-7 compression shorts
+BACK_VIEW: back is mostly solid dark gray with continuation of the orange sublimated hem/waistband graphics, plain center back without large front-style logos.
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / polyester-lycra performance knit with tight fine micro-texture, slight sheen, thin and stretchy, sleek body-contouring surface with minimal pile and clean athletic drape
+
+--- GENERATED TEXT ---
+TITLE: 7-on-7 Compression Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

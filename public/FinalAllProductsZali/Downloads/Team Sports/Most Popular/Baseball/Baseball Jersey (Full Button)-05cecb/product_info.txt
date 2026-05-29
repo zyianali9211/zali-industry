@@ -1,0 +1,27 @@
+Product: Baseball Jersey (Full Button)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Full-button baseball jersey with a smooth athletic polyester knit, lightweight drape, and slight satin sheen. Single-piece front and back body construction with sewn-in short sleeves and a ribbed/self-fabric style collar; all red-and-white striping and graphics are sublimation print on the blue body fabric.
+PANEL_MAP: Front body: one continuous royal blue panel with printed red-and-white vertical placket stripes, printed red-and-white V-neck piping, and printed diagonal “Wooter” wordmark; no color-block seams, all body graphics are PRINT. Back body: one continuous royal blue panel, plain with continuation of the same printed style; any visible trim/graphics are print only. Sleeves: separate short sleeves in royal blue with printed red-and-white double stripe bands around sleeve openings; sleeve body is one piece each. Collar: separate neckline trim in matching royal blue with printed/planned red-white edge detailing.
+LOGOS: left chest logo, bottom right hem brand tag, inside neck brand label
+GARMENT_TYPE: full button baseball jersey
+BACK_VIEW: Back is solid royal blue with no large lettering or numbers visible, only continuation of the sleeve stripe accents and standard jersey construction.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic jersey knit with a fine, uniform surface, lightweight and slightly glossy finish, soft drape, and subtle stretch; looks moisture-wicking rather than textured, with no visible mesh holes or brushed pile.
+TEXT_AND_GRAPHICS: Front chest: large script wordmark “Wooter” in red with a thick white outline, diagonally slanted upward from left to right across the upper-to-mid chest; the lettering is bold cursive/script with a stylized capital “W” and a long sweeping underline/swoosh extending from the lower left of the word to the right beneath the final letters. No other text, numbers, emblems, badges, crests, or graphics visible.
+COLOR_LAYOUT: Royal blue jersey body with red-and-white double piping running around the V-neck opening and straight down the center placket, plus matching red-and-white stripe bands on both sleeve hems; the main wordmark is red with white outline.
+TRIM_DETAILS: V-neck collar with blue interior facing and red-white-red double trim along the neckline and center placket; short sleeves with matching red-and-white stripe cuff trim; curved baseball-style hem with a slightly longer back.
+
+--- GENERATED TEXT ---
+TITLE: Full Button Baseball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

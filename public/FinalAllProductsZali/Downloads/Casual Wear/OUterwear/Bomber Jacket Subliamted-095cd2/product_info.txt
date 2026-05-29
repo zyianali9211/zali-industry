@@ -1,0 +1,24 @@
+Product: Bomber Jacket Subliamted
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Full-zip bomber jacket with a ribbed/structured collar, set-in long sleeves, and straight hem. The surface is covered in an all-over sublimated airport-tag print on a smooth white base, giving it a light-to-medium weight sporty fashion look with minimal visible texture beyond the print.
+PANEL_MAP: 1 panel: all-over white base body with continuous sublimated multicolor airport-tag print across front, sleeves, and visible hem/collar edges; no distinct color-block panels, center front zipper, ribbed collar, cuffs, and hem in matching printed fabric appearance
+LOGOS: multiple printed travel/airport graphics and text across the entire garment, no separate brand logo, no highlighted marks
+GARMENT_TYPE: bomber jacket
+BACK_VIEW: back is a continuation of the same all-over sublimated airport-tag print with no major color-block break, centered back seam likely hidden by the all-over pattern and plain full coverage in the same fabric
+LOGO_COLOR: black
+FABRIC: smooth polyester sublimation fabric with a flat, tight woven face and crisp printed graphics, lightweight to medium-weight with a clean matte-to-slightly-satin finish, soft drape, and no visible pile or knit texture; looks like smooth athletic jacket shell material suitable for all-over printing
+
+--- GENERATED TEXT ---
+TITLE: Bomber Jacket
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Palaka Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve button-up palaka shirt with a relaxed, boxy casual fit, pointed collar, center front button placket, and straight hem. The fabric is a classic red-and-white gingham/check pattern with a lightweight woven hand and soft drape, suitable for warm-weather wear.
+PANEL_MAP: 1 panel: all-over red-and-white gingham woven body and sleeves, no contrasting color-block panels
+LOGOS: none
+GARMENT_TYPE: short sleeve palaka shirt
+BACK_VIEW: back is plain continuation of the same red-and-white gingham pattern with a center back seam and no yoke contrast visible
+LOGO_COLOR: black
+FABRIC: lightweight cotton or cotton-blend woven check fabric, crisp plain weave with a slightly textured grid structure, matte finish, thin-to-medium weight, breathable and soft drape, no visible knit stretch or sheen
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Palaka Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

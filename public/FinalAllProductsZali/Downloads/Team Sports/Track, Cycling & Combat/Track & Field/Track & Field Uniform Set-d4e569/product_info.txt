@@ -1,0 +1,27 @@
+Product: Track & Field Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless track and field uniform set with a fitted singlet top and matching short athletic bottoms. The top has a smooth, body-hugging performance finish with white contrast trim at the neck and printed geometric side detailing; the shorts are matching maroon with a lightweight athletic drape and white trim accents.
+PANEL_MAP: Front body: one continuous panel, maroon base with thin white geometric lines and side stripe elements as sublimation print only, no separate color-block panels. Back body: one continuous panel, maroon base, plain with no visible print. Sleeves: none. Collar/neck trim: separate white trim around the armholes/neck opening. Bottoms: matching short bottom with one continuous front and back panel, maroon base with plain construction.
+LOGOS: none
+GARMENT_TYPE: track and field singlet and shorts set
+BACK_VIEW: Back is plain maroon with the same white neck trim and no visible graphics or seam-divided color panels.
+LOGO_COLOR: white
+FABRIC: smooth polyester tricot or performance knit with a fine, tightly knit surface, matte-to-slightly-satin sheen, lightweight athletic hand feel, and soft fluid drape; appears breathable and stretch-capable with a clean sublimated finish.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Deep maroon sleeveless jersey and matching shorts with white trim, a white inner collar/upper chest lining, and thin white geometric stripe accents running diagonally along both side panels of the jersey and along the outer side seams of the shorts.
+TRIM_DETAILS: Scoop-neck tank collar with white binding, wide sleeveless armholes with white piping, straight hem on the jersey, elastic waistband on the shorts, and white-edged curved hem openings on both legs.
+
+--- GENERATED TEXT ---
+TITLE: Track and Field Singlet and Shorts Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

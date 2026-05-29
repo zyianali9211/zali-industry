@@ -1,0 +1,17 @@
+Product: Softball Jersey (Sleeveless)
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless softball jersey with a single continuous front body panel and sporty V-neck trim; the graphic striping and numbers are sublimation print on the fabric, not sewn panels. The silhouette is fitted and athletic with clean armholes and a lightly draping performance knit surface.
+PANEL_MAP: Front body: one continuous panel, light gray/white base with thin black vertical pinstripes printed throughout, large "Softball" graphic and number "15" printed on chest (PRINT only, NO seams between colors). Back body: one continuous panel, matching light gray/white base with vertical pinstripes printed, no separate color-block construction. Sleeves: none, sleeveless armhole openings with black edge binding. Collar: separate V-neck trim, dark charcoal/black.
+LOGOS: right chest logo ("Jersey Sportswear" mark), no other logos
+GARMENT_TYPE: sleeveless softball jersey
+BACK_VIEW: Back is plain matching pinstriped sublimated body with no major graphic print, continuing the same single-panel construction and black armhole binding.
+LOGO_COLOR: black
+FABRIC: smooth polyester performance knit with a fine jersey texture, lightweight athletic drape, slight soft sheen, and a smooth face suitable for sublimation printing; thin, breathable, and lightly structured rather than heavy or brushed.
+
+--- GENERATED TEXT ---
+(no text generated)

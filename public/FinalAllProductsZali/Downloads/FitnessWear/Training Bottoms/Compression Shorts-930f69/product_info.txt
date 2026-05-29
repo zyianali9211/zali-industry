@@ -1,0 +1,24 @@
+Product: Compression Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Tight-fitting compression shorts with a wide printed waistband, front rise seam, and flatlock-style contrast stitching at the crotch and leg hems. The fabric appears lightweight and stretchy with a smooth, matte-to-slightly-sheen athletic surface and full sublimated graphic print.
+PANEL_MAP: 3 panels: main front body white with red/black graphic print, wide waistband/upper yoke in white with red dot and stripe print, lower leg hem bands in solid red with black flatlock trim
+LOGOS: left thigh graphic logo/mark reading "BEAST WARS" with beast illustration, no other logos
+GARMENT_TYPE: compression shorts
+BACK_VIEW: back is mostly continuous printed white body with the graphic pattern wrapping around, a center back rise seam, and matching solid red hem bands.
+LOGO_COLOR: black
+FABRIC: compression spandex / polyester-lycra blend with smooth tight knit surface, slight athletic sheen, high stretch recovery, body-hugging fit, and flat sublimated print over a lightweight performance fabric
+
+--- GENERATED TEXT ---
+TITLE: Compression Shorts
+
+DESCRIPTION:
+Available in compression spandex and polyester-lycra blend.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on waistband, front, back, or hems.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

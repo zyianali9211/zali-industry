@@ -1,0 +1,24 @@
+Product: Flare Leggings
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: High-waisted flare leggings with a body-hugging compression fit through the hips and thighs, then a gradual flare from the knee to a wide hem. Construction appears to use flatlock or coverstitch seams with a clean yoke waistband and minimal paneling for a sleek athletic look.
+PANEL_MAP: 4 panels: main front body black, main back body black, left side seam panel/contour panel running waistband to hem, right side seam panel/contour panel running waistband to hem
+LOGOS: small center-right waistband logo (highlighted, remove), no other logos
+GARMENT_TYPE: flare leggings
+BACK_VIEW: back is solid black with continuous high waistband and mirrored seam lines, plain center back with no visible pocket or yoke break.
+LOGO_COLOR: white
+FABRIC: smooth matte performance knit, likely nylon-spandex or polyester-spandex compression fabric, with a tight fine-gauge surface, low sheen, medium-weight drape, strong stretch recovery, and a sleek slightly brushed-soft hand feel rather than shiny gloss.
+
+--- GENERATED TEXT ---
+TITLE: Flare Leggings
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

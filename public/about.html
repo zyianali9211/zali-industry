@@ -1,0 +1,975 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About, ZALI Industries</title>
+    <meta
+      name="description"
+      content="The story behind ZALI Industries. Built in Sialkot, Pakistan, the world's capital of Fitnesswear manufacturing, by people who know how garments are made."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .about-hero {
+        padding: 90px 0 70px;
+      }
+      .about-hero h1 {
+        font-family: var(--display);
+        font-weight: 300;
+        font-size: clamp(30px, 5vw, 70px);
+        line-height: 0.9;
+        letter-spacing: -0.04em;
+        color: var(--ink);
+        margin: 28px 0 30px;
+        max-width: 100%;
+      }
+      .m-break {
+        display: none;
+      }
+      .about-hero h1 em {
+        font-style: italic;
+        color: var(--accent);
+        font-weight: 400;
+      }
+      .about-hero p {
+        font-size: 15px;
+        line-height: 1.55;
+        color: var(--ink-soft);
+        max-width: 720px;
+      }
+
+      /* FOUNDER */
+      .founder-grid {
+        display: grid;
+        grid-template-columns: 0.85fr 1.15fr;
+        gap: 50px;
+        align-items: start;
+      }
+      @media (max-width: 980px) {
+        .founder-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+      }
+      .founder-photo {
+        aspect-ratio: 1/1;
+        background: linear-gradient(135deg, #1a1a1a 0%, #000 50%, #2a1810 100%);
+        position: relative;
+        overflow: hidden;
+      }
+      .founder-photo::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            circle at 30% 30%,
+            rgba(214, 65, 26, 0.3) 0%,
+            transparent 55%
+          ),
+          radial-gradient(
+            circle at 70% 80%,
+            rgba(255, 255, 255, 0.04) 0%,
+            transparent 50%
+          );
+      }
+      .founder-photo-overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--bg);
+      }
+      .founder-photo .corner-tri {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 3;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-bottom: 50px solid var(--accent);
+      }
+      .founder-text h2 em {
+        color: var(--accent);
+      }
+      .founder-text p {
+        font-size: 15px;
+        line-height: 1.55;
+        color: var(--ink-soft);
+        margin-bottom: 14px;
+      }
+      .founder-text p strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .founder-text p em {
+        color: var(--accent);
+        font-style: italic;
+      }
+      .founder-quote {
+        margin: 36px 0;
+        padding: 28px 32px;
+        border-left: 3px solid var(--accent);
+        background: var(--bg-soft);
+        font-family: var(--display);
+        font-size: 22px;
+        line-height: 1.35;
+        color: var(--ink);
+        font-style: italic;
+      }
+      .founder-sig {
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-top: 24px;
+        border-top: 1px solid var(--bg-line);
+      }
+      .founder-sig-name {
+        font-family: var(--display);
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+      }
+      .founder-sig-title {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        margin-top: 4px;
+      }
+
+      /* SIALKOT */
+      .sialkot-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+      @media (max-width: 980px) {
+        .sialkot-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+      }
+      .sialkot-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-top: 32px;
+      }
+      .sialkot-stat {
+        background: rgba(250, 250, 247, 0.05);
+        border: 1px solid rgba(250, 250, 247, 0.12);
+        padding: 16px 20px;
+      }
+      .sialkot-stat .num {
+        font-family: var(--display);
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1;
+        color: var(--bg);
+        letter-spacing: -0.02em;
+        margin-bottom: 6px;
+      }
+      .sialkot-stat .num em {
+        color: var(--accent);
+        font-style: italic;
+      }
+      .sialkot-stat .lbl {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(250, 250, 247, 0.7);
+      }
+      .sialkot-photo {
+        aspect-ratio: 1/1;
+        background: linear-gradient(
+          135deg,
+          #2a2a2a 0%,
+          #1a1a1a 60%,
+          #0a0a0a 100%
+        );
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* VALUES */
+      .values-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+      @media (max-width: 980px) {
+        .values-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .val-card {
+        background: var(--white);
+        border: 1px solid var(--bg-line);
+        padding: 32px 28px;
+        transition: all 0.25s;
+      }
+      .val-card:hover {
+        border-color: var(--accent);
+      }
+      .val-num {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--accent);
+        letter-spacing: 0.14em;
+        margin-bottom: 24px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .val-card h4 {
+        font-family: var(--display);
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 14px;
+        letter-spacing: -0.015em;
+      }
+      .val-card h4 em {
+        font-style: italic;
+        color: var(--accent);
+      }
+      .val-card p {
+        font-size: 15px;
+        color: var(--ink-soft);
+        line-height: 1.55;
+      }
+
+      /* TEAM */
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+      @media (max-width: 980px) {
+        .team-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      /* Removed 540px 1fr override to allow 2-column mobile layout */
+      .team-card {
+        background: var(--bg);
+        border: 1px solid var(--bg-line);
+        overflow: hidden;
+        transition: all 0.25s;
+      }
+      .team-card:hover {
+        border-color: var(--ink);
+      }
+      .team-img {
+        aspect-ratio: 1/1;
+        background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+        position: relative;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+      }
+      .team-img-icon {
+        width: 60px;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        color: rgba(255, 255, 255, 0.3);
+      }
+      .team-info {
+        padding: 18px 20px 20px;
+      }
+      .team-name {
+        font-family: var(--display);
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 4px;
+        letter-spacing: -0.01em;
+      }
+      .team-role {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+      }
+
+      /* CERTIFICATIONS */
+      .cert-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 14px;
+      }
+      @media (max-width: 980px) {
+        .cert-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      /* Removed 540px 1fr override to allow 3-column mobile layout */
+      .cert {
+        background: var(--white);
+        border: 1px solid var(--bg-line);
+        padding: 22px 18px;
+        text-align: center;
+        aspect-ratio: 1.2/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 0.2s;
+      }
+      .cert:hover {
+        border-color: var(--ink);
+      }
+      .cert .name {
+        font-family: var(--display);
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 6px;
+        letter-spacing: -0.01em;
+      }
+      .cert .type {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+      }
+      .cert.placeholder {
+        opacity: 0.7;
+      }
+      .cert.placeholder .name {
+        color: var(--ink-mute);
+      }
+
+      /* =========================================
+     MOBILE COMPRESSION PASS
+     ========================================= */
+      @media (max-width: 720px) {
+        /* Compress Hero */
+        .about-hero {
+          padding: 50px 0 30px;
+        }
+        .about-hero h1 {
+          margin: 16px 0 20px;
+          font-size: clamp(36px, 10vw, 46px);
+        }
+        .m-break {
+          display: block;
+        }
+
+        /* Tighter Founder & Sialkot sections */
+        .founder-grid,
+        .sialkot-grid {
+          gap: 32px;
+        }
+        .founder-quote {
+          font-size: 18px;
+          padding: 20px 24px;
+          margin: 24px 0;
+        }
+        .sialkot-stat {
+          padding: 14px 16px;
+        }
+        .sialkot-stat .num {
+          font-size: 28px;
+          margin-bottom: 4px;
+        }
+
+        /* Convert Values into horizontal swipe carousel */
+        .values-grid {
+          display: flex;
+          flex-direction: row;
+          overflow-x: auto;
+          scroll-snap-type: x mandatory;
+          scrollbar-width: none;
+          margin: 0 -20px;
+          padding: 0 20px 12px;
+          gap: 14px;
+        }
+        .values-grid::-webkit-scrollbar {
+          display: none;
+        }
+        .val-card {
+          flex: 0 0 85%;
+          scroll-snap-align: start;
+          padding: 24px 20px;
+        }
+
+        /* Compress Team to 2 columns */
+        .team-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+        .team-info {
+          padding: 12px 12px 14px;
+        }
+        .team-name {
+          font-size: 15px;
+        }
+        .team-img-icon {
+          width: 44px;
+          height: 44px;
+        }
+
+        /* Compress Certifications to 3 columns */
+        .cert-grid {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+        }
+        .cert {
+          padding: 14px 10px;
+        }
+        .cert .name {
+          font-size: 13px;
+        }
+      }
+    </style>
+
+    <!-- Favicon & OpenGraph -->
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <meta
+      property="og:title"
+      content="ZALI Industries - Custom Apparel Manufacturer"
+    />
+    <meta
+      property="og:description"
+      content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="zali-logo.png" />
+  </head>
+  <body class="bb-page">
+    <!-- TOP TICKER (MARQUEE) -->
+    <div class="topbar">
+      <div class="topbar-track">
+        <span
+          ><span
+            class="tri tri-sm"
+            style="margin-right: 0; border-bottom-color: var(--accent)"
+          ></span>
+          FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span
+        >
+        <span
+          >INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot;
+          FOB</span
+        >
+        <span
+          ><span
+            class="tri tri-sm"
+            style="margin-right: 0; border-bottom-color: var(--accent)"
+          ></span>
+          SAMPLE COST DEDUCTED FROM BULK ORDER</span
+        >
+        <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+        <span
+          ><span
+            class="tri tri-sm"
+            style="margin-right: 0; border-bottom-color: var(--accent)"
+          ></span>
+          FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span
+        >
+        <span
+          >INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot;
+          FOB</span
+        >
+        <span
+          ><span
+            class="tri tri-sm"
+            style="margin-right: 0; border-bottom-color: var(--accent)"
+          ></span>
+          SAMPLE COST DEDUCTED FROM BULK ORDER</span
+        >
+        <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+      </div>
+    </div>
+
+    <!-- BOOMBAH-STYLE MAIN NAV -->
+    <nav class="bb-nav"></nav>
+
+    <!-- HERO -->
+    <section class="page-hero about-hero">
+      <div class="container">
+        <span class="breadcrumb"
+          ><a href="index.html">Home</a><span class="sep">/</span
+          ><span>About</span></span
+        >
+        <h1>
+          One factory. <br class="m-break" /><em>One team.</em>
+          <br class="m-break" />No middlemen.
+        </h1>
+        <p>
+          ZALI Industries is a custom sublimated apparel manufacturer based in
+          Sialkot, Pakistan. We make performance, casual, and surf apparel for
+          brands across the US, UK, EU, Australia, and the Middle East. We're a
+          small operation by industry standards. That's the point.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOUNDER -->
+    <section class="sec" style="padding-top: 40px; padding-bottom: 40px;">
+      <div class="container">
+        <div class="sec-head">
+          <div class="left">
+            <span class="sec-eyebrow"
+              ><span class="tri tri-sm"></span> The Founder</span
+            >
+            <h2 class="sec-h2">Why I started <em>ZALI.</em></h2>
+          </div>
+        </div>
+        <div class="founder-grid">
+          <div class="founder-photo">
+            <img src="SiteData/Founder%20Pic.webp" alt="ZALI Founder" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; display: block;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%); z-index: 1; pointer-events: none;"></div>
+            <div class="founder-photo-overlay">
+              <div style="display: flex; justify-content: space-between">
+                <span
+                  style="
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.18);
+                    padding: 7px 14px 7px 10px;
+                    font-family: var(--mono);
+                    font-size: 10px;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                  "
+                  ><span class="tri tri-sm" style="margin-right: 0"></span>
+                  Founder</span
+                >
+                <span
+                  style="
+                    font-family: var(--mono);
+                    font-size: 10px;
+                    letter-spacing: 0.12em;
+                    text-transform: uppercase;
+                    opacity: 0.7;
+                    color: var(--bg);
+                  "
+                  >SIA · 32.49°N</span
+                >
+              </div>
+              <div>
+                <div
+                  style="
+                    font-family: var(--display);
+                    font-size: 26px;
+                    line-height: 1.1;
+                    font-weight: 400;
+                    max-width: 280px;
+                    letter-spacing: -0.01em;
+                    color: var(--bg);
+                  "
+                >
+                  <em style="color: var(--accent); font-style: italic"
+                    >Built by hand,</em
+                  ><br />by people I know.<span
+                    style="
+                      display: block;
+                      font-family: var(--mono);
+                      font-size: 10px;
+                      letter-spacing: 0.12em;
+                      text-transform: uppercase;
+                      margin-top: 14px;
+                      opacity: 0.6;
+                      font-style: normal;
+                    "
+                    >Founder Portrait · Lookbook Vol. 04</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="corner-tri"></div>
+          </div>
+          <div class="founder-text">
+            <p>
+              I started ZALI because I wanted to build a manufacturing setup
+              where communication is direct and the customer actually knows who
+              is handling their order.
+            </p>
+
+            <p>
+              In this industry, a lot of brands deal with agents, traders, or
+              people who pass the order from one place to another. That usually
+              creates delays, confusion, and mistakes. I wanted ZALI to be
+              different.
+            </p>
+
+            <p>
+              We are based in Sialkot, Pakistan, and today we are a team of
+              around 30 people working across design, cutting, printing,
+              stitching, packing, and quality control.
+            </p>
+
+            <p>
+              I personally stay involved in client communication, design
+              approvals, production updates, and final checking. That is
+              important to me because custom apparel is not just about making
+              the garment. It is about understanding the brand, getting the
+              details right, and keeping the customer updated throughout the
+              process.
+            </p>
+
+            <p>
+              We are not trying to act like the biggest factory in the city. Our
+              focus is on being reliable, easy to communicate with, and flexible
+              enough to work with brands that need custom products made
+              properly.
+            </p>
+
+            <p>
+              When you work with ZALI, you are not dealing with a random
+              middleman. You are working directly with the team that is managing
+              your order from start to finish.
+            </p>
+
+            <div class="founder-sig">
+              <div>
+                <div class="founder-sig-name">Zyian Ali</div>
+                <div class="founder-sig-title">Founder · ZALI Industries</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIALKOT -->
+    <section class="sec sec-dark" id="sialkot" style="padding-top: 40px; padding-bottom: 40px;">
+      <div class="container">
+        <div class="sialkot-grid">
+          <div>
+            <span class="sec-eyebrow"
+              ><span class="tri tri-sm"></span> Why Sialkot</span
+            >
+            <h2 class="sec-h2">The world's <em>capital</em> of Fitnesswear.</h2>
+            <p
+              style="
+                margin-top: 16px;
+                max-width: 540px;
+                line-height: 1.65;
+                color: rgba(250, 250, 247, 0.78);
+                font-size: 16px;
+              "
+            >
+              Most of the world's match-grade soccer balls, Olympic-spec hockey
+              gear, and pro fightwear comes from Sialkot. The city has been
+              making sporting goods for over a century, since the British Raj
+              era. Three generations of stitchers, cutters, and printers have
+              grown up in this trade.
+            </p>
+            <p
+              style="
+                max-width: 540px;
+                line-height: 1.65;
+                color: rgba(250, 250, 247, 0.78);
+                font-size: 16px;
+              "
+            >
+              When you order from ZALI, you're not just getting a factory.
+              You're getting access to
+              <em style="color: var(--accent); font-style: italic"
+                >an entire ecosystem</em
+              >
+              of suppliers, fabric mills, trim makers, and specialty artisans,
+              all within a 15-minute drive from our facility.
+            </p>
+            <div class="sialkot-stats">
+              <div class="sialkot-stat">
+                <div class="num">100+</div>
+                <div class="lbl">Years Manufacturing Heritage</div>
+              </div>
+              <div class="sialkot-stat">
+                <div class="num">60–70<em>%</em></div>
+                <div class="lbl">Hand-Stitched Football Demand</div>
+              </div>
+              <div class="sialkot-stat">
+                <div class="num" style="font-size: 24px">Export Hub</div>
+                <div class="lbl">Fitnesswear & Sports Goods</div>
+              </div>
+              <div class="sialkot-stat">
+                <div class="num" style="font-size: 24px">Skilled Network</div>
+                <div class="lbl">Printing, Stitching & Embroidery</div>
+              </div>
+              <div class="sialkot-stat" style="grid-column: 1 / -1">
+                <div class="num" style="font-size: 24px">
+                  Local Supply Chain
+                </div>
+                <div class="lbl">Materials, Trims & Packaging</div>
+              </div>
+            </div>
+          </div>
+          <div class="sialkot-photo" style="position: relative;">
+            <img src="SiteData/Sialkpt.png" alt="Sialkot, Pakistan" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, transparent 40%); z-index: 1; pointer-events: none;"></div>
+            <div style="position: absolute; inset: 0; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; color: var(--bg); z-index: 2;">
+              <span style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.18); padding: 7px 14px 7px 10px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; align-self: flex-start;"><span class="tri tri-sm" style="margin-right:0"></span> The City</span>
+              <div>
+                <div style="font-family: var(--display); font-size: 24px; line-height: 1.15; font-weight: 400; max-width: 290px; letter-spacing: -0.01em;">
+                  <em style="color: var(--accent); font-style: italic">Sialkot, Pakistan.</em><br>Where the world's gear gets made.
+                </div>
+              </div>
+            </div>
+            <div style="position: absolute; bottom: 0; right: 0; z-index: 3; width: 0; height: 0; border-left: 50px solid transparent; border-bottom: 50px solid var(--accent);"></div>
+          </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="sec">
+      <div class="container">
+        <div class="sec-head">
+          <div class="left">
+            <span class="sec-eyebrow"
+              ><span class="tri tri-sm"></span> What We Stand For</span
+            >
+            <h2 class="sec-h2">Three things, <em>non-negotiable.</em></h2>
+            <p class="sec-desc">
+              Everything else is up for discussion. These aren't.
+            </p>
+          </div>
+        </div>
+        <div class="values-grid">
+          <div class="val-card">
+            <div class="val-num"><span class="tri tri-sm"></span> 01</div>
+            <h4>Direct, <em>not delegated.</em></h4>
+            <p>
+              Every client account is handled by the founder or a senior team
+              member who reports directly. No agents, no layers, no "I'll check
+              and get back." If you have a question, you get a real answer fast.
+            </p>
+          </div>
+          <div class="val-card">
+            <div class="val-num"><span class="tri tri-sm"></span> 02</div>
+            <h4>Built <em>in-house.</em></h4>
+            <p>
+              Sublimation, cutting, stitching, finishing, QC, packing, all under
+              one roof. Nothing outsourced. We know every machine, every
+              operator, and every step of how your gear gets made.
+            </p>
+          </div>
+          <div class="val-card">
+            <div class="val-num"><span class="tri tri-sm"></span> 03</div>
+            <h4>Sample <em>before bulk.</em></h4>
+            <p>
+              Always. Even if you're in a rush. Even if you've ordered 10 times
+              before. We don't run bulk on a design you haven't approved in
+              physical form. The cost is refunded, so it's effectively zero
+              risk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="sec sec-dark">
+      <div class="container">
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 48px;
+            align-items: center;
+          "
+        >
+          <div>
+            <span class="sec-eyebrow"
+              ><span class="tri tri-sm"></span> Talk to us</span
+            >
+            <h2 class="sec-h2">
+              Same person from <em>first message</em> to last shipment.
+            </h2>
+            <p
+              style="
+                margin-top: 24px;
+                max-width: 540px;
+                line-height: 1.6;
+                color: rgba(250, 250, 247, 0.75);
+              "
+            >
+              Send us a project, a question, or just a hello. The reply comes
+              from a real person within 24 hours, every time.
+            </p>
+          </div>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap">
+            <a href="contact.html" class="btn btn-light"
+              >Get in Touch <span class="arrow">→</span></a
+            >
+            <a
+              href="sample-pack.html"
+              class="btn btn-outline"
+              style="color: var(--bg); border-color: rgba(255, 255, 255, 0.3)"
+              >Sample Pack</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo"><img src="logo.svg" alt="ZALI Industries" /></div>
+            <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+            <p class="foot-desc">
+              A factory-direct manufacturer of sublimated performance apparel.
+              Built by hand, by people we know, in the world's capital of
+              Fitnesswear.
+            </p>
+            <div class="foot-social">
+              <a href="#" aria-label="Instagram"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="Email"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="foot-col">
+            <h5>Shop</h5>
+            <ul>
+              <li><a href="products.html">All Products</a></li>
+              <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+              <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+              <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+              <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+              <li><a href="products.html?cat=womens">Women's</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h5>Manufacturing</h5>
+            <ul>
+              <li><a href="fabrics.html">Fabric Library</a></li>
+              <li><a href="how-it-works.html">How It Works</a></li>
+              <li><a href="sample-pack.html">Sample Pack</a></li>
+              <li><a href="#">Tech Pack Template</a></li>
+              <li><a href="#">Capability Deck (PDF)</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <div>© 2026 ZALI Industries · All Rights Reserved</div>
+          <div>
+            <a href="#">Terms of Sale</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MOBILE DRAWER -->
+    <!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+    <script>
+      (function () {
+        // BB nav: click to toggle dropdowns on mobile/touch
+        document.querySelectorAll('.bb-cat-link').forEach(function (link) {
+          link.addEventListener('click', function (e) {
+            var parent = link.closest('.bb-cat');
+            if (!parent) return;
+            if (window.innerWidth < 1100) {
+              e.preventDefault();
+              var wasOpen = parent.classList.contains('open');
+              document.querySelectorAll('.bb-cat.open').forEach(function (c) {
+                c.classList.remove('open');
+              });
+              if (!wasOpen) parent.classList.add('open');
+            }
+          });
+        });
+        document.addEventListener('click', function (e) {
+          if (!e.target.closest('.bb-cat')) {
+            document.querySelectorAll('.bb-cat.open').forEach(function (c) {
+              c.classList.remove('open');
+            });
+          }
+        });
+      })();
+    </script>
+
+    <script src="products-data.js"></script>
+    <script src="nav.js"></script>
+  </body>
+</html>

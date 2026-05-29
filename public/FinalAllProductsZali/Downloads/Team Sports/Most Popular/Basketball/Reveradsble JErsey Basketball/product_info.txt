@@ -1,0 +1,24 @@
+Product: Reveradsble JErsey Basketball
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless basketball jersey with single-panel front and back body construction, V-neck trim, and clean armholes. The main body appears to be smooth, lightweight performance polyester with a slight athletic sheen and soft drape, designed for sublimation printing.
+PANEL_MAP: Front body: one continuous panel, black-to-red gradient look with diagonal red pinstripes printed across the chest and lower body (PRINT only, NO seams between colors), large arched "WOOTER" and number "23" printed on front. Back body: one continuous panel, matching black/red sublimated stripe pattern continuing across the back (PRINT only, NO separate color panels). Sleeves: none. Collar: separate V-neck trim, black with red edging.
+LOGOS: small white infinity-style logo on left chest, no other logos
+GARMENT_TYPE: sleeveless basketball jersey
+BACK_VIEW: back is a continuation of the same printed black/red diagonal stripe design on one continuous panel, with no center seam or color-block construction
+LOGO_COLOR: white
+FABRIC: smooth lightweight performance polyester with a slick athletic finish, fine-knit surface, subtle sheen, and fluid drape typical of sublimated basketball jerseys
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Basketball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

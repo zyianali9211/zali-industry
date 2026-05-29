@@ -1,0 +1,27 @@
+Product: Roller Derby Unifrom
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless roller derby uniform with a fitted athletic silhouette, made from smooth performance knit/spandex that looks stretchy and body-hugging. The garment has a black base with bright orange sublimated body graphics and white piping/edge trim, giving it a high-contrast race-uniform look.
+PANEL_MAP: Front body: one continuous panel, black base with orange sublimated print forming a central front graphic and side accent shapes, white trim details are printed/edge detailing only, no separate color-block seams. Back body: one continuous panel, black base with continuation of orange sublimated side/center accent pattern, no separate printed panels treated as cut pieces. Sleeves/arm coverage: separate black protective sleeve/armguard elements visible on the upper arms and forearms. Collar/neck: narrow black trim.
+LOGOS: front chest emblem/wordmark (unclear, no confirmed brand), no other logos
+GARMENT_TYPE: roller derby uniform
+BACK_VIEW: Back would be mostly black with the same fitted athletic construction and continuation of the orange sublimated accent styling, without visible front chest emblem.
+LOGO_COLOR: white
+FABRIC: smooth polyester/spandex performance knit with a tight jersey surface, slight sheen, thin lightweight drape, and high stretch for a compression fit.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; the garment features only abstract color-blocking panels and white piping/outline shapes.
+COLOR_LAYOUT: Black base garment with bright orange vertical and curved side panels outlined in white, plus separate matching black sleeves with white trim and black hex-pattern elbow pads.
+TRIM_DETAILS: Scoop neck and armholes finished with black binding, straight leg openings with black hems and visible white inner lining, and detachable-looking long sleeves with white cuff bands and padded elbow sections.
+
+--- GENERATED TEXT ---
+TITLE: Roller Derby Uniform
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

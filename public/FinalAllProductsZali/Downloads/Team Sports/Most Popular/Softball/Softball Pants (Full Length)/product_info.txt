@@ -1,0 +1,17 @@
+Product: Softball Pants (Full Length)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Full-length softball pants with a slim athletic fit, clean straight legs, and elastic waistband with belt loops. The garment appears to use a smooth, medium-weight polyester athletic knit with a slightly matte finish and light stretch, appropriate for uniform wear and movement.
+PANEL_MAP: Front body: one continuous panel, light gray base with red and navy vertical side stripes printed down the outer leg (PRINT only, no seams between colors); waistband is separate construction piece, blue. Back body: one continuous panel, light gray base with continuation of the printed side stripe design along the outer leg; no additional body color panels. No sleeves or collar.
+LOGOS: none
+GARMENT_TYPE: full-length softball pants
+BACK_VIEW: back is solid light gray with the same printed side stripe continuation down the outer leg and a plain center seat area, no extra color-block seams.
+LOGO_COLOR: navy
+FABRIC: smooth polyester athletic knit with a fine, tightly woven surface, soft matte hand, slight sheen in highlights, medium-weight drape, and light stretch for sport mobility
+
+--- GENERATED TEXT ---
+(no text generated)

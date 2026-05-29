@@ -1,0 +1,27 @@
+Product: Ice Hockey Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Ice hockey uniform set with a sublimated long-sleeve jersey, matching shorts, gloves, and socks/leggings. The jersey appears to use a smooth polyester hockey knit with a faint mesh-like texture, medium weight, matte finish, and structured drape; the graphics are bold navy-on-white sublimation across continuous cut panels rather than sewn striping.
+PANEL_MAP: Main jersey front body is one white continuous cut panel with sublimated navy graphic set on the chest and large diagonal stripe banding sweeping from the viewer-right shoulder/chest down across the torso to the lower viewer-left hem. Separate long sleeves in white with sublimated navy triple diagonal stripe bands on the outer upper/forearm areas; cuffs have navy contrast trim. V-neck collar is separate navy rib-knit piece. Side/underarm areas read as continuous white with no obvious contrasting insert seam visible from the front. Shorts are separate navy cut-and-sew pieces with a smooth sheen and a small white triangular side insert visible near the hem on the viewer-left leg. Socks/leggings are separate navy lower-leg pieces with white horizontal stripe bands around the calves and white upper sections. Gloves are separate navy hockey gloves with white palm/edge accents.
+LOGOS: centered chest crest-like emblem, no other logos
+GARMENT_TYPE: ice hockey uniform set
+BACK_VIEW: Back is predominantly white jersey body with navy sleeves continuing the same stripe motif, likely a plain back panel with minimal or no graphics, paired with navy shorts and striped navy-white leg coverings.
+LOGO_COLOR: white
+FABRIC: Smooth polyester hockey knit / performance jersey fabric with a fine micro-mesh or jacquard perforation look, lightweight-to-medium weight, matte to slightly satin surface, durable athletic drape, and crisp sublimation-printed graphics that sit flat on the fabric without texture buildup.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: White jersey body with navy diagonal triple stripes running from lower left torso to upper right shoulder, navy stripe bands on both sleeves, navy shorts with a small white triangular side panel on the lower left leg, and matching navy-and-white striped socks.
+TRIM_DETAILS: Navy V-neck collar and navy sleeve cuffs on the jersey, elastic waistband on the shorts with a clean hem, and ribbed-looking sock tops with navy toe openings.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Uniform Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

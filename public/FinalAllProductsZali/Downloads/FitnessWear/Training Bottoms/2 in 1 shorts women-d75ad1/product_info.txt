@@ -1,0 +1,24 @@
+Product: 2 in 1 shorts women
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Women’s 2-in-1 running shorts with a wide black elastic waistband, lightweight outer shell, and built-in black compression inner short visible at the hem. The outer layer has a dark gray/black allover camo print and a slightly flared athletic cut for movement.
+PANEL_MAP: 4 panels: main outer shell front in dark gray/black camo, outer shell back in matching dark gray/black camo, black wide waistband, black built-in compression inner short/liner extending below the hem
+LOGOS: right front thigh Nike swoosh logo, no other logos
+GARMENT_TYPE: 2 in 1 shorts women
+BACK_VIEW: back is matching dark gray/black camo outer shell with a plain center seam and the black inner short peeking below the hem, no visible logo on back.
+LOGO_COLOR: white
+FABRIC: outer shell appears to be lightweight woven polyester with a smooth matte-to-slightly-satin finish, thin airy drape, and subtle technical sportswear texture; inner short/liner looks like smooth stretch knit compression spandex with a tighter, body-hugging surface and minimal sheen.
+
+--- GENERATED TEXT ---
+TITLE: Women’s 2-in-1 Running Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

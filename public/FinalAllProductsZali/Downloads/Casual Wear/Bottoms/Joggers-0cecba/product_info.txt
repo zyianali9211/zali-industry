@@ -1,0 +1,24 @@
+Product: Joggers
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Relaxed-fit joggers with a gathered elastic waistband and adjustable drawstring, featuring a loose straight leg and simple construction with no visible cuffs. The fabric appears to be a soft, medium-weight knit with a smooth matte surface and slight heathered texture, draping casually with minimal structure.
+PANEL_MAP: 1 panel: main body light heather gray throughout, no contrast side panels, no visible pocket panels
+LOGOS: none
+GARMENT_TYPE: joggers
+BACK_VIEW: back is plain heather gray with the same elastic waistband and drawstring continuing, no visible yoke or contrast detailing
+LOGO_COLOR: black
+FABRIC: medium-weight heathered fleece-knit or French terry-style sweatshirt fabric with a smooth outer face, soft matte finish, subtle marl speckling, relaxed drape, and light casual stretch
+
+--- GENERATED TEXT ---
+TITLE: Joggers
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

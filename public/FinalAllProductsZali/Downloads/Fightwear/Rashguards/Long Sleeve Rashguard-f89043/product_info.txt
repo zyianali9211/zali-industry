@@ -1,0 +1,24 @@
+Product: Long Sleeve Rashguard
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve rashguard with a fitted athletic silhouette, flatlock-style seam construction, and a smooth body panel contrasted by patterned raglan-style sleeves. The fabric appears like compression swim fabric / nylon-spandex tricot with a tight, sleek surface and slight sheen.
+PANEL_MAP: 5 panels: main body solid slate blue, left sleeve darker slate with allover tonal tropical/leaf print, right sleeve darker slate with matching tonal tropical/leaf print, left side seam panel solid slate, right side seam panel solid slate; black crew neckline binding
+LOGOS: left chest circular logo, no other logos
+GARMENT_TYPE: long sleeve rashguard
+BACK_VIEW: back is solid slate blue through the torso with matching patterned sleeves continuing over the shoulders and down the arms, with no visible back logo.
+LOGO_COLOR: white
+FABRIC: compression spandex / nylon-spandex rashguard knit with a smooth, tightly knit tricot-like surface, medium-light weight, slight elastic gloss, and very close body-hugging stretch; sleeves show the same fabric with a tonal printed overlay that gives a matte-textured visual pattern without changing the smooth hand of the base.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Rashguard
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

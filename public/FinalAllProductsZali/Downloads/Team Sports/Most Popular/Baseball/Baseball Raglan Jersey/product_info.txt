@@ -1,0 +1,24 @@
+Product: Baseball Raglan Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Baseball raglan jersey with a multi-panel cut-and-sew build: contrasting solid body and raglan sleeves, plus a bound crew neckline. The main body appears to be a smooth, lightweight performance knit with a soft matte finish, while the sleeves use the same type of fabric in a contrasting color; the front chest has a small appliqué/printed team mark.
+PANEL_MAP: Front body panel in navy as one continuous sublimated/solid panel with no visible seam graphics; red raglan sleeve panels extend from neckline to underarm on both sides; navy back body panel continuing the front body color; red sleeves continue to the cuffs; red ribbed or self-fabric crew collar binding. Left chest has small "Pats" logo print/embroidered mark on the navy front body panel.
+LOGOS: left chest logo, no other logos
+GARMENT_TYPE: baseball raglan jersey
+BACK_VIEW: back is plain navy across the main body with red raglan sleeves and a matching red neckline, with no visible back graphic.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a lightweight, soft matte surface, fine tight jersey texture, slight drape, and minimal sheen; appears breathable and athletic rather than cotton-heavy.
+
+--- GENERATED TEXT ---
+TITLE: baseball raglan jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

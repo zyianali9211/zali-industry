@@ -1,0 +1,27 @@
+Product: Pickleball Tank
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless pickleball tank with a fitted athletic cut and scoop neckline, made from a smooth performance knit. The front body features a sublimated gray-to-white striped graphic across the lower half, while the upper chest is solid light gray/white; overall construction appears to be one continuous front panel and one continuous back panel with no visible cut-and-sew color-block seams in the body print area.
+PANEL_MAP: Front body: one continuous panel, solid light gray/white upper chest with sublimated horizontal gray stripe gradient graphic across the lower body (PRINT only, no seams between colors). Back body: one continuous panel, likely solid light gray/white or continuation of the simple light base with no visible print in the shown view. Sleeves: none. Collar/neck trim: self-fabric binding in matching light gray/white.
+LOGOS: small front chest logo/emblem, no other logos
+GARMENT_TYPE: pickleball tank
+BACK_VIEW: Back is likely a plain solid light gray/white athletic back with no visible print, continuing the fitted tank construction with no back graphic.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a fine jersey face, matte-to-slightly-sheen finish, lightweight and stretchy with a close-to-body drape; surface appears sleek and soft rather than textured or brushed.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Light gray/white tank top with a subtle ombré gradient transitioning into medium-to-dark gray horizontal stripes across the lower half, over a pale cream background.
+TRIM_DETAILS: Scoop neckline with self-fabric binding, wide racerback armholes, and a straight hem with visible topstitching; no cuffs or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Pickleball Tank
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

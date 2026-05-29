@@ -1,0 +1,24 @@
+Product: 7-on-7 Jersey (Long Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve sublimated sports jersey with a fitted athletic cut, crew neckline, and separate set-in sleeves. The body appears to be a smooth synthetic performance knit with a slightly matte, tightly woven/knit surface and light stretch, typical of polyester jersey used for contact sports.
+PANEL_MAP: Front body: one continuous panel, navy base with orange diagonal stripe/geometric pattern printed across the entire front (PRINT only, no sewn color-block seams), large "VIKINGS" chest graphic printed in white/orange, Viking head graphic printed at center abdomen. Back body: one continuous panel, continuation of navy/orange diagonal stripe geometric print on a single back panel, no visible seam breaks for color changes. Sleeves: separate long sleeves, solid orange with printed navy/white striped graphic detail along the outer sleeves. Collar: separate orange ribbed crew-neck trim.
+LOGOS: center chest "VIKINGS" wordmark, center abdomen Viking head emblem, small hem mark, sleeve graphic mark on left sleeve
+GARMENT_TYPE: long sleeve jersey
+BACK_VIEW: Back is one continuous sublimated panel with the same navy and orange diagonal graphic pattern, likely plain center field for numbering if present, with no separate color-block construction.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit / athletic jersey with fine tight surface, slight dry matte finish, medium-light weight, good drape, and subtle stretch; the printed pattern sits flat on the fabric with no visible texture from seams or panels.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

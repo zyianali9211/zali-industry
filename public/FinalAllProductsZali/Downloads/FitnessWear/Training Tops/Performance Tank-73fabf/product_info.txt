@@ -1,0 +1,24 @@
+Product: Performance Tank
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless performance tank with a scoop neck, relaxed athletic fit, and straight hem with small side slits. The construction appears lightweight and breathable with allover sublimated graphic printing on a dark base, suited for training or running.
+PANEL_MAP: 2 panels: main front and back body in black/dark navy base with integrated hot pink/magenta diagonal graphic blocks and accents across the front, no separate sleeves, self-fabric binding at neckline and armholes
+LOGOS: none
+GARMENT_TYPE: performance tank
+BACK_VIEW: back is solid continuation of the same dark base with the graphic treatment likely reduced to a simpler diagonal accent and no visible logos, straight hem continues with small side slit detail
+LOGO_COLOR: white
+FABRIC: lightweight smooth polyester knit with a fine vertical micro-texture from the knit or print grain, matte to low-sheen surface, thin breathable drape, athletic quick-dry feel, soft yet slightly slick printed finish
+
+--- GENERATED TEXT ---
+TITLE: Performance Tank
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

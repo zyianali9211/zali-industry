@@ -1,0 +1,27 @@
+Product: Softball Jersey (Sleeveless)
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless softball jersey with a lightweight athletic knit and full sublimated pinstripe design on a single continuous front body panel. The fit is semi-fitted with a V-neck trimmed in dark charcoal/black, clean armholes with matching dark binding, and a straight hem.
+PANEL_MAP: Front body: one continuous panel, light gray/white base with thin vertical black pinstripes printed throughout (PRINT only, no seams between stripes), plus printed "Softball" wordmark, printed "15", and printed small brand mark. Back body: one continuous panel, same light gray/white base with thin vertical black pinstripes printed throughout, no front graphics. Sleeves: none, sleeveless arm openings with dark binding. Collar: separate V-neck trim in dark charcoal/black.
+LOGOS: upper right chest logo (small blue swoosh with "JERSEY SPORTSWEAR" text), no other logos
+GARMENT_TYPE: sleeveless softball jersey
+BACK_VIEW: Back is the same pinstriped sublimated body with no front wordmark or number, plain center back and matching dark V-neck/armhole trim.
+LOGO_COLOR: black
+FABRIC: smooth polyester athletic mesh-knit or interlock with a soft matte finish, lightweight and breathable, slight synthetic sheen, fluid drape, and minimal visible texture aside from subtle knit grain suited for sublimation printing.
+TEXT_AND_GRAPHICS: Front chest, centered across upper-to-mid torso: the word “Softball” in large black cursive/script lettering with a thick white outline; the word is slightly slanted upward left-to-right and has an extended black swoosh/underline sweeping from left under the “S” across to the right under the final letters. Front chest, right-of-center below the script: the number “15” in large black block varsity-style numerals with a white outline. No other visible text, numbers, logos, badges, or graphics.
+COLOR_LAYOUT: White jersey body with thin vertical black pinstripes throughout, black V-neck collar and black armhole piping, and black outlined black graphics centered on the chest.
+TRIM_DETAILS: Deep V-neck collar with black ribbed trim, black binding around both armholes, and a straight hem with visible double-row stitching near the bottom edge.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Softball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

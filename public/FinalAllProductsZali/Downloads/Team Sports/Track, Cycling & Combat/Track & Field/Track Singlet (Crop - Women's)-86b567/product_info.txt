@@ -1,0 +1,27 @@
+Product: Track Singlet (Crop / Women's)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless women’s crop track singlet with a high crew neckline, fitted athletic silhouette, and a wide cropped hem. The garment is made from a smooth, tight-stretch performance knit with a clean matte-to-slight-sheen surface, and the body appears to be single-panel construction with printed design details only.
+PANEL_MAP: Front body: one continuous panel, neon lime base with a thin printed micro-dot/perforation-style band near the lower hem; no cut color blocks. Back body: one continuous panel, neon lime base, plain continuation of front styling with no separate body panels. Sleeves: none. Collar: self-fabric crew neckline binding in matching neon lime.
+LOGOS: right chest Nike swoosh logo, no other logos
+GARMENT_TYPE: crop singlet
+BACK_VIEW: Back is plain neon lime on one continuous panel with no visible graphics, maintaining the same smooth fitted finish and cropped hem.
+LOGO_COLOR: yellow-green
+FABRIC: smooth polyester/spandex performance knit, lightweight and body-hugging with four-way stretch, fine tight surface, mostly matte with a slight athletic sheen, clean and unbrushed with a sleek compression-like hand.
+TEXT_AND_GRAPHICS: Front lower body, spanning across the hemline area: a subtle dotted gradient graphic made of tiny lime-yellow to slightly darker yellow-green dots, densest and largest toward the lower edge and fading upward, with no letters, numbers, logos, emblems, or badges elsewhere on the garment.
+COLOR_LAYOUT: Solid neon yellow-lime tank top body with a slightly darker lime dotted gradient band across the lower front; matching self-fabric throughout with no contrasting panels.
+TRIM_DETAILS: Wide rounded crew neckline with narrow self-fabric binding, sleeveless cut with clean shoulder and armhole edging, and a straight hem finished with a double-stitched edge.
+
+--- GENERATED TEXT ---
+TITLE: Crop Singlet
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

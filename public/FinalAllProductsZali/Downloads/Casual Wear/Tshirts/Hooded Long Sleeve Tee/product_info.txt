@@ -1,0 +1,24 @@
+Product: Hooded Long Sleeve Tee
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Hooded long sleeve performance tee with a relaxed athletic fit, pullover hood, and set-in long sleeves. The garment is printed in a bright mint green base with black and blue splatter/abstract graphics, using a smooth lightweight stretch knit that drapes softly.
+PANEL_MAP: 1 main panel: entire body and sleeves in mint green printed fabric with black/blue graphic overlays; no visible color-blocked seam panels; hood is same mint green printed fabric with black inner/edge area; cuffs in matching printed fabric.
+LOGOS: center chest black graphic logo/mark, no other logos
+GARMENT_TYPE: hooded long sleeve tee
+BACK_VIEW: back is mostly solid mint-green printed body with the graphic pattern continuing across the hood and sleeves, with the black/blue darker accent concentrated near the lower hem.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance knit / jersey with a soft matte surface, fine stretch, fluid drape, and slight technical sheen; thin athletic handfeel with sublimated all-over print.
+
+--- GENERATED TEXT ---
+TITLE: Hooded Long Sleeve Tee
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

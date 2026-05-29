@@ -1,0 +1,24 @@
+Product: 7-on-7 Jersey (Sleeveless)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless 7-on-7 jersey with a smooth athletic knit body and dark contrast shoulder/sleeve extensions. The front and back are single continuous panels with sublimated graphic striping and number print; the arm openings and neck use contrasting trim.
+PANEL_MAP: Front body: one continuous panel, bright cyan base with sublimation print featuring angled white/gray and magenta diagonal bands, large "VALLEY" chest graphic and "BOYZ" lower graphic, no cut seams between colors. Back body: one continuous panel, cyan base with large printed "00" in white with magenta outline and a printed diagonal white/gray/magenta band across lower back, no cut seams between colors. Sleeves/shoulders: separate dark black/navy sleeveless shoulder extension panels. Collar/neck trim: narrow pink binding.
+LOGOS: small chest/shoulder brand mark near upper front neck area (faint, remove), no other logos
+GARMENT_TYPE: sleeveless 7-on-7 jersey
+BACK_VIEW: back is mostly cyan with the large printed "00" centered and the diagonal sublimated color band across the lower half, with dark shoulder extensions continuing to the armholes.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic mesh or interlock knit with a light sheen, medium-light weight, clean surface, and slight body-hugging drape typical of sublimated sports jerseys
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless 7-on-7 Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

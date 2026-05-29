@@ -1,0 +1,27 @@
+Product: MX Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long-sleeve motocross jersey and matching pants set with a slim athletic fit. The garment appears to be made from smooth performance polyester/spandex knit with a soft matte finish and slight stretch, suitable for sublimation printing and active use.
+PANEL_MAP: Front body: one continuous white panel with sublimated black dot field on the sleeves/upper sides and a large black chest banner graphic printed across the front; no color-block seam on the torso, all chest graphics are PRINT. Back body: one continuous white panel, likely plain or with minimal continuation of the dot pattern and no major back graphics. Sleeves: separate long sleeves, white base with black dotted print and black vertical sleeve logo print. Collar: separate ribbed neck trim, white. Pants: front and back are separate cut panels with white upper sections and black lower leg sections, with orange knee graphics printed as design elements; waistband is separate elastic trim.
+LOGOS: Upper left chest Thor emblem, upper right chest “MX DN 201” mark, front chest THOR wordmark, left sleeve THOR text, pants waistband Thor emblems, pants thigh Thor wordmarks and knee emblem patches.
+GARMENT_TYPE: motocross jersey and pants set
+BACK_VIEW: Back is mostly solid white with minimal or no large graphics, with the same athletic cut and black lower-leg sections continuing on the pants.
+LOGO_COLOR: black
+FABRIC: Smooth performance polyester knit with sublimated print, matte to slightly satin surface, lightweight and breathable, very fine jersey texture, soft drape, and moderate stretch; looks like technical athletic fabric rather than mesh or fleece.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs
+COLOR_LAYOUT: White top and pants with black and orange geometric color blocking; black diagonal chest band on the top, black sleeve and leg accents, small black dot pattern on the white shoulders and upper side panels, and bright orange angled knee panels with black inset shapes on the pants.
+TRIM_DETAILS: Crew neck collar with a clean white finish, long sleeves, straight hem on the top, and pants with a fitted waistband featuring a black buckle/adjuster detail and tapered lower legs.
+
+--- GENERATED TEXT ---
+TITLE: Motocross Jersey and Pants Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,1052 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Product, ZALI Industries</title>
+    <meta
+      name="description"
+      id="page-desc"
+      content="Custom sublimated apparel manufactured in Sialkot, Pakistan."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .pdp {
+        /* Set the maximum width of the entire combined container (e.g., 1200px, 90%, etc.) */
+        max-width: 1000px;
+        /* Center it horizontally on the page */
+        margin: 0 auto;
+
+        /* (Optional) Set a fixed height if you want to force it to a specific size */
+        /* max-height: 800px; */
+
+        display: grid;
+
+        /* Adjusts the ratio between the left (images) and right (text) sides */
+        grid-template-columns: 0.9fr 2fr;
+
+        gap: 100px;
+        align-items: start;
+      }
+      @media (max-width: 980px) {
+        .pdp {
+          grid-template-columns: 1fr;
+          gap: 32px;
+          padding: 16px 0 60px;
+        }
+      }
+
+      /* GALLERY */
+      .gallery {
+        position: sticky;
+        top: 100px;
+        align-self: start;
+      }
+      @media (max-width: 980px) {
+        .gallery {
+          position: static;
+        }
+      }
+      @keyframes pulseSkeleton {
+        0% { background-color: #f0f0f0; }
+        50% { background-color: #e0e0e0; }
+        100% { background-color: #f0f0f0; }
+      }
+      .skeleton-overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 5;
+        background-color: #f0f0f0;
+        animation: pulseSkeleton 1.5s infinite ease-in-out;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+      .skeleton-overlay.active {
+        opacity: 1;
+      }
+      .main-img {
+        aspect-ratio: 4/5;
+        background: var(--bg-soft);
+        position: relative;
+        margin-bottom: 12px;
+        overflow: hidden;
+        cursor: zoom-in;
+      }
+      .main-img img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.3s ease;
+      }
+      .main-img-placeholder {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, var(--bg-soft), #e3e0d4);
+      }
+      .main-img-placeholder svg {
+        width: 38%;
+        height: 38%;
+        opacity: 0.3;
+      }
+
+      .thumbs {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 8px;
+      }
+      @media (max-width: 540px) {
+        .thumbs {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      .thumb {
+        aspect-ratio: 1/1;
+        background: var(--bg-soft);
+        border: 2px solid var(--bg-line);
+        cursor: pointer;
+        transition: border-color 0.2s;
+        position: relative;
+        overflow: hidden;
+      }
+      .thumb.active {
+        border-color: var(--ink);
+      }
+      .thumb img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .thumb-placeholder {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+      }
+      .thumb-placeholder svg {
+        width: 50%;
+        height: 50%;
+        opacity: 0.25;
+      }
+
+      /* IMAGE LABEL BADGES */
+      .img-label-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: rgba(0, 0, 0, 0.55);
+        backdrop-filter: blur(6px);
+        color: #fff;
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        padding: 4px 8px;
+        z-index: 3;
+        pointer-events: none;
+      }
+
+      /* INFO COLUMN */
+      .pdp-info {
+        padding-top: 16px;
+      }
+      .pdp-cat {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .pdp h1 {
+        font-family: var(--display);
+        font-size: clamp(30px, 4vw, 46px);
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: -0.025em;
+        color: var(--ink);
+        margin-bottom: 14px;
+      }
+      .pdp-tagline {
+        font-size: 15px;
+        color: var(--ink-soft);
+        margin-bottom: 26px;
+        line-height: 1.6;
+        max-width: 480px;
+      }
+
+      .spec-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        padding: 22px;
+        background: var(--bg-soft);
+        margin-bottom: 28px;
+      }
+      .spec-item .lbl {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        margin-bottom: 4px;
+      }
+      .spec-item .val {
+        font-size: 14px;
+        color: var(--ink);
+        font-weight: 500;
+        line-height: 1.4;
+      }
+
+      /* CTA PANEL */
+      .quote-panel {
+        background: var(--ink);
+        color: var(--bg);
+        padding: 32px 30px;
+        margin-bottom: 28px;
+        position: relative;
+        overflow: hidden;
+      }
+      .quote-panel::after {
+        content: '';
+        position: absolute;
+        bottom: -60px;
+        right: -60px;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 160px solid rgba(214, 65, 26, 0.18);
+      }
+      .quote-panel-tag {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .quote-panel h3 {
+        font-family: var(--display);
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.1;
+        letter-spacing: -0.015em;
+        margin-bottom: 12px;
+      }
+      .quote-panel h3 em {
+        font-style: italic;
+        color: var(--accent);
+      }
+      .quote-panel p {
+        font-size: 14px;
+        color: rgba(250, 250, 247, 0.78);
+        line-height: 1.55;
+        margin-bottom: 22px;
+        max-width: 460px;
+        position: relative;
+        z-index: 2;
+      }
+      .quote-panel-meta {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        margin-bottom: 24px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+        z-index: 2;
+      }
+      @media (max-width: 540px) {
+        .quote-panel-meta {
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+        }
+      }
+      .quote-panel-meta-item .lbl {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(250, 250, 247, 0.5);
+        margin-bottom: 4px;
+      }
+      .quote-panel-meta-item .val {
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--bg);
+      }
+      .quote-panel-ctas {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 2;
+      }
+      .quote-panel .btn-light {
+        background: var(--accent);
+        color: var(--white);
+        border-color: var(--accent);
+      }
+      .quote-panel .btn-light:hover {
+        background: var(--white);
+        color: var(--ink);
+        border-color: var(--white);
+      }
+      .quote-panel .btn-outline {
+        color: var(--bg);
+        border-color: rgba(255, 255, 255, 0.4);
+      }
+      .quote-panel .btn-outline:hover {
+        background: var(--bg);
+        color: var(--ink);
+        border-color: var(--bg);
+      }
+
+      /* DESCRIPTION */
+      .pdp-description,
+      .pdp-customization {
+        margin-top: 56px;
+        padding-top: 48px;
+        border-top: 1px solid var(--bg-line);
+      }
+      .pdp-section-h {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--accent);
+        letter-spacing: 0.18em;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .pdp-description p {
+        font-size: 15px;
+        line-height: 1.65;
+        color: var(--ink-soft);
+        margin-bottom: 18px;
+      }
+      .pdp-description h4 {
+        font-family: var(--display);
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--ink);
+        margin: 24px 0 10px;
+        letter-spacing: -0.005em;
+      }
+
+      /* SIZE CHART CALLOUT */
+      .sizechart-callout {
+        margin-top: 24px;
+        padding: 22px 24px;
+        background: var(--bg-soft);
+        border-left: 3px solid var(--accent);
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+      .sizechart-callout-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--accent);
+        color: var(--white);
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+      }
+      .sizechart-callout-text strong {
+        display: block;
+        font-family: var(--display);
+        font-size: 17px;
+        font-weight: 500;
+        color: var(--ink);
+        margin-bottom: 4px;
+      }
+      .sizechart-callout-text p {
+        font-size: 13px;
+        color: var(--ink-soft);
+        line-height: 1.5;
+        margin: 0;
+      }
+
+      /* CUSTOMIZATION */
+      .pdp-customization p {
+        font-size: 15px;
+        line-height: 1.65;
+        color: var(--ink-soft);
+        margin-bottom: 18px;
+      }
+      .custom-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-top: 24px;
+        margin-bottom: 36px;
+      }
+      .custom-card {
+        background: var(--white);
+        border: 1px solid var(--bg-line);
+        padding: 24px 22px;
+        transition:
+          border-color 0.25s,
+          transform 0.25s;
+      }
+      .custom-card:hover {
+        border-color: var(--ink);
+        transform: translateY(-2px);
+      }
+      .custom-card-tag {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        margin-bottom: 14px;
+      }
+      .custom-card-tag.popular {
+        color: var(--accent);
+      }
+      .custom-card h4 {
+        font-family: var(--display);
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.012em;
+        margin-bottom: 12px;
+        color: var(--ink);
+      }
+      .custom-card p {
+        font-size: 13px;
+        line-height: 1.5;
+        color: var(--ink-soft);
+        margin-bottom: 16px;
+      }
+      .custom-card-meta {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--ink-mute);
+        letter-spacing: 0.06em;
+        padding-top: 14px;
+        border-top: 1px solid var(--bg-line);
+      }
+      .custom-extras {
+        background: var(--bg-soft);
+        border-left: 3px solid var(--accent);
+        padding: 24px 26px;
+      }
+      .custom-extras h4 {
+        font-family: var(--display);
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--ink);
+        margin: 0 0 12px;
+      }
+      .custom-extras ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        columns: 2;
+        column-gap: 32px;
+      }
+      .custom-extras li {
+        font-size: 13px;
+        color: var(--ink-soft);
+        padding: 6px 0 6px 18px;
+        position: relative;
+        line-height: 1.5;
+        break-inside: avoid;
+      }
+      .custom-extras li::before {
+        content: '▲';
+        position: absolute;
+        left: 0;
+        top: 7px;
+        color: var(--accent);
+        font-size: 8px;
+      }
+
+      /* RELATED PRODUCTS */
+      .related-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+      @media (max-width: 980px) {
+        .related-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+      }
+      @media (max-width: 480px) {
+        .related-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 8px;
+        }
+      }
+
+      .related-card {
+        text-decoration: none;
+        background: var(--white);
+        border: 1px solid var(--bg-line);
+        display: block;
+        transition:
+          border-color 0.2s,
+          transform 0.2s;
+      }
+      .related-card:hover {
+        border-color: var(--ink);
+        transform: translateY(-2px);
+      }
+      .related-card-img {
+        aspect-ratio: 4/5;
+        position: relative;
+        overflow: hidden;
+        background: var(--bg-soft);
+      }
+      .related-card-img img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+      .related-card:hover .related-card-img img {
+        transform: scale(1.04);
+      }
+      .related-card-img-placeholder {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+      }
+      .related-card-img-placeholder svg {
+        width: 40%;
+        height: 40%;
+        opacity: 0.2;
+      }
+      .related-card-info {
+        padding: 10px 12px 12px;
+      }
+      .related-card-sub {
+        font-family: var(--mono);
+        font-size: 9px;
+        color: var(--ink-mute);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+      .related-card-name {
+        font-family: var(--display);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--ink);
+        letter-spacing: -0.005em;
+        line-height: 1.2;
+      }
+
+      /* NOT FOUND */
+      .not-found {
+        padding: 80px 0;
+        text-align: center;
+      }
+      .not-found h1 {
+        font-family: var(--display);
+        font-size: 48px;
+        font-weight: 400;
+        color: var(--ink);
+        margin-bottom: 16px;
+      }
+      .not-found p {
+        font-size: 16px;
+        color: var(--ink-soft);
+        margin-bottom: 28px;
+      }
+
+      @media (max-width: 980px) {
+        .custom-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .custom-extras ul {
+          columns: 1;
+        }
+      }
+      @media (max-width: 540px) {
+        .custom-grid {
+          grid-template-columns: 1fr;
+          gap: 10px;
+        }
+        .custom-card {
+          padding: 20px 18px;
+        }
+        .pdp-description,
+        .pdp-customization {
+          margin-top: 40px;
+          padding-top: 32px;
+        }
+      }
+    </style>
+  
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+  <body class="bb-page">
+    <!-- TOP TICKER -->
+    <div class="topbar">
+      <div class="topbar-track">
+        <span
+          ><span class="accent-text">▲</span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span
+        >
+        <span
+          >INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot;
+          FOB</span
+        >
+        <span
+          ><span class="accent-text">▲</span> SAMPLE COST DEDUCTED FROM BULK
+          ORDER</span
+        >
+        <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+        <span
+          ><span class="accent-text">▲</span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span
+        >
+        <span
+          >INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot;
+          FOB</span
+        >
+        <span
+          ><span class="accent-text">▲</span> SAMPLE COST DEDUCTED FROM BULK
+          ORDER</span
+        >
+        <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+      </div>
+    </div>
+
+    <!-- NAV (built by nav.js) -->
+    <nav class="bb-nav"></nav>
+
+    <!-- PAGE CONTENT (rendered by JS) -->
+    <div id="pdp-root"></div>
+
+    
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+<!-- FOOTER -->
+    <footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- DATA + SCRIPTS -->
+    <script src="products-data.js"></script>
+    <script src="nav.js"></script>
+    <script>
+      (function () {
+        'use strict';
+
+        // ── Image type labels ───────────────────────────────────
+        const IMG_LABELS = {
+          flat_lay: 'Flat Lay',
+          detail: 'Detail',
+          ghost_front: 'Front',
+          ghost_back: 'Back',
+          ghost_side: 'Side',
+          model_action: 'Action',
+          model_front: 'Front',
+          model_torso: 'Torso',
+          model_back: 'Back',
+          model_bottom: 'Bottom',
+        };
+        const IMG_ORDER = [
+          'ghost_front',
+          'model_torso',
+          'model_bottom',
+          'model_action',
+          'model_front',
+          'model_back',
+          'flat_lay',
+          'ghost_back',
+          'ghost_side',
+          'detail',
+        ];
+
+        const PLACEHOLDER_SVG = `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30 25 L50 18 L70 25 L75 35 L70 75 L30 75 L25 35 Z" stroke="currentColor" stroke-width="2"/></svg>`;
+
+        function esc(str) {
+          if (!str) return '';
+          return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+        }
+
+        // ── Get product from catalog ──────────────────────────────────
+        function findProduct(id) {
+          if (!window.ZALI_PRODUCT_MAP) return null;
+          if (ZALI_PRODUCT_MAP[id]) return ZALI_PRODUCT_MAP[id];
+          // Fallback: try decoded
+          const decoded = decodeURIComponent(id);
+          return ZALI_PRODUCT_MAP[decoded] || null;
+        }
+
+        // ── Get related products ──────────────────────────────────────
+        function getRelated(prod, count) {
+          if (!window.ZALI_CATALOG) return [];
+          const results = [];
+          for (const cat of ZALI_CATALOG.categories) {
+            for (const sub of cat.subcategories) {
+              if (
+                sub.slug === prod.subcategoryId &&
+                cat.id === prod.categoryId
+              ) {
+                for (const p of sub.products) {
+                  if (p.id !== prod.id) results.push(p);
+                  if (results.length >= count) return results;
+                }
+              }
+            }
+          }
+          // Fill from same category if needed
+          if (results.length < count) {
+            for (const cat of ZALI_CATALOG.categories) {
+              if (cat.id !== prod.categoryId) continue;
+              for (const sub of cat.subcategories) {
+                for (const p of sub.products) {
+                  if (p.id !== prod.id && !results.find((r) => r.id === p.id)) {
+                    results.push(p);
+                    if (results.length >= count) return results;
+                  }
+                }
+              }
+            }
+          }
+          return results;
+        }
+
+        // ── Build gallery section ─────────────────────────────────────
+        function buildGallery(prod) {
+          const imgs = prod.images || {};
+          let orderedImgs = IMG_ORDER.filter((k) => imgs[k]);
+          let extraImgs = Object.keys(imgs).filter(
+            (k) => !IMG_ORDER.includes(k),
+          );
+          let allImgs = [...orderedImgs, ...extraImgs];
+          
+          if (prod.primaryImageKey && imgs[prod.primaryImageKey]) {
+            allImgs = allImgs.filter(k => k !== prod.primaryImageKey);
+            allImgs.unshift(prod.primaryImageKey);
+          }
+
+          let mainImgHtml;
+          const firstKey = allImgs[0];
+          if (firstKey) {
+            mainImgHtml = `<img id="main-product-img" src="${window.optImg(imgs[firstKey], 1000)}" alt="${esc(prod.name)}" />
+        <div class="img-label-badge" id="main-img-label">${esc(IMG_LABELS[firstKey] || firstKey)}</div>`;
+          } else {
+            mainImgHtml = `<div class="main-img-placeholder">${PLACEHOLDER_SVG}</div>`;
+          }
+
+          let thumbsHtml = '';
+          let preloadHtml = '<div style="display:none;" aria-hidden="true">';
+          allImgs.forEach((k, i) => {
+            const highResUrl = esc(window.optImg(imgs[k], 1000));
+            preloadHtml += `<img src="${highResUrl}" />`;
+            thumbsHtml += `<div class="thumb ${i === 0 ? 'active' : ''}" data-img="${highResUrl}" data-label="${esc(IMG_LABELS[k] || k)}" onclick="switchImg(this)">
+        <img src="${esc(window.optImg(imgs[k], 200))}" alt="${esc(IMG_LABELS[k] || prod.name)}" loading="lazy" />
+      </div>`;
+          });
+          preloadHtml += '</div>';
+
+          return `
+      <div class="gallery">
+        <div class="main-img" id="main-img-wrap">
+          <div class="skeleton-overlay" id="main-skeleton"></div>
+          ${mainImgHtml}
+        </div>
+        <div class="thumbs">${thumbsHtml}</div>
+        ${preloadHtml}
+      </div>`;
+        }
+
+        // ── Build info column ─────────────────────────────────────────
+        function buildInfo(prod) {
+          const catHref = `products.html#${prod.categoryId === 'casual-wear' ? 'casual' : prod.categoryId === 'team-sports' ? 'team' : prod.categoryId}`;
+          const breadcrumbs = `
+      <span class="breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="products.html">Products</a><span class="sep">/</span>
+        <a href="${catHref}">${esc(prod.category)}</a><span class="sep">/</span>
+        <span>${esc(prod.name)}</span>
+      </span>`;
+
+          // Fabric short-form from fabric description
+          const fabricShort = prod.fabric
+            ? prod.fabric
+                .split(',')[0]
+                .split('with')[0]
+                .trim()
+                .replace(/\s{2,}/g, ' ')
+            : 'Performance Polyester';
+          const fabricDisplay =
+            fabricShort.length > 60
+              ? fabricShort.substring(0, 60) + '…'
+              : fabricShort;
+
+          // Description from product info
+          const descLines = (prod.description || '')
+            .split('\\n')
+            .filter((l) => l.trim());
+          const descHtml =
+            descLines.map((l) => `<p>${esc(l)}</p>`).join('') ||
+            `<p>Available in polyester and cotton blends. Full customization available, sublimation, DTF, DTG, and screen printing. Logos, graphics, and text on chest, sleeves, back, or hem. Youth and adult sizing available, 2T to 9XL.</p>`;
+
+          const garment = prod.garmentType
+            ? prod.garmentType.charAt(0).toUpperCase() +
+              prod.garmentType.slice(1)
+            : prod.name;
+
+          return `
+      <div style="padding-top: 24px;">${breadcrumbs}</div>
+      <div class="pdp">
+        ${buildGallery(prod)}
+        <div class="pdp-info">
+          <div class="pdp-cat"><span class="tri tri-sm"></span> ${esc(prod.category)} &middot; ${esc(prod.subcategory)}</div>
+          <h1>${esc(prod.title || prod.name)}</h1>
+          <p class="pdp-tagline">${esc(prod.description || 'Custom-built to your brand. Full color sublimation, DTF, or screen print. Sample first, bulk to follow.')}</p>
+
+          <div class="spec-grid">
+            <div class="spec-item"><div class="lbl">Garment Type</div><div class="val">${esc(garment)}</div></div>
+            <div class="spec-item"><div class="lbl">Fabric</div><div class="val">${esc(fabricDisplay)}</div></div>
+            <div class="spec-item"><div class="lbl">Print Methods</div><div class="val">${esc(prod.printMethods || 'Sublimation · DTF · DTG · Screen')}</div></div>
+            <div class="spec-item"><div class="lbl">Size Range</div><div class="val">${esc(prod.sizeRange || '2T to 9XL · Youth & Adult')}</div></div>
+            <div class="spec-item"><div class="lbl">Min Order (MOQ)</div><div class="val">${prod.moq || 25} pieces</div></div>
+            <div class="spec-item"><div class="lbl">Lead Time</div><div class="val">${esc(prod.leadTime || '12 – 18 days (bulk)')}</div></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="quote-panel" style="margin-top: 0; margin-bottom: 64px;">
+        <div class="quote-panel-tag"><span class="tri tri-sm"></span> Custom build for your brand</div>
+        <h3>Your <em>brand.</em> Your design.<br>Your fit.</h3>
+        <p>Send us your tech pack, sketch, or reference, and we'll return a digital mockup and clear quote within 48 hours. We sample first, you approve, then we run bulk. No commitment until you sign off.</p>
+
+        <div class="quote-panel-ctas">
+          <a href="contact.html" class="btn btn-light">Request a Quote <span class="arrow">→</span></a>
+          <a href="https://wa.me/923294656184" target="_blank" class="btn btn-outline">WhatsApp Us</a>
+        </div>
+      </div>
+      </div>`;
+        }
+
+        // ── Build related products ────────────────────────────────────
+        function buildRelated(prod) {
+          const related = getRelated(prod, 4);
+          if (!related.length) return '';
+          let cardsHtml = '';
+          related.forEach((p) => {
+            let bestImgKey = p.primaryImageKey;
+            if (!bestImgKey || !p.images[bestImgKey]) {
+              bestImgKey = p.images ? IMG_ORDER.find((k) => p.images[k]) : null;
+            }
+            const imgSrc = bestImgKey ? p.images[bestImgKey] : null;
+            const imgHtml = imgSrc
+              ? `<img src="${esc(window.optImg(imgSrc, 600))}" alt="${esc(p.name)}" loading="lazy" />`
+              : `<div class="related-card-img-placeholder">${PLACEHOLDER_SVG}</div>`;
+            cardsHtml += `<a href="product-detail.html?id=${encodeURIComponent(p.id)}" class="related-card">
+        <div class="related-card-img">${imgHtml}</div>
+        <div class="related-card-info">
+          <div class="related-card-sub">${esc(p.subcategory)}</div>
+          <div class="related-card-name">${esc(p.name)}</div>
+        </div>
+      </a>`;
+          });
+          return `
+      <section class="section" style="border-top: 1px solid var(--bg-line); padding-top: 60px; margin-top: 60px; margin-bottom: 60px;">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="tri tri-sm"></span> More from ${esc(prod.subcategory)}</div>
+              <h2 class="section-h">Related <em>Products</em></h2>
+            </div>
+          </div>
+          <div class="related-grid">${cardsHtml}</div>
+        </div>
+      </section>`;
+        }
+
+        // ── Render not-found state ────────────────────────────────────
+        function renderNotFound(id) {
+          document.getElementById('pdp-root').innerHTML = `
+      <div class="container">
+        <div class="not-found">
+          <h1>Product not found</h1>
+          <p>The product "${esc(id)}" could not be located in the catalog.</p>
+          <a href="products.html" class="btn btn-primary">Browse All Products →</a>
+        </div>
+      </div>`;
+        }
+
+        // ── Main render ───────────────────────────────────────────────
+        function render() {
+          const params = new URLSearchParams(window.location.search);
+          const id = params.get('id');
+          if (!id) {
+            renderNotFound('');
+            return;
+          }
+
+          const prod = findProduct(id);
+          if (!prod) {
+            renderNotFound(id);
+            return;
+          }
+
+          // Update page meta
+          document.getElementById('page-title').textContent =
+            `${prod.title || prod.name}, ZALI Industries`;
+          document
+            .getElementById('page-desc')
+            .setAttribute(
+              'content',
+              `Custom ${prod.name} manufactured in Sialkot, Pakistan. MOQ ${prod.moq || 25} pcs. Sublimation, DTF, and screen print available.`,
+            );
+
+          document.getElementById('pdp-root').innerHTML = `
+      <div class="container">
+        ${buildInfo(prod)}
+      </div>
+      ${buildRelated(prod)}`;
+        }
+
+        // ── Thumb switcher (global so inline onclick works) ───────────
+        window.switchImg = function (thumb) {
+          const src = thumb.dataset.img;
+          const label = thumb.dataset.label;
+          const mainImg = document.getElementById('main-product-img');
+          const mainLabel = document.getElementById('main-img-label');
+          const skeleton = document.getElementById('main-skeleton');
+          
+          if (mainImg && mainImg.src !== src) {
+            if (skeleton) skeleton.classList.add('active');
+            
+            // Wait for new image to load before hiding skeleton
+            mainImg.onload = function() {
+              if (skeleton) skeleton.classList.remove('active');
+              mainImg.onload = null; // cleanup
+            };
+            
+            // If the image is cached, onload might not fire or fire instantly
+            mainImg.src = src;
+            if (mainImg.complete) {
+              if (skeleton) skeleton.classList.remove('active');
+              mainImg.onload = null;
+            }
+            
+            mainImg.alt = label;
+          }
+          if (mainLabel) mainLabel.textContent = label;
+          document
+            .querySelectorAll('.thumb')
+            .forEach((t) => t.classList.remove('active'));
+          thumb.classList.add('active');
+        };
+
+        // ── Init ──────────────────────────────────────────────────────
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', render);
+        } else {
+          render();
+        }
+      })();
+    </script>
+  </body>
+</html>
+
+

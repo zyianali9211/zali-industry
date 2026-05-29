@@ -1,0 +1,24 @@
+Product: Flag Football Jersey
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Athletic flag football jersey in a purple, smooth-performance knit with black-and-gold contrast details, short sleeves, and a V-neck collar. The front has large printed TECH and 24 graphics, with patterned sleeves and sleeve striping integrated as print on the garment surface.
+PANEL_MAP: Front body: one continuous purple panel, large black/gold TECH and 24 graphics printed on center chest, no cut seams between color areas; Sleeves: separate short sleeves, purple base with printed black micro-dot/mesh pattern and printed gold/black stripe bands near the cuffs; Back body: one continuous purple panel, no visible back graphics in the reference; Collar: separate black V-neck trim.
+LOGOS: small chest logo at upper left chest, no other logos
+GARMENT_TYPE: flag football jersey
+BACK_VIEW: back is solid purple with the same short-sleeve construction and no visible large print or numbering, only the continuous jersey body.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic jersey knit with a lightweight, slightly silky surface, subtle sheen, soft drape, and breathable sport texture; appears thin, flexible, and moisture-wicking rather than textured or brushed.
+
+--- GENERATED TEXT ---
+TITLE: Flag Football Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

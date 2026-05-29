@@ -1,0 +1,26 @@
+Product: Motocross Jersey (Vented)
+Gender: male
+Material: mesh
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long-sleeve motocross jersey made from lightweight vented mesh with a slim athletic fit, crew neckline, and raglan-style sleeves. The garment is predominantly light gray/white with sublimated tonal graphics and a smooth, continuous body construction.
+PANEL_MAP: Front body: one continuous panel, light gray/white mesh with tonal light gray sublimation print across upper chest and lower body, NO separate color-block panels. Back body: one continuous panel, matching light gray/white mesh with continuation of tonal print, plain overall. Sleeves: separate long raglan-style panels, matching light gray/white mesh with tonal print; left sleeve has vertical printed brand mark near forearm. Collar: narrow self-fabric crew neck trim in matching light gray/white.
+LOGOS: front chest wordmark logo, left sleeve brand mark, no other logos
+GARMENT_TYPE: long sleeve motocross jersey
+BACK_VIEW: Back is plain light gray/white mesh with tonal sublimation continuing subtly, no large center graphic or seam-based color blocking.
+LOGO_COLOR: light gray
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only faint tonal abstract geometric chevron/lightning-like patterning across the upper chest, lower front hem area, and a short diagonal stripe motif on the right sleeve, all in very light gray on white, large-scale and low-contrast
+COLOR_LAYOUT: White/off-white mesh body with very light gray tonal graphic accents across the upper chest, lower front, and right sleeve.
+TRIM_DETAILS: Crew neck with a ribbed collar in matching white, long sleeves with plain white cuffs, straight hem with a slightly extended/dropped back hem and subtle visible topstitching.
+
+--- GENERATED TEXT ---
+TITLE: long sleeve motocross jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

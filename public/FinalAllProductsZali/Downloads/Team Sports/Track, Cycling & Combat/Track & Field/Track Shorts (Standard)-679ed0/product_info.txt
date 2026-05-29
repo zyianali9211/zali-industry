@@ -1,0 +1,27 @@
+Product: Track Shorts (Standard)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Black track shorts with a lightweight athletic cut, elastic waistband, and short inseam. The body appears to be smooth woven polyester with a subtle perforated/dot-vent texture and a matte finish, designed for breathable running/training wear.
+PANEL_MAP: Front body: one continuous black panel, with subtle perforated dot texture and a vertical center seam/crease; white Nike swoosh printed/placed on the front right leg only, no color-block seams. Back body: one continuous black panel, plain except for matching fabric texture, no printed graphics visible. Waistband: separate elastic waistband in black. No separate side color panels.
+LOGOS: front right leg Nike swoosh logo
+GARMENT_TYPE: track shorts (standard)
+BACK_VIEW: Back is solid black with the same perforated texture and elastic waistband, plain center back with no visible graphics.
+LOGO_COLOR: white
+FABRIC: lightweight woven polyester athletic fabric with a smooth surface, matte-to-subtle low sheen, fine micro-perforated/dotted ventilation pattern, crisp drape, and a slightly structured but flexible feel.
+TEXT_AND_GRAPHICS: Lower right front leg: small white Nike swoosh logo, angled up-right, approximately palm-sized relative to the shorts, clean sans-serif athletic mark; no other visible text, numbers, emblems, badges, crests, or printed graphics.
+COLOR_LAYOUT: Solid black shorts with subtle tonal micro-dot/perforation texture throughout and a white logo accent on the lower right leg.
+TRIM_DETAILS: Elasticated black waistband with gathered stitching and a curved leg opening/hem with slightly longer side seams and a plain black finish.
+
+--- GENERATED TEXT ---
+TITLE: Track Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

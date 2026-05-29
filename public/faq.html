@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FAQ, ZALI Industries</title>
+<meta name="description" content="Common questions about ordering custom sublimated apparel from ZALI Industries: MOQ, lead time, pricing, shipping, customization, samples, and payment." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* FAQ LAYOUT */
+  .faq-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 64px;
+    padding: 32px 0 80px;
+    align-items: start;
+  }
+  @media (max-width: 980px) { .faq-layout { grid-template-columns: 1fr; gap: 24px; } }
+
+  .faq-nav {
+    position: sticky;
+    top: 100px;
+    align-self: start;
+  }
+  @media (max-width: 980px) { .faq-nav { position: static; padding: 24px; background: var(--bg-soft); } }
+  .faq-nav h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .faq-nav-list { list-style: none; padding: 0; }
+  .faq-nav-list li { margin-bottom: 8px; }
+  .faq-nav-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 14px;
+    color: var(--ink-soft);
+    transition: color 0.2s;
+    border-bottom: 1px solid transparent;
+  }
+  .faq-nav-list a:hover { color: var(--accent); }
+  .faq-nav-list a.active { color: var(--accent); font-weight: 500; border-bottom-color: var(--accent); }
+  .faq-nav-list a .count {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.1em;
+  }
+
+  /* FAQ CATEGORY */
+  .faq-cat { margin-bottom: 64px; }
+  .faq-cat:last-child { margin-bottom: 0; }
+  .faq-cat-head {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .faq-cat-head h2 {
+    font-family: var(--display);
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .faq-cat-head h2 em { font-style: italic; color: var(--accent); }
+  .faq-cat-head h2 .num {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    background: var(--bg-soft);
+    padding: 4px 10px;
+  }
+  .faq-cat-head p {
+    font-size: 14px;
+    color: var(--ink-mute);
+    max-width: 580px;
+  }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-grid">
+      <div>
+        <span class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>FAQ</span></span>
+        <h1>Common <em>questions.</em></h1>
+      </div>
+      <div>
+        <p class="lead">Honest answers to the questions we get most often. If yours isn't covered, drop us a message, we'll add it to this page if it's a good one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ LAYOUT -->
+<div class="container">
+  <div class="faq-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="faq-nav">
+      <h4><span class="tri tri-sm"></span> Jump To</h4>
+      <ul class="faq-nav-list">
+        <li><a href="#moq" class="active">Minimum Order <span class="count">04</span></a></li>
+        <li><a href="#lead-time">Lead Time <span class="count">04</span></a></li>
+        <li><a href="#pricing">Pricing & Payment <span class="count">05</span></a></li>
+        <li><a href="#samples">Samples <span class="count">04</span></a></li>
+        <li><a href="#customization">Customization <span class="count">06</span></a></li>
+        <li><a href="#shipping">Shipping & Delivery <span class="count">04</span></a></li>
+        <li><a href="#general">General <span class="count">04</span></a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-outline btn-sm btn-block" style="margin-top: 28px;">Still Have Questions? ?</a>
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+
+      <!-- MOQ -->
+      <div class="faq-cat" id="moq">
+        <div class="faq-cat-head">
+          <h2><span class="num">01</span> Minimum <em>Order</em></h2>
+          <p>How much do you need to commit to, and what flexibility do we offer for smaller brands.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">What's the minimum order quantity? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Standard MOQ is 50 pieces per design for most categories. For team uniforms (jersey + shorts) we accept 25 pieces, and for embroidery-only orders we go as low as 25. We can occasionally run smaller jobs for repeat clients, ask us if you have a special case.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Can I split MOQ across sizes and colors? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes for sizes, split your 50-piece MOQ across XS to 3XL however you want. For colors and prints, the MOQ applies per color/design unless we're using DTF (which has no per-print MOQ). For sublimation, each unique print pattern needs to hit MOQ on its own.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Do you offer no-MOQ on any products? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Heat transfer customization on existing stock garments has no MOQ, useful for adding player names and numbers to team kits. DTF on supplied blank garments also has no per-design MOQ. Our pre-printed stock items (the rashguard B2C purchase, for example) can be bought as a single piece.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">What if I want a small first run to test the market? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Recommended approach: order the sample pack first, then run a small bulk at 50 pieces of one core SKU. If the market responds, scale up on a second order. Cost per piece comes down significantly past 100, but the 50-piece bulk is the most efficient way to test without stretching your inventory.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LEAD TIME -->
+      <div class="faq-cat" id="lead-time">
+        <div class="faq-cat-head">
+          <h2><span class="num">02</span> Lead <em>Time</em></h2>
+          <p>How long things actually take, from first message to door delivery.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">How long from order to delivery? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Average end-to-end is 21-28 days for most bulk orders to US/UK destinations. That includes 2-3 days for sample shipping, 7-10 days for sample production, 10-18 days for bulk production after sample approval, and 5-8 days for air freight. Larger orders (500+ pieces) and complex multi-print styles can extend this by 5-10 days.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Can you rush an order? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Sometimes. For smaller orders (50-100 pieces) we can shave 5-7 days off standard lead time at a 15-25% rush surcharge if our production calendar allows. Best to ask early, the more lead time we have, the easier it is to fit you in. Larger orders are harder to rush because of fabric procurement timelines.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">When does the lead time clock actually start? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>From the moment you approve your sample and the deposit clears. We don't start the bulk clock from the day of inquiry, because design back-and-forth and sampling can vary widely depending on how complete your initial brief was. Once you sign off on the sample though, we hold ourselves strictly to the quoted bulk timeline.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">What about sea freight timing? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Sea freight is usually only viable on orders of 1000+ pieces. It typically adds 25-40 days versus air freight. We handle the booking, customs paperwork, and consolidation, you just need to receive on the other end. Most brands use air for first orders and switch to sea once they're scaling repeat orders.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRICING -->
+      <div class="faq-cat" id="pricing">
+        <div class="faq-cat-head">
+          <h2><span class="num">03</span> Pricing & <em>Payment</em></h2>
+          <p>How we quote, how you pay, and what's included.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">How is pricing calculated? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Per-piece pricing depends on three things: fabric (GSM and composition), construction complexity (number of panels, seams, trims), and quantity. Pricing drops at higher MOQs. We send a clear line-item quote so there are no hidden costs. Reach out with your specifics and we'll come back with exact numbers.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">What's included in the per-piece price? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Fabric, sublimation print, cut, sew, finish, basic polybag packaging, and woven neck label. Optional add-ons priced separately: hangtags, retail boxes, specialty labels, custom packaging, expedited shipping. The quote will list these as add-ons.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">How do I pay? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Bank wire (preferred for bulk), Wise, or credit card via invoice link. Standard terms are 50% deposit before production starts, 50% before shipping. For repeat clients we offer net 30 terms after the third successful order. We also work with PayPal for sample pack orders.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Are there hidden fees? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>No. The quote we send is the all-in number, fabric, printing, construction, finishing, and the agreed shipping method. The only thing not included unless specified is import duties (which is why we recommend DDP shipping where we prepay duties on your behalf and bake it into the shipping cost).</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Do you offer discounts on repeat orders? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes. After your first successful order, all repeat orders of the same SKU get a discount, depending on volume. We also lock in pricing for 12 months on confirmed repeat orders, so you don't have to renegotiate every time fabric costs move.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SAMPLES -->
+      <div class="faq-cat" id="samples">
+        <div class="faq-cat-head">
+          <h2><span class="num">04</span> <em>Samples</em></h2>
+          <p>How sampling works, what's refundable, and why we insist on it.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">Why do you require a sample before bulk? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Because mistakes are easier to fix on one piece than 500. Sampling lets us catch fit issues, color mismatches, fabric weight concerns, and construction details before they cost you anything serious. We've never had a client regret sampling, but we've had plenty regret skipping it. So we insist.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">How much does a sample cost? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Samples are priced by category. DDP shipping is included. The sample pack (with swatches + one finished garment) is a flat $100 including DDP shipping. All sample fees are 100% refunded against your first bulk order over 50 pieces. All sample fees are 100% refunded against your first bulk order over 50 pieces.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Can I revise the sample before bulk? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Absolutely. The first round of revisions is free if they're minor (fit tweaks, print color adjustments). Major changes (different fabric, different cut) count as a new sample at the regular fee. We send digital mockups before producing the revised sample so you can confirm before we cut.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">What if the sample arrives damaged or wrong? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Photos to us within 7 days of delivery and we replace it at no cost. We've shipped thousands of samples without issues, but mistakes happen and we own them when they do.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CUSTOMIZATION -->
+      <div class="faq-cat" id="customization">
+        <div class="faq-cat-head">
+          <h2><span class="num">05</span> <em>Customization</em></h2>
+          <p>What we can change, and what we can't, on a custom build.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">What can be customized? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Pretty much everything. Print pattern (full sublimation), colors, fabric, cut and pattern, sleeve length, neckline, hem style, trim, woven labels, hangtags, polybag printing, retail packaging. If you can spec it, we can probably build it. Send us your tech pack or sketch and we'll come back with what we can and can't do.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Do you build from scratch or only modify existing patterns? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Both. Most clients start by modifying one of our existing cuts (faster, cheaper, less risk). For brands with strong design DNA we'll build patterns from scratch from your tech pack or even a single reference garment. Pattern development adds 7-14 days to first sample but the pattern is yours to keep.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Do you sign NDAs? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes. We'll sign your NDA, or use our standard mutual NDA if you don't have one. Your designs, tech packs, and brand info stay confidential and never appear in our portfolio without explicit permission.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">I don't have a tech pack. Can you still help? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes. Most of our clients don't have full tech packs. A few reference photos, a sketch, and a description of how you want the piece to fit and feel is enough for us to start. We'll do the technical pattern work in-house and confirm with you at sample stage.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Can I use my own size chart? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes. You don't have to use ours. If you have your own grade rules, spec sheet, or size chart from another factory, send it over and we'll cut and grade to your exact measurements. We'll integrate your spec into the tech pack, sample to it, and lock it for production. Most experienced brands prefer this so they can keep size consistency across multiple factories.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Can I use my own fabric? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Generally we'd advise against it because we can't guarantee the print quality on fabric we haven't tested. But if you have a specific fabric requirement (eco-certified, special weave, branded fabric), send us a swatch and we'll test sublimation on it before recommending. We can usually source comparable fabrics in-country at lower cost.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHIPPING -->
+      <div class="faq-cat" id="shipping">
+        <div class="faq-cat-head">
+          <h2><span class="num">06</span> <em>Shipping</em> & Delivery</h2>
+          <p>How we ship, where we ship, and who pays for what.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">Where do you ship? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Worldwide. Most-shipped destinations are USA (especially California and the Pacific Northwest), UK, Germany, France, Australia, UAE, Canada, and the Nordics. We also ship to Pacific islands, the Caribbean, Africa, and South America regularly.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">What's DDP and why should I care? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>DDP (Delivered Duty Paid) means we prepay all import duties and taxes on your behalf, baked into the shipping cost. The result: your goods arrive at your door without you having to deal with customs forms or pay surprise duty bills. We strongly recommend DDP for first-time importers, it's worth the small premium.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Do you handle customs and import paperwork? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes. We prepare commercial invoices, packing lists, certificates of origin, and any other export paperwork required. For DDP shipments, we also handle import customs clearance through our courier partners. You don't lift a finger.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">What if my order arrives damaged or short? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Open the carton at delivery, count the pieces, photograph anything damaged. Email us within 7 days. We'll either remake the damaged pieces and ship them at no cost, or credit your next order, your choice. We've had a defect rate below 2% historically and we resolve issues quickly.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GENERAL -->
+      <div class="faq-cat" id="general">
+        <div class="faq-cat-head">
+          <h2><span class="num">07</span> <em>General</em></h2>
+          <p>Stuff that didn't fit anywhere else.</p>
+        </div>
+        <div class="acc-group">
+          <div class="acc">
+            <button class="acc-trigger">Are you on Alibaba or other B2B marketplaces? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>No. We don't list on Alibaba or similar marketplaces. Direct relationships are how we work. Find us through our website, Instagram, referral, or trade show, and you'll always be talking to the founder or a senior team member, not a sales agent on a quota.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Can I visit the factory? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Yes, with prior arrangement. We love showing brands around and most visitors come away with a much better understanding of what's possible. We'll arrange a driver from Lahore or Islamabad airport, recommend hotels, and walk you through every part of the production floor.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Do you white-label products? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>Almost everything we do is white-label or private-label. Your brand on the woven neck label, your hangtag, your polybag, your retail packaging. We don't put our own labels on client garments unless explicitly asked.</p></div>
+          </div>
+          <div class="acc">
+            <button class="acc-trigger">Are you sustainable? <span class="acc-icon">+</span></button>
+            <div class="acc-content"><p>We're working on it honestly. We offer eco-certified fabrics (recycled polyester from PET bottles, organic cotton blends, OEKO-TEX certified options), use water-based inks where possible, and minimize fabric waste through digital pattern nesting. We're not perfect, and we'd rather be honest about that than greenwash. Happy to discuss specific sustainability goals on your project.</p></div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<!-- BOTTOM CTA -->
+<section class="sec sec-dark">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center;">
+      <div>
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Question not covered?</span>
+        <h2 class="sec-h2">Drop us a <em>message.</em></h2>
+        <p style="margin-top: 24px; max-width: 540px; line-height: 1.6; color: rgba(250,250,247,0.75);">If you've got a question we haven't covered, send it over. Real human reply within 24 hours, and if it's a question others might have, we'll add it to this page.</p>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="contact.html" class="btn btn-light">Contact Us <span class="arrow">?</span></a>
+        <a href="https://wa.me/923294656184" class="btn btn-outline" style="color:var(--bg); border-color: rgba(255,255,255,0.3);">WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+// Accordion
+document.querySelectorAll('.acc-trigger').forEach(b => {
+  b.addEventListener('click', () => b.parentElement.classList.toggle('open'));
+});
+
+// Highlight active sidebar item on scroll
+const links = document.querySelectorAll('.faq-nav-list a');
+const sections = Array.from(document.querySelectorAll('.faq-cat'));
+const onScroll = () => {
+  const y = window.scrollY + 200;
+  let active = sections[0]?.id;
+  sections.forEach(s => { if (s.offsetTop <= y) active = s.id; });
+  links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + active));
+};
+window.addEventListener('scroll', onScroll, { passive: true });
+</script>
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
+

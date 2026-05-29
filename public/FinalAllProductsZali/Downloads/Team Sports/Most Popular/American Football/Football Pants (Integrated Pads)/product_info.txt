@@ -1,0 +1,24 @@
+Product: Football Pants (Integrated Pads)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Football pants with integrated thigh, hip, and knee pads built into a tight-fitting outer shell. The garment appears to be made from smooth performance polyester/spandex with a matte-to-slight-sheen finish, designed to stretch over pads and the body.
+PANEL_MAP: Front body: one continuous panel, bright orange base with black logo on upper thigh and printed vertical side graphics/stripe elements on the outer leg (PRINT only, NO seams between colors). Back body: one continuous panel, orange base with continuation of the printed side graphic/stripe treatment along the outer leg, no separate color-block seams. No sleeves. Waistband/upper edge: gray elastic trim.
+LOGOS: small black chest/thigh logo on front upper thigh, large vertical "BEARS" print on outer side leg
+GARMENT_TYPE: football pants (integrated pads)
+BACK_VIEW: back is solid orange with the side graphic/stripe continuing down the outer leg, plain center seat and seat-to-calf construction visible, no additional back logos.
+LOGO_COLOR: black
+FABRIC: smooth athletic polyester/spandex knit with a dense, medium-weight hand, slight stretch gloss, and a clean matte surface; padded areas create a sculpted, molded appearance under the outer shell.
+
+--- GENERATED TEXT ---
+TITLE: Football Pants with Integrated Pads
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

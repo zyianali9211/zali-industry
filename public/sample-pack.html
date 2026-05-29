@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sample Pack, ZALI Industries</title>
+<meta name="description" content="The ZALI sample pack: fabric swatches plus a finished garment in your category. Cost is refunded on your first bulk order." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* SP HERO */
+  .sp-hero {
+    padding: 100px 0 90px;
+    background: var(--accent);
+    color: var(--white);
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+  }
+  .sp-hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 80% 50%, rgba(0,0,0,0.18) 0%, transparent 60%);
+  }
+  .sp-hero::after {
+    content: '';
+    position: absolute;
+    bottom: -120px; right: -120px;
+    width: 0; height: 0;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    border-bottom: 360px solid rgba(0,0,0,0.08);
+    z-index: 1;
+  }
+  .sp-hero .container { position: relative; z-index: 2; }
+  .sp-hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  @media (max-width: 980px) { .sp-hero-grid { grid-template-columns: 1fr; gap: 40px; } }
+  .sp-hero h1 {
+    font-family: var(--display);
+    font-weight: 300;
+    font-size: clamp(48px, 8vw, 110px);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    color: var(--white);
+    margin: 28px 0 28px;
+  }
+  .sp-hero h1 em { font-style: italic; font-weight: 400; }
+  .sp-hero-eyebrow {
+    color: rgba(255,255,255,0.85);
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .sp-hero-eyebrow .tri { border-bottom-color: var(--white); }
+  .sp-hero p.lead {
+    font-size: 18px;
+    line-height: 1.55;
+    color: rgba(255,255,255,0.92);
+    max-width: 520px;
+    margin-bottom: 36px;
+  }
+  .sp-breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255,255,255,0.7);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .sp-breadcrumb a:hover { color: var(--white); }
+  .sp-breadcrumb .sep { opacity: 0.5; }
+  .sp-hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+  .sp-hero .btn-light { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .sp-hero .btn-light:hover { background: var(--white); color: var(--ink); border-color: var(--white); }
+  .sp-hero .btn-outline { color: var(--white); border-color: rgba(255,255,255,0.5); }
+  .sp-hero .btn-outline:hover { background: var(--white); color: var(--accent); border-color: var(--white); }
+
+  .sp-hero-visual {
+    aspect-ratio: 1/1;
+    background: linear-gradient(135deg, #a8311a 0%, #6a2010 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .sp-hero-visual::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: 
+      radial-gradient(circle at 70% 30%, rgba(255,255,255,0.1) 0%, transparent 50%),
+      radial-gradient(circle at 20% 80%, rgba(0,0,0,0.3) 0%, transparent 50%);
+  }
+  .sp-hero-visual-overlay {
+    position: absolute; inset: 0;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+    z-index: 2;
+  }
+  .sp-hero-visual-tag {
+    align-self: flex-start;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 7px 14px 7px 10px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sp-hero-visual-caption {
+    font-family: var(--display);
+    font-size: 30px;
+    line-height: 1.05;
+    font-weight: 400;
+    max-width: 320px;
+    letter-spacing: -0.015em;
+  }
+  .sp-hero-visual-caption em { font-style: italic; }
+  .sp-hero-visual-caption .small {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 14px;
+    opacity: 0.7;
+    color: var(--white);
+    font-style: normal;
+  }
+  .sp-hero-visual .corner-tri {
+    position: absolute;
+    bottom: 0; right: 0;
+    z-index: 3;
+    width: 0; height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid var(--ink);
+  }
+
+  /* WHAT'S INCLUDED */
+  .included-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  @media (max-width: 980px) { .included-grid { grid-template-columns: 1fr; } }
+  .inc-card {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 36px 30px 32px;
+    transition: all 0.25s;
+    display: flex;
+    flex-direction: column;
+  }
+  .inc-card:hover { border-color: var(--ink); }
+  .inc-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    margin-bottom: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .inc-icon {
+    width: 56px; height: 56px;
+    background: var(--bg-soft);
+    display: grid; place-items: center;
+    margin-bottom: 22px;
+    color: var(--accent);
+  }
+  .inc-card h4 {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 14px;
+    letter-spacing: -0.015em;
+  }
+  .inc-card h4 em { font-style: italic; color: var(--accent); }
+  .inc-card p {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin-bottom: 18px;
+    flex-grow: 1;
+  }
+  .inc-card .meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    padding-top: 16px;
+    border-top: 1px solid var(--bg-line);
+  }
+  .inc-card .meta strong { color: var(--accent); font-weight: 700; }
+
+  /* HOW IT WORKS */
+  .sp-how-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--bg-line);
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .sp-step {
+    padding: 36px 28px;
+    border-right: 1px solid var(--bg-line);
+    background: var(--white);
+    position: relative;
+  }
+  .sp-step:last-child { border-right: none; }
+  .sp-step-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    margin-bottom: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .sp-step h4 {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 14px;
+    letter-spacing: -0.01em;
+  }
+  .sp-step p {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
+  @media (max-width: 980px) {
+    .sp-how-grid { grid-template-columns: 1fr 1fr; }
+    .sp-step:nth-child(2) { border-right: none; }
+    .sp-step:nth-child(n+3) { border-top: 1px solid var(--bg-line); }
+  }
+  @media (max-width: 540px) {
+    .sp-how-grid { grid-template-columns: 1fr; }
+    .sp-step { border-right: none; border-bottom: 1px solid var(--bg-line); }
+    .sp-step:last-child { border-bottom: none; }
+  }
+
+  /* PRICING */
+  .pricing {
+    background: var(--ink);
+    color: var(--bg);
+    padding: 60px;
+    border-radius: 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  @media (max-width: 720px) { .pricing { padding: 40px 28px; } }
+  .pricing::after {
+    content: '';
+    position: absolute;
+    top: -50px; right: -50px;
+    width: 0; height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 160px solid var(--accent);
+    opacity: 0.18;
+  }
+  .pricing-num {
+    font-family: var(--display);
+    font-size: clamp(60px, 10vw, 120px);
+    font-weight: 300;
+    line-height: 1;
+    color: var(--bg);
+    letter-spacing: -0.04em;
+    margin-bottom: 12px;
+  }
+  .pricing-num .small {
+    font-family: var(--body);
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(250,250,247,0.6);
+    margin-left: 6px;
+    vertical-align: middle;
+    letter-spacing: 0;
+  }
+  .pricing-tag {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 24px;
+    font-weight: 700;
+  }
+  .pricing-line {
+    width: 60px; height: 2px;
+    background: var(--accent);
+    margin: 32px auto;
+  }
+  .pricing-points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  @media (max-width: 720px) { .pricing-points { grid-template-columns: 1fr; } }
+  .pricing-point .num {
+    font-family: var(--display);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--accent);
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
+  }
+  .pricing-point .lbl {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(250,250,247,0.7);
+  }
+
+  /* ORDER FORM */
+  .sp-form {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 40px 36px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .sp-form-title {
+    font-family: var(--display);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: -0.015em;
+    text-align: center;
+  }
+  .sp-form-title em { font-style: italic; color: var(--accent); }
+  .sp-form-sub {
+    text-align: center;
+    color: var(--ink-mute);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+<section class="sp-hero">
+  <div class="container">
+    <div class="sp-hero-grid">
+      <div>
+        <span class="sp-breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Sample Pack</span></span>
+        <span class="sp-hero-eyebrow" style="margin-top: 24px;"><span class="tri tri-sm"></span> Touch the quality before you commit</span>
+        <h1>The Sample<br>Pack. <em>Risk-free.</em></h1>
+        <p class="lead">A curated pack of fabric swatches and one finished garment in the category you're sourcing. Shipped anywhere in the world. Cost is refunded against your first bulk order, so it's effectively zero net cost if you decide to work with us.</p>
+        <div class="sp-hero-cta">
+          <a href="#order" class="btn btn-light btn-lg">Order Now ?</a>
+          <a href="contact.html" class="btn btn-outline btn-lg">Have Questions?</a>
+        </div>
+      </div>
+      <div class="sp-hero-visual"><img src="SiteData/sample.png" alt="Sample Pack" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;">
+        <div class="sp-hero-visual-overlay" style="z-index: 2;">
+          <div style="display:flex; justify-content:space-between;">
+            <span class="sp-hero-visual-tag"><span class="tri tri-sm" style="margin-right:0;"></span> The Pack</span>
+            <span style="font-family:var(--mono); font-size:10px; letter-spacing:0.12em; text-transform:uppercase; opacity:0.7;">SP � 01</span>
+          </div>
+          <div>
+            <div class="sp-hero-visual-caption"><em>Swatches +</em><br>one finished piece.<span class="small">Curated for your category</span></div>
+          </div>
+        </div>
+        <div class="corner-tri"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INCLUDED -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> What's Inside</span>
+        <h2 class="sec-h2">Three things in every <em>pack.</em></h2>
+        <p class="sec-desc">Curated to give you a real, complete picture of how we make things. Not generic samples, pulled and prepped for your specific category.</p>
+      </div>
+    </div>
+    <div class="included-grid">
+      <div class="inc-card">
+        <div class="inc-num"><span class="tri tri-sm"></span> 01</div>
+        <div class="inc-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg></div>
+        <h4><em>Fabric</em> swatches</h4>
+        <p>All major sublimation fabrics in our library: interlock polyester, compression lycra, peach skin microfiber, mesh, and the rest. Each labeled with GSM, composition, stretch, and best-use case.</p>
+        <div class="meta"><strong>9-12</strong> swatches � GSM-graded</div>
+      </div>
+
+      <div class="inc-card">
+        <div class="inc-num"><span class="tri tri-sm"></span> 02</div>
+        <div class="inc-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg></div>
+        <h4>One <em>finished</em> garment</h4>
+        <p>A real production-grade sample in the category you're sourcing. Rashguard, boardshort, aloha shirt, hoodie, whichever you pick. Made on our actual production line, not a prototype.</p>
+        <div class="meta"><strong>1</strong> finished piece � your size � your category</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="sec sec-soft">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> How it works</span>
+        <h2 class="sec-h2">Four steps, fully <em>refunded</em> on bulk.</h2>
+        <p class="sec-desc">The whole thing is designed so the only people who actually pay for samples are the ones who never order bulk. If you go bulk, you pay zero net.</p>
+      </div>
+    </div>
+    <div class="sp-how-grid">
+      <div class="sp-step">
+        <div class="sp-step-num"><span class="tri tri-sm"></span> 01</div>
+        <h4>You order the pack</h4>
+        <p>Pick your category, fill the form, pay the sample fee. We email you a confirmation within 1 business day.</p>
+      </div>
+      <div class="sp-step">
+        <div class="sp-step-num"><span class="tri tri-sm"></span> 02</div>
+        <h4>We curate & ship</h4>
+        <p>Pulled from our actual stock, packed, and shipped DDP via DHL or FedEx. Most US, UK, EU orders land in 5-8 days.</p>
+      </div>
+      <div class="sp-step">
+        <div class="sp-step-num"><span class="tri tri-sm"></span> 03</div>
+        <h4>You touch & test</h4>
+        <p>Wear it, wash it, judge the print, feel the fabric. Take your time. No pressure, no follow-up emails.</p>
+      </div>
+      <div class="sp-step">
+        <div class="sp-step-num"><span class="tri tri-sm"></span> 04</div>
+        <h4>Order bulk, get refund</h4>
+        <p>If you place a bulk order within 6 months, the sample fee is fully credited to your invoice. Zero net cost.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="sec">
+  <div class="container">
+    <div style="max-width: 880px; margin: 0 auto;">
+      <div class="pricing">
+        <div class="pricing-tag"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Single Flat Rate</div>
+        <div class="pricing-num">$100<span class="small">USD</span></div>
+        <div style="font-size: 14px; color: rgba(250,250,247,0.7); max-width: 480px; margin: 0 auto;">Includes the full sample pack, DDP shipping anywhere in the world, all duties prepaid. Refunded 100% on your first bulk order over 50 pieces.</div>
+        <div class="pricing-line"></div>
+        <div class="pricing-points">
+          <div class="pricing-point">
+            <div class="num">100%</div>
+            <div class="lbl">Refunded on Bulk</div>
+          </div>
+          <div class="pricing-point">
+            <div class="num">5-8d</div>
+            <div class="lbl">Door-to-Door Delivery</div>
+          </div>
+          <div class="pricing-point">
+            <div class="num">DDP</div>
+            <div class="lbl">Duties Prepaid</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER FORM -->
+<section class="sec sec-soft" id="order">
+  <div class="container">
+    <div class="sec-head sec-head-center">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Order Form</span>
+        <h2 class="sec-h2">Order your <em>pack.</em></h2>
+        <p class="sec-desc">We'll confirm within 1 business day, ship within 2-3.</p>
+      </div>
+    </div>
+
+    <div class="sp-form">
+
+      <div class="field-row">
+        <div class="field"><label>Full Name <span class="req">*</span></label><input type="text" placeholder="First and last name"></div>
+        <div class="field"><label>Brand / Company</label><input type="text" placeholder="Optional"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Email <span class="req">*</span></label><input type="email" placeholder="you@brand.com"></div>
+        <div class="field"><label>WhatsApp / Phone</label><input type="tel" placeholder="+1 (555) 555-5555"></div>
+      </div>
+
+      <div class="field">
+        <label>Pick Your Category <span class="req">*</span></label>
+        <select>
+          <option>Select the category for your finished sample</option>
+          <option>Fightwear (Rashguard / Spats / MMA Shorts)</option>
+          <option>Surfwear (Boardshorts / Surf Shirt)</option>
+          <option>Fitnesswear (Compression Top / Tights)</option>
+          <option>Team Uniforms (Jersey + Shorts)</option>
+          <option>Casual Wear (Hoodie / Tee)</option>
+          <option>Women's (Bra / Leggings / Set)</option>
+          <option>Surprise Me (we'll pick the most popular)</option>
+        </select>
+      </div>
+
+      <div class="field-row">
+        <div class="field"><label>Your Size <span class="req">*</span></label><select><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select></div>
+        <div class="field"><label>Gender Cut</label><select><option>Men's</option><option>Women's</option><option>Unisex</option></select></div>
+      </div>
+
+      <h3 class="form-section-title" style="font-size: 16px; margin-top: 28px;"><span class="form-step">Shipping</span></h3>
+
+      <div class="field"><label>Shipping Address <span class="req">*</span></label><textarea rows="3" placeholder="Street, City, State / Province, ZIP / Postal Code"></textarea></div>
+
+      <div class="field-row">
+        <div class="field"><label>Country <span class="req">*</span></label><input type="text" placeholder="USA, UK, EU, AUS, etc."></div>
+        <div class="field"><label>Estimated Bulk Quantity</label><select><option>Not sure yet</option><option>50-100 pieces</option><option>100-500 pieces</option><option>500+ pieces</option></select></div>
+      </div>
+
+      <div class="field"><label>Anything else?</label><textarea rows="3" placeholder="Specific fabrics you want included, design references for the finished sample, or any other context."></textarea></div>
+
+      <div class="submit-row" style="display: flex; justify-content: space-between; align-items: center; margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--bg-line); flex-wrap: wrap; gap: 16px;">
+        <span style="font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mute);"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> $100 USD � DDP shipped � Refunded on bulk</span>
+        <button class="btn btn-primary btn-lg">Order Sample Pack <span class="arrow">?</span></button>
+      </div>
+
+    </div>
+
+    <p class="muted text-center mt-32" style="font-size: 12px;"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Payment by wire, Wise, or credit card after order confirmation � Invoice sent via email</p>
+  </div>
+</section>
+
+<!-- SAMPLE FAQ -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Common Questions</span>
+        <h2 class="sec-h2">About the <em>sample pack.</em></h2>
+      </div>
+      <a href="faq.html" class="sec-link">Full FAQ ?</a>
+    </div>
+    <div class="acc-group" style="max-width: 880px;">
+      <div class="acc open">
+        <button class="acc-trigger">Is the cost really refunded on bulk? <span class="acc-icon">+</span></button>
+        <div class="acc-content"><p>Yes. 100%. The $100 sample fee is credited as a discount on your first bulk invoice over 50 pieces, within 6 months of receiving the pack. We do this because we'd rather have you decide based on real touch-and-feel than rely on photos.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc-trigger">What if I'm not sure which category to pick? <span class="acc-icon">+</span></button>
+        <div class="acc-content"><p>Pick the closest match, or use "Surprise Me" and we'll send you our most-ordered category (long sleeve rashguard or aloha shirt). The fabric swatches cover all categories regardless, so you'll see those either way.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc-trigger">How long until it arrives? <span class="acc-icon">+</span></button>
+        <div class="acc-content"><p>We ship within 2-3 business days of order. DHL or FedEx air to most US/UK destinations is 5-8 days. EU and Australia is typically 7-10 days. Tracking number sent the moment it ships.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc-trigger">Can I get more than one sample garment? <span class="acc-icon">+</span></button>
+        <div class="acc-content"><p>Yes. Add $40 per additional garment. Mention it in the "Anything else" field on the order form and we'll adjust the invoice. Useful if you're sourcing across multiple categories.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc-trigger">Do I need a registered business to order? <span class="acc-icon">+</span></button>
+        <div class="acc-content"><p>No. The sample pack is open to anyone. We do bulk orders for both registered businesses and individual entrepreneurs starting brands.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries � Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>� 2026 ZALI Industries � All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+// Simple accordion
+document.querySelectorAll('.acc-trigger').forEach(b => {
+  b.addEventListener('click', () => b.parentElement.classList.toggle('open'));
+});
+</script>
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
+

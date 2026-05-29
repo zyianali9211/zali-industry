@@ -1,0 +1,24 @@
+Product: Wrestling Warmup Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Two-piece wrestling warmup set consisting of a full-zip track jacket and matching straight-leg track pants. The set is black with slim white piping tracing the shoulder/sleeve lines and side seams, giving it a clean athletic warmup look with a slightly loose, lightweight drape.
+PANEL_MAP: 4 panels on jacket: main black body, black sleeves, white piping from collar over shoulders down sleeves, black ribbed hem/cuffs; 4 panels on pants: black main leg front/back, white side piping running from waistband to hem, black waistband, black hem
+LOGOS: small white script logo on left chest, small white script logo on right thigh, small blue/white patch on right sleeve cuff, no other logos
+GARMENT_TYPE: wrestling warmup set
+BACK_VIEW: back is solid black with matching white piping continuing over the shoulder blades and down the outer sleeves, plus plain black pants with the same side piping and no large back graphics.
+LOGO_COLOR: white
+FABRIC: smooth polyester tricot / athletic warmup knit with a slight synthetic sheen, lightweight medium-thin hand, soft drape, and subtly slick surface; the fabric appears wrinkle-resistant and breathable rather than plush, with ribbed knit trim at cuffs and hem.
+
+--- GENERATED TEXT ---
+TITLE: Wrestling Warmup Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

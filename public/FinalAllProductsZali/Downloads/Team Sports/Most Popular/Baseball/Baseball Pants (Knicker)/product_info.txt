@@ -1,0 +1,17 @@
+Product: Baseball Pants (Knicker)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Baseball knicker pants with a slim athletic fit, high-rise waistband, and cuffed lower legs ending below the knee. The fabric appears to be a smooth performance knit with a matte finish and slight stretch, built for movement and durability.
+PANEL_MAP: Front body: one continuous panel in light gray, no visible color-block construction; all tonal changes are surface shading only. Back body: one continuous panel in light gray, with any visible tonal variation as PRINT/lighting only, no separate color panels. Waistband: separate dark elastic waistband with belt loops and belt. Leg openings/cuffs: ribbed or folded hem cuffs in matching light gray.
+LOGOS: faint internal waistband branding/wordmark, no visible external logos
+GARMENT_TYPE: baseball pants (knicker)
+BACK_VIEW: back is solid light gray with the same continuous single-panel construction, plain center seat and continuation of the cuffed lower-leg finish, no added color-block seams.
+LOGO_COLOR: black
+FABRIC: smooth polyester performance knit / double-knit tricot-like fabric with a fine micro-textured surface, medium-light weight, matte to very slight sheen, clean drape, and subtle stretch recovery; appears durable and breathable rather than fuzzy or woven.
+
+--- GENERATED TEXT ---
+(no text generated)

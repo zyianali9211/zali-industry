@@ -1,0 +1,24 @@
+Product: Soccer Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Soccer shorts in a lightweight smooth polyester performance fabric with a soft matte-to-slight-sheen surface and relaxed athletic drape. Elastic waistband with gathered top, short loose leg opening, and sublimated graphics printed directly onto the body fabric.
+PANEL_MAP: Front body: one continuous red panel, with large white "10" print at lower left and small crest print at lower right (PRINT only, no panel seams between graphics). Back body: one continuous red panel, plain solid red with no visible graphics. Waistband: separate elastic waistband, matching red. Side detailing appears as dark trim/stripe at outer edges, likely printed or trim, not separate colored body panels.
+LOGOS: right leg crest logo (present, no yellow highlight), no other logos
+GARMENT_TYPE: soccer shorts
+BACK_VIEW: back is plain solid red with no visible number or crest, with the same elastic waistband and loose athletic fit.
+LOGO_COLOR: white
+FABRIC: smooth polyester interlock or tricot-like sports knit with a fine flat surface, lightweight feel, soft matte finish, slight synthetic sheen, and fluid drape suitable for sublimated athletic shorts
+
+--- GENERATED TEXT ---
+TITLE: Soccer Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

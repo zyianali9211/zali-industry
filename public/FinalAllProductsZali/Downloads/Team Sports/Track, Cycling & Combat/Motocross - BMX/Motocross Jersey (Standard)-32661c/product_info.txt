@@ -1,0 +1,27 @@
+Product: Motocross Jersey (Standard)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve motocross jersey with a loose athletic fit, single-piece front and back body construction, and separate raglan-style sleeves. The garment appears to use lightweight sublimated polyester jersey/mesh with a smooth outer face and subtle micro-grid texture, plus slightly more open mesh-like side and sleeve areas for breathability.
+PANEL_MAP: Front body: one continuous panel, blue-to-black sublimated graphic with large central Fox logo print and curved black side graphics; no seam breaks between color areas, all design elements are PRINT only. Back body: one continuous panel, predominantly black with blue sublimated accents continuing from the sides, no separate color panels. Sleeves: separate long sleeves, mostly black with blue printed striping and blue lower sleeve sections; sleeve graphics are PRINT only. Collar: simple matching blue neck trim, separate piece.
+LOGOS: front chest Fox head logo, left sleeve Fox head logo
+GARMENT_TYPE: motocross jersey
+BACK_VIEW: Back is mostly solid black with blue sublimated side accents and a continuous sporty jersey surface, with no large text or centered graphic visible.
+LOGO_COLOR: white
+FABRIC: Lightweight sublimated polyester motocross jersey fabric with a smooth, slightly matte outer face and subtle micro-grid knit texture; the sleeves and side sections read as breathable mesh/poly knit with a slightly open weave. Fabric looks thin, airy, and drapey with mild stretch, not brushed or fleece-like.
+TEXT_AND_GRAPHICS: Front chest: large stylized wolf-head emblem centered on the upper torso, rendered in bright royal blue outline/fill accents over black, with angular pointed ears, narrowed eye shapes, and a tapered muzzle; emblem is approximately medium-large, spanning roughly one-third of the chest width and positioned just below the collar. Left sleeve and right sleeve: matching partial angular wolf/tribal line graphics in royal blue and black, extending vertically along the outer sleeves from upper arm toward forearm; each sleeve graphic is large, bold, and jagged, with no text. No visible words, numbers, logos, badges, crests, or other printed text.
+COLOR_LAYOUT: Black main body with vivid royal blue side panels, sleeve panels, and graphic accents; blue collar trim and blue sleeve detailing contrast against the black torso and sleeves.
+TRIM_DETAILS: Crew neck collar with bright royal blue ribbed trim and a white inner neck facing visible at the opening; long sleeves with plain cuffs in black/blue matching fabric; straight hem with a subtle dark stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Motocross Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

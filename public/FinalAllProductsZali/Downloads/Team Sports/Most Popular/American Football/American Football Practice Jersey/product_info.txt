@@ -1,0 +1,24 @@
+Product: American Football Practice Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve American football practice jersey with a cut-and-sew multi-panel body. It uses a glossy solid upper yoke/sleeve section and a contrasting perforated mesh body, giving a lightweight athletic look with loose drape and gathered elastic sleeve openings.
+PANEL_MAP: Upper front yoke and shoulders in solid black glossy fabric extending into the sleeves; V-neck collar in black ribbed trim; lower front body panel in black perforated mesh from chest seam to hem; short sleeves in solid black glossy fabric with elasticized cuffs; no visible surface graphics or print.
+LOGOS: none
+GARMENT_TYPE: American football practice jersey
+BACK_VIEW: back is mostly solid black with the same upper shoulder/yoke construction and continuation of the perforated mesh lower body, with no visible logos or large back graphics.
+LOGO_COLOR: white
+FABRIC: Mixed athletic polyester construction: the upper yoke/sleeves appear to be smooth satin-finish polyester with a slight sheen and soft structured drape, while the main body is a lightweight perforated sport mesh with tiny evenly spaced holes, matte-to-semi-matte surface, and breathable open texture.
+
+--- GENERATED TEXT ---
+TITLE: American Football Practice Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

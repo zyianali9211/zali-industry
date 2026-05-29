@@ -1,0 +1,24 @@
+Product: Bra & Shorts Set
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Two-piece athletic bra and shorts set with a fitted racerback sports bra and matching short shorts. The set uses a bold allover graphic print on the main body with solid dark green elastic underbands and waistband, and the overall construction appears body-hugging with flatlock-style athletic seaming.
+PANEL_MAP: 4 panels: bra front main body in allover red/olive/black graphic print, bra solid dark green underband, shorts main body in matching allover print, shorts solid dark green waistband
+LOGOS: front underband logo centered on bra, front waistband logo centered on shorts
+GARMENT_TYPE: bra and shorts set
+BACK_VIEW: Back is likely racerback with the same allover print continuing across the back of the bra and matching printed shorts back, with a solid dark green back band/waistband and no major contrast panel.
+LOGO_COLOR: white
+FABRIC: smooth stretch polyester/spandex performance knit with a tight fine-gauge surface, matte-to-slightly-satin finish, strong four-way stretch, and a lightweight compression fit; the print sits cleanly on the surface with no visible texture or pile.
+
+--- GENERATED TEXT ---
+TITLE: Bra and Shorts Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

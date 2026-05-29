@@ -1,0 +1,24 @@
+Product: Hoodie & Jogger Set
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Full zip hoodie and matching jogger set with a sporty color-block construction. The hoodie has a high stand collar, long sleeves, ribbed cuffs and hem, and a diagonal chest panel transition from dark navy to bright red; the joggers are straight slim-fit with a tapered leg and elastic waistband. The surface appears smooth and athletic with a slight sheen, indicating a midweight polyester tricot or smooth performance knit rather than fleece.
+PANEL_MAP: 5 panels: hoodie upper chest/shoulders dark navy, hoodie lower front bright red, hoodie sleeves dark navy, joggers dark navy main body, black/very dark zipper placket at center front
+LOGOS: left chest logo on hoodie, left thigh logo on jogger
+GARMENT_TYPE: hoodie and jogger set
+BACK_VIEW: back is mostly solid dark navy with the red front panel not wrapping fully around, continuing the navy sleeves and body with a plain athletic back.
+LOGO_COLOR: white
+FABRIC: smooth midweight polyester performance knit / tricot with a sleek lightly glossy surface, soft but structured drape, clean athletic finish, and subtle stretch; not plush or brushed, with a tightly knit, even texture.
+
+--- GENERATED TEXT ---
+TITLE: Hoodie and Jogger Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

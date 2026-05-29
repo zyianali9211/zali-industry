@@ -1,0 +1,27 @@
+Product: Softball Pants (Knicker)
+Gender: female
+Material: auto
+Side: right
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Softball knicker pants with a smooth athletic woven/synthetic hand, loose sport fit, and a structured waistband with belt loops. The legs are cropped below the knee with a clean straight taper, and the surface appears matte-to-slightly-satin with light wrinkles and drape typical of lightweight polyester sports fabric.
+PANEL_MAP: Front body: one continuous panel, solid bright red with a narrow vertical gray reflective-looking stripe printed along the outer leg, print only, no separate colored panel. Back body: one continuous panel, solid bright red with continuation of the same general styling, no visible printed graphics on the back. Waistband: separate structured waistband piece in matching red. No visible sleeves or collar.
+LOGOS: none
+GARMENT_TYPE: softball pants (knicker)
+BACK_VIEW: Back is solid bright red with no visible graphics, maintaining the same loose cropped knicker construction and plain athletic finish.
+LOGO_COLOR: white
+FABRIC: lightweight smooth polyester athletic woven fabric with a matte to faint satin sheen, fine-grain surface, crisp but flexible drape, and slight wrinkle texture; looks durable and breathable rather than brushed or knit.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Bright red athletic pants with narrow light gray vertical side stripes running down both outer legs; all other panels are solid red.
+TRIM_DETAILS: Wide red waistband with belt loops, center front fly seam, and elasticated ankle cuffs/hem bands in matching red.
+
+--- GENERATED TEXT ---
+TITLE: Softball Knicker Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

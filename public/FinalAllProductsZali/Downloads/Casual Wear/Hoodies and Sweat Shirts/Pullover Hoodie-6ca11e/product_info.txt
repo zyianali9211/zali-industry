@@ -1,0 +1,24 @@
+Product: Pullover Hoodie
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Pullover hoodie with a half-zip style standing collar, long raglan-style sleeves, and a kangaroo pocket. The body is color-blocked with a dark navy main torso, red shoulder yoke and upper chest stripe band, white sleeves, and contrasting piping/trim details.
+PANEL_MAP: 6 panels: main body dark navy, upper chest/shoulder yoke red, sleeve panels white, side underarm/contour panels maroon, hood/collar red and black, pocket/trim accents red
+LOGOS: small chest logo on left chest, left sleeve text/marking, no other logos
+GARMENT_TYPE: pullover hoodie
+BACK_VIEW: back is mostly solid dark navy with red upper shoulder yoke continuing across the back and white sleeves, with minimal extra detailing.
+LOGO_COLOR: white
+FABRIC: medium-weight smooth polyester knit with a soft matte finish, slight sporty sheen, and structured drape; surface appears tight-knit and jersey-like rather than fuzzy, with lightweight sweatshirt/track-top feel and clean printed color-block edges
+
+--- GENERATED TEXT ---
+TITLE: Pullover Hoodie
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

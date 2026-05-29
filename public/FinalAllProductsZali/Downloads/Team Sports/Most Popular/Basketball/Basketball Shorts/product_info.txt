@@ -1,0 +1,24 @@
+Product: Basketball Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Basketball shorts in a dark navy breathable mesh fabric with a soft athletic hand and matte finish, featuring an elastic waistband and white drawcord. The shorts have a relaxed, lightweight drape and visible small perforations throughout for ventilation.
+PANEL_MAP: Front body: one continuous panel, dark navy base with subtle tonal mesh texture and white/blue trim bands at the hem printed/constructed as accent detail within the lower edge area, NO separate front color-block panels. Back body: one continuous panel, matching dark navy mesh base with the same tonal perforated texture and hem accent continuation. Waistband: separate elastic waistband in matching navy. Drawcord: white, center front.
+LOGOS: none
+GARMENT_TYPE: basketball shorts
+BACK_VIEW: back is solid dark navy mesh with the same perforated texture and hem accent continuation, plain center with no visible logo or seam-driven color blocking
+LOGO_COLOR: white
+FABRIC: lightweight polyester mesh with small uniform perforations, dry matte athletic surface, airy breathable texture, soft hand, and relaxed drape with slight structure from the waistband
+
+--- GENERATED TEXT ---
+TITLE: Basketball Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

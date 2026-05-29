@@ -1,0 +1,24 @@
+Product: Scrunch Bum Leggings
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: High-waist fitted leggings with a scrunch bum seam at the center back, contouring the glutes and a clean seamless-looking front. The garment appears made from a smooth, body-hugging stretch knit with a matte to low-sheen finish and medium compression.
+PANEL_MAP: 3 panels: main front leg panels left and right in solid brown, back yoke/seat panel with gathered scrunch seam at center rear, continuous waistband in matching brown
+LOGOS: none
+GARMENT_TYPE: scrunch bum leggings
+BACK_VIEW: back features a center-ruching scrunch seam through the seat with uninterrupted brown legs below and a smooth high waistband, no contrast panels.
+LOGO_COLOR: white
+FABRIC: compression spandex / nylon-elastane knit with a smooth tight surface, matte low sheen, four-way stretch, medium-weight supportive drape, and slight contouring tension around seams and scrunch ruche area
+
+--- GENERATED TEXT ---
+TITLE: Scrunch Bum Leggings
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

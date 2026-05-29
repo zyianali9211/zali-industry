@@ -1,0 +1,24 @@
+Product: Spats
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Full-length spats/leggings in a dark charcoal-black, body-hugging athletic cut with a wide printed waistband and flatlock center seams. The fabric appears smooth and slightly glossy like compression spandex/lycra, with a tight stretch fit and minimal surface texture.
+PANEL_MAP: 2 panels: main front and back body in dark charcoal-black, single continuous waistband in matching black with white front-center branding, no contrasting color blocks, vertical seam lines down center front and center back
+LOGOS: white "SCRAMBLE" logo on front waistband, white "SCRAMBLE" logo with Japanese characters on upper left thigh, no other logos
+GARMENT_TYPE: spats
+BACK_VIEW: back is solid dark charcoal-black with a center back seam and no large graphics, continuing the same waistband branding only at the top.
+LOGO_COLOR: white
+FABRIC: compression spandex / lycra with smooth tight-knit surface, slight matte-to-satin athletic sheen, high-stretch body-contouring hand, lightweight medium-thin weight, clean flatlock seam finish, minimal visible texture, very slick performance fabric
+
+--- GENERATED TEXT ---
+TITLE: Spats
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

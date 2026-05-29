@@ -1,0 +1,24 @@
+Product: BoardShorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Board shorts in a smooth woven polyester boardshort fabric with a lightweight, slightly crisp hand and matte-to-low sheen finish. The garment uses single-panel construction on the front and back, with all patterning and color blocking appearing as sublimation print rather than sewn fabric sections.
+PANEL_MAP: Front body: one continuous panel, dark blue/charcoal all-over abstract floral/geometric sublimation print on the upper body with a light blue horizontal band and darker blue lower section printed across the panel (PRINT only, no seams between colors). Back body: one continuous panel, same printed upper pattern with the light blue horizontal band and darker lower section continuing around the back (PRINT only). Waistband: separate self-fabric waistband with drawcord. No sleeves or collar.
+LOGOS: small right leg hem logo patch, no other logos
+GARMENT_TYPE: board shorts
+BACK_VIEW: back is the same continuous printed body with the abstract pattern across the upper section and the light blue horizontal band wrapping around, with no back seam separating the color areas.
+LOGO_COLOR: white
+FABRIC: smooth polyester boardshort fabric / woven swim fabric, lightweight and quick-dry, with a fine flat weave, subtle crisp structure, and low-sheen surface; feels slightly structured rather than stretchy, with clean drape and sublimated print sitting flat on the surface
+
+--- GENERATED TEXT ---
+TITLE: Board Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

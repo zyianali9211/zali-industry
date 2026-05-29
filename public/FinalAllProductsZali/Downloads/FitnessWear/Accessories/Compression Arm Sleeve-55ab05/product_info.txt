@@ -1,0 +1,24 @@
+Product: Compression Arm Sleeve
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Single-piece compression arm sleeve with a seamless tubular construction, snug athletic fit, and a straight top opening plus finished wrist hem. The surface appears smooth and tightly knit with a slight matte-to-low-sheen technical stretch look, designed to cling to the arm.
+PANEL_MAP: 1 panel: solid black main body with no color blocking or inserts, small logo print near lower outer cuff on each sleeve
+LOGOS: small white/gray brand logo near lower outer cuff, no other logos
+GARMENT_TYPE: compression arm sleeve
+BACK_VIEW: back is the same solid black tubular construction with continuous fabric and no visible back seam or panel change.
+LOGO_COLOR: white
+FABRIC: compression spandex / lycra knit with a smooth tight surface, very fine horizontal knit texture, lightweight body-hugging four-way stretch, low sheen, and a sleek athletic finish
+
+--- GENERATED TEXT ---
+TITLE: Compression Arm Sleeve
+
+DESCRIPTION:
+Available in compression spandex / lycra knit.
+Seamless tubular construction with a snug athletic fit.
+Straight top opening and finished wrist hem.
+Smooth, tightly knit surface with a lightweight body-hugging four-way stretch.
+Low-sheen technical finish designed to cling to the arm.

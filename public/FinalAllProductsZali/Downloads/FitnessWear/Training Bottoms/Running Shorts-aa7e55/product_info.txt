@@ -1,0 +1,24 @@
+Product: Running Shorts
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Running shorts with a wide smooth elastic waistband and a relaxed, lightweight outer shell. The shorts have a loose athletic fit with a printed lower body and a clean white upper yoke, plus a small drawstring at the waist.
+PANEL_MAP: 3 panels: top waistband/yoke in solid white, lower shorts body in all-over abstract black/gray/white print, small black drawstring at center front waistband
+LOGOS: none
+GARMENT_TYPE: running shorts
+BACK_VIEW: back is mostly the same printed lower body with the solid white waistband continuing across the back, likely a clean center back seam and no visible logos
+LOGO_COLOR: black
+FABRIC: lightweight woven polyester athletic short fabric with a smooth matte surface and slight crispness, thin airy drape, mild sheen on the white waistband, and a soft sublimated print on the lower body; appears quick-dry and lightly structured rather than stretchy compression knit
+
+--- GENERATED TEXT ---
+TITLE: Running Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

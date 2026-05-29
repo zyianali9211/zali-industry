@@ -1,0 +1,24 @@
+Product: Hlaf Sleeve Performance Tee
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Slim-fit performance tee with raglan half sleeves, crew neck, and a clean contoured body. The construction uses contrasting sleeve/shoulder panels against a solid main torso, with flat seams and a slightly body-hugging athletic cut.
+PANEL_MAP: 4 panels: main body light beige/cream front and torso, raglan sleeves black, outer shoulder/upper sleeve panels tan/gold from collar to sleeve cuff on both sides, collar rib in matching light beige/cream
+LOGOS: none
+GARMENT_TYPE: half sleeve performance tee
+BACK_VIEW: back is solid light beige/cream through the center with black raglan sleeves and tan/gold shoulder accents continuing over the upper back, no visible back graphics.
+LOGO_COLOR: black
+FABRIC: smooth polyester performance knit with a fine, tight jersey surface, lightweight and slightly stretchy, matte to very low-sheen finish, clean athletic drape with minimal visible texture and a close-to-body fit
+
+--- GENERATED TEXT ---
+TITLE: Half Sleeve Performance Tee
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

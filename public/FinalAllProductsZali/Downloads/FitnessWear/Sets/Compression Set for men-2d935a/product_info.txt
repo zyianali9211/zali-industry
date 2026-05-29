@@ -1,0 +1,24 @@
+Product: Compression Set for men
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Fitted men’s compression top and matching compression leggings in a dark charcoal/black performance knit, with flatlock-style contrast seams shaping the body. The set is close-fitting and athletic, with smooth, minimal surface texture and slight stretch sheen for a sleek technical look.
+PANEL_MAP: 4 panels: main body dark charcoal/black front and back, light gray contrast raglan-style shoulder/arm seam panels running from neckline over shoulders to cuffs, light gray side seam piping/inserts running from underarm down torso and legs, matching dark charcoal/black sleeves and leggings legs with no separate color blocking
+LOGOS: none
+GARMENT_TYPE: long sleeve compression top and compression leggings set
+BACK_VIEW: back is mostly solid dark charcoal/black with the same light gray seam lines continuing down the sleeves and along the side body/leg panels, no additional color blocking
+LOGO_COLOR: white
+FABRIC: compression spandex / lycra knit with a smooth tight surface, matte-to-slight-sheen finish, high stretch recovery, body-hugging drape, and clean flatlocked athletic construction
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Compression Top and Leggings Set
+
+DESCRIPTION:
+Available in compression spandex / lycra knit.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

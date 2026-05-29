@@ -1,0 +1,24 @@
+Product: Surf Tank
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless surf tank with a loose athletic fit, bound neckline and armholes, and contrast side/back panels for ventilation and mobility. The main body is a heathered gray performance knit with black trim and black side inserts, giving it a lightweight, quick-dry sportswear look.
+PANEL_MAP: 4 panels: main front and back body heather gray, black binding at collar and armholes, black side panels/inserts running from underarm down side seam to hem on both sides, black upper back yoke/shoulder edge trim
+LOGOS: small white O'NEILL logo on left chest, small woven HYBRID label near lower left hem
+GARMENT_TYPE: surf tank
+BACK_VIEW: back is mostly solid heather gray with the same black side inserts and black binding, no large graphic or center seam visible
+LOGO_COLOR: white
+FABRIC: lightweight heathered polyester performance knit, fine speckled surface with a soft matte-to-slightly-sheened finish, thin and breathable with fluid drape, smooth jersey face and quick-dry athletic handfeel
+
+--- GENERATED TEXT ---
+TITLE: Surf Tank
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

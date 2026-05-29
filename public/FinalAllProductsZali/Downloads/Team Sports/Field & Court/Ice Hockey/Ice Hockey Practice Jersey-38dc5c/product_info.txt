@@ -1,0 +1,27 @@
+Product: Ice Hockey Practice Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Ice hockey practice jersey in royal blue with a white V-neck collar and long sleeves; loose athletic fit with simple cut-and-sew construction. Fabric appears to be lightweight polyester hockey knit/mesh with a subtle open texture, matte-to-low-sheen surface, and breathable drape.
+PANEL_MAP: Front body: one continuous royal blue panel with sublimated/printed white V-neck opening and printed white horizontal stripe bands near the lower torso, plus printed white sleeve stripe bands aligned across upper sleeves; no color-block seams on body. Back body: one continuous royal blue panel with the same print treatment continuing around lower hem and sleeves, plain center back. Sleeves: separate long sleeves in royal blue with printed white stripe bands near forearms. Collar: separate white V-neck trim piece.
+LOGOS: inside neck manufacturer tag only, no external logos
+GARMENT_TYPE: ice hockey practice jersey
+BACK_VIEW: back is solid royal blue with continuation of the lower white printed stripe motif near the hem and matching sleeve stripe bands, otherwise plain center back.
+LOGO_COLOR: white
+FABRIC: lightweight polyester hockey mesh/knit with visible fine perforated texture, soft matte finish, moderate structure, and breathable athletic drape; not shiny, not brushed, and not fleece-like.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, illustrations, or printed graphics
+COLOR_LAYOUT: Solid royal-blue body with white V-neck collar and white horizontal stripe bands near the lower torso; each sleeve has two white horizontal stripes around the forearm area.
+TRIM_DETAILS: White V-neck collar with a clean inner facing, long sleeves with plain cuffs, and a straight hem with no visible side slits or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Practice Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

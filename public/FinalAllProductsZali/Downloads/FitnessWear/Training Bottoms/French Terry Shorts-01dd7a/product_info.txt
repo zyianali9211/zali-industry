@@ -1,0 +1,24 @@
+Product: French Terry Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Mid-thigh French terry shorts with a relaxed straight fit, elasticized waistband, and visible round drawcord at center front. The fabric looks soft and medium-weight with a matte heathered surface, and the shorts have clean side seams with no visible pockets from the front.
+PANEL_MAP: 3 panels: main body heather grey front left leg, main body heather grey front right leg, waistband/heather grey self-fabric with drawcord; no contrast side panels visible
+LOGOS: none
+GARMENT_TYPE: French terry shorts
+BACK_VIEW: Back is solid heather grey with the same elastic waistband and drawcord continuing around, likely a plain seat with minimal seam detailing.
+LOGO_COLOR: black
+FABRIC: French terry knit with a soft matte heather grey finish, medium-weight and slightly structured drape, smooth outer face with subtle flecked texture, likely loopback interior, casual athletic hand feel with moderate stretch.
+
+--- GENERATED TEXT ---
+TITLE: French Terry Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

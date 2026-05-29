@@ -1,0 +1,24 @@
+Product: American Football Jersey (Pro Cut)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Pro cut American football jersey with a fitted, athletic silhouette and cut-and-sew shoulder/sleeve construction. The garment appears fully sublimated on a smooth synthetic performance knit, with large front number graphics and team name printed directly onto the fabric rather than sewn-on appliqués.
+PANEL_MAP: Front main body panel in teal with sublimated white “TIMBER” chest text, white number “54” with dark outline, small chest marks, and shield logo at upper right chest; separate shoulder yoke / upper sleeve panel in teal extending over the top of shoulders; side body panels and underarm gusset areas in darker navy/purple visible at the arm opening and side torso; sleeves are short and cut as separate pieces in teal with dark interior trim at the armhole; lower front abdomen panel continues in teal with subtle print shading. All color variation on the body is sublimation print on continuous panels, not separate sewn color blocks.
+LOGOS: upper right chest shield logo, upper left chest small “C” mark, center small “T” mark
+GARMENT_TYPE: american football jersey (pro cut)
+BACK_VIEW: back is predominantly solid teal with continuation of the shoulder/sleeve construction and likely no large number graphics, with any graphics limited to minimal team branding near the upper back or yoke.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic tricot / mesh-knit with a fine micro-textured surface, lightweight-to-medium weight, slightly glossy synthetic finish, breathable performance drape, and a structured but flexible hand typical of sublimated football jerseys.
+
+--- GENERATED TEXT ---
+TITLE: American Football Jersey Pro Cut
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

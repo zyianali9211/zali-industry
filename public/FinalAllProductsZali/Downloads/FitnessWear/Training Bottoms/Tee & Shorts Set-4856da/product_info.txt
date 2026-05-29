@@ -1,0 +1,24 @@
+Product: Tee & Shorts Set
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve tee and matching athletic shorts set in dark charcoal/black with a white graphic theme. The tee has a centered chest print and the shorts use a large wraparound side graphic, both on a lightweight sportswear knit with a smooth matte finish and soft drape.
+PANEL_MAP: 2 panels: tee main body dark charcoal/black with light heather-like streaking and white chest/side graphic, shorts main body dark charcoal/black with white logo graphic wrapping around one side from front to back
+LOGOS: "WRESTLING" text/logo on front chest and front left shorts leg, large circular emblem on shirt and shorts side, no highlighted removal marks visible
+GARMENT_TYPE: tee & shorts set
+BACK_VIEW: Back is mostly solid dark charcoal/black with the tee and shorts continuing the same fabric, with no visible front graphics on the center back.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit, lightweight and slightly heathered/mottled surface, matte to low-sheen finish, soft drape with breathable sportswear texture and mild stretch
+
+--- GENERATED TEXT ---
+TITLE: tee & shorts set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

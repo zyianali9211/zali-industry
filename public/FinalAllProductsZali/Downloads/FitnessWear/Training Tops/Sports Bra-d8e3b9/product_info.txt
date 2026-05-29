@@ -1,0 +1,24 @@
+Product: Sports Bra
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Fitted sports bra with a scoop neckline, wide racerback-style shoulder straps, and black binding around the neckline and armholes. The front body is fully sublimated with a bright yellow base and hot pink abstract leopard-like print, with a large centered chest graphic; fabric appears smooth and stretchy with a slight athletic sheen.
+PANEL_MAP: 1 main panel: front body in yellow/pink all-over print; black binding trims neckline, armholes, and hem edge
+LOGOS: centered chest graphic/logo print, no other logos
+GARMENT_TYPE: sports bra
+BACK_VIEW: back is likely a racerback or high-back continuation of the same yellow/pink all-over print with black binding along the edges and no center back seam visible.
+LOGO_COLOR: black
+FABRIC: smooth polyester-spandex performance knit with tight fine-gauge surface, light sheen, body-hugging four-way stretch, and a slick sublimated print finish; medium-light weight with athletic compression drape
+
+--- GENERATED TEXT ---
+TITLE: Sports Bra
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

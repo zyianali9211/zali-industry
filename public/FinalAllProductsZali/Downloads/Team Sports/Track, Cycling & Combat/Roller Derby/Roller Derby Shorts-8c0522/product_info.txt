@@ -1,0 +1,27 @@
+Product: Roller Derby Shorts
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short athletic roller derby shorts with a black elastic waistband and a shimmering multicolor sequined-look outer body over black stretch underlayer. The silhouette is very short and fitted, with a sporty dancewear/skort-like construction and a high-contrast, reflective surface.
+PANEL_MAP: Front body: one continuous panel, iridescent multicolor sequin-print/foil-like visual effect on a single black base panel (surface design only, NO separate color panels), with black inner/undershort visible at leg openings. Back body: one continuous panel, matching iridescent multicolor sequin-print/foil-like visual effect on a single black base panel (surface design only, NO separate color panels), with black inner/undershort visible. Waistband: separate black elastic trim.
+LOGOS: front left lower thigh DERBY patch/logo (visible), no other logos
+GARMENT_TYPE: roller derby shorts
+BACK_VIEW: Back is a continuation of the same shimmering multicolor patterned body on a single continuous panel with black waistband and black inner undershort visible at the leg openings, no center-back seam emphasis visible.
+LOGO_COLOR: black
+FABRIC: Stretch poly/spandex athletic knit with a smooth matte-black base and heavily reflective sequined or sequin-illusion surface treatment, creating a glittering iridescent mosaic look. The fabric appears lightweight, flexible, and body-hugging with a soft drape underneath the decorative sheen.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics
+COLOR_LAYOUT: Black shorts with a dense multicolor sequined/speckled sparkle pattern covering the entire front panel, featuring bright scattered dots and reflective rainbow highlights across the main body.
+TRIM_DETAILS: Wide black elastic waistband, black binding along the leg openings and side edges, with a curved hem and black inner lining visible at the leg openings.
+
+--- GENERATED TEXT ---
+TITLE: Roller Derby Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

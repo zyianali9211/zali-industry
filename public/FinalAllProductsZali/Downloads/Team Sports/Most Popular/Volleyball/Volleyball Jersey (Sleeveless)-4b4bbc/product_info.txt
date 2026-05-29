@@ -1,0 +1,27 @@
+Product: Volleyball Jersey (Sleeveless)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless volleyball jersey with a smooth athletic knit body and contrast ribbed-looking neck trim. The garment is mostly black with red sublimated accent graphics at the sides and a centered front number, giving it a lightweight performance look.
+PANEL_MAP: Front body: one continuous black panel with red sublimation print accents on both side seams and a small red logo on the left chest; large white “25” print centered on chest. Back body: one continuous black panel, likely plain or with matching side accent continuation not visible from front. Sleeves: none, sleeveless construction. Collar: separate red ribbed trim/neck band.
+LOGOS: left chest small red CF logo
+GARMENT_TYPE: sleeveless volleyball jersey
+BACK_VIEW: Back is likely solid black with no visible text or number, with any red side accent print continuing along the side seams.
+LOGO_COLOR: red
+FABRIC: Smooth polyester performance knit, lightweight and matte with a fine jersey surface, slight stretch, and soft drape typical of sublimated sports uniforms; no visible mesh holes, just a clean tight-knit athletic finish.
+TEXT_AND_GRAPHICS: Front chest center: large white “25” number in bold block varsity-style font, with sharp squared corners and even stroke width, occupying the upper-middle chest area. Left and right side panels: no text, but matching red-and-black angular flame/swoosh graphic accents rising from the lower torso toward mid-chest on both sides. No other visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics.
+COLOR_LAYOUT: Black sleeveless body with bright red V-neck collar and red side graphic panels/accents, plus white inner collar lining and white front number.
+TRIM_DETAILS: Sleeveless jersey with a red ribbed V-neck collar, clean armhole bindings in black, and a straight hem with subtle topstitching; no cuffs or buttons visible.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Volleyball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

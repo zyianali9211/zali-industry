@@ -1,0 +1,24 @@
+Product: Running Tights
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Fitted running tights with a high-rise elastic waistband, center front drawcord, and contoured seamed front crotch/leg panels for support. The fabric appears smooth, sleek, and performance-oriented with a close body-hugging stretch and a mostly matte finish.
+PANEL_MAP: 3 panels: main body black, curved center front crotch/hip panel black, narrow inner leg seam panels black; no color blocking
+LOGOS: white Nike swoosh on right thigh, white Nike swoosh near right ankle/calf
+GARMENT_TYPE: running tights
+BACK_VIEW: back is solid black with a high waistband and continuation of the same seam structure, likely with a center back seam and no visible color contrast.
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / nylon-polyester knit with tight fine-gauge surface, matte to low-sheen finish, medium-light weight, high stretch recovery, and a sleek second-skin drape with minimal texture
+
+--- GENERATED TEXT ---
+TITLE: Running Tights
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact, ZALI Industries</title>
+<meta name="description" content="Get in touch with ZALI Industries. Send us your project, request a quote, or order a sample pack." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* CONTACT PATHS */
+  .paths-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 16px; }
+  @media (max-width: 1100px) { .paths-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 540px) { .paths-grid { grid-template-columns: 1fr; } }
+  .path-card {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 32px 28px;
+    transition: all 0.25s;
+    display: flex;
+    flex-direction: column;
+  }
+  .path-card:hover { border-color: var(--ink); transform: translateY(-3px); }
+  .path-icon {
+    width: 56px; height: 56px;
+    background: var(--bg-soft);
+    display: grid; place-items: center;
+    margin-bottom: 22px;
+    color: var(--accent);
+  }
+  .path-card.featured { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .path-card.featured .path-icon { background: rgba(255,255,255,0.08); color: var(--accent); }
+  .path-card.featured h3 { color: var(--bg); }
+  .path-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .path-card h3 {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    letter-spacing: -0.015em;
+  }
+  .path-card h3 em { font-style: italic; color: var(--accent); }
+  .path-card p {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin-bottom: 22px;
+    flex-grow: 1;
+  }
+  .path-card.featured p { color: rgba(250,250,247,0.75); }
+  .path-card .contact-info {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--ink);
+    padding-top: 16px;
+    border-top: 1px solid var(--bg-line);
+    margin-bottom: 16px;
+  }
+  .path-card.featured .contact-info { color: var(--bg); border-color: rgba(255,255,255,0.15); }
+  .path-card .btn-block { margin-top: auto; }
+
+  /* FORM SECTION */
+  .form-section { padding: 100px 0; }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 80px;
+    align-items: start;
+  }
+  @media (max-width: 980px) { .form-grid { grid-template-columns: 1fr; gap: 40px; } }
+  .form-side h2 em { color: var(--accent); }
+  .form-side p { font-size: 15px; line-height: 1.6; color: var(--ink-soft); margin-top: 18px; max-width: 380px; }
+
+  .form-helper-list { margin-top: 32px; padding: 24px; background: var(--bg-soft); }
+  .form-helper-list h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .form-helper-list ul { list-style: none; padding: 0; }
+  .form-helper-list li {
+    padding: 8px 0;
+    font-size: 13px;
+    color: var(--ink-soft);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.45;
+  }
+  .form-helper-list li::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--accent);
+    margin-right: 8px;
+    margin-top: 5px;
+    flex-shrink: 0;
+  }
+
+  /* MAIN FORM */
+  .form-card-main {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 40px 36px;
+  }
+  .form-section-title {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 32px 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--bg-line);
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .form-section-title:first-child { margin-top: 0; }
+  .form-step {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--bg-soft);
+    padding: 4px 10px;
+    margin-right: 4px;
+  }
+  .form-row-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  @media (max-width: 540px) { .form-row-3 { grid-template-columns: 1fr; } }
+
+  .submit-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    padding-top: 28px;
+    border-top: 1px solid var(--bg-line);
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .submit-note {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+  }
+
+  /* OFFICE INFO */
+  .office-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: start; }
+  @media (max-width: 980px) { .office-grid { grid-template-columns: 1fr; gap: 40px; } }
+  .office-info h3 {
+    font-family: var(--display);
+    font-size: clamp(28px, 3.5vw, 40px);
+    font-weight: 400;
+    line-height: 1.05;
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+  }
+  .office-info h3 em { font-style: italic; color: var(--accent); }
+  .office-info p { font-size: 15px; line-height: 1.6; color: var(--ink-soft); margin-bottom: 20px; max-width: 480px; }
+  .office-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 32px;
+  }
+  .office-item {
+    background: var(--bg-soft);
+    padding: 18px 20px;
+    border-left: 3px solid var(--accent);
+  }
+  .office-item .lbl {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 6px;
+  }
+  .office-item .val {
+    font-size: 14px;
+    color: var(--ink);
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .office-item .val a { color: var(--accent); border-bottom: 1px solid var(--accent); }
+
+  .map-placeholder {
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #d6d6c8 0%, #e3e0d4 50%, #c8c4b6 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .map-placeholder::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: 
+      radial-gradient(circle at 50% 50%, rgba(214, 65, 26, 0.15) 0%, transparent 30%),
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 1px, transparent 1px, transparent 30px),
+      repeating-linear-gradient(90deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 1px, transparent 1px, transparent 30px);
+  }
+
+  .map-label {
+    position: absolute;
+    bottom: 24px; left: 24px;
+    background: var(--white);
+    padding: 14px 18px;
+    z-index: 3;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  .map-label-name {
+    font-family: var(--display);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+  }
+  .map-label-coord {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+  }
+
+  /* INFO CALLOUT (free design + shipping) */
+  .info-callout {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .info-callout-block {
+    background: var(--white);
+    border-left: 3px solid var(--accent);
+    padding: 22px 24px;
+  }
+  .info-callout-eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .info-callout-title {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.012em;
+    margin-bottom: 10px;
+    color: var(--ink);
+  }
+  .info-callout-title em { font-style: italic; color: var(--accent); }
+  .info-callout-desc {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
+  .info-callout-desc strong { color: var(--ink); font-weight: 600; }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-grid">
+      <div>
+        <span class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Contact</span></span>
+        <h1>Let's <em>build</em> something.</h1>
+      </div>
+      <div>
+        <p class="lead">Pick the path that fits. Quote requests get the longest reply, but every message gets a real human response within 24 hours, every business day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PATHS -->
+<section class="sec-tight">
+  <div class="container">
+    <div class="paths-grid">
+      <div class="path-card featured">
+        <div class="path-icon" style="font-size: 28px; border-radius: 12px;"><i class="fa-solid fa-file-invoice"></i></div>
+        <div class="path-tag"><span class="tri tri-sm"></span> Recommended</div>
+        <h3>Request a <em>quote</em></h3>
+        <p>The full deal. Send your tech pack, brand info, and what you need made. We come back within 24-48 hours with a digital mockup, fabric recommendations, and a clear quote. The form below.</p>
+        <div class="contact-info"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Reply within 24 hours</div>
+        <a href="#quote-form" class="btn btn-light btn-block">Open Quote Form ↓</a>
+      </div>
+
+      <div class="path-card">
+        <div class="path-icon" style="background: #25D366; color: white; font-size: 32px; border-radius: 12px;"><i class="fa-brands fa-whatsapp"></i></div>
+        <div class="path-tag"><span class="tri tri-sm"></span> Fastest</div>
+        <h3><em>WhatsApp</em> chat</h3>
+        <p>The fastest way to reach us. Drop us a message any time and we'll usually reply same business day. Best for quick questions, follow-ups, and project updates.</p>
+        <div class="contact-info"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> +92 329 4656184</div>
+        <a href="https://wa.me/923294656184" target="_blank" class="btn btn-primary btn-block">Open WhatsApp →</a>
+      </div>
+
+      <div class="path-card">
+        <div class="path-icon" style="background: #007BFF; color: white; font-size: 26px; border-radius: 12px;"><i class="fa-solid fa-envelope"></i></div>
+        <div class="path-tag"><span class="tri tri-sm"></span> Standard</div>
+        <h3>Email <em>directly</em></h3>
+        <p>Best for project files, attachments, and when you want a written record. Replies typically within 24 hours, every business day.</p>
+        <div class="contact-info"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> hello@zaliind.com</div>
+        <a href="mailto:hello@zaliind.com" class="btn btn-outline btn-block">Open Email →</a>
+      </div>
+
+      <div class="path-card">
+        <div class="path-icon" style="background: linear-gradient(135deg, #f58529 0%, #dd2a7b 50%, #8134af 100%); color: white; font-size: 32px; border-radius: 12px;"><i class="fa-brands fa-instagram"></i></div>
+        <div class="path-tag"><span class="tri tri-sm"></span> Visual</div>
+        <h3>Instagram <em>DM</em></h3>
+        <p>Best for browsing factory updates, behind-the-scenes content, and quick visual inquiries. Same-day replies, plus you'll see what we're making in real time.</p>
+        <div class="contact-info"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> @zali_industry</div>
+        <a href="https://www.instagram.com/zali_industry" target="_blank" class="btn btn-primary btn-block">Open Instagram →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section class="form-section sec-soft" id="quote-form">
+  <div class="container">
+    <div class="form-grid">
+      <div class="form-side">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Quote Form</span>
+        <h2 class="sec-h2" style="margin-top: 18px;">Tell us about your <em>project.</em></h2>
+        <p>Fill out the form to get a digital mockup and a clear quote within 48 hours. The more detail you can give, the faster we can come back with something useful.</p>
+
+        <div class="form-helper-list">
+          <h4><span class="tri tri-sm"></span> What helps us most</h4>
+          <ul>
+            <li>A reference image (screenshot, sketch, or competitor photo)</li>
+            <li>Tech pack if you have one (PDF, AI, PSD all fine)</li>
+            <li>Approximate quantity and your target launch date</li>
+            <li>Any fabric, weight, or print method preferences</li>
+            <li>Your shipping country (affects duties and timing)</li>
+            <li>Sample requirement before bulk: yes (recommended) or no</li>
+            <li>If you have your own size chart, attach it, we'll work to your spec, not ours</li>
+          </ul>
+        </div>
+      
+        <div class="info-callout">
+          <div class="info-callout-block">
+            <div class="info-callout-eyebrow"><span class="tri tri-sm"></span> Free Service</div>
+            <h4 class="info-callout-title">Design &amp; mockups, <em>always free.</em></h4>
+            <p class="info-callout-desc">Digital mockups for every quote, no commitment, no design fee, no upfront cost. Free for brands, suppliers, teams, and first-time customers alike. Send us what you have and we'll send back a full digital mockup within 48 hours.</p>
+          </div>
+          <div class="info-callout-block">
+            <div class="info-callout-eyebrow"><span class="tri tri-sm"></span> Shipping Terms</div>
+            <h4 class="info-callout-title">We ship <em>globally.</em></h4>
+            <p class="info-callout-desc">We support multiple international shipping terms, <strong>DDU, DDP, CNF, and FOB</strong>, so brands, suppliers, and distributors can manage imports in whatever way works best for them. Default is DDP (duties prepaid, door-to-door) via DHL, FedEx, or UPS; sea freight available for orders over 1,000 pieces.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card-main">
+
+        <h3 class="form-section-title"><span class="form-step">Step 01</span> About You</h3>
+
+        <div class="field-row">
+          <div class="field"><label>Full Name</label><input type="text" placeholder="First and last name"></div>
+          <div class="field"><label>Brand / Company <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="Your brand name"></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>Email</label><input type="email" placeholder="you@brand.com"></div>
+          <div class="field"><label>WhatsApp / Phone <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="tel" placeholder="+1 (555) 555-5555"></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>Country / Shipping To</label><input type="text" placeholder="USA, UK, EU, AUS, etc."></div>
+          <div class="field"><label>Website / Instagram <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="@yourhandle or URL"></div>
+        </div>
+
+        <h3 class="form-section-title"><span class="form-step">Step 02</span> Project Type</h3>
+
+        <div class="field">
+          <label>What category?</label>
+          <select>
+            <option>Select category</option>
+            <option>Fightwear · MMA · BJJ</option>
+            <option>Surfwear · Boardshorts · Rashguards</option>
+            <option>Fitnesswear · Compression · Gym</option>
+            <option>Team Uniforms · Soccer · Basketball</option>
+            <option>Casual Wear · Tees · Hoodies</option>
+            <option>Women's Activewear · Leggings · Sets</option>
+            <option>Outerwear · Jackets</option>
+            <option>Running</option>
+            <option>Mixed / Multiple Categories</option>
+            <option>Custom (will describe below)</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Approximate Quantity <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;">
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">25-50</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">50-100</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">100-500</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">500+</div></label>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field"><label>Target Launch / Delivery <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="e.g. Mid-March 2026"></div>
+          <div class="field"><label>Sample Before Bulk? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><select><option>Yes (recommended)</option><option>No, go straight to bulk</option><option>Not sure, advise me</option></select></div>
+        </div>
+
+        <h3 class="form-section-title"><span class="form-step">Step 03</span> Project Details</h3>
+
+        <div class="field">
+          <label>Project Description <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
+          <textarea rows="5" placeholder="Tell us about your project. What are you making? What's the brand context? Any specific construction details, fabric preferences, or print methods you have in mind?"></textarea>
+          <div class="field-help">The more context you give, the better the first reply.</div>
+        </div>
+
+        <div class="field">
+          <label>Upload Tech Pack, Sketches, or References <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
+          <div class="file-drop">
+            <div class="file-drop-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15 V19 a2 2 0 0 1 -2 2 H5 a2 2 0 0 1 -2 -2 V15"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
+            <div class="file-drop-text"><strong>Click to upload</strong> or drag and drop</div>
+            <div class="file-drop-help">PDF · AI · PSD · PNG · JPG · ZIP · up to 50MB</div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>How did you hear about us? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
+          <select>
+            <option>Select one (optional)</option>
+            <option>Google Search</option>
+            <option>Instagram</option>
+            <option>Referral from existing client</option>
+            <option>LinkedIn</option>
+            <option>Trade show</option>
+            <option>Cold outreach from us</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="submit-row">
+          <span class="submit-note"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Reply within 24-48 hours</span>
+          <button class="btn btn-primary btn-lg">Submit Quote Request <span class="arrow">→</span></button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFICE -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Find Us</span>
+        <h2 class="sec-h2">The <em>factory.</em></h2>
+        <p class="sec-desc">Sialkot, Pakistan. Visits welcome with prior arrangement, we love showing brands around.</p>
+      </div>
+    </div>
+    <div class="office-grid">
+      <div class="office-info">
+        <h3>The place behind the <em>product.</em></h3>
+        <p>Our facility is in Sialkot's industrial district, alongside the city's major fabric mills, trim suppliers, and specialty workshops. If you're visiting Pakistan and want to see the operation, we'll send a driver from Lahore or Islamabad airport.</p>
+        <div class="office-details">
+          <div class="office-item">
+            <div class="lbl">Address</div>
+            <div class="val">9 Khan Mahal Rd<br>Rangpura<br>Sialkot, 51310 · Pakistan</div>
+          </div>
+          <div class="office-item">
+            <div class="lbl">Hours</div>
+            <div class="val">Mon-Sat · 9:00 to 18:00<br>(GMT+5 / PKT)</div>
+          </div>
+          <div class="office-item">
+            <div class="lbl">WhatsApp</div>
+            <div class="val"><a href="https://wa.me/923294656184">+92 329 4656184</a></div>
+          </div>
+          <div class="office-item">
+            <div class="lbl">Email</div>
+            <div class="val"><a href="mailto:hello@zaliind.com">hello@zaliind.com</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="map-placeholder" style="position: relative;">
+        <iframe 
+          src="https://maps.google.com/maps?q=32.4965,74.555861&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+          width="100%" 
+          height="100%" 
+          style="position: absolute; inset: 0; border:0; z-index: 0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <!-- Overlay gradient for text readability without blocking interaction -->
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 40%); z-index: 1; pointer-events: none;"></div>
+        <div class="map-label" style="z-index: 2; pointer-events: none;">
+          <div class="map-label-name">ZALI Industries</div>
+          <div class="map-label-coord">32°29'47.4"N · 74°33'21.1"E</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM CTA -->
+<section class="sec sec-dark">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center;">
+      <div>
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Not ready for a quote?</span>
+        <h2 class="sec-h2">Start with a <em>sample pack.</em></h2>
+        <p style="margin-top: 24px; max-width: 540px; line-height: 1.6; color: rgba(250,250,247,0.75);">Touch the fabric, see the print quality, judge the construction. Cost is fully refunded against your first bulk order so it's effectively zero risk.</p>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="sample-pack.html" class="btn btn-light">Order Sample Pack <span class="arrow">→</span></a>
+        <a href="faq.html" class="btn btn-outline" style="color:var(--bg); border-color: rgba(255,255,255,0.3);">Read the FAQ</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+Product: Performance Polo subliamtion tight fit
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Slim-fit short sleeve performance polo with a white pointed collar, short button placket, and all-over sublimated brushstroke color graphics across the chest and shoulders. The body appears lightweight and athletic with a fine textured knit, designed to drape close to the body while staying breathable.
+PANEL_MAP: 4 panels: white main body/base, green brushstroke upper left chest/shoulder panel, red brushstroke right chest and lower front panel, white collar/placket
+LOGOS: none
+GARMENT_TYPE: performance polo
+BACK_VIEW: Back is mostly white with continued abstract sublimation styling in lighter green/red brushstroke accents, with a clean uninterrupted center back and no visible yoke seam.
+LOGO_COLOR: black
+FABRIC: smooth polyester performance pique or micro-mesh knit with a fine waffle-like texture, lightweight and breathable, matte to low-sheen finish, soft drape with slight stretch and a sporty, moisture-wicking look
+
+--- GENERATED TEXT ---
+TITLE: Performance Polo
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

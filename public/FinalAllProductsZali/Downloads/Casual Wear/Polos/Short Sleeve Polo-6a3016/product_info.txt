@@ -1,0 +1,24 @@
+Product: Short Sleeve Polo
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve polo in a fitted athletic cut with a 3-button placket, structured rib-knit collar, and contrast sleeve cuffs. The body uses a smooth knit performance fabric with a pink-to-blue vertical gradient and a slightly glossy, synthetic sportswear finish.
+PANEL_MAP: 4 panels: main front body gradient pink to blue, back body continuation of same gradient, blue rib-knit collar with white/pink edge stripe, blue sleeve cuffs with white/pink edge stripe
+LOGOS: left chest script logo, left chest number 18, right sleeve number 16, left sleeve text logo, lower front hem mockup text, collar interior neck tape/branding
+GARMENT_TYPE: short sleeve polo
+BACK_VIEW: back is plain gradient body with no chest graphics, continuing the same pink-to-blue fade and solid blue collar/cuffs.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance pique/knit with a fine, even surface and low-to-moderate sheen, lightweight drape, and clean athletic hand feel; appears slightly textured rather than fully flat, with breathable sports polo construction and a subtle elastic stretch.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Polo
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

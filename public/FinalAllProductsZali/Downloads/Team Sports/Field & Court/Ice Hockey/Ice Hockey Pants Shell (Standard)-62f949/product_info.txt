@@ -1,0 +1,27 @@
+Product: Ice Hockey Pants Shell (Standard)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Ice hockey pants shell with a loose, protective outer-shell construction, elasticized waist, and integrated black belt/webbing closure with buckle. Main body is a matte woven synthetic shell with a slightly slick surface and durable, sportswear-weight drape; the crotch/gusset area uses a different ventilated textile for mobility and airflow.
+PANEL_MAP: Front body: one continuous dark green shell panel with subtle stitched shaping lines; black mesh-like gusset/crotch reinforcement panel at center front is a separate functional insert; white "BAUER" logo is printed on the front right leg (PRINT only, no panel break). Back body: one continuous dark green shell panel with matching construction and no visible color-block seam changes. Waist: elasticized waistband with integrated black belt/webbing and buckle.
+LOGOS: front lower right leg BAUER wordmark; small inner waist label at top center
+GARMENT_TYPE: ice hockey pants shell
+BACK_VIEW: Back is plain dark green with the same continuous shell construction and no large graphics, with only standard seam shaping and waistband/belt details visible.
+LOGO_COLOR: white
+FABRIC: durable matte woven synthetic shell, likely polyester or nylon, with a smooth slightly slick outer face, medium-heavy protective weight, subtle diagonal seam lines, and a structured drape; contrasting center gusset appears as breathable mesh/vented knit with a more open texture.
+TEXT_AND_GRAPHICS: no visible text, numbers, words, wordmarks, emblems, badges, crests, graphics, or printed designs
+COLOR_LAYOUT: Dark forest green shorts with black waistband hardware and black mesh inner panels at the crotch/gusset area.
+TRIM_DETAILS: Elasticated waistband with a black webbing belt and matte black side-release buckle centered at the front, straight stitched hems, and no visible cuffs or decorative trim.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Pants Shell
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

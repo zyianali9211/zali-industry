@@ -1,0 +1,27 @@
+Product: Rugby Kit
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve rugby kit made from smooth performance knit fabric with a matte-to-slightly-sheen finish and medium-weight drape. Single-panel front and back body construction with sublimated graphic blocking across the torso and separate solid sleeves and collar trim.
+PANEL_MAP: Front body: one continuous panel, black base with sublimated yellow, white, and gray curved/angled graphic bands across the chest and upper torso; NO seams between color areas. Back body: one continuous panel, black base with gray side print continuation and no visible text. Sleeves: separate short sleeves, solid yellow. Collar: separate ribbed trim, yellow with black inner edge.
+LOGOS: none
+GARMENT_TYPE: short sleeve rugby kit
+BACK_VIEW: Back is mostly solid black with gray printed side accents continuing down the flanks, no chest graphics or text, and plain short sleeves in yellow.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit, tightly woven/knit surface with a clean matte finish and slight synthetic sheen, medium-light athletic weight, soft drape, and mild stretch typical of sublimated sportswear.
+TEXT_AND_GRAPHICS: Front jersey: no visible text, numbers, wordmarks, emblems, badges, crests, or printed typography; only abstract graphic striping consisting of one thick yellow swoosh band sweeping from the left chest across the midsection to the right shoulder area, one thick white swoosh band starting at the lower left torso and angling upward toward the right-center chest, and multiple narrower gray swoosh bands on the right chest and lower right torso, all in smooth curved shapes with no outlines or lettering. Shorts: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only matching side panel striping with a yellow vertical-curved stripe on each outer thigh and adjacent gray accent stripe.
+COLOR_LAYOUT: Black main body and shorts with bright yellow short sleeves and yellow collar trim, plus sweeping white and gray graphic bands across the jersey front and matching yellow/gray side stripes on the shorts.
+TRIM_DETAILS: Crew neck collar with yellow ribbed trim and a white inner neck facing; short sleeves with plain hems; straight hem on the jersey; shorts with an elastic waistband and simple stitched leg openings.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Rugby Kit
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

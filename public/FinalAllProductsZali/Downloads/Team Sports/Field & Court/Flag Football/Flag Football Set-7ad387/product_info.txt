@@ -1,0 +1,27 @@
+Product: Flag Football Set
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless flag football uniform set with a tight athletic fit, featuring a sublimated all-over camo-style graphic on smooth performance knit fabric. The top and shorts use single continuous body panels with printed color variation; black side/secondary look is a contrasting print on one panel, not separate sewn body sections.
+PANEL_MAP: Front body: one continuous panel, teal base with wavy camo-style sublimation print in darker teal/gray, plus printed mascot, wordmark, and number; black contrast appearance is print on the same continuous panel, not separate color-block seams. Back body: one continuous panel, matching teal camo sublimation print, plain back with no major graphics visible. Sleeves: separate pieces only if used for accessories/gloves; sleeveless jersey body has no sleeves. Collar: separate black/teal bound neckline trim.
+LOGOS: small white infinity-style logo on upper chest and on shorts leg, plus matching small logo on glove/sleeve area
+GARMENT_TYPE: sleeveless flag football jersey and shorts set
+BACK_VIEW: Back is a matching teal sublimated camo panel with a plain centered back and no large number or wordmark visible, maintaining the same smooth athletic finish.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit / athletic tricot with a lightly slick surface, medium-light weight, soft drape, and subtle sheen; looks breathable and moisture-wicking with a printed sublimation finish rather than textured mesh.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed logos; only all-over teal/blue camouflage-style abstract wavy pattern on the jersey, shorts, sleeves, socks, gloves, and helmet, with black accent panels and trim.
+COLOR_LAYOUT: Teal and blue camouflage body with black trim and side panels, plus black details on the helmet and gloves; the garment set uses a coordinated teal/black color scheme throughout.
+TRIM_DETAILS: Sleeveless jersey with black V-neck collar and black armhole binding, matching shorts with elastic waistband and black side panels, and socks/gloves/helmet finished with black accents and edges.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Flag Football Jersey and Shorts Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

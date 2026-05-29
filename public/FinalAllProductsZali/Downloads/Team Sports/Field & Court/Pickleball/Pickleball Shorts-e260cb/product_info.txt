@@ -1,0 +1,27 @@
+Product: Pickleball Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Lightweight athletic pickleball shorts with a smooth woven polyester shell, relaxed fit, elastic waistband, and internal drawcord. The body is a single continuous front panel and single continuous back panel with no visible contrast cut-and-sew body panels; small printed/embroidered-style accents appear near the hem.
+PANEL_MAP: Front body: one continuous light blue panel, plain overall with a small white emblem near lower right leg and tiny white X marks near the side hem; these are surface graphics/markings, not separate panels. Back body: one continuous light blue panel, plain overall with continuation of the same fabric. Waistband: separate elasticized waistband in matching light blue. Drawcord: black braided cord with white repeating text print. No color-block construction panels.
+LOGOS: lower right leg white circular emblem/monogram, no other obvious brand logos
+GARMENT_TYPE: pickleball shorts
+BACK_VIEW: Back is solid light blue with the same smooth finish and elastic waistband, plain center back with no large graphics or seams beyond standard shorts construction.
+LOGO_COLOR: white
+FABRIC: Smooth woven polyester athletic shell, lightweight and slightly crisp with a soft matte-to-low-sheen surface. The fabric shows gentle drape, subtle wrinkling, and a breathable sport-short hand rather than knit stretch.
+TEXT_AND_GRAPHICS: Center waistband: two black drawcords with repeated small white uppercase word “PICKLEBALL” printed vertically along each cord, in a narrow sans-serif style, evenly spaced and scaled to fit the cord width; lower left hem: small white crossed “X” mark motif, simple thin-line icon, about thumb-size relative to the short; lower right hem: small white circular badge/logo containing multiple pale blue dots arranged like a perforated pickleball, clean flat graphic, about thumb-size relative to the short. No other text or graphics.
+COLOR_LAYOUT: Light sky-blue shorts body with matching light sky-blue elastic waistband and black drawcords; white graphics at the lower hems with pale blue dotted detail in the right-side circular emblem.
+TRIM_DETAILS: Wide elastic waistband with gathered/ruched top edge, straight hemmed leg openings with subtle double-stitched hems, and no visible cuffs or buttons.
+
+--- GENERATED TEXT ---
+TITLE: Pickleball Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

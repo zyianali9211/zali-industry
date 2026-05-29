@@ -1,0 +1,24 @@
+Product: Henley T-Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve athletic Henley T-shirt with a slim, clean construction, crew-like rounded collar with a short button placket, and contrast trim at the collar and sleeve cuffs. The body appears lightweight and smooth with a soft drape, suitable for activewear.
+PANEL_MAP: 4 panels: main body white, collar/placket facing black, sleeve cuff trims black on both sleeves, small left chest logo in gray
+LOGOS: small left chest logo, no other logos
+GARMENT_TYPE: short sleeve Henley T-shirt
+BACK_VIEW: back is plain white with no placket, no visible logo, and black trim only continuing at the sleeve cuffs and collar edge.
+LOGO_COLOR: black
+FABRIC: smooth polyester or polyester-spandex jersey with a fine knit, matte-to-slightly soft finish, lightweight stretch, and a clean athletic drape; surface looks tight and even with no visible texture beyond subtle knit smoothness
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Henley T-Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

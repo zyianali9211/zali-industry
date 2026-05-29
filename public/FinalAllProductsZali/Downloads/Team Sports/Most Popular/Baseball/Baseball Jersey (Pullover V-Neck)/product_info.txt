@@ -1,0 +1,24 @@
+Product: Baseball Jersey (Pullover V-Neck)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Lightweight athletic polyester jersey with a smooth matte-to-slightly-satin surface, subtle knit texture, and soft drape. Pullover V-neck baseball jersey construction with separate short sleeves and ribbed-looking neck trim; all graphic/color variation is sublimation print on continuous body panels.
+PANEL_MAP: Front body: one continuous panel, gray base with red dotted shoulder print blocks and navy center logo/number print; no seam between color areas. Back body: one continuous panel, gray base with full upper dotted print field and printed number/name, lower back solid gray. Sleeves: separate panels, navy with slight sheen. Collar: separate dark navy V-neck trim.
+LOGOS: front chest "Line Drive" logo, front right number "99", back neck "PLAYER", back number "99", small lower right hem logo
+GARMENT_TYPE: baseball jersey (pullover v-neck)
+BACK_VIEW: back is gray with a large printed upper dotted pattern field, navy sleeves, printed "PLAYER" and large "99" centered, with a plain lower gray back below the print area.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic jersey knit with fine micro-texture, lightweight drape, low sheen, breathable sport fabric feel, and soft printed surface typical of sublimation on performance wear
+
+--- GENERATED TEXT ---
+TITLE: Baseball Jersey Pullover V-Neck
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

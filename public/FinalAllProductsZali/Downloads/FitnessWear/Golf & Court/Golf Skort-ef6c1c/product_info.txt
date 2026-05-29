@@ -1,0 +1,24 @@
+Product: Golf Skort
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: A fitted golf skort with a wide solid teal waistband and a straight, slightly flared outer skirt panel in a multicolor geometric print. The fabric appears lightweight, smooth, and athletic with a soft matte finish and moderate stretch, suitable for golf wear.
+PANEL_MAP: 2 panels: main skirt body in multicolor teal/pink geometric print, wide solid teal waistband at top
+LOGOS: none
+GARMENT_TYPE: golf skort
+BACK_VIEW: back is solid continuation of the printed skirt with the same teal waistband and no visible yoke or extra contrast panels
+LOGO_COLOR: white
+FABRIC: smooth polyester/spandex performance knit with a fine, tightly knit surface, lightweight drape, slight matte finish, and visible stretch for active wear
+
+--- GENERATED TEXT ---
+TITLE: golf skort
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

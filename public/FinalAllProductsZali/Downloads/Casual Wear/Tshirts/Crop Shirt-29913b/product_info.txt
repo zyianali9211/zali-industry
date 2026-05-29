@@ -1,0 +1,24 @@
+Product: Crop Shirt 
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Loose boxy crop shirt with dropped shoulders, short wide sleeves, and a straight hem that sits above the waist. Construction appears minimal and clean with simple crew neckline and visible double-needle stitching at the neck, sleeves, and hem.
+PANEL_MAP: 1 panel: all-over solid lavender body with no color blocking or inserts
+LOGOS: none
+GARMENT_TYPE: crop shirt
+BACK_VIEW: back is plain solid lavender with a center back seam and the same straight cropped hem, no additional panels or detailing
+LOGO_COLOR: white
+FABRIC: smooth lightweight cotton jersey or cotton-modal jersey with a soft matte surface, fine knit appearance, fluid drape, and slight natural wrinkles; thin, breathable, non-shiny, relaxed handfeel
+
+--- GENERATED TEXT ---
+TITLE: Crop Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

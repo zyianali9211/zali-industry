@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Print Methods, ZALI Industries</title>
+<meta name="description" content="Five print methods, all under one roof: dye sublimation, screen print, DTF, embroidery, and heat transfer. Detailed guide to which method fits your project." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* FABRICS GRID */
+  .lib-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  @media (max-width: 980px) { .lib-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 540px) { .lib-grid { grid-template-columns: 1fr; } }
+
+  .lib-fab {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    transition: all 0.25s;
+    overflow: hidden;
+  }
+  .lib-fab:hover { border-color: var(--ink); }
+  .lib-swatch {
+    aspect-ratio: 16/10;
+    position: relative;
+    overflow: hidden;
+  }
+  .lib-swatch::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: 
+      repeating-linear-gradient(45deg, transparent 0 6px, rgba(255,255,255,0.04) 6px 12px),
+      radial-gradient(circle at 30% 30%, rgba(255,255,255,0.1) 0%, transparent 50%);
+  }
+  .lib-swatch.s1 { background: linear-gradient(135deg, #1a1a1a, #2a2a2a); }
+  .lib-swatch.s2 { background: linear-gradient(135deg, #14536b, #0a3340); }
+  .lib-swatch.s3 { background: linear-gradient(135deg, #d6411a, #a8311a); }
+  .lib-swatch.s4 { background: linear-gradient(135deg, #4a4a4a, #6a6a6a); }
+  .lib-swatch.s5 { background: linear-gradient(135deg, #2a4a2a, #4a6a4a); }
+  .lib-swatch.s6 { background: linear-gradient(135deg, #6a4a2a, #4a3a1a); }
+  .lib-swatch.s7 { background: linear-gradient(135deg, #4a2a4a, #6a3a6a); }
+  .lib-swatch.s8 { background: linear-gradient(135deg, #2a4a4a, #1a3a3a); }
+  .lib-swatch.s9 { background: linear-gradient(135deg, #d4a056, #a87a36); }
+  .lib-swatch-tag {
+    position: absolute; top: 14px; left: 14px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    color: var(--bg);
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    z-index: 2;
+  }
+  .lib-info { padding: 22px 24px 24px; }
+  .lib-name {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .lib-spec {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .lib-desc {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+  .lib-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 16px;
+    border-top: 1px solid var(--bg-line);
+  }
+  .lib-meta-item .lbl {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 2px;
+  }
+  .lib-meta-item .val {
+    font-size: 12px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* FAB CATEGORY HEAD */
+  .fab-cat-head {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .fab-cat-head h3 {
+    font-family: var(--display);
+    font-size: clamp(28px, 3.5vw, 40px);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .fab-cat-head h3 em { font-style: italic; color: var(--accent); }
+  .fab-cat-head p {
+    margin-top: 8px;
+    color: var(--ink-mute);
+    font-size: 14px;
+    max-width: 640px;
+  }
+  .fab-cat { margin-bottom: 80px; }
+  .fab-cat:last-child { margin-bottom: 0; }
+</style>
+
+<style>
+  /* METHOD SECTION */
+  .pm {
+    padding: 90px 0;
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .pm:nth-child(even) { background: var(--bg-soft); }
+  .pm-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .pm:nth-child(even) .pm-grid { grid-template-columns: 1fr 1fr; direction: rtl; }
+  .pm:nth-child(even) .pm-grid > * { direction: ltr; }
+  @media (max-width: 980px) {
+    .pm-grid, .pm:nth-child(even) .pm-grid { grid-template-columns: 1fr; gap: 40px; direction: ltr; }
+    .pm { padding: 60px 0; }
+  }
+  .pm-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .pm-popular {
+    background: var(--accent);
+    color: var(--white);
+    padding: 4px 9px;
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-left: 8px;
+  }
+  .pm h2 {
+    font-family: var(--display);
+    font-size: clamp(36px, 5vw, 60px);
+    font-weight: 400;
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    margin-bottom: 22px;
+  }
+  .pm h2 em { font-style: italic; color: var(--accent); }
+  .pm-lead {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin-bottom: 28px;
+    max-width: 560px;
+  }
+  .pm-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .pm-stat {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 18px 20px;
+  }
+  .pm:nth-child(even) .pm-stat { background: var(--bg); }
+  .pm-stat-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 6px;
+  }
+  .pm-stat-value {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .pm-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px;
+  }
+  .pm-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--bg-line);
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  .pm:nth-child(even) .pm-list li { border-color: rgba(0,0,0,0.07); }
+  .pm-list li:last-child { border-bottom: none; }
+  .pm-list .check {
+    width: 18px; height: 18px;
+    background: var(--accent);
+    color: var(--white);
+    display: grid; place-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  /* VISUAL SIDE */
+  .pm-visual {
+    aspect-ratio: 4/5;
+    background: var(--ink);
+    position: relative;
+    overflow: hidden;
+  }
+  .pm-visual.v1 { background: linear-gradient(135deg, #d6411a 0%, #a8311a 60%, #1a1a1a 100%); }
+  .pm-visual.v2 { background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 60%, #0a0a0a 100%); }
+  .pm-visual.v3 { background: linear-gradient(135deg, #14536b 0%, #0a3340 60%, #1a2530 100%); }
+  .pm-visual.v4 { background: linear-gradient(135deg, #6a4a2a 0%, #4a3a1a 60%, #2a2a1a 100%); }
+  .pm-visual.v5 { background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 60%, #0a0a0a 100%); }
+  .pm-visual::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: 
+      radial-gradient(circle at 70% 30%, rgba(255,255,255,0.08) 0%, transparent 50%),
+      radial-gradient(circle at 20% 80%, rgba(0,0,0,0.3) 0%, transparent 50%);
+  }
+  .pm-visual-overlay {
+    position: absolute; inset: 0; z-index: 2;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--bg);
+  }
+  .pm-visual-tag {
+    align-self: flex-start;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 7px 14px 7px 10px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pm-visual-caption {
+    font-family: var(--display);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.05;
+    max-width: 320px;
+    letter-spacing: -0.015em;
+  }
+  .pm-visual-caption em { color: var(--sand); font-style: italic; }
+  .pm-visual-caption .small {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 14px;
+    opacity: 0.7;
+    color: var(--bg);
+    font-style: normal;
+  }
+  .pm-visual .corner-tri {
+    position: absolute;
+    bottom: 0; right: 0;
+    z-index: 3;
+    width: 0; height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid var(--accent);
+  }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+
+
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-grid">
+      <div>
+        <span class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Print Methods</span></span>
+        <h1>Five methods, <em>one roof.</em></h1>
+      </div>
+      <div>
+        <p class="lead">No outsourcing. No hand-offs to a third-party printer that never picks up the phone. Every print method below happens in our Sialkot facility, with our own equipment, run by people who've been printing for 10+ years.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD 01 -->
+<section class="pm" id="sublimation">
+  <div class="container">
+    <div class="pm-grid">
+      <div>
+        <div class="pm-num"><span class="tri tri-sm"></span> METHOD 01 <span class="pm-popular"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> MOST POPULAR</span></div>
+        <h2>Dye <em>Sublimation</em></h2>
+        <p class="pm-lead">Heat-pressed at 200°C, sublimation ink turns into gas and bonds with polyester at the molecular level. The result: full-coverage prints that will not crack, fade, or peel for the life of the garment.</p>
+        <div class="pm-stats">
+          <div class="pm-stat"><div class="pm-stat-label">Best For</div><div class="pm-stat-value">All-Over Prints</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Fabric</div><div class="pm-stat-value">Poly · Lycra</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Min Order</div><div class="pm-stat-value">50 pcs</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Color Range</div><div class="pm-stat-value">CMYK Full</div></div>
+        </div>
+        <ul class="pm-list">
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Edge-to-edge, panel-to-panel printing with no print line</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Zero hand-feel, the print becomes part of the fabric</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Vivid color saturation, photo-realistic gradients</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Wash-tested to 50+ cycles with no fade</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Only works on white or light polyester base fabric</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Quote a Sublimation Job <span class="arrow">→</span></a>
+      </div>
+      <div class="pm-visual v1">
+        <video src="SiteData/Sublimation%20Process%20Video_opt.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"></video>
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%); z-index: 1; pointer-events: none;"></div>
+        <div class="pm-visual-overlay">
+          <div style="display:flex; justify-content:space-between;">
+            <span class="pm-visual-tag"><span class="tri tri-sm" style="margin-right:0;"></span> Plate 04 · 200°C</span>
+            <span style="font-family:var(--mono); font-size:10px; letter-spacing:0.12em; text-transform:uppercase; opacity:0.7;">Bay 02</span>
+          </div>
+          <div>
+            <div class="pm-visual-caption"><em>Where ink</em><br>becomes fabric.<span class="small">Sublimation Press · Active</span></div>
+          </div>
+          <div class="corner-tri"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD 02 -->
+<section class="pm" id="screen-print">
+  <div class="container">
+    <div class="pm-grid">
+      <div>
+        <div class="pm-num"><span class="tri tri-sm"></span> METHOD 02</div>
+        <h2>Screen <em>Print</em></h2>
+        <p class="pm-lead">The classic. Plastisol and water-based inks pushed through hand-prepped screens. Built for cotton tees, hoodies, and bold graphic work where opacity and tactile feel matter.</p>
+        <div class="pm-stats">
+          <div class="pm-stat"><div class="pm-stat-label">Best For</div><div class="pm-stat-value">Cotton Tees</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Fabric</div><div class="pm-stat-value">Cotton · Blends</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Min Order</div><div class="pm-stat-value">100 pcs</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Colors</div><div class="pm-stat-value">Up to 8 per design</div></div>
+        </div>
+        <ul class="pm-list">
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> High-opacity prints on dark fabrics, no underbase issues</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Soft-hand discharge available for premium fashion finish</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Plastisol or water-based, eco-certified inks on request</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Set-up cost amortizes well at higher quantities</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Best for solid graphics, logos, and limited color counts</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Quote a Screen Print Job <span class="arrow">→</span></a>
+      </div>
+      <div class="pm-visual v2">
+        <video src="SiteData/Screen%20Print%20Process%20Video_opt.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"></video>
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%); z-index: 1; pointer-events: none;"></div>
+        <div class="pm-visual-overlay">
+          <div style="display:flex; justify-content:space-between;">
+            <span class="pm-visual-tag"><span class="tri tri-sm" style="margin-right:0;"></span> Manual Carousel</span>
+            <span style="font-family:var(--mono); font-size:10px; letter-spacing:0.12em; text-transform:uppercase; opacity:0.7;">Bay 03</span>
+          </div>
+          <div>
+            <div class="pm-visual-caption"><em>Hand-prepped</em><br>screens, hand-pulled inks.<span class="small">Screen Print Floor · 8-Color</span></div>
+          </div>
+          <div class="corner-tri"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD 03 -->
+<section class="pm" id="dtf">
+  <div class="container">
+    <div class="pm-grid">
+      <div>
+        <div class="pm-num"><span class="tri tri-sm"></span> METHOD 03</div>
+        <h2>DTF <em>Print</em></h2>
+        <p class="pm-lead">Direct-to-film. The newest, most flexible print method in our shop. Multicolor designs printed on transfer film and heat-pressed onto any fabric. No screen setup, no MOQ on the print itself.</p>
+        <div class="pm-stats">
+          <div class="pm-stat"><div class="pm-stat-label">Best For</div><div class="pm-stat-value">Short Runs</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Fabric</div><div class="pm-stat-value">Anything</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Min Order</div><div class="pm-stat-value">25 pcs</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Colors</div><div class="pm-stat-value">Unlimited</div></div>
+        </div>
+        <ul class="pm-list">
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Photo-realistic detail, gradients, fine line work</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> No set-up fee, no screen costs, no minimums per design</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Works on cotton, poly blends, fleece, hoodies, and caps</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Best fit for short runs and SKU variations within one order</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Slight hand-feel, less ideal for full-coverage all-over print</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Quote a DTF Job <span class="arrow">→</span></a>
+      </div>
+      <div class="pm-visual v3">
+        <video src="SiteData/DTF%20process%20Video_opt.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"></video>
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%); z-index: 1; pointer-events: none;"></div>
+        <div class="pm-visual-overlay">
+          <div style="display:flex; justify-content:space-between;">
+            <span class="pm-visual-tag"><span class="tri tri-sm" style="margin-right:0;"></span> Film Transfer</span>
+            <span style="font-family:var(--mono); font-size:10px; letter-spacing:0.12em; text-transform:uppercase; opacity:0.7;">Bay 04</span>
+          </div>
+          <div>
+            <div class="pm-visual-caption"><em>Photo-grade</em><br>detail, on any fabric.<span class="small">DTF Station · Multi-color</span></div>
+          </div>
+          <div class="corner-tri"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD 04 -->
+<section class="pm" id="embroidery">
+  <div class="container">
+    <div class="pm-grid">
+      <div>
+        <div class="pm-num"><span class="tri tri-sm"></span> METHOD 04</div>
+        <h2><em>Embroidery</em></h2>
+        <p class="pm-lead">Multi-head computerized embroidery. Up to 12-color flat or 3D puff embroidery. The premium hand-feel and dimensional finish that makes a cap or polo feel like a $100 piece even at $25 cost.</p>
+        <div class="pm-stats">
+          <div class="pm-stat"><div class="pm-stat-label">Best For</div><div class="pm-stat-value">Caps · Polos</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Fabric</div><div class="pm-stat-value">Anything Stable</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Min Order</div><div class="pm-stat-value">25 pcs</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Colors</div><div class="pm-stat-value">Up to 12 thread</div></div>
+        </div>
+        <ul class="pm-list">
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Flat embroidery, 3D puff, and mixed-technique pieces</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Premium thread for color match and shine consistency</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Optional applique with embroidered borders for varsity-style pieces</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Digitization included free if you supply vector artwork</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Best on caps, polos, jackets, hoodie chest hits, and patches</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Quote an Embroidery Job <span class="arrow">→</span></a>
+      </div>
+      <div class="pm-visual v4">
+        <video src="SiteData/embroidery%20Proceess%20Video_opt.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"></video>
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%); z-index: 1; pointer-events: none;"></div>
+        <div class="pm-visual-overlay">
+          <div style="display:flex; justify-content:space-between;">
+            <span class="pm-visual-tag"><span class="tri tri-sm" style="margin-right:0;"></span> 12-Head Auto</span>
+            <span style="font-family:var(--mono); font-size:10px; letter-spacing:0.12em; text-transform:uppercase; opacity:0.7;">Bay 05</span>
+          </div>
+          <div>
+            <div class="pm-visual-caption"><em>The premium</em><br>hand-feel.<span class="small">12-Head Embroidery Bay</span></div>
+          </div>
+          <div class="corner-tri"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD 05 -->
+<section class="pm" id="heat-transfer">
+  <div class="container">
+    <div class="pm-grid">
+      <div>
+        <div class="pm-num"><span class="tri tri-sm"></span> METHOD 05</div>
+        <h2>Heat <em>Transfer</em></h2>
+        <p class="pm-lead">Cut vinyl and silicone transfers heat-pressed onto finished garments. The go-to method for player names, jersey numbers, and durable team kit graphics.</p>
+        <div class="pm-stats">
+          <div class="pm-stat"><div class="pm-stat-label">Best For</div><div class="pm-stat-value">Names · Numbers</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Fabric</div><div class="pm-stat-value">Most Fabrics</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Min Order</div><div class="pm-stat-value">No Min</div></div>
+          <div class="pm-stat"><div class="pm-stat-label">Colors</div><div class="pm-stat-value">Per Decoration</div></div>
+        </div>
+        <ul class="pm-list">
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Per-piece variable data: each player gets their own name and number</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Silicone transfers offer premium tactile feel, vinyl is more economical</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Highly durable, holds up through aggressive wash cycles</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Combines well with sublimation for full team uniforms</li>
+          <li><span class="check"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span></span> Fast turnaround for last-minute name and number additions</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Quote a Heat Transfer Job <span class="arrow">→</span></a>
+      </div>
+      <div class="pm-visual v5">
+        <video src="SiteData/DTF%20Heat%20Transfer%20Process_opt.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; display: block;"></video>
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%); z-index: 1; pointer-events: none;"></div>
+        <div class="pm-visual-overlay">
+          <div style="display:flex; justify-content:space-between;">
+            <span class="pm-visual-tag"><span class="tri tri-sm" style="margin-right:0;"></span> Cut Vinyl</span>
+            <span style="font-family:var(--mono); font-size:10px; letter-spacing:0.12em; text-transform:uppercase; opacity:0.7;">Bay 06</span>
+          </div>
+          <div>
+            <div class="pm-visual-caption"><em>Per-piece</em><br>names and numbers.<span class="small">Team Kit Application</span></div>
+          </div>
+          <div class="corner-tri"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="sec sec-soft">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Side By Side</span>
+        <h2 class="sec-h2">Quick <em>comparison.</em></h2>
+        <p class="sec-desc">Not sure which method fits your project? Use the table below as a starting point, or send us your design and we'll spec the right one for you.</p>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="table-z">
+        <thead>
+          <tr><th>Method</th><th>Best For</th><th>Fabric</th><th>MOQ</th><th>Hand Feel</th><th>Color Range</th><th>Durability</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Sublimation</strong></td><td>All-over jerseys</td><td>Polyester only</td><td>50 pcs</td><td>None (in fabric)</td><td>CMYK Full</td><td>Excellent</td></tr>
+          <tr><td><strong>Screen Print</strong></td><td>Cotton tees, bold logos</td><td>Cotton, blends</td><td>100 pcs</td><td>Medium</td><td>Up to 8</td><td>Very Good</td></tr>
+          <tr><td><strong>DTF</strong></td><td>Short runs, multicolor</td><td>Anything</td><td>25 pcs</td><td>Slight</td><td>Unlimited</td><td>Very Good</td></tr>
+          <tr><td><strong>Embroidery</strong></td><td>Caps, polos, premium</td><td>Anything stable</td><td>25 pcs</td><td>Dimensional</td><td>Up to 12 thread</td><td>Excellent</td></tr>
+          <tr><td><strong>Heat Transfer</strong></td><td>Names, numbers</td><td>Most fabrics</td><td>No minimum</td><td>Tactile</td><td>Per decoration</td><td>Very Good</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="sec sec-dark">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center;">
+      <div>
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Mix and Match</span>
+        <h2 class="sec-h2">Use multiple <em>methods</em> on one order.</h2>
+        <p style="margin-top: 24px; max-width: 540px; line-height: 1.6; color: rgba(250,250,247,0.75);">Most of our jerseys combine sublimation with heat transfer for player names. Most of our hoodies use DTF for chest hits and embroidery for the back. We'll spec the right combo for your project.</p>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="contact.html" class="btn btn-light">Send Us Your Project <span class="arrow">→</span></a>
+        <a href="sample-pack.html" class="btn btn-outline" style="color:var(--bg); border-color: rgba(255,255,255,0.3);">Sample Pack</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
+

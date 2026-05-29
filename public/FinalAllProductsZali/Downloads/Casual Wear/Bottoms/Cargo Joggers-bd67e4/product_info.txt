@@ -1,0 +1,24 @@
+Product: Cargo Joggers
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Relaxed-fit cargo joggers in a muted olive green with an elastic waistband, drawcord closure, straight leg, and ankle drawcord hem. The fabric appears like a medium-weight cotton-blend knit or French terry, with a soft matte finish and smooth, slightly structured drape.
+PANEL_MAP: 3 panels: main body olive green front and back, cargo pocket panel on outer thigh with flap, lower cargo pocket panel beneath it on outer thigh; no contrasting color blocks
+LOGOS: none
+GARMENT_TYPE: cargo joggers
+BACK_VIEW: Back is solid olive green with the same elastic waistband and straight leg, no visible cargo pockets on the back.
+LOGO_COLOR: white
+FABRIC: medium-weight cotton-blend knit / French terry with a soft matte surface, smooth handfeel, slight fuzz-free texture, and a structured but relaxed drape; looks breathable with subtle stretch and clean sewn seams
+
+--- GENERATED TEXT ---
+TITLE: Cargo joggers
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

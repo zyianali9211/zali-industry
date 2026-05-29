@@ -1,0 +1,27 @@
+Product: Volleyball Spandex Shorts (Women's)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Women’s volleyball spandex shorts with a snug, body-hugging athletic fit and flatlock seam construction. The garment appears to be made from smooth, stretch performance knit with a matte-to-slightly-satin finish and light compression feel; sublimated dark navy body with contrasting trim details.
+PANEL_MAP: Front body: one continuous panel, dark navy base with a slightly lighter navy side insert area and seam/trim detail at the waistband and side, all construction seams visible; any tonal variation is part of the continuous fabric/lighting, not separate printed color blocks. Back body: one continuous panel, dark navy, plain with no visible graphics. No sleeves or collar.
+LOGOS: front right thigh logo (white “S” emblem with “smack.” wordmark), no other logos
+GARMENT_TYPE: women’s volleyball spandex shorts
+BACK_VIEW: Back is plain solid dark navy with the same smooth compression fit and no visible graphics, featuring the continuation of flatlock seams and waistband construction.
+LOGO_COLOR: white
+FABRIC: Compression spandex / lycra performance knit with a smooth tight surface, subtle fine-knit texture, low sheen, four-way stretch, and medium-thin athletic weight; fabric lies sleek against the body with a clean, flexible drape.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs
+COLOR_LAYOUT: Solid dark navy blue throughout with no color blocking; matching tonal stitching and seam panels are visible.
+TRIM_DETAILS: Wide smooth waistband with a low-rise athletic short silhouette, curved front center notch at the hem, and flat tonal topstitching along the seams and leg openings.
+
+--- GENERATED TEXT ---
+TITLE: Women’s Volleyball Spandex Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

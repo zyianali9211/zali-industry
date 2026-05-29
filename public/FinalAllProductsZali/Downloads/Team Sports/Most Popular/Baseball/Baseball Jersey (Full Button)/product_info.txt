@@ -1,0 +1,17 @@
+Product: Baseball Jersey (Full Button)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Full-button baseball jersey in royal blue with a smooth athletic polyester look and slight sheen. The body is a single continuous sublimated panel with printed red/white accent striping and large front graphics; short sleeves are separate cut pieces with matching printed trim.
+PANEL_MAP: Front body: one continuous panel, royal blue base with red and white printed piping/striping down the placket and around the collar, large printed "Wooster" graphic and printed number "23" on lower right; no color-block seams. Back body: one continuous panel, royal blue base with printed accent striping and no separate body color panels. Sleeves: separate panels, royal blue with red/white printed sleeve stripes and printed number detail on right sleeve. Collar: separate V-neck/self-fabric trim, royal blue with red/white printed edging.
+LOGOS: left chest small white logo, interior neck label branding, lower right hem brand patch
+GARMENT_TYPE: full button baseball jersey
+BACK_VIEW: back is solid royal blue as one continuous panel with only printed accent striping near the shoulders/sleeves and no large graphic across the center.
+LOGO_COLOR: white
+FABRIC: smooth lightweight athletic polyester tricot/interlock with a slight glossy finish, soft drape, and fine knit texture; surface appears slick and uniform with subtle sheen rather than matte cotton.
+
+--- GENERATED TEXT ---
+(no text generated)

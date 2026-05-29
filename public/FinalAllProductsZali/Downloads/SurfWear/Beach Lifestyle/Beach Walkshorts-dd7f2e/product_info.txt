@@ -1,0 +1,24 @@
+Product: Beach Walkshorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Beach walkshorts with a relaxed above-the-knee cut, elastic waistband, and visible drawstring. The shorts use a mixed-panel construction with a dark solid body on one side and a leopard-print woven panel on the other, finished with pale pink binding and trim.
+PANEL_MAP: 4 panels: left front body dark charcoal/washed black solid, right front body beige leopard print, center front vertical pink placket/trim at fly seam, pink elastic waistband with drawstring and small pink side seam accents
+LOGOS: none
+GARMENT_TYPE: beach walkshorts
+BACK_VIEW: back is likely split to continue the mixed construction with a plain dark side panel and leopard print on the opposite side, with a simple centered rear seam and no visible logo.
+LOGO_COLOR: black
+FABRIC: lightweight woven beachshort fabric, likely smooth polyester or polyester-blend with a soft washed finish; the surface appears matte to low-sheen, lightly textured, and slightly crinkled/rumpled with a relaxed drape rather than stiff structure. The leopard panel looks printed on a similar thin woven base, while the dark panel reads like garment-washed woven cotton/poly with a soft, lived-in hand.
+
+--- GENERATED TEXT ---
+TITLE: Beach Walkshorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

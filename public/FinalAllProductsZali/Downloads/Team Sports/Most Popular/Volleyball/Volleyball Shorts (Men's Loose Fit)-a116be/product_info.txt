@@ -1,0 +1,27 @@
+Product: Volleyball Shorts (Men's Loose Fit)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Loose-fit men’s volleyball shorts with a knee-length athletic cut, elastic waistband, and center front drawstring. The garment appears to be made from lightweight smooth polyester with a soft matte-to-slightly-satin athletic finish and a fluid drape; the body is covered in a sublimated blue tie-dye/cloud print with repeated logo motifs.
+PANEL_MAP: Front body: one continuous panel, blue tie-dye/cloud sublimation print with repeated light blue/white "NIKE" logo graphics; no color-block construction seams. Back body: one continuous panel, continuation of the same blue tie-dye/cloud sublimation print with repeated logo graphics, no separate printed color panels. Waistband: elastic self-fabric waistband in matching blue print; center front drawstring opening. No sleeves or collar.
+LOGOS: repeated Nike swoosh/wordmark logos across body, no highlighted logos
+GARMENT_TYPE: men’s loose fit volleyball shorts
+BACK_VIEW: Back is the same continuous blue tie-dye/cloud sublimation print with scattered Nike logos, plain construction with no additional seam changes or contrast panels.
+LOGO_COLOR: white
+FABRIC: lightweight smooth polyester athletic fabric, finely woven with a soft matte surface and very subtle sheen, airy and quick-dry looking, non-brushed, thin-to-medium weight with relaxed drape and minimal texture visible under the print.
+TEXT_AND_GRAPHICS: Repeating all-over Nike logo print across both legs: multiple light blue “NIKE” wordmarks in italic bold sans-serif, each paired with the Nike swoosh underneath and extending left-to-right beneath the text; logos are scattered diagonally and evenly spaced from the upper thighs down to the hem, with some partially cropped at the side seams and lower edges. No other text, numbers, emblems, badges, or crests visible.
+COLOR_LAYOUT: Blue-and-white cloudy tie-dye/marbled body with an all-over tonal light blue Nike logo pattern; waistband is a darker solid blue with matching blue drawstrings.
+TRIM_DETAILS: Elastic waistband with gathered stitching and a central blue drawcord with two hanging ends; straight leg openings with simple stitched hems and no visible cuffs or pocket trim.
+
+--- GENERATED TEXT ---
+TITLE: Men’s Loose Fit Volleyball Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

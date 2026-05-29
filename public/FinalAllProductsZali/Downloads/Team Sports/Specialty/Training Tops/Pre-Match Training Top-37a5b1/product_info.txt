@@ -1,0 +1,27 @@
+Product: Pre-Match Training Top
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve pre-match training top in a slim athletic fit with single-panel body construction and a crew neck collar. Main body is black with an all-over red ornamental baroque/vine sublimation print; sleeves match the body print and the fabric has a smooth performance jersey finish with a slight matte-to-subtle sheen.
+PANEL_MAP: Front body: one continuous panel, black base with all-over red ornamental baroque/vine print (PRINT only, no cut seams between color areas). Back body: one continuous panel, same black base with continuation of the red all-over ornamental print (PRINT only). Sleeves: separate short sleeve panels, matching black base with red all-over ornamental print. Collar: separate ribbed crew neck trim in solid black.
+LOGOS: upper left chest adidas logo, upper right chest Liverpool FC crest, center chest AXA sponsor mark
+GARMENT_TYPE: short sleeve training top
+BACK_VIEW: Back is the same black base with red ornamental all-over sublimation print across the full body and sleeves, with no visible back text or large graphic.
+LOGO_COLOR: red
+FABRIC: smooth polyester performance jersey with a fine knit surface, lightweight and slightly stretchy, soft matte appearance with minimal sheen, thin breathable athletic hand, and a smooth printed finish rather than a textured mesh.
+TEXT_AND_GRAPHICS: Front and sleeves: all-over ornate baroque/floral scroll print in vivid red, consisting of repeated curling leaf and plume motifs on a black background; no text, numbers, wordmarks, emblems, badges, crests, or other logos visible.
+COLOR_LAYOUT: Black body with an all-over bright red ornamental scroll/floral print covering the entire garment; plain black rib collar.
+TRIM_DETAILS: Short-sleeve T-shirt with a black ribbed crew neck, standard straight hem, and no visible cuffs, placket, or other trim details.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Training Top
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

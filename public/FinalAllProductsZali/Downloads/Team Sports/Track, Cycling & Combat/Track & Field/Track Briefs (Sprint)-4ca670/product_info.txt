@@ -1,0 +1,27 @@
+Product: Track Briefs (Sprint)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: High-cut track briefs in a smooth, body-hugging athletic stretch knit with a clean matte-to-slight-satin finish and very fine, tight surface texture. The garment is minimal and seamless-looking from the front, with a low-rise waistband and a compact brief silhouette designed for sprinting.
+PANEL_MAP: Front body: one continuous panel, solid turquoise/teal with small “IMD” print on the right hip, no color-block seams. Back body: one continuous panel, solid turquoise/teal, plain with no printed graphics. No separate sleeve panels. Waist and leg openings are finished with self-fabric trim.
+LOGOS: front right hip “IMD” logo
+GARMENT_TYPE: track briefs
+BACK_VIEW: Back is plain solid turquoise/teal with the same smooth stretch fabric and no visible graphics or seams beyond the garment edges.
+LOGO_COLOR: dark gray
+FABRIC: compression spandex / lycra tricot with a smooth tight knit, slight elastic sheen, lightweight and clingy, soft hand, and clean athletic drape.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Solid bright turquoise/teal garment with no color blocking, logos, or printed accents visible.
+TRIM_DETAILS: Smooth elastic-looking waistband at the top with a clean folded edge; high-cut leg openings with self-fabric binding; no visible cuffs, buttons, or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Track Briefs
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

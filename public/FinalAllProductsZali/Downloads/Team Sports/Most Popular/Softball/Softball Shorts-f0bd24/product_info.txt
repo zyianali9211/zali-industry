@@ -1,0 +1,27 @@
+Product: Softball Shorts
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Youth softball shorts with a black/midnight plum main body and sublimated multicolor graphic-print side accents. Elastic waistband with gathered waist and loose athletic cut; lightweight woven performance fabric with a smooth matte-to-slightly satiny finish and soft drape.
+PANEL_MAP: Front body: one continuous black/midnight plum panel, with sublimation-printed multicolor graphic side accents integrated into the same fabric; no separate color-block seams in the body. Back body: one continuous black/midnight plum panel. Side accents: printed graphic strip on the outer leg/side area only, part of sublimation print, not separate panels. Waistband: black elastic rib waistband. No sleeves or collar.
+LOGOS: none
+GARMENT_TYPE: softball shorts
+BACK_VIEW: back is plain black/midnight plum with no visible graphics, continuing the same elastic waistband and loose athletic short construction.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance woven with a soft matte-satin sheen, fine tightly woven surface, slight sheen in folds, airy drape, and athletic short handfeel rather than knit texture.
+TEXT_AND_GRAPHICS: Left outer leg side panel and right outer leg side panel each feature a tall vertical abstract brush-stroke graphic running from the waistband area down toward the hem, made of layered streaks in hot pink, magenta, white, and deep purple on a black base; the strokes are jagged, paint-like, and asymmetrical, with no readable text, numbers, wordmarks, emblems, badges, crests, or logos anywhere on the garment.
+COLOR_LAYOUT: Predominantly black shorts with vivid multicolor abstract side panels in pink, magenta, white, and purple on both outer legs, plus a matching black ribbed waistband.
+TRIM_DETAILS: Wide elastic ribbed waistband in black with subtle horizontal knit ridges, straight-leg openings with clean stitched hems, and no visible drawcord, cuffs, buttons, or other trims.
+
+--- GENERATED TEXT ---
+TITLE: Softball Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

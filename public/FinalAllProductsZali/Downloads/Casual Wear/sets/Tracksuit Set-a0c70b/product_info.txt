@@ -1,0 +1,24 @@
+Product: Tracksuit Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve athletic tracksuit set with a fitted crewneck top and tapered jogger pants. The garment uses smooth lightweight synthetic knit with a soft matte finish, slight stretch, and clean drape, accented by black chest and leg panels with thin contrast striping for a sporty look.
+PANEL_MAP: 7 panels: main body light grey, chest yoke/stripe band black across upper chest, two thin horizontal white/grey accent stripes beneath black chest band, sleeves light grey, pants upper/most legs light grey, black knee/calf insert panels on both legs, thin white/grey stripe accents at lower edge of each black leg panel
+LOGOS: small left chest logo patch (visible, remove), no other logos
+GARMENT_TYPE: athletic tracksuit set
+BACK_VIEW: back is plain light grey with continuous black upper back yoke and no front-style chest lettering, while the pants keep matching black lower-leg inserts and clean side seams.
+LOGO_COLOR: white
+FABRIC: smooth polyester-spandex athletic knit with a fine, tight jersey surface, lightweight to midweight feel, soft matte finish with mild sheen in highlights, and flexible drape with visible stretch recovery
+
+--- GENERATED TEXT ---
+TITLE: Athletic Tracksuit Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

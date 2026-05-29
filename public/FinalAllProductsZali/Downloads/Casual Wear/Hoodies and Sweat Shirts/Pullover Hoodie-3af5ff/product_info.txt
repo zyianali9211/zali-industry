@@ -1,0 +1,24 @@
+Product: Pullover Hoodie
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Relaxed-fit pullover hoodie with a kangaroo pocket, double-layer hood, and flat self-fabric drawstrings. The construction is clean and minimal with ribbed cuffs and hem, and the surface reads as a smooth, medium-weight knit with a soft matte finish.
+PANEL_MAP: 2 panels: main body brown, matching sleeves brown; attached hood brown, kangaroo pocket brown, rib cuffs and hem brown
+LOGOS: small left chest logo, no other logos
+GARMENT_TYPE: pullover hoodie
+BACK_VIEW: back is solid brown with the hood continuing in the same fabric, plain center back and no visible back yoke or contrast panels
+LOGO_COLOR: white
+FABRIC: smooth polyester-fleece or brushed knit fleece with a soft matte surface, medium-heavy weight, subtle velvety handfeel, slight structure and drape, no visible texture grid or ribbing, clean athletic sweatshirt finish
+
+--- GENERATED TEXT ---
+TITLE: Pullover Hoodie
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

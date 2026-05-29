@@ -1,0 +1,24 @@
+Product: Coach Jacket
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Relaxed coach jacket with a pointed spread collar, full front snap closure, and clean straight hem. The garment has welt hand pockets and gathered elastic cuffs, with a lightweight structured drape and minimal topstitching.
+PANEL_MAP: 1 panel: solid black main body with no color blocking; matching black collar, sleeves, front placket, pockets, and cuffs
+LOGOS: small left chest logo/wordmark in white, no other logos
+GARMENT_TYPE: coach jacket
+BACK_VIEW: back is solid black and plain with no visible graphics, featuring the same yoke and sleeve construction continuing cleanly from the front.
+LOGO_COLOR: white
+FABRIC: smooth woven polyester or nylon blend with a fine matte surface, light crisp structure, and slight protective-jacket sheen; medium-light weight with clean drape and subtle windbreaker-like texture, not brushed or knit.
+
+--- GENERATED TEXT ---
+TITLE: Coach Jacket
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

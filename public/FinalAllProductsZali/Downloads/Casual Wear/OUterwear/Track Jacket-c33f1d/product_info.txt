@@ -1,0 +1,24 @@
+Product: Track Jacket
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Full-zip track jacket with a stand collar, straight hem, and long sleeves, featuring contrast side piping and zippered hand pockets. The body fabric appears to be smooth sporty knit polyester with a subtle micro-textured surface and slight sheen, while the collar and cuffs use a rib-knit finish.
+PANEL_MAP: 7 panels: main body navy front and back, sleeves navy with red outer sleeve stripes from shoulder to cuff, side pocket/panel inserts black running from underarm to hem, collar navy, cuffs gray rib-knit, hem navy rib-knit, pocket welts red
+LOGOS: small red left chest logo, no other logos
+GARMENT_TYPE: track jacket
+BACK_VIEW: back is solid navy with continuous red stripe along both sleeves, plain center back, no visible back logo or extra seam details
+LOGO_COLOR: white
+FABRIC: smooth polyester tricot / athletic knit with fine micro-texture, lightweight medium-weight drape, subtle satin sheen, slick performance finish, slightly structured body with soft stretch and clean surface
+
+--- GENERATED TEXT ---
+TITLE: Track Jacket
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

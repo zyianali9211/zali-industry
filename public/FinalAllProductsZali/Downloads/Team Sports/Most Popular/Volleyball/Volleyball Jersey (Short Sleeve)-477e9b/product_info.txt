@@ -1,0 +1,27 @@
+Product: Volleyball Jersey (Short Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve volleyball jersey with single-piece front and back body construction and separate raglan-style sleeves, shown in a fitted athletic cut. The main body appears to be smooth polyester performance knit with a slight sheen and light stretch, while the sleeves and side lower panels are a contrasting light gray mesh-like athletic fabric; all black, red, and gray body patterning is sublimation print on continuous panels, not sewn color-block pieces.
+PANEL_MAP: Front body: one continuous black front panel with red and gray sublimation print accents/striping along the shoulders, side contours, and lower side areas; no actual seams separating the black/red/gray body graphics. Back body: one continuous black back panel with continuation of the red/gray sublimation print along the shoulder and side areas. Sleeves: separate short raglan-style sleeves in light gray with black/red trim accents, likely athletic knit/mesh. Collar: black crew neck collar with thin red piping/trim.
+LOGOS: small chest monogram logo centered upper front, small lower front label/brand mark near right hem, tiny interior neck marking
+GARMENT_TYPE: short sleeve volleyball jersey
+BACK_VIEW: Back is mostly solid black with the same red and gray sublimated shoulder/side graphic continuity, plain center back with no large number visible.
+LOGO_COLOR: white
+FABRIC: Smooth polyester athletic knit with a lightly slick, performance sheen and medium-light weight, likely tricot/interlock jersey; the gray sleeve/side areas read as a slightly more open mesh-knit texture. Overall surface is smooth, flexible, and breathable with a fitted, four-way-stretch sportswear handfeel.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed lettering; abstract athletic graphics only: front torso has a large matte-black central panel with symmetrical angular red side panels and thin gray accent lines; lower side panels feature red halftone dot gradients fading upward into the black field; upper shoulder/chest has red diagonal stripes bordered by thin black lines; sleeves are plain gray with only cuff striping, no text or logos.
+COLOR_LAYOUT: Black central body with gray raglan sleeves, bright red angular side and shoulder accents, thin gray pinstripes, and black trim at the collar and sleeve cuffs.
+TRIM_DETAILS: Round crew neck with black rib-knit collar and a narrow red accent piping inside the neckline; short sleeves with black cuffs accented by a thin red stripe; straight hem with double-stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Volleyball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

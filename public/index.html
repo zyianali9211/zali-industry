@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ZALI Industries, Custom Sublimated Apparel Manufacturer · Sialkot, Pakistan</title>
+<meta name="description" content="Custom sublimated Fitnesswear, fightwear, surfwear, and island wear manufactured in Sialkot. From sample to bulk, one factory, no middlemen." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* HOME-SPECIFIC OVERRIDES */
+  .hero {
+    position: relative;
+    padding: 36px 0 40px;
+    overflow: hidden;
+    background: var(--bg);
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 32px;
+    align-items: start;
+    min-height: 0;
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    color: var(--ink-soft);
+    background: var(--bg);
+    border: 1px solid var(--bg-line);
+    padding: 6px 12px 6px 9px;
+    border-radius: 100px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .hero h1 {
+    font-family: var(--display);
+    font-weight: 300;
+    font-size: clamp(46px, 5vw, 76px);
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    color: var(--ink);
+    margin-bottom: 18px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--accent);
+  }
+  .hero-sub {
+    font-size: clamp(13px, 1vw, 15px);
+    line-height: 1.5;
+    color: var(--ink-soft);
+    max-width: 520px;
+    margin-bottom: 20px;
+  }
+  .hero-ctas { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 26px; }
+
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    padding: 32px 0;
+    border-top: 1px solid var(--bg-line);
+    max-width: 640px;
+  }
+  .hero-meta-item .num {
+    font-family: var(--display);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 6px;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+  }
+  .hero-meta-item .lbl {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+  }
+  .hero-visual {
+    position: relative;
+    height: 100%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .hero-photo {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: var(--ink);
+    overflow: hidden;
+  }
+  .hero-photo::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #1a1a1a 0%, #000 50%, #2a1810 100%);
+    z-index: 1;
+  }
+
+  .hero-photo-overlay {
+    position: absolute; inset: 0; z-index: 3;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--bg);
+  }
+  .photo-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .photo-tag {
+    align-self: flex-start;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 7px 14px 7px 10px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .photo-caption {
+    font-family: var(--display);
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: 400;
+    max-width: 290px;
+    letter-spacing: -0.01em;
+  }
+  .photo-caption em { color: var(--accent); font-style: italic; }
+  .photo-caption .small {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 14px;
+    opacity: 0.6;
+    color: var(--bg);
+    font-style: normal;
+  }
+  .corner-tri {
+    position: absolute;
+    bottom: 0; right: 0;
+    z-index: 3;
+    width: 0; height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid var(--accent);
+  }
+  @media (max-width: 980px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 40px; min-height: auto; }
+    .hero { padding: 40px 0 0; }
+    .hero-visual { min-height: auto; }
+    .hero-photo { aspect-ratio: 3/4; }
+  }
+
+  /* CATEGORIES */
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+  }
+  .cat {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    aspect-ratio: 3/2;
+  }
+  .cat:hover { transform: translateY(-3px); }
+  .cat-bg { position: absolute; inset: 0; transition: transform 0.6s ease; width: 100%; height: 100%; }
+  .cat-bg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cat:hover .cat-bg { transform: scale(1.05); }
+  .cat-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%); z-index: 1; pointer-events: none; }
+  .cat-content {
+    position: relative; z-index: 2;
+    height: 100%;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--bg);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  .cat-num {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cat-title {
+    font-family: var(--display);
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 5px;
+    letter-spacing: -0.015em;
+  }
+  .cat-meta {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .cat-meta .arrow-c {
+    margin-left: auto;
+    width: 22px; height: 22px;
+    border: 1px solid rgba(255,255,255,0.4);
+    display: grid; place-items: center;
+    transition: all 0.25s;
+    font-size: 13px;
+  }
+  .cat:hover .cat-meta .arrow-c { background: var(--accent); border-color: var(--accent); }
+  .cat-1 .cat-bg { background: linear-gradient(135deg, #1a1a1a 0%, #000 60%, #d6411a 130%); }
+  .cat-2 .cat-bg { background: linear-gradient(135deg, #0a3340 0%, #14536b 70%, #2a8aa8 130%); }
+  .cat-3 .cat-bg { background: linear-gradient(160deg, #d6411a 0%, #a8311a 100%); }
+  .cat-4 .cat-bg { background: linear-gradient(160deg, #1a1a1a 0%, #2a2a2a 100%); }
+  .cat-5 .cat-bg { background: linear-gradient(160deg, #2a2a2a 0%, #4a4a4a 100%); }
+  .cat .cat-bg::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(circle at 20% 80%, rgba(255,255,255,0.06) 0%, transparent 50%);
+  }
+  @media (max-width: 980px) {
+    .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  }
+
+  /* FEATURED PRODUCTS */
+  .feat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  @media (max-width: 980px) { .feat-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
+  @media (max-width: 540px) { .feat-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; } }
+
+  /* HOW IT WORKS */
+  .how-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid rgba(250, 250, 247, 0.12);
+  }
+  .step {
+    padding: 38px 28px 38px 0;
+    border-right: 1px solid rgba(250, 250, 247, 0.12);
+    position: relative;
+  }
+  .step:last-child { border-right: none; padding-right: 0; }
+  .step:not(:last-child) { padding-right: 28px; }
+  .step:not(:first-child) { padding-left: 28px; }
+  .step-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+  .step-num::before {
+    content: ''; width: 0; height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid var(--accent);
+  }
+  .step-title {
+    font-family: var(--display);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.08;
+    margin-bottom: 18px;
+    letter-spacing: -0.015em;
+  }
+  .step-desc {
+    color: rgba(250, 250, 247, 0.72);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  @media (max-width: 980px) {
+    .how-grid { grid-template-columns: repeat(2, 1fr); }
+    .step:nth-child(2n) { border-right: none; padding-right: 0; }
+    .step:nth-child(2n+1) { padding-left: 0; }
+    .step:nth-child(n+3) { border-top: 1px solid rgba(250, 250, 247, 0.12); }
+  }
+  @media (max-width: 540px) {
+    .how-grid { grid-template-columns: 1fr; }
+    .step { border-right: none !important; padding: 32px 0 !important; border-top: 1px solid rgba(250, 250, 247, 0.12); }
+    .step:first-child { border-top: none; padding-top: 16px !important; }
+  }
+
+  /* MADE FOR ISLANDS */
+  .hawaii {
+    background: var(--ocean);
+    color: var(--ocean-soft);
+    padding: 130px 0;
+    position: relative;
+    overflow: hidden;
+    border-bottom: none;
+  }
+  .hawaii-bg {
+    position: absolute; inset: 0;
+    background: 
+      radial-gradient(ellipse at 80% 20%, rgba(20, 83, 107, 0.7) 0%, transparent 60%),
+      radial-gradient(ellipse at 20% 80%, rgba(10, 51, 64, 1) 0%, transparent 60%);
+    z-index: 0;
+  }
+  .hawaii .container { position: relative; z-index: 2; }
+  .hawaii-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .hawaii h2 {
+    font-family: var(--display);
+    font-weight: 300;
+    font-size: clamp(38px, 6vw, 80px);
+    line-height: 0.94;
+    color: var(--bg);
+    letter-spacing: -0.035em;
+    margin-bottom: 26px;
+  }
+  .hawaii h2 em { font-style: italic; color: var(--sand); font-weight: 400; }
+  .hawaii p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(216, 230, 233, 0.82);
+    margin-bottom: 32px;
+    max-width: 540px;
+  }
+  .hawaii-tags {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 38px;
+  }
+  .hawaii-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 8px 13px;
+    border: 1px solid rgba(216, 230, 233, 0.3);
+    color: rgba(216, 230, 233, 0.88);
+  }
+  .hawaii-visual {
+    aspect-ratio: 4/5;
+    background: linear-gradient(135deg, #14536b 0%, #0a3340 60%, #1a2530 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hawaii-visual-overlay {
+    position: absolute; inset: 0;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--bg);
+  }
+  @media (max-width: 980px) {
+    .hawaii-grid { grid-template-columns: 1fr; gap: 48px; }
+    .hawaii { padding: 80px 0; }
+  }
+
+  /* PRINT METHODS */
+  .methods-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  .method {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 30px 24px;
+    transition: all 0.25s;
+  }
+  .method:hover { border-color: var(--ink); transform: translateY(-3px); }
+  .method-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    margin-bottom: 26px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .method-title {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+  }
+  .method-desc {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .method-tag {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    padding-top: 14px;
+    border-top: 1px solid var(--bg-line);
+  }
+  .method-tag.popular { color: var(--accent); }
+  @media (max-width: 980px) { .methods-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 540px) { .methods-grid { grid-template-columns: 1fr; } }
+
+  /* FABRICS */
+  .fab-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+  }
+  .fab {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  .fab:hover { border-color: var(--ink); }
+  .fab-swatch { width: 100%; aspect-ratio: 16/9; margin-bottom: 20px; }
+  .fab-swatch.s1 { background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); }
+  .fab-swatch.s2 { background: linear-gradient(135deg, #14536b 0%, #0a3340 100%); }
+  .fab-swatch.s3 { background: linear-gradient(135deg, #d6411a 0%, #a8311a 100%); }
+  .fab-swatch.s4 { background: linear-gradient(135deg, #4a4a4a 0%, #6a6a6a 100%); }
+  .fab-name {
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .fab-spec {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .fab-desc {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  @media (max-width: 980px) { .fab-grid { grid-template-columns: repeat(2, 1fr); } }
+
+  /* SAMPLE CTA */
+  .sample-cta {
+    padding: 110px 0;
+    background: var(--accent);
+    color: var(--white);
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+  }
+  .sample-cta::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 80% 50%, rgba(0,0,0,0.18) 0%, transparent 60%);
+  }
+  .sample-cta::after {
+    content: '';
+    position: absolute;
+    bottom: -100px; right: -100px;
+    width: 0; height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 320px solid rgba(0,0,0,0.08);
+    z-index: 1;
+  }
+  .sample-cta .container { position: relative; z-index: 2; }
+  .sample-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .sample-cta h2 {
+    font-family: var(--display);
+    font-weight: 300;
+    font-size: clamp(34px, 5.5vw, 62px);
+    line-height: 0.97;
+    color: var(--white);
+    margin-bottom: 26px;
+    letter-spacing: -0.035em;
+  }
+  .sample-cta h2 em { font-style: italic; }
+  .sample-cta p {
+    font-size: 16px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 30px;
+    max-width: 520px;
+  }
+  .sample-features { display: grid; gap: 16px; }
+  .sf {
+    display: flex; gap: 16px; align-items: flex-start;
+    padding: 20px 22px;
+    background: rgba(0,0,0,0.18);
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+  .sf-num {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--white);
+    min-width: 36px;
+  }
+  .sf-text {
+    font-size: 14px;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.92);
+  }
+  .sf-text strong { color: var(--white); display: block; margin-bottom: 3px; font-size: 12px; font-family: var(--mono); letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; }
+  @media (max-width: 980px) { .sample-grid { grid-template-columns: 1fr; gap: 40px; } }
+
+  /* TESTIMONIALS */
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+  .testi-card {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 34px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .testi-quote-mark {
+    font-family: var(--display);
+    font-size: 70px;
+    line-height: 0.5;
+    color: var(--accent);
+    margin-bottom: 14px;
+    height: 32px;
+    font-weight: 300;
+  }
+  .testi-card p {
+    font-family: var(--display);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--ink);
+    margin-bottom: 30px;
+    flex-grow: 1;
+    letter-spacing: -0.005em;
+  }
+  .testi-attr {
+    padding-top: 18px;
+    border-top: 1px solid var(--bg-line);
+  }
+  .testi-name {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .testi-role {
+    font-size: 12px;
+    color: var(--ink-mute);
+    line-height: 1.4;
+  }
+  @media (max-width: 980px) { .testi-grid { grid-template-columns: 1fr; } }
+
+  /* AUDIENCE TEASER (How It Works homepage) */
+  .aud-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 28px;
+  }
+  .aud-card {
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(250, 250, 247, 0.10);
+    padding: 36px 32px 28px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    transition: background 0.25s, border-color 0.25s, transform 0.25s;
+    position: relative;
+  }
+  .aud-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent);
+    transform: translateY(-3px);
+  }
+  .aud-card-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.18em;
+    margin-bottom: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .aud-card-num::before {
+    content: ''; width: 0; height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 7px solid var(--accent);
+  }
+  .aud-card-eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: rgba(250, 250, 247, 0.45);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .aud-card-title {
+    font-family: var(--display);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+  }
+  .aud-card-title em { font-style: italic; color: var(--accent); }
+  .aud-card-desc {
+    color: rgba(250, 250, 247, 0.72);
+    font-size: 14px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+    flex-shrink: 0;
+  }
+  .aud-card-flow {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 26px 0;
+    flex: 1;
+  }
+  .aud-card-flow li {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: rgba(250, 250, 247, 0.72);
+    letter-spacing: 0.06em;
+    padding: 9px 0;
+    border-top: 1px solid rgba(250, 250, 247, 0.08);
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+  }
+  .aud-card-flow li:last-child { border-bottom: 1px solid rgba(250, 250, 247, 0.08); }
+  .aud-card-flow li .step-n {
+    color: var(--accent);
+    font-weight: 700;
+    flex-shrink: 0;
+    width: 22px;
+  }
+  .aud-card-arrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--bg);
+    font-weight: 700;
+    margin-top: auto;
+    transition: gap 0.25s, color 0.25s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .aud-card:hover .aud-card-arrow {
+    color: var(--accent);
+    gap: 14px;
+  }
+  @media (max-width: 980px) {
+    .aud-grid { grid-template-columns: 1fr; gap: 12px; }
+    .aud-card { min-height: 0; padding: 28px 24px; }
+    .aud-card-title { font-size: 32px; }
+  }
+
+  /* INFO STRIP (Free Design + Global Shipping), BLACK THEME */
+  .info-strip-sec { padding: 56px 0 !important; }
+  .info-strip {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 56px;
+    align-items: flex-start;
+    background: var(--ink);
+    color: rgba(255,255,255,0.85);
+    border: 1px solid var(--ink);
+    padding: 48px 56px;
+    position: relative;
+  }
+  .info-strip-divider { background: rgba(255,255,255,0.15); width: 1px; align-self: stretch; }
+  .info-strip-tile { padding: 0; }
+  .info-strip-eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .info-strip-title {
+    font-family: var(--display);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.018em;
+    margin-bottom: 14px;
+    color: #fff;
+  }
+  .info-strip-title em { font-style: italic; color: var(--accent); }
+  .info-strip-desc {
+    font-size: 15px;
+    color: rgba(255,255,255,0.72);
+    line-height: 1.6;
+    max-width: 540px;
+  }
+  .info-strip-desc strong { color: #fff; font-weight: 600; }
+  @media (max-width: 980px) {
+    .info-strip { grid-template-columns: 1fr; gap: 32px; padding: 32px 28px; }
+    .info-strip-divider { width: auto; height: 1px; }
+    .info-strip-title { font-size: 24px; }
+    .info-strip-sec { padding: 40px 0 !important; }
+  }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <span class="hero-eyebrow">
+          <span class="tri tri-sm"></span>
+          <span>MANUFACTURED IN SIALKOT, PAKISTAN · SINCE 2020</span>
+        </span>
+        <h1>Created by<br><em>Manufacturers</em><br>Who Know Apparel.</h1>
+        <p class="hero-sub">We make custom sublimated apparel for brands, gyms, surf shops, and athletes who want quality gear without dealing with resellers or middlemen.</p>
+        <div class="hero-ctas">
+          <a href="sample-pack.html" class="btn btn-primary">Order Sample Pack <span class="arrow">→</span></a>
+          <a href="products.html" class="btn btn-outline">Browse Catalog</a>
+        </div>
+        </div>
+      <div class="hero-visual">
+        <div class="hero-photo">
+          <video class="hero-video" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2;" src="SiteData/Main page ground floor video_opt.mp4">
+          </video>
+          <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%); z-index: 2; pointer-events: none;"></div>
+          <div class="hero-photo-overlay" style="z-index: 3;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+              <div></div>
+              <span class="photo-label">SIA · 32.49°N</span>
+            </div>
+            <div>
+              <div class="photo-caption"><em>Sublimation press</em><br>at 200°C.<br>Where ink becomes fabric.<span class="small">Plate 04 · Production Bay 2</span></div>
+            </div>
+          </div>
+          <div class="corner-tri" style="z-index: 4;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head" style="display:block;">
+      <div class="left" style="max-width:760px;">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> 01 / Range</span>
+        <h2 class="sec-h2">Apparel for every <em>lane.</em></h2>
+        <p class="sec-desc">Eight categories. Every garment cut, sewn, sublimated, and finished in our Sialkot facility. Ready to be your label.</p>
+      </div>
+      <div style="display:flex; justify-content:flex-end; margin-top:12px;">
+        <a href="products.html" class="sec-link">View All Products →</a>
+      </div>
+    </div>
+    <div class="cat-grid">
+      <a href="products.html#casual" class="cat cat-4">
+        <picture class="cat-bg">
+          <source media="(max-width: 768px)" srcset="SiteData/Casual%20WearMobile.webp">
+          <img src="SiteData/Casual%20WearDesktop.webp" alt="Casual Wear">
+        </picture>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <div><div class="cat-num"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> 01</div></div>
+          <div>
+            <div class="cat-title">Casual<br>Wear</div>
+            <div class="cat-meta"><span>Tees · Polos · Hoodies · Bottoms</span><span class="arrow-c">→</span></div>
+          </div>
+        </div>
+    </a>
+      <a href="products.html#fightwear" class="cat cat-1">
+        <picture class="cat-bg">
+          <source media="(max-width: 768px)" srcset="SiteData/Fightwear%20Mobile%20(2).webp">
+          <img src="SiteData/Fightwear%20Desktop.webp" alt="Fightwear">
+        </picture>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <div><div class="cat-num"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> 02 · Featured</div></div>
+          <div>
+            <div class="cat-title">Fightwear</div>
+            <div class="cat-meta"><span>Rashguards · MMA · Muay Thai · BJJ</span><span class="arrow-c">→</span></div>
+          </div>
+        </div>
+    </a>
+      <a href="products.html#Fitnesswear" class="cat cat-4">
+        <picture class="cat-bg">
+          <source media="(max-width: 768px)" srcset="SiteData/Fitnesswear%20Mobile.webp">
+          <img src="SiteData/Fitnesswear%20Desktop.webp" alt="Fitnesswear">
+        </picture>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <div><div class="cat-num"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> 03</div></div>
+          <div>
+            <div class="cat-title">Fitnesswear<br>& Activewear</div>
+            <div class="cat-meta"><span>Compression · Tanks · Tights · Golf</span><span class="arrow-c">→</span></div>
+          </div>
+        </div>
+    </a>
+      <a href="products.html#surfwear" class="cat cat-2">
+        <picture class="cat-bg">
+          <source media="(max-width: 768px)" srcset="SiteData/SurfWear%20Mobile.webp">
+          <img src="SiteData/SurfWear%20Desktop.webp" alt="Surfwear">
+        </picture>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <div><div class="cat-num"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> 04 · Featured</div></div>
+          <div>
+            <div class="cat-title">Surfwear<br>& Beachwear</div>
+            <div class="cat-meta"><span>Boardshorts · Surf Shirts · UPF · Fishing</span><span class="arrow-c">→</span></div>
+          </div>
+        </div>
+    </a>
+      <a href="products.html#team" class="cat cat-5">
+        <picture class="cat-bg">
+          <source media="(max-width: 768px)" srcset="SiteData/TeamSports%20Mobile.webp">
+          <img src="SiteData/Team%20Sports%20Desktop.webp" alt="Team Sports">
+        </picture>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <div><div class="cat-num"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> 05</div></div>
+          <div>
+            <div class="cat-title">Team Sports<br>& Uniforms</div>
+            <div class="cat-meta"><span>Soccer · Basketball · Rugby · Cycling</span><span class="arrow-c">→</span></div>
+          </div>
+        </div>
+    </a>
+      </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head" style="display:block;">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> 02 / Selected</span>
+        <h2 class="sec-h2">Featured <em>essentials.</em></h2>
+        <p class="sec-desc">A selection of our best-selling products. Pick one as-is, or customize it to match your brand.</p>
+      </div>
+      <div style="display:flex; justify-content:flex-end; margin-top:12px;">
+        <a href="products.html" class="sec-link">All Products →</a>
+      </div>
+    </div>
+    <div class="feat-grid" id="home-feat-grid">
+      <!-- JS renders real products here -->
+    </div>
+
+  </div>
+</section>
+
+<!-- INFO STRIP, Free Design + Global Shipping -->
+<section class="sec sec-tight info-strip-sec">
+  <div class="container">
+    <div class="info-strip">
+      <div class="info-strip-tile">
+        <div class="info-strip-eyebrow"><span class="tri tri-sm"></span> Free Service</div>
+        <h3 class="info-strip-title">Design &amp; mockups, <em>always free.</em></h3>
+        <p class="info-strip-desc">Digital mockups for every quote, no commitment, no design fee, no upfront cost. Free for brands, suppliers, teams, and first-time customers alike. Send us what you have and we'll send back a full digital mockup within 48 hours.</p>
+      </div>
+      <div class="info-strip-divider"></div>
+      <div class="info-strip-tile">
+        <div class="info-strip-eyebrow"><span class="tri tri-sm"></span> Worldwide Shipping</div>
+        <h3 class="info-strip-title">We ship <em>globally.</em></h3>
+        <p class="info-strip-desc">We support multiple international shipping terms, <strong>DDU, DDP, CNF, and FOB</strong>, so brands, suppliers, and distributors can manage imports in whatever way works best for them. Default is DDP via DHL, FedEx, or UPS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRINT METHODS -->
+<section class="sec" id="print-methods">
+  <div class="container">
+    <div class="sec-head" style="display:block;">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> 03 / Capability</span>
+        <h2 class="sec-h2">Five print<br>methods, <em>one roof.</em></h2>
+        <p class="sec-desc">We'll recommend what works best for your fabric, design, and order size. Mix-and-match across a single order.</p>
+      </div>
+      <div style="display:flex; justify-content:flex-end; margin-top:12px;">
+        <a href="print-methods.html" class="sec-link">All Methods →</a>
+      </div>
+    </div>
+
+    <!-- BIGGER VISUAL CARDS (link to print-methods page) -->
+    <div class="method-bigs">
+      <a href="print-methods.html#sublimation" class="method-big m1">
+        <div class="method-big-bg"><img src="SiteData/Sublimation.webp" alt="Dye Sublimation"></div>
+        <div class="method-big-overlay"></div>
+        <div class="method-big-content">
+          <div>
+            <div class="method-big-num popular"><span class="tri tri-sm"></span> 01 · MOST POPULAR</div>
+          </div>
+          <div>
+            <div class="method-big-title">Dye<br>Sublimation</div>
+            <div class="method-big-arrow">View Details →</div>
+          </div>
+        </div>
+    </a>
+      <a href="print-methods.html#screen-print" class="method-big m2">
+        <div class="method-big-bg"><img src="SiteData/Screen%20Print.webp" alt="Screen Print"></div>
+        <div class="method-big-overlay"></div>
+        <div class="method-big-content">
+          <div>
+            <div class="method-big-num"><span class="tri tri-sm"></span> 02</div>
+          </div>
+          <div>
+            <div class="method-big-title">Screen<br>Print</div>
+            <div class="method-big-arrow">View Details →</div>
+          </div>
+        </div>
+    </a>
+      <a href="print-methods.html#dtf" class="method-big m3">
+        <div class="method-big-bg"><img src="SiteData/DTF%20Heat%20Transfer.webp" alt="DTF Print"></div>
+        <div class="method-big-overlay"></div>
+        <div class="method-big-content">
+          <div>
+            <div class="method-big-num"><span class="tri tri-sm"></span> 03</div>
+          </div>
+          <div>
+            <div class="method-big-title">DTF<br>Print</div>
+            <div class="method-big-arrow">View Details →</div>
+          </div>
+        </div>
+    </a>
+      <a href="print-methods.html#embroidery" class="method-big m4">
+        <div class="method-big-bg"><img src="SiteData/Embroidery.webp" alt="Embroidery"></div>
+        <div class="method-big-overlay"></div>
+        <div class="method-big-content">
+          <div>
+            <div class="method-big-num"><span class="tri tri-sm"></span> 04</div>
+          </div>
+          <div>
+            <div class="method-big-title">Embroidery</div>
+            <div class="method-big-arrow">View Details →</div>
+          </div>
+        </div>
+    </a>
+      <a href="print-methods.html#heat-transfer" class="method-big m5">
+        <div class="method-big-bg"><img src="SiteData/Heat%20Vinyl.webp" alt="Heat Transfer"></div>
+        <div class="method-big-overlay"></div>
+        <div class="method-big-content">
+          <div>
+            <div class="method-big-num"><span class="tri tri-sm"></span> 05</div>
+          </div>
+          <div>
+            <div class="method-big-title">Heat<br>Transfer</div>
+            <div class="method-big-arrow">View Details →</div>
+          </div>
+        </div>
+    </a>
+    
+  </div>
+</section>
+
+<!-- FABRICS -->
+<section class="sec sec-soft">
+  <div class="container">
+    <div class="sec-head" style="display:block;">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> 04 / Materials</span>
+        <h2 class="sec-h2">Performance<br><em>fabrics</em> only.</h2>
+        <p class="sec-desc">Every fabric is sublimation-tested, GSM-graded, and stocked. Not sure which to use? Order our swatch pack and feel them in your hands.</p>
+      </div>
+      <div style="display:flex; justify-content:flex-end; margin-top:12px;">
+        <a href="fabrics.html" class="sec-link">All Fabrics →</a>
+      </div>
+    </div>
+    <div class="fab-grid" id="home-fab-grid">
+      <!-- Dynamically rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- SAMPLE PACK CTA -->
+<section class="sample-cta" id="sample">
+  <div class="container">
+    <div class="sample-grid">
+      <div>
+        <span class="sec-eyebrow" style="color: rgba(255,255,255,0.75);"><span class="tri tri-sm tri-white"></span> 05 / Get Started</span>
+        <h2>The Sample<br>Pack. <em>Risk-free.</em></h2>
+        <p>The easiest way to check the quality before you commit. We ship fabric swatches and one finished garment in your category, then credit the cost toward your first bulk order.</p>
+        <a href="sample-pack.html" class="btn btn-light">Order Sample Pack <span class="arrow">→</span></a>
+      </div>
+      <div class="sample-features">
+        <div class="sf"><div class="sf-num">01</div><div class="sf-text"><strong>Fabric Swatches</strong>All major sublimation fabrics, grouped by GSM and stretch type.</div></div>
+        <div class="sf"><div class="sf-num">02</div><div class="sf-text"><strong>One Finished Garment</strong>A real production sample in the category you're sourcing.</div></div>
+        <div class="sf"><div class="sf-num">03</div><div class="sf-text"><strong>Cost Refunded</strong>Sample fee is fully credited to your first bulk order. Zero net cost.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      // Only intercept on touch / narrow viewport
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  // Close BB dropdowns on outside click
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+
+<script src="fabrics-data.js"></script>
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+<script>
+(function () {
+  /* Homepage: pick 1 product from each of 4 categories to showcase */
+  function renderFeatured() {
+    if (!window.ZALI_CATALOG) return;
+    const grid = document.getElementById('home-feat-grid');
+    if (!grid) return;
+
+    let featuredProducts = [];
+    if (window.ZALI_PRODUCT_MAP) {
+      featuredProducts = Object.values(window.ZALI_PRODUCT_MAP).filter(p => p.is_featured);
+    }
+
+    if (featuredProducts.length > 0) {
+      let html = '';
+      featuredProducts.forEach(prod => {
+        const HERO_IMG_ORDER = ['ghost_front', 'model_torso', 'model_bottom', 'model_action', 'model_back', 'flat_lay', 'ghost_back', 'ghost_side', 'detail'];
+        const imgs = prod.images || {};
+        let bestKey = prod.primaryImageKey;
+        if (!bestKey || !imgs[bestKey]) {
+          bestKey = HERO_IMG_ORDER.find(k => imgs[k]);
+        }
+        const imgHtml = bestKey
+          ? `<img src="${window.optImg(imgs[bestKey], 800)}" alt="${prod.name}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">`
+          : `<div class="prod-img-inner"><svg viewBox="0 0 100 100" fill="none"><path d="M30 25 L50 18 L70 25 L75 35 L70 75 L30 75 L25 35 Z" stroke="currentColor" stroke-width="2"/></svg></div>`;
+        const tag = '<span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Featured';
+        
+        html += `<a href="product-detail.html?id=${encodeURIComponent(prod.id)}" class="prod">
+          <div class="prod-img">
+            <span class="prod-tag hot">${tag}</span>
+            ${imgHtml}
+          </div>
+          <div class="prod-info">
+            <div class="prod-cat">${prod.category} &middot; ${prod.subcategory}</div>
+            <div class="prod-name">${prod.name}</div>
+            <div class="prod-bottom"><span class="prod-moq">MOQ: <strong>${prod.moq || 25} pcs</strong></span><span class="prod-cta">View →</span></div>
+          </div>
+        </a>`;
+      });
+      grid.innerHTML = html;
+      return;
+    }
+
+    /* Fallback if no products are explicitly marked as featured */
+    /* [categoryId, subcategorySlug, label, tagText, tagHot] */
+    const picks = [
+      ['fightwear',    null,              'Fightwear',    '<span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Best Seller', true],
+      ['casual-wear',  'tshirts',         'Casual Wear',  '<span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Popular',     false],
+      ['Fitnesswear',   'training-tops',   'Fitnesswear',   '<span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Top Pick',    true],
+      ['surfwear',     null,              'SurfWear',     '<span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Surf',        false],
+    ];
+
+    let html = '';
+    picks.forEach(function([catId, subSlug, catLabel, tag, hot]) {
+      const cat = ZALI_CATALOG.categories.find(c => c.id === catId);
+      if (!cat) return;
+      let prod = null;
+      if (subSlug) {
+        const sub = cat.subcategories.find(s => s.slug === subSlug);
+        if (sub && sub.products.length) prod = sub.products[0];
+      }
+      if (!prod) {
+        /* take first product with an image */
+        for (const sub of cat.subcategories) {
+          const FEAT_IMG_ORDER = ['ghost_front', 'model_torso', 'model_bottom', 'model_action', 'model_back', 'flat_lay', 'ghost_back', 'ghost_side', 'detail'];
+          const p = sub.products.find(p => {
+            const imgs = p.images || {};
+            let bestKey = p.primaryImageKey;
+            if (!bestKey || !imgs[bestKey]) {
+              bestKey = FEAT_IMG_ORDER.find(k => imgs[k]);
+            }
+            return !!bestKey;
+          });
+          if (p) { prod = p; break; }
+        }
+        if (!prod && cat.subcategories[0] && cat.subcategories[0].products[0]) {
+          prod = cat.subcategories[0].products[0];
+        }
+      }
+      if (!prod) return;
+      const HERO_IMG_ORDER = ['ghost_front', 'model_torso', 'model_bottom', 'model_action', 'model_back', 'flat_lay', 'ghost_back', 'ghost_side', 'detail'];
+      const imgs = prod.images || {};
+      let bestKey = prod.primaryImageKey;
+      if (!bestKey || !imgs[bestKey]) {
+        bestKey = HERO_IMG_ORDER.find(k => imgs[k]);
+      }
+      const imgHtml = bestKey
+        ? `<img src="${window.optImg(imgs[bestKey], 800)}" alt="${prod.name}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">`
+        : `<div class="prod-img-inner"><svg viewBox="0 0 100 100" fill="none"><path d="M30 25 L50 18 L70 25 L75 35 L70 75 L30 75 L25 35 Z" stroke="currentColor" stroke-width="2"/></svg></div>`;
+      html += `<a href="product-detail.html?id=${encodeURIComponent(prod.id)}" class="prod">
+        <div class="prod-img">
+          <span class="prod-tag${hot ? ' hot' : ''}">${tag}</span>
+          ${imgHtml}
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">${catLabel} &middot; ${prod.subcategory}</div>
+          <div class="prod-name">${prod.name}</div>
+          <div class="prod-bottom"><span class="prod-moq">MOQ: <strong>${prod.moq || 25} pcs</strong></span><span class="prod-cta">View →</span></div>
+        </div>
+      </a>`;
+    });
+    grid.innerHTML = html;
+  }
+
+  function renderHomeFabrics() {
+    if (!window.ZALI_FABRICS) return;
+    const grid = document.getElementById('home-fab-grid');
+    if (!grid) return;
+
+    let html = '';
+    const topFabrics = window.ZALI_FABRICS.slice(0, 4);
+    
+    topFabrics.forEach((f, i) => {
+      let swatchContent = '';
+      let swatchClass = f.swatchClass || 's1';
+      
+      if (f.image && Array.isArray(f.image) && f.image.length > 0) {
+        swatchClass = 'has-img multi-img';
+        f.image.forEach((img, idx) => {
+          swatchContent += `<div class="slide ${idx === 0 ? 'active' : ''}" style="background: url('${img}') center/cover;"></div>`;
+        });
+      } else if (f.image && typeof f.image === 'string') {
+        swatchClass = 'has-img multi-img';
+        swatchContent += `<div class="slide active" style="background: url('${f.image}') center/cover;"></div>`;
+      }
+      
+      html += `
+        <a href="fabrics.html" class="fab" style="text-decoration: none; color: inherit;">
+          <div class="fab-swatch ${swatchClass}" id="home-fab-swatch-${i}">${swatchContent}</div>
+          <div class="fab-name">${f.name}</div>
+          <div class="fab-spec">${f.spec || ''}</div>
+        </a>
+      `;
+    });
+    grid.innerHTML = html;
+
+    // Start transitions for multi-image swatches
+    setTimeout(() => {
+      document.querySelectorAll('#home-fab-grid .multi-img').forEach(swatch => {
+        const slides = swatch.querySelectorAll('.slide');
+        if (slides.length > 1) {
+          let current = 0;
+          setInterval(() => {
+            slides[current].classList.remove('active');
+            current = (current + 1) % slides.length;
+            slides[current].classList.add('active');
+          }, 5000);
+        }
+      });
+    }, 100);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      renderFeatured();
+      renderHomeFabrics();
+    });
+  } else {
+    renderFeatured();
+    renderHomeFabrics();
+  }
+})();
+</script>
+</body>
+</html>
+

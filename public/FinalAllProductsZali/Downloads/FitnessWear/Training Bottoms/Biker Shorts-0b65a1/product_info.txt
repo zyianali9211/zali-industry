@@ -1,0 +1,24 @@
+Product: Biker Shorts
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: High-waisted biker shorts with a wide smooth waistband and a clean, minimal construction. The shorts are body-hugging with flatlock-style seam lines and a matte performance finish, indicating stretch activewear fabric.
+PANEL_MAP: 4 panels: main front left navy, main front right navy, waistband navy, side seam panels navy with a single center front seam and no contrasting inserts
+LOGOS: none
+GARMENT_TYPE: biker shorts
+BACK_VIEW: back is solid navy with the same high waistband and continuous body panels, minimal seaming and no visible contrast details.
+LOGO_COLOR: white
+FABRIC: compression spandex / nylon-lycra blend with a smooth, tightly knit surface, matte to very slight sheen, medium-to-heavy weight, high stretch, and a sleek body-contouring drape; the texture appears fine and uniform with no visible mesh or pile.
+
+--- GENERATED TEXT ---
+TITLE: Biker Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

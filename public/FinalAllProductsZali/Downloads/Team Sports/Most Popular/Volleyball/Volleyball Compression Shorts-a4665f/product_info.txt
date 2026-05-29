@@ -1,0 +1,27 @@
+Product: Volleyball Compression Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Tight compression athletic shorts with a body-hugging fit and short inseam, made from smooth stretch performance knit. The surface is sleek and lightly glossy with a clean, streamlined finish typical of spandex/polyester compression fabric; waistband is wide and elastic with contrasting branding.
+PANEL_MAP: Front body: one continuous panel, solid bright red body with no visible cut-and-sew color blocking; all color/design changes are print or garment branding only. Back body: one continuous panel, solid bright red matching the front, no visible print. Waistband: separate wide elastic waistband, dark charcoal/black with large printed wordmark. No sleeves or collar.
+LOGOS: front waistband Under Armour wordmark; front left leg Under Armour logo emblem
+GARMENT_TYPE: volleyball compression shorts
+BACK_VIEW: back is solid bright red with a plain center and no visible graphics or seam-based color blocking, continuing the same compression short construction.
+LOGO_COLOR: white
+FABRIC: compression spandex / polyester performance knit with a very smooth, tight surface, slight satin-like sheen, firm stretch, and body-contouring drape; lightweight athletic fabric with minimal texture and a polished finish.
+TEXT_AND_GRAPHICS: Front waistband, centered across the top black band: the word “VOLLEYBALL” in large, uppercase, bold sans-serif block letters, light gray/silver, evenly spaced, horizontally aligned, occupying most of the waistband width; no other text, numbers, emblems, badges, crests, or graphics visible.
+COLOR_LAYOUT: Bright red shorts body with a wide black waistband; the only contrasting text is light gray/silver on the waistband.
+TRIM_DETAILS: Wide black elastic-style waistband, straight top edge, subtle stitched lower edge, and a center front inseam/vent opening at the crotch; double-stitched hems along the leg openings.
+
+--- GENERATED TEXT ---
+TITLE: Volleyball Compression Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

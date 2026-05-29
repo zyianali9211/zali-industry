@@ -1,0 +1,27 @@
+Product: Track Long Sleeve Compression Top
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Black long sleeve compression top with a slim, body-hugging athletic fit and smooth stretch construction. Single-piece front and back body panels with tight coverstitch seams at the raglan-style shoulder/sleeve join and side seams; crew neck with matching self-fabric trim. Fabric appears matte-slick and lightweight with subtle sheen, typical of compression performance spandex.
+PANEL_MAP: Front body: one continuous black panel with no color-block seams; small white logo print centered on upper chest. Back body: one continuous black panel, plain/no visible graphics. Sleeves: separate black panels, full-length, integrated as compression sleeves. Collar: black self-fabric crew neck trim.
+LOGOS: centered chest logo (remove), no other logos
+GARMENT_TYPE: long sleeve compression top
+BACK_VIEW: back is plain black and uninterrupted, with the same smooth compression finish and no visible graphics or text.
+LOGO_COLOR: white
+FABRIC: compression spandex / elastane performance knit with a very smooth, tight surface, matte-to-slightly-satin sheen, thin lightweight feel, high stretch, and close body-contouring drape.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Solid dark charcoal black/very deep gray body with no color blocking or printed accents visible.
+TRIM_DETAILS: Close crew neck collar in matching dark fabric with subtle topstitching, long set-in sleeves, plain straight hem, and clean finished cuffs with matching narrow stitching.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Compression Top
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,1116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products, ZALI Industries</title>
+    <meta
+      name="description"
+      content="Browse the full ZALI catalog by category, fightwear, surfwear, Fitnesswear, casual, team kits, and more."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* CATEGORY PICKER, landing tile grid */
+      .picker-wrap {
+        padding: 32px 0 90px;
+      }
+      .picker-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 14px;
+      }
+      @media (max-width: 980px) {
+        .picker-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+      }
+      @media (max-width: 540px) {
+        .picker-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 8px;
+        }
+      }
+
+      .picker-tile {
+        position: relative;
+        aspect-ratio: 4/5;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.4s ease;
+        display: block;
+        background: var(--ink);
+        text-decoration: none;
+      }
+      .picker-tile:hover {
+        transform: translateY(-4px);
+      }
+      .picker-bg {
+        position: absolute;
+        inset: 0;
+        transition: transform 0.6s ease;
+        width: 100%;
+        height: 100%;
+      }
+      .picker-bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .picker-tile:hover .picker-bg {
+        transform: scale(1.06);
+      }
+      .picker-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+        z-index: 1;
+        pointer-events: none;
+      }
+      .picker-tile.t1 .picker-bg {
+        background: linear-gradient(
+          135deg,
+          #d6411a 0%,
+          #a8311a 60%,
+          #1a1a1a 100%
+        );
+      }
+      .picker-tile.t2 .picker-bg {
+        background: linear-gradient(
+          135deg,
+          #14536b 0%,
+          #0a3340 60%,
+          #1a2530 100%
+        );
+      }
+      .picker-tile.t3 .picker-bg {
+        background: linear-gradient(
+          135deg,
+          #1a4d3d 0%,
+          #2a7a5a 60%,
+          #0a2520 100%
+        );
+      }
+      .picker-tile.t4 .picker-bg {
+        background: linear-gradient(
+          135deg,
+          #2a2a2a 0%,
+          #1a1a1a 60%,
+          #0a0a0a 100%
+        );
+      }
+      .picker-tile.t5 .picker-bg {
+        background: linear-gradient(
+          135deg,
+          #4a4a4a 0%,
+          #2a2a2a 60%,
+          #1a1a1a 100%
+        );
+      }
+      .picker-bg::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            circle at 30% 30%,
+            rgba(255, 255, 255, 0.06) 0%,
+            transparent 55%
+          ),
+          linear-gradient(180deg, transparent 40%, rgba(0, 0, 0, 0.55) 100%);
+      }
+      .picker-content {
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 22px;
+        color: var(--bg);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      }
+      .picker-num {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        opacity: 0.85;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .picker-title {
+        font-family: var(--display);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: -0.015em;
+        margin-bottom: 6px;
+      }
+      .picker-title em {
+        font-style: italic;
+        color: var(--accent);
+      }
+      .picker-meta {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        opacity: 0.75;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .picker-meta .arrow {
+        margin-left: auto;
+        width: 28px;
+        height: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        display: grid;
+        place-items: center;
+        transition: all 0.25s;
+        font-size: 14px;
+      }
+      .picker-tile:hover .picker-meta .arrow {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+      @media (max-width: 540px) {
+        .picker-content {
+          padding: 14px;
+        }
+        .picker-title {
+          font-size: 16px;
+        }
+        .picker-num {
+          font-size: 8px;
+        }
+        .picker-meta {
+          font-size: 8px;
+        }
+        .picker-meta .arrow {
+          width: 22px;
+          height: 22px;
+          font-size: 11px;
+        }
+      }
+
+      /* CATEGORY VIEW */
+      .cat-view {
+        display: none;
+        padding: 24px 0 90px;
+      }
+      .cat-view.active {
+        display: block;
+      }
+      .picker-wrap {
+        display: block;
+      }
+      .picker-wrap.hidden {
+        display: none;
+      }
+
+      .cat-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        padding: 10px 14px;
+        border: 1px solid var(--bg-line);
+        background: var(--white);
+        cursor: pointer;
+        transition: all 0.2s;
+        text-decoration: none;
+        margin-bottom: 24px;
+      }
+      .cat-back:hover {
+        border-color: var(--ink);
+        color: var(--ink);
+      }
+
+      .cat-title-block {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        align-items: end;
+        padding-bottom: 28px;
+        margin-bottom: 28px;
+        border-bottom: 1px solid var(--bg-line);
+      }
+      @media (max-width: 720px) {
+        .cat-title-block {
+          grid-template-columns: 1fr;
+          gap: 12px;
+          padding-bottom: 22px;
+          margin-bottom: 22px;
+        }
+      }
+      .cat-title-block h2 {
+        font-family: var(--display);
+        font-size: clamp(34px, 5vw, 60px);
+        font-weight: 400;
+        line-height: 0.98;
+        letter-spacing: -0.025em;
+      }
+      .cat-title-block h2 em {
+        font-style: italic;
+        color: var(--accent);
+      }
+      .cat-title-block p {
+        font-size: 14px;
+        color: var(--ink-mute);
+        margin-top: 6px;
+        max-width: 520px;
+      }
+      .cat-title-block .count {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        text-align: right;
+      }
+      .cat-title-block .count strong {
+        color: var(--ink);
+        display: block;
+        font-size: 18px;
+        font-family: var(--display);
+        font-weight: 400;
+        letter-spacing: -0.01em;
+      }
+
+      /* SUBCATEGORY CHIPS */
+      .subcat-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 32px;
+      }
+      .subcat-chip {
+        padding: 10px 16px;
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        border: 1px solid var(--bg-line);
+        background: var(--white);
+        color: var(--ink-soft);
+        cursor: pointer;
+        transition: all 0.2s;
+        min-height: 40px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .subcat-chip:hover {
+        border-color: var(--ink);
+        color: var(--ink);
+      }
+      .subcat-chip.active {
+        background: var(--ink);
+        color: var(--bg);
+        border-color: var(--ink);
+      }
+
+      /* PRODUCT GRID */
+      .cat-products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+      @media (max-width: 1180px) {
+        .cat-products {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      @media (max-width: 980px) {
+        .cat-products {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+      }
+      @media (max-width: 480px) {
+        .cat-products {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 8px;
+        }
+      }
+
+      .empty-state {
+        grid-column: 1 / -1;
+        padding: 80px 30px;
+        text-align: center;
+        color: var(--ink-mute);
+        background: var(--bg-soft);
+      }
+      .empty-state h4 {
+        font-family: var(--display);
+        font-size: 26px;
+        font-weight: 400;
+        color: var(--ink);
+        margin-bottom: 8px;
+      }
+      .empty-state p {
+        font-size: 14px;
+        max-width: 420px;
+        margin: 0 auto;
+      }
+
+      /* PRODUCT CARD */
+      .cat-view .prod-img {
+        aspect-ratio: 4/5;
+        position: relative;
+        overflow: hidden;
+        background: var(--bg-soft);
+      }
+      .cat-view .prod-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        inset: 0;
+        display: block;
+        transition: transform 0.5s ease;
+      }
+      .cat-view .prod:hover .prod-img img {
+        transform: scale(1.04);
+      }
+      .cat-view .prod-img-placeholder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .cat-view .prod-img-placeholder svg {
+        width: 40%;
+        height: 40%;
+        opacity: 0.25;
+      }
+      .cat-view .prod-info {
+        padding: 10px 12px 12px;
+      }
+      .cat-view .prod-cat {
+        font-size: 9px;
+        margin-bottom: 4px;
+        letter-spacing: 0.08em;
+        font-family: var(--mono);
+        text-transform: uppercase;
+        color: var(--ink-mute);
+      }
+      .cat-view .prod-name {
+        font-size: 14px;
+        margin-bottom: 8px;
+        line-height: 1.15;
+        letter-spacing: -0.005em;
+        font-weight: 500;
+        font-family: var(--display);
+        color: var(--ink);
+      }
+      .cat-view .prod-bottom {
+        padding-top: 8px;
+        border-top: 1px solid var(--bg-line);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cat-view .prod-moq {
+        font-size: 9px;
+        font-family: var(--mono);
+        color: var(--ink-mute);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .cat-view .prod-moq strong {
+        color: var(--ink);
+      }
+      .cat-view .prod-cta {
+        font-size: 9px;
+        font-family: var(--mono);
+        color: var(--accent);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .cat-view .prod {
+        text-decoration: none;
+        background: var(--white);
+        border: 1px solid var(--bg-line);
+        display: block;
+        transition:
+          border-color 0.2s,
+          transform 0.2s;
+      }
+      .cat-view .prod:hover {
+        border-color: var(--ink);
+        transform: translateY(-2px);
+      }
+
+      /* Team Sports group headers */
+      .sport-group-header {
+        grid-column: 1 / -1;
+        padding: 18px 0 10px;
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        border-top: 1px solid var(--bg-line);
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .sport-group-header:first-child {
+        border-top: none;
+        margin-top: 0;
+      }
+      .sport-group-header::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: var(--bg-line);
+      }
+    </style>
+  
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+  <body class="bb-page">
+    <!-- TOP TICKER (MARQUEE) -->
+    <div class="topbar">
+      <div class="topbar-track">
+        <span
+          ><span class="accent-text"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span
+        >
+        <span
+          >INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot;
+          FOB</span
+        >
+        <span
+          ><span class="accent-text"></span> SAMPLE COST DEDUCTED FROM BULK
+          ORDER</span
+        >
+        <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+        <span
+          ><span class="accent-text"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span
+        >
+        <span
+          >INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot;
+          FOB</span
+        >
+        <span
+          ><span class="accent-text"></span> SAMPLE COST DEDUCTED FROM BULK
+          ORDER</span
+        >
+        <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+      </div>
+    </div>
+
+    <!-- NAV (rebuilt by nav.js) -->
+    <nav class="bb-nav"></nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-grid">
+          <div>
+            <span class="breadcrumb"
+              ><a href="index.html">Home</a><span class="sep">/</span
+              ><span id="bc-cat">Products</span></span
+            >
+            <h1>Browse the full <em>range.</em></h1>
+          </div>
+          <div>
+            <p class="lead">
+              Start with a category, then drill down into the styles, cuts, and
+              product types that fit your project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- CATEGORY PICKER (default view), rendered by JS -->
+      <div class="picker-wrap" id="picker-view">
+        <div class="picker-grid" id="picker-grid">
+          <!-- JS renders tiles here -->
+        </div>
+      </div>
+
+      <!-- CATEGORY VIEWS, rendered by JS -->
+      <div id="cat-views-container">
+        <!-- JS renders category views here -->
+      </div>
+    </div>
+
+    
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+<!-- FOOTER (shared) -->
+    <footer>
+      <div class="container">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo"><img src="logo.svg" alt="ZALI Industries" /></div>
+            <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+            <p class="foot-desc">
+              A factory-direct manufacturer of sublimated performance apparel.
+              Built by hand, by people we know, in the world's capital of
+              Fitnesswear.
+            </p>
+            <div class="foot-social">
+              <a href="#" aria-label="Instagram"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="Email"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="foot-col">
+            <h5>Shop</h5>
+            <ul>
+              <li><a href="products.html">All Products</a></li>
+              <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+              <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+              <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+              <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+              <li><a href="products.html?cat=womens">Women's</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h5>Manufacturing</h5>
+            <ul>
+              <li><a href="fabrics.html">Fabric Library</a></li>
+              <li><a href="how-it-works.html">How It Works</a></li>
+              <li><a href="sample-pack.html">Sample Pack</a></li>
+              <li><a href="#">Tech Pack Template</a></li>
+              <li><a href="#">Capability Deck (PDF)</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <div>© 2026 ZALI Industries · All Rights Reserved</div>
+          <div>
+            <a href="#">Terms of Sale</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- DATA + SCRIPTS -->
+    <script src="products-data.js"></script>
+    <script src="nav.js"></script>
+    <script>
+      (function () {
+        'use strict';
+
+        // ── Category display config ──────────────────────────────────────────
+        function optImg(src, w=600) {
+          if (!src) return src;
+          const decoded = decodeURIComponent(src);
+          const abs = decoded.startsWith('/') ? decoded : '/' + decoded;
+          return abs.split('/').map(encodeURIComponent).join('/');
+        }
+        const CAT_CONFIG = {
+          'casual-wear': {
+            tileClass: 't4',
+            num: '01',
+            titleHtml: '<em>Casual</em><br>Wear',
+            metaText: 'Tees · Polos · Hoodies · Bottoms · Outerwear',
+            hashId: 'casual',
+            headingHtml: '01 · <em>Casual</em> Wear',
+            tagline: 'Everyday basics, elevated.',
+            desktopImg: 'SiteData/Casual%20WearDesktop.webp',
+            mobileImg: 'SiteData/Casual%20WearMobile.webp'
+          },
+          fitnesswear: {
+            tileClass: 't5',
+            num: '03',
+            titleHtml: '<em>Fitnesswear</em><br>& Activewear',
+            metaText: 'Compression · Tanks · Tights · Golf · Sets',
+            hashId: 'fitnesswear',
+            headingHtml: '03 · <em>Fitnesswear</em>',
+            tagline: 'Performance gear, fully customized.',
+            desktopImg: 'SiteData/Fitnesswear%20Desktop.webp',
+            mobileImg: 'SiteData/Fitnesswear%20Mobile.webp'
+          },
+          fightwear: {
+            tileClass: 't1',
+            num: '02',
+            titleHtml: '<em>Fightwear</em>',
+            metaText: 'Rashguards · Fight Shorts · BJJ · MMA · Muay Thai',
+            hashId: 'fightwear',
+            headingHtml: '02 · <em>Fightwear</em>',
+            tagline: 'Built for fighters, branded for brands.',
+            desktopImg: 'SiteData/Fightwear%20Desktop.webp',
+            mobileImg: 'SiteData/Fightwear%20Mobile%20(2).webp'
+          },
+          surfwear: {
+            tileClass: 't2',
+            num: '04',
+            titleHtml: '<em>SurfWear</em><br>& Beachwear',
+            metaText: 'Boardshorts · Surf Shirts · UPF · Fishing',
+            hashId: 'surfwear',
+            headingHtml: '04 · <em>SurfWear</em>',
+            tagline: 'Made for the water and the shore.',
+            desktopImg: 'SiteData/SurfWear%20Desktop.webp',
+            mobileImg: 'SiteData/SurfWear%20Mobile.webp'
+          },
+          'team-sports': {
+            tileClass: 't3',
+            num: '05',
+            titleHtml: '<em>Team</em><br>Sports & Uniforms',
+            metaText: 'Soccer · Basketball · Rugby · Cricket · Cycling',
+            hashId: 'team',
+            headingHtml: '05 · <em>Team</em> Sports',
+            tagline: 'Full kits for every sport and every level.',
+            desktopImg: 'SiteData/Team%20Sports%20Desktop.webp',
+            mobileImg: 'SiteData/TeamSports%20Mobile.webp'
+          },
+        };
+
+        const TEAM_GROUP_ORDER = [
+          'Most Popular',
+          'Field & Court',
+          'Track, Cycling & Combat',
+          'Specialty',
+        ];
+
+        // ── Placeholder SVG for products with no image ────────────────────
+        const PLACEHOLDER_SVG = `<div class="prod-img-placeholder"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30 25 L50 18 L70 25 L75 35 L70 75 L30 75 L25 35 Z" stroke="currentColor" stroke-width="2"/></svg></div>`;
+
+        // ── Preferred image key order for product cards ────────────────────
+        const CARD_IMG_ORDER = [
+          'ghost_front',
+          'model_torso',
+          'model_bottom',
+          'model_action',
+          'model_back',
+          'flat_lay',
+          'ghost_back',
+          'ghost_side',
+          'detail',
+        ];
+
+        // ── Cache: tracks which category views have already been built ─────
+        const builtCats = new Set();
+
+        // ── Build product card HTML ────────────────────────────────────────
+        function productCard(prod, subcatSlug) {
+          const imgs = prod.images || {};
+          let bestKey = prod.primaryImageKey;
+          if (!bestKey || !imgs[bestKey]) {
+            bestKey = CARD_IMG_ORDER.find((k) => imgs[k]);
+          }
+          const imgSrc = bestKey ? imgs[bestKey] : null;
+          const imgHtml = imgSrc
+            ? `<img src="${optImg(imgSrc, 600)}" alt="${escHtml(prod.name)}" loading="lazy">`
+            : PLACEHOLDER_SVG;
+          const catLabel = prod.subcategory
+            ? `${prod.category} · ${prod.subcategory}`
+            : prod.category;
+          return `<a href="product-detail.html?id=${encodeURIComponent(prod.id)}" class="prod" data-sub="${subcatSlug}" id="prod-${prod.id}">
+      <div class="prod-img">${imgHtml}</div>
+      <div class="prod-info">
+        <div class="prod-cat">${escHtml(catLabel)}</div>
+        <div class="prod-name">${escHtml(prod.name)}</div>
+        <div class="prod-bottom">
+          <span class="prod-moq">MOQ: <strong>${prod.moq}</strong></span>
+          <span class="prod-cta">View →</span>
+        </div>
+      </div>
+    </a>`;
+        }
+
+        // ── Build subcategory chips ────────────────────────────────────────
+        function buildChips(cat) {
+          let html = `<button class="subcat-chip active" data-sub="all">All</button>`;
+          if (cat.id === 'team-sports') {
+            TEAM_GROUP_ORDER.forEach((grpName) => {
+              const hasProducts = cat.subcategories.some(s => (s.group || 'Specialty') === grpName && s.products.length > 0);
+              if (hasProducts) {
+                const groupSlug = grpName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+                html += `<button class="subcat-chip" data-sub="${groupSlug}">${escHtml(grpName)}</button>`;
+              }
+            });
+          } else {
+            cat.subcategories.forEach((sub) => {
+              if (sub.products.length > 0) {
+                html += `<button class="subcat-chip" data-sub="${sub.slug}">${escHtml(sub.name)}</button>`;
+              }
+            });
+          }
+          return html;
+        }
+
+        // ── Build product grid HTML ────────────────────────────────────────
+        function buildProductGrid(cat) {
+          let html = '';
+
+          if (cat.id === 'team-sports') {
+            const groups = {};
+            TEAM_GROUP_ORDER.forEach((g) => { groups[g] = []; });
+            cat.subcategories.forEach((sub) => {
+              const grp = sub.group || 'Specialty';
+              if (!groups[grp]) groups[grp] = [];
+              if (sub.products.length > 0) groups[grp].push(sub);
+            });
+            TEAM_GROUP_ORDER.forEach((grpName) => {
+              const subs = groups[grpName];
+              if (!subs || !subs.length) return;
+              const groupSlug = grpName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+              subs.forEach((sub) => {
+                html += `<div class="sport-header" style="grid-column: 1 / -1; width: 100%; margin-top: 40px; margin-bottom: 20px; font-size: 24px; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--bg-line); padding-bottom: 10px;" data-sub="${groupSlug}" id="sport-${sub.slug}"><span class="tri tri-sm" style="margin-right: 8px;"></span>${escHtml(sub.name)}</div>`;
+                sub.products.forEach((p) => { html += productCard(p, groupSlug); });
+              });
+            });
+          } else {
+            cat.subcategories.forEach((sub) => {
+              if (sub.products.length > 0) {
+                sub.products.forEach((p) => { html += productCard(p, sub.slug); });
+              }
+            });
+          }
+
+          return (
+            html ||
+            `<div class="empty-state"><h4>Coming Soon</h4><p>Products in this category are being added.</p></div>`
+          );
+        }
+
+        // ── Skeleton placeholder grid (shown instantly before real cards) ──
+        function buildSkeletonGrid() {
+          let html = '';
+          for (let i = 0; i < 12; i++) {
+            html += `<div class="skeleton-card">
+              <div class="skeleton-img"></div>
+              <div class="skeleton-info">
+                <div class="skeleton-line sk-wide"></div>
+                <div class="skeleton-line sk-medium"></div>
+                <div class="skeleton-line sk-narrow"></div>
+              </div>
+            </div>`;
+          }
+          return html;
+        }
+
+        // ── Build a single category view (lazy, called on first visit) ───
+        function buildCategoryView(cat, idx) {
+          const cfg = CAT_CONFIG[cat.id] || {
+            tileClass: 't4',
+            num: String(idx + 1).padStart(2, '0'),
+            titleHtml: cat.name,
+            metaText: '',
+            hashId: cat.id,
+            headingHtml: cat.name,
+            tagline: '',
+          };
+          const totalProducts = cat.subcategories.reduce(
+            (a, s) => a + s.products.length,
+            0,
+          );
+
+          const div = document.createElement('div');
+          div.className = 'cat-view';
+          div.id = `view-${cfg.hashId}`;
+          div.dataset.catName = cat.name;
+          div.dataset.catId = cat.id;
+
+          // ── Render header + chips + SKELETON grid immediately ────────────
+          div.innerHTML = `
+      <a href="#" class="cat-back" data-back>Back to All Categories</a>
+      <div class="cat-title-block">
+        <div>
+          <h2>${cfg.headingHtml}</h2>
+          <p>${cfg.tagline}</p>
+        </div>
+        <div class="count">SKUs<strong>${totalProducts}</strong></div>
+      </div>
+      <div class="subcat-row">${buildChips(cat)}</div>
+      <div class="cat-products" id="prod-grid-${cfg.hashId}">${buildSkeletonGrid()}</div>`;
+
+          return div;
+        }
+
+        // ── Build picker tiles (runs once on init) ────────────────────────
+        function buildPickerTiles() {
+          const grid = document.getElementById('picker-grid');
+          if (!grid) return;
+          let html = '';
+          ZALI_CATALOG.categories.forEach((cat, idx) => {
+            const cfg = CAT_CONFIG[cat.id];
+            if (!cfg) return;
+            html += `<a href="#${cfg.hashId}" class="picker-tile ${cfg.tileClass}" id="picker-${cfg.hashId}">
+        <div class="picker-bg"><img src="${cfg.mobileImg}" alt="${cfg.headingHtml.replace(/<[^>]*>?/gm, '')}"></div>
+        <div class="picker-overlay"></div>
+        <div class="picker-content">
+          <div class="picker-num"><span class="tri tri-sm"></span> ${cfg.num}</div>
+          <div>
+            <div class="picker-title">${cfg.titleHtml}</div>
+            <div class="picker-meta"><span>${cfg.metaText}</span><span class="arrow">↗</span></div>
+          </div>
+        </div>
+      </a>`;
+          });
+          grid.innerHTML = html;
+        }
+
+        // ── Filter products by subcat chip ────────────────────────────────
+        function filterProducts(view) {
+          const activeChip = view.querySelector('.subcat-chip.active');
+          if (!activeChip) return;
+          const sub = activeChip.dataset.sub;
+          view.querySelectorAll('.cat-products .prod, .sport-header').forEach((el) => {
+            el.style.display =
+              sub === 'all' || el.dataset.sub === sub ? '' : 'none';
+          });
+        }
+
+        // ── Show/hide category view, builds lazily on first visit ────────
+        const pickerView = document.getElementById('picker-view');
+        const catViewsContainer = document.getElementById('cat-views-container');
+
+        function showCat(hash) {
+          const hashClean = hash.replace('#', '');
+          document.querySelectorAll('.cat-view').forEach((v) => v.classList.remove('active'));
+
+          if (!hashClean) {
+            pickerView.classList.remove('hidden');
+            const bc = document.getElementById('bc-cat');
+            if (bc) bc.textContent = 'Products';
+            return;
+          }
+
+          let catHash = hashClean;
+          let subHash = null;
+          // Handle team sports deep links (e.g. #team-7-on-7-football)
+          if (hashClean.startsWith('team-') && hashClean !== 'team-sports') {
+            catHash = 'team';
+            subHash = hashClean.substring(5);
+          }
+
+          // ── Find the matching cat data by hashId ──────────────────────
+          const catEntry = ZALI_CATALOG.categories.find((c) => {
+            const cfg = CAT_CONFIG[c.id];
+            return cfg && cfg.hashId === catHash;
+          });
+
+          if (!catEntry) {
+            pickerView.classList.remove('hidden');
+            return;
+          }
+
+          // ── Build the view the first time it's needed ─────────────────
+          const isFirstVisit = !builtCats.has(catHash);
+          if (isFirstVisit) {
+            const idx = ZALI_CATALOG.categories.indexOf(catEntry);
+            const viewEl = buildCategoryView(catEntry, idx);
+            catViewsContainer.appendChild(viewEl);
+            builtCats.add(catHash);
+          }
+
+          const view = document.getElementById('view-' + catHash);
+          if (view) {
+            pickerView.classList.add('hidden');
+            view.classList.add('active');
+            const bc = document.getElementById('bc-cat');
+            if (bc) bc.textContent = catEntry.name;
+            
+            // Determine target chip
+            let targetGroupSlug = 'all';
+            if (subHash && catEntry.id === 'team-sports') {
+              const sport = catEntry.subcategories.find(s => s.slug === subHash);
+              if (sport) {
+                targetGroupSlug = (sport.group || 'Specialty').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+              }
+            } else if (subHash) {
+              targetGroupSlug = subHash;
+            }
+
+            // Reset chips
+            view.querySelectorAll('.subcat-chip').forEach((c) => c.classList.remove('active'));
+            let targetChip = targetGroupSlug !== 'all' ? view.querySelector(`.subcat-chip[data-sub="${targetGroupSlug}"]`) : null;
+            if (!targetChip) targetChip = view.querySelector('.subcat-chip[data-sub="all"]');
+            if (targetChip) targetChip.classList.add('active');
+
+            // ── Swap skeleton → real cards after browser paints skeleton ──
+            if (isFirstVisit) {
+              const cfg = CAT_CONFIG[catEntry.id];
+              const gridId = cfg ? `prod-grid-${cfg.hashId}` : null;
+              requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                  const grid = gridId ? document.getElementById(gridId) : null;
+                  if (grid) {
+                    grid.innerHTML = buildProductGrid(catEntry);
+                  }
+                  filterProducts(view);
+                  if (subHash) {
+                    const header = document.getElementById('sport-' + subHash);
+                    if (header) {
+                      const yOffset = -80; 
+                      const y = header.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                      window.scrollTo({top: y, behavior: 'smooth'});
+                    }
+                  } else {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
+                });
+              });
+            } else {
+              filterProducts(view);
+              if (subHash) {
+                const header = document.getElementById('sport-' + subHash);
+                if (header) {
+                  const yOffset = -80; 
+                  const y = header.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                  window.scrollTo({top: y, behavior: 'smooth'});
+                }
+              } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }
+          } else {
+            pickerView.classList.remove('hidden');
+          }
+        }
+
+        // ── Chip click delegation ─────────────────────────────────────
+        document.addEventListener('click', function (e) {
+          const chip = e.target.closest('.subcat-chip');
+          if (chip) {
+            const view = chip.closest('.cat-view');
+            if (!view) return;
+            view
+              .querySelectorAll('.subcat-chip')
+              .forEach((c) => c.classList.remove('active'));
+            chip.classList.add('active');
+            filterProducts(view);
+            return;
+          }
+          const backBtn = e.target.closest('[data-back]');
+          if (backBtn) {
+            e.preventDefault();
+            history.pushState(null, '', window.location.pathname);
+            showCat('');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+          }
+        });
+
+        window.addEventListener('hashchange', () =>
+          showCat(window.location.hash),
+        );
+
+        // ── Init ──────────────────────────────────────────────────────
+        function init() {
+          if (!window.ZALI_CATALOG) {
+            console.error('ZALI_CATALOG not loaded');
+            return;
+          }
+          buildPickerTiles();
+          showCat(window.location.hash);
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', init);
+        } else {
+          init();
+        }
+
+        // ── Utility ───────────────────────────────────────────────────
+        function escHtml(str) {
+          if (!str) return '';
+          return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+        }
+      })();
+    </script>
+  </body>
+</html>

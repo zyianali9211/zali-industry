@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How It Works · ZALI Industries</title>
+<meta name="description" content="From your first message to delivered bulk: a transparent walkthrough of how ZALI Industries makes your apparel." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* TIMELINE */
+  .timeline { position: relative; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 24px; top: 0; bottom: 0;
+    width: 2px;
+    background: var(--bg-line);
+  }
+  @media (max-width: 720px) { .timeline::before { left: 16px; } }
+  .ts {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 32px;
+    margin-bottom: 48px;
+    position: relative;
+    align-items: start;
+  }
+  @media (max-width: 720px) { .ts { grid-template-columns: 40px 1fr; gap: 16px; } }
+  .ts-num {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--bg);
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    display: grid;
+    place-items: center;
+    z-index: 2;
+    position: relative;
+  }
+  @media (max-width: 720px) { .ts-num { width: 34px; height: 34px; font-size: 11px; } }
+  .ts-content {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 30px 32px 32px;
+    transition: border-color 0.2s;
+  }
+  .ts-content:hover { border-color: var(--ink); }
+  @media (max-width: 720px) { .ts-content { padding: 22px 20px; } }
+  .ts-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ts-content h3 {
+    font-family: var(--display);
+    font-size: clamp(26px, 3vw, 36px);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+  }
+  .ts-content h3 em { font-style: italic; color: var(--accent); }
+  .ts-content > p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+    max-width: 680px;
+  }
+  .ts-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    padding: 18px 20px;
+    background: var(--bg-soft);
+    margin-bottom: 22px;
+  }
+  @media (max-width: 720px) { .ts-meta-grid { grid-template-columns: 1fr; gap: 10px; } }
+  .ts-meta-item .lbl {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 4px;
+  }
+  .ts-meta-item .val {
+    font-size: 13px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .ts-deliv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  @media (max-width: 720px) { .ts-deliv { grid-template-columns: 1fr; } }
+  .ts-deliv-item {
+    padding: 12px 14px;
+    background: var(--bg);
+    border: 1px solid var(--bg-line);
+    font-size: 13px;
+    color: var(--ink-soft);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ts-deliv-item .check {
+    width: 16px; height: 16px;
+    background: var(--accent);
+    color: var(--white);
+    display: grid; place-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  /* QC SECTION */
+  .qc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  @media (max-width: 980px) { .qc-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 540px) { .qc-grid { grid-template-columns: 1fr; } }
+  .qc-card {
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    padding: 26px 24px;
+    transition: all 0.25s;
+  }
+  .qc-card:hover { border-color: var(--ink); }
+  .qc-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.14em;
+    margin-bottom: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .qc-card h4 {
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+  }
+  .qc-card p {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  /* TRACK PICKER */
+  .track-picker {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border: 1px solid var(--bg-line);
+    background: var(--white);
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    transition: transform 0.3s ease;
+  }
+  .track-picker.picker-hidden { transform: translateY(-110%); }
+  .track-btn {
+    appearance: none;
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--bg-line);
+    padding: 24px 18px;
+    cursor: pointer;
+    font-family: var(--body);
+    text-align: left;
+    transition: background 0.2s, color 0.2s;
+    color: var(--ink-mute);
+    display: block;
+    text-decoration: none;
+  }
+  .track-btn:last-child { border-right: none; }
+  .track-btn:hover { background: var(--bg-soft); color: var(--ink); }
+  .track-btn.active { background: var(--ink); color: var(--white); }
+  .track-btn.active .track-btn-num { color: var(--accent); }
+  .track-btn-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 6px;
+    display: block;
+  }
+  .track-btn-label {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .track-btn-meta {
+    font-size: 11px;
+    color: var(--ink-mute);
+    margin-top: 4px;
+    font-weight: 400;
+  }
+  .track-btn.active .track-btn-meta { color: rgba(255,255,255,0.6); }
+  @media (max-width: 720px) {
+    /* Stay 3-up on mobile, compact, all 3 tabs visible in a row */
+    .track-picker { grid-template-columns: repeat(3, 1fr); margin-bottom: 28px; }
+    .track-btn {
+      border-right: 1px solid var(--bg-line);
+      border-bottom: none;
+      padding: 12px 8px;
+      text-align: center;
+    }
+    .track-btn:last-child { border-right: none; border-bottom: none; }
+    .track-btn-num { font-size: 8px; letter-spacing: 0.12em; margin-bottom: 3px; }
+    .track-btn-label { font-size: 13px; line-height: 1.1; }
+    .track-btn-meta { display: none; }
+  }
+
+  /* TRACK PANES */
+  .track-pane { display: none; }
+  .track-pane.active { display: block; }
+
+  /* TRACK HERO */
+  .track-intro {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+    margin-bottom: 56px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .track-intro h2 {
+    font-family: var(--display);
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    margin-bottom: 18px;
+  }
+  .track-intro h2 em { font-style: italic; color: var(--accent); }
+  .track-intro p {
+    font-size: 17px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    max-width: 520px;
+  }
+  @media (max-width: 980px) {
+    .track-intro { grid-template-columns: 1fr; gap: 32px; padding-bottom: 40px; margin-bottom: 40px; }
+    .track-intro h2 { font-size: 40px; }
+  }
+
+  /* COMMITMENT / APPROACH BOX */
+  .commit-box {
+    background: var(--bg-soft);
+    border-left: 3px solid var(--accent);
+    padding: 36px 40px;
+    margin-bottom: 56px;
+  }
+  .commit-box .eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+  }
+  .commit-box h3 {
+    font-family: var(--display);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    margin-bottom: 18px;
+  }
+  .commit-box h3 em { font-style: italic; color: var(--accent); }
+  .commit-box > p {
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 760px;
+  }
+  .commit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+    column-gap: 40px;
+  }
+  .commit-list li {
+    font-size: 14px;
+    color: var(--ink-soft);
+    padding: 8px 0 8px 24px;
+    position: relative;
+    break-inside: avoid;
+    line-height: 1.5;
+  }
+  .commit-list li::before {
+    content: '\25B2';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    color: var(--accent);
+    font-size: 9px;
+  }
+  @media (max-width: 720px) {
+    .commit-box { padding: 24px 22px; }
+    .commit-box h3 { font-size: 24px; }
+    .commit-list { columns: 1; }
+  }
+
+  /* MOQ CALLOUT (for Teams + Brands) */
+  .moq-callout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 32px;
+    align-items: center;
+    background: var(--ink);
+    color: var(--white);
+    padding: 32px 40px;
+    margin-bottom: 56px;
+  }
+  .moq-callout .moq-num {
+    font-family: var(--display);
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: var(--accent);
+  }
+  .moq-callout .moq-num em { font-style: italic; }
+  .moq-callout .moq-body h4 {
+    font-family: var(--display);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+  }
+  .moq-callout .moq-body p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.55;
+  }
+  @media (max-width: 720px) {
+    .moq-callout { grid-template-columns: 1fr; padding: 24px 22px; gap: 16px; }
+    .moq-callout .moq-num { font-size: 56px; }
+  }
+
+  /* TRACK CTA BOX */
+  .track-cta {
+    background: var(--ink);
+    color: var(--white);
+    padding: 36px 40px;
+    margin-top: 32px;
+  }
+  .track-cta .eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+  .track-cta h4 {
+    font-family: var(--display);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    margin-bottom: 14px;
+  }
+  .track-cta p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 22px;
+    max-width: 560px;
+  }
+  .track-cta-btn {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--white);
+    padding: 14px 28px;
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background 0.2s;
+  }
+  .track-cta-btn:hover { background: var(--accent-deep); }
+  @media (max-width: 720px) {
+    .track-cta { padding: 24px 22px; }
+    .track-cta h4 { font-size: 22px; }
+  }
+
+  /* FAQ ACCORDION */
+  .faq-acc {
+    border-top: 1px solid var(--bg-line);
+  }
+  .faq-acc details {
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .faq-acc summary {
+    cursor: pointer;
+    padding: 22px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--display);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+    transition: color 0.2s;
+  }
+  .faq-acc summary::-webkit-details-marker { display: none; }
+  .faq-acc summary:hover { color: var(--accent); }
+  .faq-acc summary::after {
+    content: '+';
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--accent);
+    transition: transform 0.2s;
+    flex-shrink: 0;
+    margin-left: 16px;
+  }
+  .faq-acc details[open] summary::after { transform: rotate(45deg); }
+  .faq-acc .faq-body {
+    padding: 0 0 22px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+    max-width: 820px;
+  }
+  .faq-acc .faq-body strong { color: var(--ink); }
+  .faq-acc .faq-tag {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    color: var(--ink-mute);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  /* SHARED-SECTIONS DIVIDER */
+  .shared-divider {
+    text-align: center;
+    margin: 0 0 24px;
+  }
+  .shared-divider .lbl {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--ink-mute);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 14px;
+    background: var(--bg);
+    position: relative;
+    z-index: 1;
+  }
+  .shared-divider::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--bg-line);
+    width: 100%;
+    margin-bottom: -7px;
+  }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-grid">
+      <div>
+        <span class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>How It Works</span></span>
+        <h1>How it <em>works.</em></h1>
+      </div>
+      <div>
+        <p class="lead">Three ways to work with us, one factory behind all of it. Whether you're a brand, a sourcing agent, or a team kitting your roster, pick your track below and we'll walk you through exactly what happens from first message to delivered goods.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRACK PICKER + PANES -->
+<section class="sec sec-tight">
+  <div class="container">
+
+    <!-- Tabs -->
+    <div class="track-picker" id="trackPicker">
+      <a href="#brands" class="track-btn active" data-track="brands">
+        <span class="track-btn-num">01 / For</span>
+        <span class="track-btn-label">Brands</span>
+        <span class="track-btn-meta">OEM &amp; white-label production</span>
+      </a>
+      <a href="#suppliers" class="track-btn" data-track="suppliers">
+        <span class="track-btn-num">02 / For</span>
+        <span class="track-btn-label">Suppliers</span>
+        <span class="track-btn-meta">Agents, sourcing, trading co.</span>
+      </a>
+      <a href="#teams" class="track-btn" data-track="teams">
+        <span class="track-btn-num">03 / For</span>
+        <span class="track-btn-label">Teams</span>
+        <span class="track-btn-meta">Clubs, gyms, schools</span>
+      </a>
+    </div>
+
+    <!-- -------------------------------------------- -->
+    <!-- ?????????????? BRANDS PANE ???????????????? -->
+    <!-- -------------------------------------------- -->
+    <div class="track-pane active" data-pane="brands" id="brands">
+
+      <div class="track-intro">
+        <div>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 01 / For Brands</span>
+          <h2 style="margin-top: 12px;">We build. You brand.<br><em>Everyone wins.</em></h2>
+        </div>
+        <div>
+          <p>Full-service OEM and white-label apparel manufacturing for brands at every stage. First collection, second season, full-scale seasonal production, we run the same playbook for all of it.</p>
+        </div>
+      </div>
+
+      <div class="commit-box">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Our Approach</div>
+        <h3>End-to-end manufacturing. <em>Zero middlemen.</em></h3>
+        <p>When you work with ZALI, you're working directly with the factory. No agents, no brokers, no markups in between. Every step of your garment's journey, from pattern development to final quality check, happens under our roof in Sialkot.</p>
+        <ul class="commit-list">
+          <li>Custom pattern development from your tech pack or measurements</li>
+          <li>Fabric sourcing across our certified mill network</li>
+          <li>Sublimation, DTF, screen, embroidery and heat transfer in-house</li>
+          <li>In-line QC at every production stage, not just at the end</li>
+          <li>Custom branding on every label, polybag, and hangtag</li>
+          <li>International shipping direct to your warehouse or 3PL</li>
+        </ul>
+      </div>
+
+      <div class="moq-callout">
+        <div class="moq-num">25<em>+</em></div>
+        <div class="moq-body">
+          <h4>One MOQ, no fine print.</h4>
+          <p>25 pieces per style across most categories. The same minimum on your first order and your hundredth. Lower MOQ on selected items by arrangement, talk to us.</p>
+        </div>
+      </div>
+
+      <div class="sec-head">
+        <div class="left">
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> The Full Walkthrough</span>
+          <h2 class="sec-h2">From brief to bulk, <em>six steps.</em></h2>
+          <p class="sec-desc">You'll receive clear updates throughout the project, including progress photos, timing notes, and the next step before production moves forward.</p>
+        </div>
+      </div>
+
+      <div class="timeline" style="margin-top: 40px;">
+
+        <div class="ts">
+          <div class="ts-num">01</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 0 &middot; Discovery</div>
+            <h3>Submit your <em>brief.</em></h3>
+            <p>Send design files, tech packs, brand references, or even a mood board. Doesn't matter how rough, we work with whatever you have. WhatsApp or email, reply within 24 hours every business day.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">24 hour reply</div></div>
+              <div class="ts-meta-item"><div class="lbl">Channel</div><div class="val">WhatsApp &middot; Email</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free &middot; No commitment</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Initial response from your project lead</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Clarifying questions if your brief needs them</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">02</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 1-3 &middot; Quote &amp; Confirmation</div>
+            <h3>Quote &amp; <em>confirmation.</em></h3>
+            <p>Within 48 hours, a detailed quote covering unit cost, sampling fee, estimated production timeline, and shipping options. No hidden charges. Once you confirm, we move to sampling.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">48-72 hours</div></div>
+              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF quote</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Per-piece quote at multiple MOQ tiers</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Fabric and print method recommendations</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Realistic lead time and ship-by date</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">03</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 3-5 &middot; Digital Mockup</div>
+            <h3>Digital <em>mockup.</em></h3>
+            <p>Before any fabric is cut, we produce a full digital mockup, front, back, and detail views. You review, request changes, and approve. Most clients finalize in one or two rounds.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">2-3 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF + 3D render on request</div></div>
+              <div class="ts-meta-item"><div class="lbl">Revisions</div><div class="val">Up to 2 rounds free</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Front, back, detail views</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Print placement and scale check</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Color reference against Pantone if specified</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">04</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 5-15 &middot; Physical Sample</div>
+            <h3>Physical <em>sample.</em></h3>
+            <p>Once the mockup is approved, we produce a physical pre-production sample and ship it for review. Feel the fabric, check the fit, verify print quality before committing to bulk. Sample cost is refunded against your bulk order.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">10-15 working days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">$80-150 per sample</div></div>
+              <div class="ts-meta-item"><div class="lbl">Refund</div><div class="val">100% on bulk order</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Pre-production sample (PPS) shipped DDP</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Spec sheet detailing every dimension</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Optional revisions before bulk approval</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">05</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 15-35 &middot; Bulk Production</div>
+            <h3>Bulk <em>production.</em></h3>
+            <p>Sample approved? Production begins. Your order moves through our in-house line, sublimation printing, cutting, stitching, and finishing, with quality checks at every stage. Timelines run 12-25 working days depending on order size.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">12-25 working days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Updates</div><div class="val">WhatsApp progress photos</div></div>
+              <div class="ts-meta-item"><div class="lbl">Deposit</div><div class="val">50% to start, 50% before ship</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Sublimation print run completed</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Cutting and sewing in-house</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Trim, label, and finishing</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Progress photos at each stage</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">06</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 35+ &middot; Packaging &amp; Dispatch</div>
+            <h3>Packaging &amp; <em>dispatch.</em></h3>
+            <p>Every unit is finished, folded, and packed to your specification, polybag, retail hanger, custom box, or plain bulk packing. We ship via DHL, FedEx, or sea freight depending on your timeline and budget. Full tracking from dispatch to delivery.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Air to US/UK</div><div class="val">5-8 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Air to EU/AUS</div><div class="val">7-10 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sea (1000+ pcs)</div><div class="val">25-40 days</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> DDP shipping (duties prepaid)</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Tracking number and ETA</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Export docs, customs, and duties handled</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="track-cta">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Ready to Start?</div>
+        <h4>Get a quote within 48 hours.</h4>
+        <p>Send us your brief and we'll come back with a full quote and timeline. No commitment, no pressure, we'd rather walk you through the trade-offs than rush you into a number.</p>
+        <a href="contact.html#quote-form" class="track-cta-btn">Request a Quote &rarr;</a>
+      </div>
+
+    </div>
+
+    <!-- -------------------------------------------- -->
+    <!-- ?????????????? SUPPLIERS PANE ?????????????? -->
+    <!-- -------------------------------------------- -->
+    <div class="track-pane" data-pane="suppliers" id="suppliers">
+
+      <div class="track-intro">
+        <div>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 02 / For Suppliers</span>
+          <h2 style="margin-top: 12px;">A factory you can send <em>your clients to.</em></h2>
+        </div>
+        <div>
+          <p>We work with buying agents, sourcing consultants, trading companies, and resellers who need a reliable manufacturing partner behind them. White-label friendly, NDA-friendly, no poaching, ever.</p>
+        </div>
+      </div>
+
+      <div class="commit-box">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Our Commitment</div>
+        <h3>Consistent. Communicative. <em>Production-ready.</em></h3>
+        <p>The biggest headaches in supplier work aren't design or pricing, they're quality inconsistency, missed deadlines, and factories that go quiet mid-production. We've built our operations around solving exactly those problems.</p>
+        <ul class="commit-list">
+          <li>Direct factory communication, not a sales layer</li>
+          <li>Documented QC reports available per production batch</li>
+          <li>Clear milestone updates at every stage of production</li>
+          <li>Flexible labeling, your brand, your client's brand, or white-label</li>
+          <li>Competitive ex-factory pricing that leaves room for your margin</li>
+          <li>NDA-friendly, we never poach your clients</li>
+        </ul>
+      </div>
+
+      <div class="sec-head">
+        <div class="left">
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> Process for Suppliers</span>
+          <h2 class="sec-h2">Clean process, <em>every time.</em></h2>
+          <p class="sec-desc">Four steps from your client's brief to their door. Same process every time, same person handling your account, same QC reports landing in your inbox.</p>
+        </div>
+      </div>
+
+      <div class="timeline" style="margin-top: 40px;">
+
+        <div class="ts">
+          <div class="ts-num">01</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 0-2 &middot; Brief</div>
+            <h3>Send the <em>brief.</em></h3>
+            <p>Forward your client's tech pack, artwork, and quantity. We quote within 48 hours with full pricing, timeline, and shipping options broken down clearly, ready for you to forward, mark up, or rebrand.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">48 hours</div></div>
+              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">Clean white-label PDF</div></div>
+              <div class="ts-meta-item"><div class="lbl">NDA</div><div class="val">Signed on request</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Ex-factory pricing in your margin zone</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Timeline + shipping breakdown</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Optional white-label formatting</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">02</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 2-15 &middot; Confirm &amp; Sample</div>
+            <h3>We confirm &amp; <em>sample.</em></h3>
+            <p>Digital mockup first, physical sample on request. Your client approves, we hold production until you give us the green light. Nothing moves to bulk without explicit confirmation.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Mockup</div><div class="val">2-3 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sample</div><div class="val">10-15 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">$80-150 per sample</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Digital mockup + physical PPS</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Spec sheet for client signoff</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> No bulk start without your green light</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">03</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 15-35 &middot; Production &amp; QC</div>
+            <h3>Production &amp; <em>QC.</em></h3>
+            <p>Full in-house production in Sialkot with documented quality checks at every stage. We send production photos and QC reports at key milestones, ready for you to forward to your client without any rebranding work.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">12-25 working days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Reports</div><div class="val">PDF, branded or plain</div></div>
+              <div class="ts-meta-item"><div class="lbl">QC</div><div class="val">4-point check, every piece</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Documented QC reports per batch</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Production photos at key milestones</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Forward-ready format (no logo strip needed)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">04</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 35+ &middot; Ship</div>
+            <h3>Ship to you or <em>direct.</em></h3>
+            <p>We can ship to your warehouse or direct to your client, depending on your preference and brand visibility requirements. Plain or custom-branded packaging. Tracking + delivery confirmation to whoever you specify.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Routes</div><div class="val">Your warehouse or end client</div></div>
+              <div class="ts-meta-item"><div class="lbl">Packaging</div><div class="val">Plain, branded, or white-label</div></div>
+              <div class="ts-meta-item"><div class="lbl">Docs</div><div class="val">No ZALI branding on request</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> DDP shipping to anywhere</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Drop-ship direct to end client</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Plain packaging if discretion is needed</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="track-cta">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Let's Talk Supply Terms</div>
+        <h4>Discuss pricing &amp; lead times.</h4>
+        <p>Get in touch to discuss pricing, lead times, and how we can fit into your existing supplier network. We treat supplier partnerships as long-term, the goal is to make you look good to your clients, not to win a single PO.</p>
+        <a href="contact.html#quote-form" class="track-cta-btn">Contact Us &rarr;</a>
+      </div>
+
+    </div>
+
+    <!-- -------------------------------------------- -->
+    <!-- ?????????????? TEAMS PANE ?????????????????? -->
+    <!-- -------------------------------------------- -->
+    <div class="track-pane" data-pane="teams" id="teams">
+
+      <div class="track-intro">
+        <div>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 03 / For Teams</span>
+          <h2 style="margin-top: 12px;">Custom kit for your team. <em>No minimums that kill the budget.</em></h2>
+        </div>
+        <div>
+          <p>Whether you're kitting out a sports team, a gym, a fight camp, or a club, ZALI can produce custom apparel with your logo, your colors, and your name on the label.</p>
+        </div>
+      </div>
+
+      <div class="commit-box">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Who We Serve</div>
+        <h3>Built for teams, <em>clubs &amp; gyms.</em></h3>
+        <p>You don't need to be a brand to order custom gear from us. We regularly produce for:</p>
+        <ul class="commit-list">
+          <li>Amateur and semi-professional sports teams</li>
+          <li>BJJ academies and MMA gyms</li>
+          <li>Surf clubs and watersports schools</li>
+          <li>CrossFit boxes and functional fitness gyms</li>
+          <li>School and university sports programs</li>
+          <li>Corporate sports events and tournaments</li>
+        </ul>
+      </div>
+
+      <div class="moq-callout">
+        <div class="moq-num">25<em>+</em></div>
+        <div class="moq-body">
+          <h4>Minimum from 25 units.</h4>
+          <p>For most categories. Full kits (jersey + shorts) from 25 sets. Same MOQ whether it's your first season or your tenth.</p>
+        </div>
+      </div>
+
+      <div class="sec-head">
+        <div class="left">
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> The Process</span>
+          <h2 class="sec-h2">Ordering is easier than <em>you think.</em></h2>
+          <p class="sec-desc">Four steps. No tech pack required to start. We handle the technical end, you tell us what you want it to look like.</p>
+        </div>
+      </div>
+
+      <div class="timeline" style="margin-top: 40px;">
+
+        <div class="ts">
+          <div class="ts-num">01</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 0-1 &middot; Tell Us</div>
+            <h3>Tell us <em>what you need.</em></h3>
+            <p>Drop us a message with your sport, estimated quantity, and any design ideas. Even a rough logo and color reference is enough to get started. No tech pack required, we'll handle the technical side.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">24 hour reply</div></div>
+              <div class="ts-meta-item"><div class="lbl">Need</div><div class="val">Logo + color reference</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free quote</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Initial quote within 24 hours</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Sport-specific recommendations</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">02</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 1-5 &middot; Design</div>
+            <h3>We design &amp; <em>mockup.</em></h3>
+            <p>Our team creates a digital mockup of your kit. You review, give feedback, and we revise until it's exactly how you want it. Most teams finalize in one or two rounds.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">2-3 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Rounds</div><div class="val">1-2 typical</div></div>
+              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF mockup with all views</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Front, back, sleeve mockups</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Player number + name placement preview</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Free revisions until you're happy</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">03</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 5-30 &middot; Production</div>
+            <h3>Confirm &amp; we <em>produce.</em></h3>
+            <p>Once the design is approved, we collect final size quantities and player names/numbers, then begin production. Typical timeline is 3-5 weeks depending on order size.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">3-5 weeks</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sizes</div><div class="val">Mixed sets supported</div></div>
+              <div class="ts-meta-item"><div class="lbl">Updates</div><div class="val">Photos at print + finishing</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Player numbers + names sublimated in</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> 4-point QC on every piece</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Individual size packaging</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">04</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Day 30+ &middot; Delivered</div>
+            <h3>Delivered <em>to you.</em></h3>
+            <p>Your kit ships direct to your address, individually packaged and ready to hand out. We ship internationally, wherever your team is based. Tracking number provided as soon as it leaves our floor.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Routes</div><div class="val">Worldwide DDP</div></div>
+              <div class="ts-meta-item"><div class="lbl">Packaging</div><div class="val">Individual polybags per piece</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sort</div><div class="val">By size or by player name</div></div>
+            </div>
+            <div class="ts-deliv">
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Individually wrapped, ready to hand out</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Sort by size or by player on request</div>
+              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Duties prepaid, no surprise fees</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="track-cta">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Get Your Team Kitted</div>
+        <h4>Quote &amp; mockup in 24 hours.</h4>
+        <p>Send us your team details and we'll come back with a quote and mockup concept the same day. No commitment, just a clear number and a visual to take to your captain or coach.</p>
+        <a href="contact.html#quote-form" class="track-cta-btn">Request a Quote &rarr;</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SHARED: LEAD TIMES BY CATEGORY -->
+
+
+<!-- SHARED: QC -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Quality Control</span>
+        <h2 class="sec-h2">Four checks before <em>boxing.</em></h2>
+        <p class="sec-desc">Every piece, every order. Defects pulled and remade, not shipped. The same QC discipline whether you're ordering 25 pieces or 5,000.</p>
+      </div>
+    </div>
+    <div class="qc-grid">
+      <div class="qc-card">
+        <div class="qc-num"><span class="tri tri-sm"></span> Check 01</div>
+        <h4>Print Integrity</h4>
+        <p>Color accuracy against approved sample, registration, edge bleed, and print clarity at fold lines.</p>
+      </div>
+      <div class="qc-card">
+        <div class="qc-num"><span class="tri tri-sm"></span> Check 02</div>
+        <h4>Stitch Quality</h4>
+        <p>Seam strength tested by hand, stitch density on stress points, no skipped stitches or loose threads.</p>
+      </div>
+      <div class="qc-card">
+        <div class="qc-num"><span class="tri tri-sm"></span> Check 03</div>
+        <h4>Dimensional Spec</h4>
+        <p>Every size measured against your spec sheet. Chest, length, sleeve, hem, all within &plusmn;1cm tolerance.</p>
+      </div>
+      <div class="qc-card">
+        <div class="qc-num"><span class="tri tri-sm"></span> Check 04</div>
+        <h4>Trim &amp; Label</h4>
+        <p>Hangtags placed correctly, neck label applied, polybag sealed, sticker positioned where you spec'd.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHARED: FAQ -->
+<section class="sec sec-soft">
+  <div class="container">
+    <div class="sec-head">
+      <div class="left">
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Common Questions</span>
+        <h2 class="sec-h2">Frequently <em>asked.</em></h2>
+        <p class="sec-desc">The questions we get most often from brands, suppliers, and teams. Don't see yours? Send it through, we usually reply within 24 hours.</p>
+      </div>
+    </div>
+
+    <div class="faq-acc" style="margin-top: 40px;">
+      <details>
+        <summary>Do you offer player numbering and name printing?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For Teams</span><br>
+          Yes, names and numbers are sublimated directly into the garment (not a heat transfer or vinyl) for a clean, permanent finish that doesn't crack or peel over time. We support mixed rosters too: send us your size + name + number list and every piece is individually labeled at packaging.
+        </div>
+      </details>
+
+      <details>
+        <summary>Can I see a physical sample before committing to the full run?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For Brands &middot; For Teams</span><br>
+          Always, and we'd rather you did. A pre-production sample costs $80-150 depending on the product, and the cost is <strong>fully refunded against your bulk order</strong>. Sample turnaround is 10-15 days for most categories. We never run bulk without a signed-off PPS.
+        </div>
+      </details>
+
+      <details>
+        <summary>What's the actual MOQ?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For Brands &middot; For Teams</span><br>
+          25 pieces per style across most categories, including full kits (jersey + shorts) at 25 sets. The same MOQ on your first order and your hundredth, we don't quote 25 to win you, then bump it later. Lower MOQ on selected items by arrangement; just ask.
+        </div>
+      </details>
+
+      <details>
+        <summary>How long does an order actually take from start to finish?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For All</span><br>
+          Sample takes 10-15 working days. Bulk production runs 12-25 working days depending on order size and product complexity. Air freight is 5-10 days to most destinations. Realistic end-to-end estimate is <strong>3-5 weeks</strong> for most orders, 5-7 weeks for hoodies/heavy casualwear or orders shipping by sea freight.
+        </div>
+      </details>
+
+      <details>
+        <summary>Do you ship internationally? What about duties?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For All</span><br>
+          Yes, worldwide. Default is DDP shipping (Duties Delivered Paid) via DHL, FedEx, or UPS, meaning the price you see in our quote is the price at your door, no surprise customs fees. Sea freight is available for orders over 1,000 pieces with longer lead times.
+        </div>
+      </details>
+
+      <details>
+        <summary>Do you do white-label / unbranded production?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For Suppliers &middot; For Brands</span><br>
+          Yes, we apply your brand's neck labels, hangtags, polybag stickers, and care labels as standard. Plain packaging with no ZALI branding is the default for suppliers; we never include marketing inserts or business cards in your client shipments unless you ask us to.
+        </div>
+      </details>
+
+      <details>
+        <summary>Can I send a tech pack, or do you create patterns from scratch?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For Brands &middot; For Suppliers</span><br>
+          Both. Send us a full tech pack and we'll match it exactly. Don't have one? Send measurements, reference photos, or even a Pinterest board and our pattern team will develop a custom pattern for you. Pattern development is included free with bulk orders over 100 pieces; otherwise it's a flat $50-100 depending on complexity.
+        </div>
+      </details>
+
+      <details>
+        <summary>Do you sign NDAs? Will you protect my client list?</summary>
+        <div class="faq-body">
+          <span class="faq-tag">For Suppliers</span><br>
+          Yes to both. We sign mutual NDAs as standard and we have a hard "no poaching" policy, your clients stay your clients, and we never reach out to them directly. We've worked with sourcing agents and trading companies long enough to know that's the foundation the relationship runs on.
+        </div>
+      </details>
+
+    </div>
+
+    <p class="muted text-center mt-32" style="font-size:13px;">Have a question that isn't covered here? <a href="contact.html" style="color: var(--accent); text-decoration: underline;">Ask us directly &rarr;</a></p>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="sec sec-dark">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center;">
+      <div>
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Ready when you are</span>
+        <h2 class="sec-h2" style="color: var(--bg);">Start with a brief, <em>end with shipped goods.</em></h2>
+        <p style="color: rgba(255,255,255,0.7); font-size: 16px; line-height: 1.55; margin-top: 16px; max-width: 540px;">No commitment to start a conversation. Send us what you have, sketches, references, or just a sport and a color, and we'll walk you through the rest.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <a href="contact.html#quote-form" class="track-cta-btn" style="text-align: center;">Request a Quote &rarr;</a>
+        <a href="sample-pack.html" class="track-cta-btn" style="background: transparent; border: 1px solid rgba(255,255,255,0.2); text-align: center;">Order Sample Pack &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+
+<!-- TRACK PICKER SCRIPT -->
+<script>
+(function() {
+  var picker = document.getElementById('trackPicker');
+  if (!picker) return;
+  var buttons = picker.querySelectorAll('.track-btn');
+  var panes = document.querySelectorAll('.track-pane');
+
+  function activate(trackName, scrollIntoView) {
+    if (!trackName) trackName = 'brands';
+    buttons.forEach(function(b) {
+      b.classList.toggle('active', b.dataset.track === trackName);
+    });
+    panes.forEach(function(p) {
+      p.classList.toggle('active', p.dataset.pane === trackName);
+    });
+    if (scrollIntoView) {
+      var top = picker.getBoundingClientRect().top + window.pageYOffset - 8;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    }
+  }
+
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      var track = btn.dataset.track;
+      activate(track, true);
+      if (history.replaceState) history.replaceState(null, '', '#' + track);
+      else location.hash = '#' + track;
+    });
+  });
+
+  // Initial activation from URL hash
+  var hash = window.location.hash.replace('#', '');
+  if (hash === 'suppliers' || hash === 'brands' || hash === 'teams') {
+    activate(hash, false);
+  } else {
+    activate('brands', false);
+  }
+
+  // Listen for hash changes (e.g., user clicks a #teams link elsewhere on the page)
+  window.addEventListener('hashchange', function() {
+    var h = window.location.hash.replace('#', '');
+    if (h === 'suppliers' || h === 'brands' || h === 'teams') {
+      activate(h, true);
+    }
+  });
+
+  // -- AUTO-HIDE ON SCROLL (mobile only) --
+  // Hides the sticky picker on scroll-down past a threshold, reveals on scroll-up.
+  // Desktop keeps the picker visible at all times since it's compact (3 buttons in a row).
+  var lastScroll = 0;
+  var ticking = false;
+  var SCROLL_THRESHOLD = 80;       // px from top before hide can trigger
+  var UP_DELTA = 2;                 // px of upward scroll required to re-show
+  var DOWN_DELTA = 1;               // px of downward scroll required to hide
+
+  function isMobile() { return window.innerWidth <= 720; }
+
+  function onScroll() {
+    if (!isMobile()) {
+      picker.classList.remove('picker-hidden');
+      return;
+    }
+    var current = window.pageYOffset || document.documentElement.scrollTop;
+    var diff = current - lastScroll;
+
+    if (current < SCROLL_THRESHOLD) {
+      picker.classList.remove('picker-hidden');
+    } else if (diff > DOWN_DELTA) {
+      picker.classList.add('picker-hidden');
+    } else if (diff < -UP_DELTA) {
+      picker.classList.remove('picker-hidden');
+    }
+    lastScroll = current;
+  }
+
+  window.addEventListener('scroll', function() {
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        onScroll();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+
+  // Re-evaluate on resize (in case viewport crosses the mobile breakpoint)
+  window.addEventListener('resize', function() {
+    if (!isMobile()) picker.classList.remove('picker-hidden');
+  });
+})();
+</script>
+
+
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
+

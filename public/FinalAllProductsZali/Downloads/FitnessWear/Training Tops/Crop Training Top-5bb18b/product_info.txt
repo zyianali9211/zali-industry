@@ -1,0 +1,24 @@
+Product: Crop Training Top
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Fitted long-sleeve crop training top with a high crew neckline, clean minimalist construction, and a body-hugging athletic silhouette that ends above the waist. The fabric appears smooth, opaque, and medium-weight with a matte finish and slight stretch for compression support.
+PANEL_MAP: 1 panel: solid black main body and sleeves, no visible color blocking, no contrasting inserts
+LOGOS: none
+GARMENT_TYPE: long sleeve crop training top
+BACK_VIEW: back is plain solid black with the same long-sleeve crop construction and a clean uninterrupted center back
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / polyester-lycra knit with a tight fine-gauge surface, matte finish, moderate thickness, high stretch recovery, and a sleek body-contouring drape
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Crop Training Top
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

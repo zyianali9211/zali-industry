@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fabric Library, ZALI Industries</title>
+<meta name="description" content="The full ZALI fabric library. Sublimation polyester, compression Lycra, peach skin microfiber, fleece, mesh, and more. GSM-graded, sample-tested." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  /* FABRICS CAROUSEL */
+  .lib-grid { 
+    display: flex; 
+    gap: 18px; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Firefox */
+    padding-bottom: 12px;
+  }
+  .lib-grid::-webkit-scrollbar { display: none; } /* Safari/Chrome */
+
+  .lib-fab {
+    flex: 0 0 calc(33.333% - 12px); /* 3 cards on large screens */
+    scroll-snap-align: start;
+    background: var(--white);
+    border: 1px solid var(--bg-line);
+    transition: all 0.25s;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 1200px) {
+    .lib-fab { flex: 0 0 calc(33.333% - 12px); } /* 3 cards */
+  }
+  @media (max-width: 980px) { 
+    .lib-fab { flex: 0 0 calc(50% - 9px); } /* 2 cards */
+  }
+  @media (max-width: 720px) { 
+    .lib-grid {
+      /* Bleed to edge of screen on mobile */
+      margin: 0 -20px; 
+      padding: 0 20px 12px;
+    }
+    .lib-fab { flex: 0 0 85%; } /* 1 card peeking */
+  }
+  @media (max-width: 480px) {
+    .lib-grid { margin: 0 -16px; padding: 0 16px 12px; }
+    .lib-fab { flex: 0 0 85%; } /* 1 card peeking */
+  }
+  .lib-fab:hover { border-color: var(--ink); }
+  .lib-swatch {
+    aspect-ratio: 16/10;
+    position: relative;
+    overflow: hidden;
+  }
+  .lib-swatch::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: 
+      repeating-linear-gradient(45deg, transparent 0 6px, rgba(255,255,255,0.04) 6px 12px),
+      radial-gradient(circle at 30% 30%, rgba(255,255,255,0.1) 0%, transparent 50%);
+  }
+  .lib-swatch.has-img::after { display: none; }
+  .lib-swatch.s1 { background: linear-gradient(135deg, #1a1a1a, #2a2a2a); }
+  .lib-swatch.s2 { background: linear-gradient(135deg, #14536b, #0a3340); }
+  .lib-swatch.s3 { background: linear-gradient(135deg, #d6411a, #a8311a); }
+  .lib-swatch.s4 { background: linear-gradient(135deg, #4a4a4a, #6a6a6a); }
+  .lib-swatch.s5 { background: linear-gradient(135deg, #2a4a2a, #4a6a4a); }
+  .lib-swatch.s6 { background: linear-gradient(135deg, #6a4a2a, #4a3a1a); }
+  .lib-swatch.s7 { background: linear-gradient(135deg, #4a2a4a, #6a3a6a); }
+  .lib-swatch.s8 { background: linear-gradient(135deg, #2a4a4a, #1a3a3a); }
+  .lib-swatch.s9 { background: linear-gradient(135deg, #d4a056, #a87a36); }
+  .lib-swatch-tag {
+    position: absolute; top: 14px; left: 14px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    color: var(--bg);
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    z-index: 2;
+  }
+  .lib-info { padding: 22px 24px 24px; }
+  .lib-name {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .lib-spec {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .lib-desc {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+  .lib-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 16px;
+    border-top: 1px solid var(--bg-line);
+  }
+  .lib-meta-item .lbl {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 2px;
+  }
+  .lib-meta-item .val {
+    font-size: 12px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* FAB CATEGORY HEAD */
+  .fab-cat-head {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--bg-line);
+  }
+  .fab-cat-head h3 {
+    font-family: var(--display);
+    font-size: clamp(28px, 3.5vw, 40px);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .fab-cat-head h3 em { font-style: italic; color: var(--accent); }
+  .fab-cat-head p {
+    margin-top: 8px;
+    color: var(--ink-mute);
+    font-size: 14px;
+    max-width: 640px;
+  }
+  .fab-cat { margin-bottom: 80px; }
+  .fab-cat:last-child { margin-bottom: 0; }
+</style>
+
+<!-- Favicon & OpenGraph -->
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
+<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="zali-logo.png" />
+
+</head>
+<body class="bb-page">
+<!-- TOP TICKER (MARQUEE) -->
+<div class="topbar">
+  <div class="topbar-track">
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> FREE DESIGN &amp; MOCKUPS, FOR EVERYONE</span>
+    <span>INTERNATIONAL SHIPPING: DDU &middot; DDP &middot; CNF &middot; FOB</span>
+    <span><span class="tri tri-sm" style="margin-right:0;border-bottom-color:var(--accent)"></span> SAMPLE COST DEDUCTED FROM BULK ORDER</span>
+    <span>MOQ FROM 25 PIECES &middot; NO FINE PRINT</span>
+  </div>
+</div>
+
+<!-- BOOMBAH-STYLE MAIN NAV -->
+<nav class="bb-nav"></nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-grid">
+      <div>
+        <span class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Fabric Library</span></span>
+        <h1>The fabric <em>library.</em></h1>
+      </div>
+      <div>
+        <p class="lead">Every fabric in our library is sublimation-tested, GSM-graded, and stocked in our Sialkot facility. Pick by use case, fabric type, or grab the swatch pack and feel them in your hands.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LIBRARY -->
+<section class="sec">
+  <div class="container">
+
+    <div id="fabrics-container"></div>
+
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+
+
+<!-- SAMPLE CTA -->
+<section class="sec sec-dark">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center;">
+      <div>
+        <span class="sec-eyebrow"><span class="tri tri-sm"></span> Touch & Compare</span>
+        <h2 class="sec-h2">Get the <em>swatch pack.</em></h2>
+        <p style="margin-top: 24px; max-width: 540px; line-height: 1.6; color: rgba(250,250,247,0.75);">Photos can't show you hand-feel. Order a curated swatch pack and we'll ship every major sublimation and casual fabric to your door. Cost is refunded against your first bulk order.</p>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="sample-pack.html" class="btn btn-light">Order Swatch Pack <span class="arrow">→</span></a>
+        <a href="contact.html" class="btn btn-outline" style="color:var(--bg); border-color: rgba(255,255,255,0.3);">Ask About Custom Fabrics</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
+        <div class="foot-tag">Industries · Sialkot, Pakistan</div>
+        <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.88 11.93L4 20l4.18-1.1a7.93 7.93 0 0 0 3.86 1h.01a7.94 7.94 0 0 0 5.55-13.58zM12.05 18.5a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.48.65.66-2.42-.16-.25a6.59 6.59 0 0 1-1-3.49 6.6 6.6 0 1 1 11.27 4.67 6.55 6.55 0 0 1-4.69 1.9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html?cat=fightwear">Fightwear</a></li>
+          <li><a href="products.html?cat=surfwear">Surfwear</a></li>
+          <li><a href="products.html?cat=fitnesswear">Fitnesswear</a></li>
+          <li><a href="products.html?cat=team-sports">Team Sports</a></li>
+          <li><a href="products.html?cat=womens">Women's</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Manufacturing</h5>
+        <ul>
+          
+          <li><a href="fabrics.html">Fabric Library</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="sample-pack.html">Sample Pack</a></li>
+          <li><a href="#">Tech Pack Template</a></li>
+          <li><a href="#">Capability Deck (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="about.html#sialkot">Sialkot Hub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ZALI Industries · All Rights Reserved</div>
+      <div>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- MOBILE DRAWER -->
+<!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
+
+
+
+<script>
+(function(){
+  // BB nav: click to toggle dropdowns on mobile/touch
+  document.querySelectorAll('.bb-cat-link').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var parent = link.closest('.bb-cat');
+      if (!parent) return;
+      if (window.innerWidth < 1100) {
+        e.preventDefault();
+        var wasOpen = parent.classList.contains('open');
+        document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+        if (!wasOpen) parent.classList.add('open');
+      }
+    });
+  });
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.bb-cat')) {
+      document.querySelectorAll('.bb-cat.open').forEach(function(c){ c.classList.remove('open'); });
+    }
+  });
+})();
+</script>
+
+
+<script src="fabrics-data.js"></script>
+<script src="products-data.js"></script>
+<script src="nav.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('fabrics-container');
+    if (!window.ZALI_FABRICS || !container) return;
+
+    const families = {};
+    window.ZALI_FABRICS.forEach(f => {
+      if (!families[f.family]) {
+        families[f.family] = { name: f.family, desc: f.familyDesc, items: [] };
+      }
+      families[f.family].items.push(f);
+    });
+
+    const sortedFamilies = Object.values(families).sort((a, b) => a.name.localeCompare(b.name));
+
+    let html = '';
+    sortedFamilies.forEach(fam => {
+      let famHtml = `
+        <div class="fab-cat">
+          <div class="fab-cat-head">
+            <h3>${fam.name.replace(/([0-9]+\\s*·\\s*)([^\\s]+)/, '$1<em>$2</em>')}</h3>
+            <p>${fam.desc || ''}</p>
+          </div>
+          <div class="lib-grid">
+      `;
+
+      fam.items.forEach((f, fIdx) => {
+        let swatchContent = '';
+        let swatchClass = f.swatchClass || 's1';
+        
+        if (f.image && Array.isArray(f.image) && f.image.length > 0) {
+          swatchClass = 'has-img multi-img';
+          f.image.forEach((img, idx) => {
+            swatchContent += `<div class="slide ${idx === 0 ? 'active' : ''}" style="background: url('${img}') center/cover;"></div>`;
+          });
+        } else if (f.image && typeof f.image === 'string') {
+          swatchClass = 'has-img multi-img';
+          swatchContent += `<div class="slide active" style="background: url('${f.image}') center/cover;"></div>`;
+        }
+
+        famHtml += `
+          <div class="lib-fab">
+            <div class="lib-swatch ${swatchClass}" id="fab-${f.id}">
+              ${swatchContent}
+              <span class="lib-swatch-tag" style="z-index: 3;">
+                <span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span>
+                ${f.tag || ''}
+              </span>
+            </div>
+            <div class="lib-info">
+              <div class="lib-name">${f.name || ''}</div>
+              <div class="lib-spec">${f.spec || ''}</div>
+              <p class="lib-desc">${f.description || ''}</p>
+              <div class="lib-meta">
+                <div class="lib-meta-item"><div class="lbl">Best For</div><div class="val">${f.bestFor || ''}</div></div>
+                <div class="lib-meta-item"><div class="lbl">${f.metaLabel || 'Meta'}</div><div class="val">${f.metaValue || ''}</div></div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+
+      famHtml += `</div></div>`;
+      html += famHtml;
+    });
+
+    container.innerHTML = html;
+
+    // Start transitions for multi-image swatches
+    setTimeout(() => {
+      document.querySelectorAll('#fabrics-container .multi-img').forEach(swatch => {
+        const slides = swatch.querySelectorAll('.slide');
+        if (slides.length > 1) {
+          let current = 0;
+          setInterval(() => {
+            slides[current].classList.remove('active');
+            current = (current + 1) % slides.length;
+            slides[current].classList.add('active');
+          }, 5000);
+        }
+      });
+    }, 100);
+  });
+</script>
+</body>
+</html>
+

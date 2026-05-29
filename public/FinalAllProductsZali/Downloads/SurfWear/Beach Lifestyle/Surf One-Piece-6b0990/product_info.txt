@@ -1,0 +1,24 @@
+Product: Surf One-Piece
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleek long-sleeve surf one-piece / rashguard swimsuit with a high mock neck, full-length fitted sleeves, and high-cut leg openings. The construction is a single solid black body with minimal seaming, designed to be body-hugging and streamlined for water sports.
+PANEL_MAP: 1 panel: solid black main body from neck to high-cut leg openings, no contrasting body panels; white sleeve logo print on right outer forearm only
+LOGOS: right sleeve vertical Hurley logo (white, not highlighted), no other logos
+GARMENT_TYPE: long sleeve surf one-piece
+BACK_VIEW: back is solid black with the same high neckline and fitted long sleeves, with a plain uninterrupted center back and no visible contrast panels.
+LOGO_COLOR: white
+FABRIC: smooth nylon-spandex / elastane swim fabric with a tight, matte-to-slightly satin surface, very fine knit texture, high stretch, and close body-contouring drape typical of rashguard swimwear
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Surf One-Piece
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

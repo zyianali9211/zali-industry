@@ -1,0 +1,24 @@
+Product: Soccer Jersey (Long Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve soccer jersey with a slim athletic fit, crew neck collar, and smooth performance knit fabric. The body is a sublimated design with black base and bold red vertical stripes plus subtle tonal graphic patterning printed across the front and sleeves; sleeves are separate cut-and-sew pieces.
+PANEL_MAP: Front body: one continuous panel, black base with red vertical stripes and tonal dark graphic pattern PRINT only, no seams between colors. Back body: one continuous panel, black base with continuation of printed pattern, likely simpler/mostly solid black with subtle tonal print. Sleeves: separate long black panels with red inner side inserts/printed accents. Collar: separate black crew neck trim.
+LOGOS: Puma logo left chest, AC Milan crest right chest, Emirates sponsor center front, fly better sponsor below, sleeve sponsor mark on right sleeve
+GARMENT_TYPE: long sleeve soccer jersey
+BACK_VIEW: back is predominantly black with subtle tonal sublimated pattern and minimal to no large stripe graphics, with plain center back and black sleeves continuing.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance knit with a fine micro-texture, matte-to-slightly-satin finish, thin breathable drape, and a soft athletic hand feel; surface appears slick and tightly woven/knit rather than mesh or fleece.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Soccer Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

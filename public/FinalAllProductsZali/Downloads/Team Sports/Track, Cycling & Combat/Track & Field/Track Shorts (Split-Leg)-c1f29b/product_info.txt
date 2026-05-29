@@ -1,0 +1,27 @@
+Product: Track Shorts (Split-Leg)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Split-leg track shorts with a lightweight woven shell, elastic waistband, and curved side hem; simple athletic construction with a relaxed outer layer and short inseam. Fabric appears smooth and slightly matte with a subtle sporty sheen, thin and airy rather than heavy.
+PANEL_MAP: Front body: one continuous panel, solid black main body with no visible printed stripes or color blocks. Back body: one continuous panel, solid black main body with no visible printed stripes or color blocks. No visible separate color panels; any styling is construction-based only. Waistband: elastic trim, black.
+LOGOS: front right thigh BOA logo, no other logos
+GARMENT_TYPE: track shorts (split-leg)
+BACK_VIEW: Back is solid black with the same continuous single-panel construction and no visible graphics, with the split-leg cut and curved hem continuing around the sides.
+LOGO_COLOR: white
+FABRIC: lightweight woven polyester, smooth and crisp surface, very fine plain weave, low sheen, airy drape, slightly windbreaker-like hand feel with subtle texture and clean athletic finish
+TEXT_AND_GRAPHICS: no visible text, numbers, logos, emblems, badges, crests, or printed graphics
+COLOR_LAYOUT: Solid black garment with no visible color blocking or contrasting panels.
+TRIM_DETAILS: Elastic waistband with dense horizontal shirring at the top, no visible drawstring or closures, and a curved hem with overlapping side-slit openings.
+
+--- GENERATED TEXT ---
+TITLE: Split-Leg Track Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

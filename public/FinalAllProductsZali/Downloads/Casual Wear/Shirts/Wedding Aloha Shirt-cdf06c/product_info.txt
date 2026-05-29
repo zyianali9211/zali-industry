@@ -1,0 +1,24 @@
+Product: Wedding Aloha Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: White short-sleeve aloha button-up shirt with a camp collar, straight hem, and single chest pocket hidden by the floral print placement. The construction is simple and relaxed, with coconut-style buttons and a lightweight woven fabric that hangs softly.
+PANEL_MAP: 1 panel: solid white main body and sleeves with no color blocking; large tropical floral print running vertically along the wearer’s right front from shoulder to hem; printed pocket integrated into the same right-front panel
+LOGOS: inside neck label at back collar (brand mark, not highlighted), no other logos
+GARMENT_TYPE: short sleeve aloha shirt
+BACK_VIEW: back is plain white with no floral print, continuing the same simple yoke and straight hem construction
+LOGO_COLOR: black
+FABRIC: lightweight smooth woven polyester or rayon-blend aloha shirting with a soft drapey hand, matte to slight satin finish, crisp printed surface, and fine tightly woven texture with minimal visible grain
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Aloha Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

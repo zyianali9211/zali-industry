@@ -1,0 +1,24 @@
+Product: Surf Hoodie
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Pullover surf hoodie with a large kangaroo pocket, attached hood, long sleeves, and color-blocked gradient body. The garment appears to use a smooth, midweight polyester fleece or poly-blend sweatshirt fabric with a printed ombré front panel transitioning from deep blue to pale cream, plus solid blue sleeves and hood.
+PANEL_MAP: 5 panels: main front body center panel with blue-to-white gradient print, solid blue left sleeve, solid blue right sleeve, solid blue hood, off-white kangaroo pocket/hem-cuff accents; back is solid blue upper back with large printed graphic on center lower back
+LOGOS: left chest circular crest logo, right sleeve small logo, left sleeve patch logo, back chest text/logo "DIVING FRONTIERS" with website, no highlighted removal marks
+GARMENT_TYPE: surf hoodie
+BACK_VIEW: back is solid blue through the hood, shoulders, and upper back with a large central lower-back scuba/diving graphic and text print, plus white sleeve logos and no front chest logo.
+LOGO_COLOR: white
+FABRIC: smooth midweight polyester fleece / sweatshirt knit with a soft matte surface, clean printed finish, medium drape, and slightly brushed interior feel implied by the hoodie construction; exterior looks tightly knit and non-shiny with crisp sublimated graphics.
+
+--- GENERATED TEXT ---
+TITLE: Surf Hoodie
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,27 @@
+Product: American Football Jersey (Pro Cut)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: American football pro-cut jersey with a tight athletic fit, padded-looking shoulder yoke, and cut-and-sew performance construction. Teal/blue sublimated main body with darker side panels and contrasting sleeve opening trim; surface has a smooth synthetic sports jersey feel with a slight sheen and fine micro-texture.
+PANEL_MAP: Front body is one continuous teal sublimated main panel with visible fine stripe/micro-dot surface pattern; the “TIMBER” wordmark, chest marks, and number are print on this panel, not separate pieces. Darker teal/navy side body inserts run vertically from underarm down the torso on both sides, creating a multi-panel cut-and-sew waist-to-underarm contour. Sleeves are separate cut-and-sew panels in teal with darker inner underarm/armhole trim, and the shoulder yoke is a distinct upper panel over the chest/shoulders. Bottom hem band is the same teal family with a slightly denser micro-texture and seam line across the lower torso.
+LOGOS: upper right chest shield crest logo, upper left chest small “C” mark, upper center chest small “T” mark
+GARMENT_TYPE: American Football Jersey (Pro Cut)
+BACK_VIEW: Back is expected to continue the teal pro-cut construction with solid or lightly textured sublimated body, separate shoulder/sleeve panels, and no front numbers or wordmark.
+LOGO_COLOR: white
+FABRIC: Smooth polyester performance knit / football jersey mesh with a tight, slightly pebbled micro-texture, lightweight medium-thickness feel, and subtle athletic sheen. Fabric looks breathable and stretchy with structured drape, especially across the shoulders and chest, consistent with sublimated sports jersey material.
+TEXT_AND_GRAPHICS: Front chest, centered and arched across upper chest: “TIMBER” in large varsity/block serif letters, white fill with a dark navy outline and a thin lighter outer edge, evenly spaced and slightly curved upward. Center chest below wordmark: “24” in very large athletic block numerals, white fill with a dark navy outline and thin lighter outer edge, stacked vertically with the “2” on the left and “4” on the right. No other visible text, numbers, emblems, badges, crests, or graphics.
+COLOR_LAYOUT: Teal/aqua main body with dark navy side panels and shoulder/armhole trim, plus white mesh visible at the inner collar and underarm openings; the lower center panel is a slightly darker teal.
+TRIM_DETAILS: Deep V-neck collar in dark navy with a clean ribbed finish, dark navy binding around the armholes, no visible cuffs, and a straight hem with subtle stitched panel seams across the lower torso.
+
+--- GENERATED TEXT ---
+TITLE: American Football Jersey (Pro Cut)
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

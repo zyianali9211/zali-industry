@@ -1,0 +1,27 @@
+Product: Softball Belted Pants
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Softball belted pants made from a smooth, midweight performance knit with a soft matte finish and slight stretch. The construction is clean and athletic, with a wide reinforced waistband, belt loops, front fly, and visible seaming/knee reinforcement for durability and mobility.
+PANEL_MAP: Front body: one continuous panel in solid charcoal gray, with no printed color blocks or graphics; visible cut/seam lines include front fly area, pocket opening, and knee reinforcement seam. Back body: one continuous panel in solid charcoal gray, plain with matching seam structure and no print. Waistband: separate structured waistband with belt loops and front closure. Legs: tapered construction with sewn knee sections and hem finish; no sublimation elements, all surface color is solid fabric.
+LOGOS: none
+GARMENT_TYPE: softball belted pants
+BACK_VIEW: Back is solid charcoal gray with the same tapered athletic fit, plain center seat, and matching reinforced leg seams, with no graphics or text.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit, medium weight, soft matte surface with very slight technical sheen, subtle stretch, and a dense uniform texture that drapes cleanly without looking shiny or fuzzy.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Solid charcoal gray/dark slate pants with matching tonal stitching and no contrasting color blocking.
+TRIM_DETAILS: Mid-rise waistband with two belt loops visible at the front, center front closure with two matching dark buttons and a concealed fly seam, gently tapered legs with curved reinforced knee seams, and clean straight hems.
+
+--- GENERATED TEXT ---
+TITLE: Softball Belted Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

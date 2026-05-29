@@ -1,0 +1,24 @@
+Product: 2-in-1 Swim Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: 2-in-1 swim shorts with a solid outer shell and integrated fitted inner compression short on the left leg. The shell is a smooth, lightweight woven swim fabric with a slight matte-to-satin sheen, while the inner short uses a stretchy athletic knit with a printed striped pattern and a visible overlock seam at the hem.
+PANEL_MAP: 3 panels: main outer body teal/blue gradient front, left inner compression short panel with blue striped print, waistband/drawcord in black
+LOGOS: none
+GARMENT_TYPE: 2-in-1 swim shorts
+BACK_VIEW: back is solid teal/blue outer shell with continued elastic waistband and drawcord, with no visible inner short pattern from the rear.
+LOGO_COLOR: white
+FABRIC: outer shell is smooth lightweight woven polyester swim fabric with a soft matte-satin finish, clean drape, and subtle water-resistant look; inner layer is stretchy polyester/spandex compression knit with a smooth surface, tight fit, and printed horizontal stripe texture, slightly more matte and elastic than the shell.
+
+--- GENERATED TEXT ---
+TITLE: 2-in-1 Swim Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

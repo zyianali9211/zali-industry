@@ -1,0 +1,27 @@
+Product: Track Singlet (Compression)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Black fitted compression track singlet made from smooth stretch performance fabric with a body-hugging athletic cut. Contrasting coral-red binding trims the neckline and armholes, and the torso shows subtle tonal horizontal ribbed/contour texture from the sublimated fabric finish.
+PANEL_MAP: Front body: one continuous black panel, with subtle tonal horizontal contour lines printed/finished on the fabric; no separate front color panels, coral-red binding at neck and armholes is trim only. Back body: one continuous black panel, plain with continuation of the same tonal texture. Sleeves: none. Collar/neck trim: separate coral-red binding. Armhole trim: separate coral-red binding, continuous around openings.
+LOGOS: small white stylized chest logo on left chest, small black/gray sleeve/hem logo on right lower sleeve area, no other logos
+GARMENT_TYPE: compression singlet
+BACK_VIEW: Back is solid black and plain with the same fitted compression silhouette, with coral-red trim continuing around the neck and armholes and no large graphic on the back.
+LOGO_COLOR: white
+FABRIC: smooth compression spandex/lycra knit with a very tight fine-gauge surface, matte-to-slightly satin finish, high stretch, and body-contouring drape; subtle tonal horizontal texture/striping visible across the torso from sublimation or fabric knit effect.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Solid black/dark charcoal sleeveless tank top with bright coral-red binding around the neckline and armholes, no additional color blocking or printed elements.
+TRIM_DETAILS: Wide rounded scoop neck with coral-red trim, matching coral-red armhole binding, and a straight hem with a narrow stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Compression Singlet
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

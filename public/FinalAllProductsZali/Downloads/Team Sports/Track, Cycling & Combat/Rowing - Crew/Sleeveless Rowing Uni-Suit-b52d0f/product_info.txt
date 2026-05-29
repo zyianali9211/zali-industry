@@ -1,0 +1,27 @@
+Product: Sleeveless Rowing Uni-Suit
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless rowing uni-suit made from smooth, stretch performance knit with a tight, athletic fit and slight sheen. The upper torso is sublimated with a center white front panel and blue side body, with red trim at the neckline and armholes; the lower body is solid royal blue.
+PANEL_MAP: Front body: one continuous panel, sublimated white center vertical field with blue side fields and red edge accents printed on the fabric, no separate color-block seams. Back body: one continuous panel, predominantly solid royal blue with continued sublimated blue/red styling at the upper torso, no visible center graphic. Sleeves: none, sleeveless cut. Collar/neck trim: separate red binding trim around neck and armholes.
+LOGOS: left upper chest white diamond logo mark, centered Serbian crest/emblem on front chest
+GARMENT_TYPE: sleeveless rowing uni-suit
+BACK_VIEW: Back is mostly solid royal blue with no visible text or crest, maintaining the same sleeveless athletic cut and red-trimmed arm openings.
+LOGO_COLOR: white
+FABRIC: Smooth polyester/spandex performance knit, lightweight and form-fitting with a soft satin-like sheen. Surface is clean and untextured, with fine stretch jersey appearance and athletic compression drape.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Royal blue side panels and lower shorts with a white center front panel, accented by narrow red piping and thin white striping running down the inner edges of the front torso panels.
+TRIM_DETAILS: Scoop neckline and armholes finished with red binding, sleeveless athletic cut, with a straight hemmed short leg opening and visible seam at the center front waist/shorts join.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Rowing Uni-Suit
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

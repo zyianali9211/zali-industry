@@ -1,0 +1,24 @@
+Product: Bra & Leggings Set
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Two-piece activewear set consisting of a sleeveless cropped sports bra and high-waisted full-length leggings. The construction is body-hugging with flatlock-style seam lines and a wide waistband; the fabric appears like printed stretch jersey with a smooth matte finish and strong recovery.
+PANEL_MAP: 3 panels: sports bra main front/back in olive-gray tie-dye print, bra underbust band in same print with horizontal seam, leggings main body in same olive-gray tie-dye print with high waistband and no contrasting side panels
+LOGOS: small logo mark on lower right front sports bra hem, no other logos
+GARMENT_TYPE: bra and leggings set
+BACK_VIEW: back is solid continuation of the same tie-dye print with a plain racerback-style or scoop-back bra shape and uninterrupted leggings waistband, no visible contrast panels
+LOGO_COLOR: black
+FABRIC: compression spandex / polyester-blend stretch knit with a smooth tight surface, matte-to-slightly-soft sheen, medium-light weight, body-conforming four-way stretch, and allover printed tie-dye camouflage effect with no visible pile or mesh texture
+
+--- GENERATED TEXT ---
+TITLE: Bra and Leggings Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

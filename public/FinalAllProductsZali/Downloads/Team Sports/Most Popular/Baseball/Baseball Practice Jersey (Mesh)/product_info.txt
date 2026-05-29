@@ -1,0 +1,16 @@
+Product: Baseball Practice Jersey (Mesh)
+Gender: male
+Material: mesh
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Mesh baseball practice jersey with a loose athletic fit, short raglan sleeves, and a V-neck collar. The body is a single continuous front panel and single continuous back panel in mesh, with sublimated/printed team graphics on the front surface.
+PANEL_MAP: Front body: one continuous panel, navy mesh base with printed white "Blue Note" script, white underline swoosh, printed number "39," and small chest patch graphic (PRINT only, no cut seams between colors). Back body: one continuous panel, navy mesh base with no large graphic visible from front reference. Sleeves: separate raglan sleeves, navy mesh with printed white and light blue stripe bands near sleeve openings (PRINT only). Collar: separate V-neck trim, navy with white and light blue stripe accents.
+LOGOS: left lower hem patch logo, front chest small tag logo near collar
+GARMENT_TYPE: baseball practice jersey (mesh)
+BACK_VIEW: back is solid navy mesh with the same raglan sleeve construction and no visible large graphics, only the continuation of the collar and sleeve trim.
+LOGO_COLOR: white
+
+--- GENERATED TEXT ---
+(no text generated)

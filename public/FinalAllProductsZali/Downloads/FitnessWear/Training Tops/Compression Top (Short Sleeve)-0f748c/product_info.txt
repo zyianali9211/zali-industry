@@ -1,0 +1,24 @@
+Product: Compression Top (Short Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve compression top with a tight, body-hugging athletic fit and raglan-style shoulder construction. The front features a large neon yellow-green graphic over a dark charcoal/black base, with camo-patterned shoulder caps and sleeves; fabric appears smooth, stretchy, and performance-oriented with a slight sheen.
+PANEL_MAP: 4 panels: main body dark charcoal/black front, camo-patterned shoulder yoke and upper sleeves, matching dark charcoal/black lower sleeves, neon yellow-green front graphic print spanning chest and center torso
+LOGOS: none
+GARMENT_TYPE: short sleeve compression top
+BACK_VIEW: back is mostly solid dark charcoal/black with continuation of the camo shoulder/sleeve panels and no large front graphic, likely plain center back.
+LOGO_COLOR: neon yellow-green
+FABRIC: compression spandex / polyester-lycra blend with a very smooth tight-knit surface, slight elastic sheen, thin lightweight drape, and high-stretch body-contouring finish
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Compression Top
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.
