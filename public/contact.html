@@ -433,27 +433,31 @@
         </div>
       </div>
 
-      <div class="form-card-main">
+      <form class="form-card-main" action="https://formsubmit.co/zali.industry@gmail.com" method="POST" enctype="multipart/form-data">
+
+        <!-- Formsubmit config -->
+        <input type="hidden" name="_subject" value="New Quote Request from ZALI Website">
+        <input type="hidden" name="_captcha" value="false">
 
         <h3 class="form-section-title"><span class="form-step">Step 01</span> About You</h3>
 
         <div class="field-row">
-          <div class="field"><label>Full Name</label><input type="text" placeholder="First and last name"></div>
-          <div class="field"><label>Brand / Company <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="Your brand name"></div>
+          <div class="field"><label>Full Name</label><input type="text" name="Full Name" placeholder="First and last name" required></div>
+          <div class="field"><label>Brand / Company <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" name="Brand" placeholder="Your brand name"></div>
         </div>
         <div class="field-row">
-          <div class="field"><label>Email</label><input type="email" placeholder="you@brand.com"></div>
-          <div class="field"><label>WhatsApp / Phone <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="tel" placeholder="+1 (555) 555-5555"></div>
+          <div class="field"><label>Email</label><input type="email" name="Email" placeholder="you@brand.com" required></div>
+          <div class="field"><label>WhatsApp / Phone <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="tel" name="Phone" placeholder="+1 (555) 555-5555"></div>
         </div>
         <div class="field-row">
-          <div class="field"><label>Country / Shipping To</label><input type="text" placeholder="USA, UK, EU, AUS, etc."></div>
-          <div class="field"><label>Website / Instagram <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="@yourhandle or URL"></div>
+          <div class="field"><label>Country / Shipping To</label><input type="text" name="Country" placeholder="USA, UK, EU, AUS, etc." required></div>
+          <div class="field"><label>Website / Instagram <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" name="Website" placeholder="@yourhandle or URL"></div>
         </div>
 
         <div class="submit-row" id="step1-submit-row" style="justify-content: flex-end;">
           <div style="display: flex; gap: 12px; flex-wrap: wrap; width: 100%; justify-content: flex-end;">
             <button type="button" class="btn btn-outline btn-lg" id="btn-add-details">Add Project Details (Optional) <span class="arrow">↓</span></button>
-            <button type="button" class="btn btn-primary btn-lg">Submit Quick Request <span class="arrow">→</span></button>
+            <button type="submit" class="btn btn-primary btn-lg">Submit Quick Request <span class="arrow">→</span></button>
           </div>
         </div>
 
@@ -462,7 +466,7 @@
 
         <div class="field">
           <label>What category? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
-          <select>
+          <select name="Category">
             <option>Select category</option>
             <option>Fightwear · MMA · BJJ</option>
             <option>Surfwear · Boardshorts · Rashguards</option>
@@ -480,38 +484,39 @@
         <div class="field">
           <label>Approximate Quantity <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
           <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;">
-            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">25-50</div></label>
-            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">50-100</div></label>
-            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">100-500</div></label>
-            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="qty"><div class="radio-card-title" style="font-size:14px; margin:0;">500+</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="Quantity" value="25-50"><div class="radio-card-title" style="font-size:14px; margin:0;">25-50</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="Quantity" value="50-100"><div class="radio-card-title" style="font-size:14px; margin:0;">50-100</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="Quantity" value="100-500"><div class="radio-card-title" style="font-size:14px; margin:0;">100-500</div></label>
+            <label class="radio-card" style="text-align:center; padding: 14px 8px;"><input type="radio" name="Quantity" value="500+"><div class="radio-card-title" style="font-size:14px; margin:0;">500+</div></label>
           </div>
         </div>
 
         <div class="field-row">
-          <div class="field"><label>Target Launch / Delivery <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" placeholder="e.g. Mid-March 2026"></div>
-          <div class="field"><label>Sample Before Bulk? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><select><option>Yes (recommended)</option><option>No, go straight to bulk</option><option>Not sure, advise me</option></select></div>
+          <div class="field"><label>Target Launch / Delivery <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><input type="text" name="Target Launch" placeholder="e.g. Mid-March 2026"></div>
+          <div class="field"><label>Sample Before Bulk? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label><select name="Sample Before Bulk"><option>Yes (recommended)</option><option>No, go straight to bulk</option><option>Not sure, advise me</option></select></div>
         </div>
 
         <h3 class="form-section-title"><span class="form-step">Step 03</span> Project Details</h3>
 
         <div class="field">
           <label>Project Description <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
-          <textarea rows="5" placeholder="Tell us about your project. What are you making? What's the brand context? Any specific construction details, fabric preferences, or print methods you have in mind?"></textarea>
+          <textarea name="Project Description" rows="5" placeholder="Tell us about your project. What are you making? What's the brand context? Any specific construction details, fabric preferences, or print methods you have in mind?"></textarea>
           <div class="field-help">The more context you give, the better the first reply.</div>
         </div>
 
         <div class="field">
           <label>Upload Tech Pack, Sketches, or References <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
-          <div class="file-drop">
+          <div class="file-drop" onclick="document.getElementById('file-upload').click();" style="cursor: pointer;">
             <div class="file-drop-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15 V19 a2 2 0 0 1 -2 2 H5 a2 2 0 0 1 -2 -2 V15"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
             <div class="file-drop-text"><strong>Click to upload</strong> or drag and drop</div>
             <div class="file-drop-help">PDF · AI · PSD · PNG · JPG · ZIP · up to 50MB</div>
+            <input type="file" id="file-upload" name="Attachment" accept=".pdf,.ai,.psd,.png,.jpg,.jpeg,.zip" style="display:none;" onchange="this.parentElement.querySelector('.file-drop-text').innerHTML = '<strong>Selected:</strong> ' + this.files[0].name;">
           </div>
         </div>
 
         <div class="field">
           <label>How did you hear about us? <span class="req" style="text-transform:none; letter-spacing:0;">(Optional)</span></label>
-          <select>
+          <select name="Source">
             <option>Select one (optional)</option>
             <option>Google Search</option>
             <option>Instagram</option>
@@ -525,12 +530,12 @@
 
         <div class="submit-row" style="flex-direction: column; align-items: flex-start; gap: 12px;">
           <span class="submit-note"><span class="tri tri-sm" style="margin-right:4px;border-bottom-color:var(--accent)"></span> Reply within 24 hours</span>
-          <button type="button" class="btn btn-primary btn-lg">Submit Quote Request <span class="arrow">→</span></button>
+          <button type="submit" class="btn btn-primary btn-lg">Submit Quote Request <span class="arrow">→</span></button>
         </div>
 
         </div> <!-- /#advanced-details -->
 
-      </div>
+      </form>
     </div>
   </div>
 </section>
