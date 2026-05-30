@@ -1,0 +1,24 @@
+Product: Boardshorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Boardshorts with a flat-front waistband and lace-up drawstring closure, cut straight through the leg with a medium-length outseam. The body uses alternating dark charcoal and black graphic panels with printed athletic-style emblems and text across the legs; overall construction appears lightweight and quick-dry.
+PANEL_MAP: 4 panels: black waistband/yoke at top, left front leg panel in charcoal gray, right front leg panel in black, narrow center fly/gusset area with vertical seam and drawcord opening
+LOGOS: multiple printed graphic marks and text across both legs, including “Hawaii,” “Defend,” circular crest/emblem, crossed motif, and helmet graphic; no highlighted removal marks
+GARMENT_TYPE: boardshorts
+BACK_VIEW: back is a similar two-tone dark panel layout with continued printed graphics on the legs, a plain rear yoke, and no visible front drawstring detail.
+LOGO_COLOR: black
+FABRIC: smooth woven boardshort fabric, likely lightweight polyester or polyester-blend with a matte to slightly low-sheen finish, crisp structure, and quick-dry handfeel; surface looks flat and tightly woven rather than knits, with clean printed graphics and minimal texture.
+
+--- GENERATED TEXT ---
+TITLE: Boardshorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

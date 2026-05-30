@@ -1,0 +1,24 @@
+Product: Paddling Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve paddling jersey with a fitted athletic silhouette and sublimated graphic styling on a single continuous body panel. The fabric appears like smooth polyester/spandex performance knit with a matte-to-slightly-satin surface and lightweight stretch drape; sleeves are separate set-in pieces and the neckline is a simple self-fabric or thin bound crew collar.
+PANEL_MAP: Front body: one continuous panel, blue base with white/pale decorative paddling graphic across upper chest and printed MOCKE MOCKE-style wordmark band (PRINT only, NO seams between colors). Back body: one continuous panel, blue base with no visible graphic elements from the front view. Sleeves: separate long sleeves, blue base with white ornamental print running down the outer sleeves (PRINT only). Collar: narrow matching blue crew neck trim.
+LOGOS: front chest wordmark logo, white sleeve graphics, no highlighted logos
+GARMENT_TYPE: long sleeve paddling jersey
+BACK_VIEW: back is solid blue on one continuous panel with no visible front-style chest graphic, with the same long sleeves continuing in blue print details.
+LOGO_COLOR: white
+FABRIC: smooth synthetic performance knit, likely polyester with spandex, fine flat jersey surface, lightweight and slightly stretchy, minimal sheen, tight weave/knit appearance with a soft athletic drape and printed graphics sitting cleanly on top of the fabric
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Paddling Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

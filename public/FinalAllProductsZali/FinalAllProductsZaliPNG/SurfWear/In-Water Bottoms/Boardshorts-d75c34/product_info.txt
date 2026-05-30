@@ -1,0 +1,24 @@
+Product: Boardshorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Athletic boardshorts with a wide black elastic waistband and a clean flat front. The body is a bright royal blue with subtle panel seams and a small logo mark on the lower right leg; overall construction is lightweight and sporty with a straight loose drape.
+PANEL_MAP: 3 panels: main front body royal blue, left side seam panel royal blue running waist to hem, right side seam panel royal blue running waist to hem; black waistband; black inner brief not visible
+LOGOS: small white logo on lower right leg, no other logos
+GARMENT_TYPE: boardshorts
+BACK_VIEW: back is solid royal blue with the same black waistband and minimal seam detailing, likely with a rear yoke and plain center without visible logos
+LOGO_COLOR: white
+FABRIC: smooth woven polyester boardshort fabric with a lightweight slightly crisp hand, faint satin sheen, quick-dry surface, and soft but structured drape; the texture appears tightly woven and non-brushed with minimal visible grain
+
+--- GENERATED TEXT ---
+TITLE: Boardshorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

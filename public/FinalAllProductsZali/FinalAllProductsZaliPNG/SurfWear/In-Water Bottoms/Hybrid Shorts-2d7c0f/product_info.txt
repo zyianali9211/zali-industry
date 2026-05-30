@@ -1,0 +1,24 @@
+Product: Hybrid Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Tailored hybrid shorts with a structured flat-front waistband, belt loops, front zip fly, and slanted side pockets, combining a dress-short silhouette with athletic ease. The fabric appears lightweight and smooth with a soft matte finish and slight sheen in highlights, showing a woven stretch performance hand rather than knit.
+PANEL_MAP: 4 panels: main front body lavender, left front panel lavender with slanted pocket, right front panel lavender with slanted pocket and fly extension, back body lavender continuing around with side seams and waistband
+LOGOS: none
+GARMENT_TYPE: hybrid shorts
+BACK_VIEW: back is solid lavender with clean welt-style back pocket construction and the same tailored waistband, no contrasting panels visible.
+LOGO_COLOR: white
+FABRIC: lightweight woven stretch polyester blend with a smooth tight surface, subtle matte-to-slight-sheen finish, crisp drape, and minimal visible texture; reads like performance chino fabric with a refined, lightly structured hand
+
+--- GENERATED TEXT ---
+TITLE: Hybrid Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

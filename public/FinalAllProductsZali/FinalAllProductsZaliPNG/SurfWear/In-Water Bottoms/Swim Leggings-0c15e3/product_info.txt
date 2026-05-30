@@ -1,0 +1,24 @@
+Product: Swim Leggings
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: High-waisted swim leggings with a body-hugging, full-length silhouette and flatlock-style seam construction. The fabric appears lightweight and stretchy with a smooth, slick swim-knit surface and allover printed mermaid-scale graphic, giving a slightly glossy athletic swimwear finish.
+PANEL_MAP: 3 panels: main front leg panel with center front seam, main back leg panel with center back seam, wide high-rise waistband panel running around the waist
+LOGOS: none
+GARMENT_TYPE: swim leggings
+BACK_VIEW: back is full mermaid-scale print with a center back seam and uninterrupted high-rise waistband, no visible contrast panels.
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / polyester swim knit with a tight fine-gauge surface, lightweight four-way stretch, slight sheen, and a slick water-friendly finish; printed scale texture is visual only, not raised, with clean body-contouring drape.
+
+--- GENERATED TEXT ---
+TITLE: Swim Leggings
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

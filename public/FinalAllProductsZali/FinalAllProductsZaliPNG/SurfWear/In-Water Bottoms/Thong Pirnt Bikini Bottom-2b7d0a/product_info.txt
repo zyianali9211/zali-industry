@@ -1,0 +1,24 @@
+Product: Thong Pirnt Bikini Bottom
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Low-rise thong bikini bottom with very minimal back coverage and thin side tie straps. The garment is cut in a sleek, body-hugging triangle-thong silhouette with a small center-front panel and narrow bindings, made from a smooth stretch swim fabric.
+PANEL_MAP: 3 panels: main front center panel with leopard print, left side tie panel in same print, right side tie panel in same print; no visible color blocking beyond continuous all-over print
+LOGOS: none
+GARMENT_TYPE: thong bikini bottom
+BACK_VIEW: back is a narrow thong rear with thin printed tie straps at the hips and minimal center-back coverage, continuing the same leopard print throughout.
+LOGO_COLOR: black
+FABRIC: smooth printed swimwear spandex/nylon blend with fine-knit construction, soft matte-to-slight-sheen surface, lightweight fluid drape, high stretch recovery, and a sleek, closely fitted finish; all-over leopard print applied on a compact elastic jersey-like base
+
+--- GENERATED TEXT ---
+TITLE: Thong Bikini Bottom
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

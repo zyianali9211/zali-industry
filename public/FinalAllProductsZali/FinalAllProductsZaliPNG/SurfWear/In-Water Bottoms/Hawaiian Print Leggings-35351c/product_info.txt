@@ -1,0 +1,24 @@
+Product: Hawaiian Print Leggings
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Body-hugging high-waisted leggings with a full-length slim fit and seamless-looking construction. The surface is covered in a vibrant Hawaiian-inspired allover print with blue, teal, black, and white ornamental bands and swirls, giving it a sporty fashion-leggings look.
+PANEL_MAP: 2 panels: main front panel and main back panel, both fully covered in matching allover print; no visible side color-block panels, waistband integrated in same print
+LOGOS: none
+GARMENT_TYPE: leggings
+BACK_VIEW: Back is a continuous matching Hawaiian print with the same high-waist construction and no visible contrast panels or logos.
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / polyester-lycra knit with a tight jersey surface, matte-to-slight-sheen finish, very stretchy body-hugging drape, and crisp printed graphics with no visible pile or texture.
+
+--- GENERATED TEXT ---
+TITLE: Leggings
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

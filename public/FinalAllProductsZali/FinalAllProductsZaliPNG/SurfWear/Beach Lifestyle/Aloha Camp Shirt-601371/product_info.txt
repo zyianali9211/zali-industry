@@ -1,0 +1,24 @@
+Product: Aloha Camp Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve camp shirt with a relaxed boxy fit, spread collar, button-front closure, and a left chest patch pocket. The fabric appears lightweight and smooth with a soft drape, featuring an allover tonal swirl pattern and a large ocean-wave graphic print across the lower front.
+PANEL_MAP: 1 main body panel in light gray/white with allover tonal swirl print; no separate contrast panels; one left chest pocket in self fabric; short sleeves are continuous with body fabric; front has center button placket with 6 visible brown buttons.
+LOGOS: woven neck label at inner back neck, no other logos
+GARMENT_TYPE: aloha camp shirt
+BACK_VIEW: Back is plain with the same light gray allover swirl print, no large wave graphic, and continues the relaxed camp-shirt yoke and straight hem.
+LOGO_COLOR: black
+FABRIC: lightweight smooth woven polyester with a soft silky hand, faint satin-like sheen, airy drape, and crisp printed surface; fine plain-weave appearance with no visible knit texture, giving a clean tropical shirt finish.
+
+--- GENERATED TEXT ---
+TITLE: Aloha Camp Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Boardshorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Boardshorts with a flat front waistband, black drawcord, and above-the-knee straight-leg cut. The construction appears lightweight and quick-dry, with a smooth printed shell fabric and clean topstitching throughout.
+PANEL_MAP: 4 panels: black waistband across top, left leg large Union Jack graphic panel, right leg black/red/blue camouflage and stripe panel, small black center-front fly/gusset area
+LOGOS: right leg lower hem has two small black patches with white logos/icons, no other logos
+GARMENT_TYPE: boardshorts
+BACK_VIEW: back is predominantly the same printed shell with continuous waistband and side seams, with no visible back yoke or extra panels.
+LOGO_COLOR: white
+FABRIC: smooth woven polyester boardshort fabric / microfiber-like swim short shell with a fine matte-to-slight-sheen surface, lightweight crisp hand, subtle structure, and water-friendly quick-dry drape; printed graphics are sharp and opaque with minimal texture visible.
+
+--- GENERATED TEXT ---
+TITLE: Boardshorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

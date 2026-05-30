@@ -1,0 +1,24 @@
+Product: UPF Hooded Sun Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve hooded sun shirt with a relaxed athletic fit, pullover construction, and integrated hood. The front has a short center chest zipper leading into a stand collar/hood opening plus a large angled chest pocket with vertical zipper; seams are smooth and flat for sun-protective activewear.
+PANEL_MAP: 1 main all-over printed panel covering body, sleeves, hood, and pocket; separate front chest pocket panel with vertical zipper; no contrast side panels; same print continues across all visible sections
+LOGOS: none
+GARMENT_TYPE: hooded sun shirt
+BACK_VIEW: back is likely one continuous printed panel with the same all-over floral pattern, plain center back with no visible zipper and no extra contrast panels.
+LOGO_COLOR: black
+FABRIC: smooth lightweight performance polyester or polyester-spandex knit with a very fine, slick surface, soft matte sheen, and fluid drape; looks thin and breathable like UPF sun-protective activewear, with slight stretch and no visible pile or open mesh texture
+
+--- GENERATED TEXT ---
+TITLE: Hooded Sun Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

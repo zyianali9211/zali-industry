@@ -1,0 +1,24 @@
+Product: Hawaiian Print Rashguard 
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Fitted long sleeve rashguard with a solid aqua/turquoise main body and full-length patterned raglan sleeves. Construction appears to use flatlock seams at the raglan shoulder, crew neck collar, and clean hemmed cuffs and bottom edge.
+PANEL_MAP: 3 panels: main front/back body solid aqua/turquoise, left sleeve printed dark brown floral/leaf Hawaiian pattern on aqua, right sleeve printed dark brown floral/leaf Hawaiian pattern on aqua; crew neck and hem match main body color
+LOGOS: none
+GARMENT_TYPE: long sleeve rashguard
+BACK_VIEW: back is likely solid aqua/turquoise through the center with the same printed Hawaiian-pattern raglan sleeves continuing over the shoulders and down the arms, with no visible contrast panel on the back body
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / nylon-elastane rashguard knit with a tight, fine-gauge surface, matte-to-slight-sheen finish, very close body-hugging stretch, and a sleek athletic drape with no visible texture or pile
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Rashguard
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Fishing Polo
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve collared fishing polo with a buttoned placket and all-over sublimated graphic print. The garment appears lightweight and smooth with a sporty drape, designed for breathable performance wear rather than structured tailoring.
+PANEL_MAP: 1 panel: full front and sleeves in one continuous sublimated print, black upper chest/shoulders with distressed white stars and vertical flag stripes, large fish graphic across lower front torso, black collar; no visible separate color-block panels
+LOGOS: vertical "FISH REAPER" text on right chest/upper torso, no other logos
+GARMENT_TYPE: short sleeve fishing polo
+BACK_VIEW: back is continuation of the same all-over print with black/white distressed flag pattern and no large fish graphic, likely plain across the upper back with matching collar and sleeves
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance knit, fine jersey-like surface with a soft matte finish and slight synthetic sheen, thin breathable drape, digitally sublimated print with no visible texture beyond the fabric knit
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Fishing Polo
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

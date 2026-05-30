@@ -1,0 +1,24 @@
+Product: Hawaiian Print Rashguard 
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve rashguard with a tight athletic fit, all-over black base covered in large white Hawaiian floral graphics and a small red chest emblem. The construction appears to use smooth stretch performance fabric with flatlock seams and a high crew neck collar.
+PANEL_MAP: 4 panels: main front body black with white floral print, back body black with white floral print, left side panel black solid running underarm to hem, right side panel black solid running underarm to hem
+LOGOS: left chest red logo, left sleeve red text logo
+GARMENT_TYPE: short sleeve rashguard
+BACK_VIEW: back is full black floral print with no chest logo, with solid black side panels continuing from underarm to hem and a plain upper back neckline.
+LOGO_COLOR: white
+FABRIC: compression spandex / polyester-lycra rashguard knit with smooth tight surface, slight matte-to-satin athletic sheen, very thin lightweight body, strong four-way stretch, close body drape, and flatlocked seam construction
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Rashguard
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

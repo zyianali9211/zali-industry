@@ -1,0 +1,24 @@
+Product: Beach WalkShorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Lightweight woven beach shorts with a relaxed athletic fit, elastic waistband, and center front drawstring. The body appears to be a smooth, quick-dry synthetic with a matte to low-sheen finish and an allover floral line-art print applied via sublimation.
+PANEL_MAP: Front body: one continuous panel, dark charcoal base with tan floral line-art PRINT allover (PRINT only, NO seams between colors); Back body: one continuous panel, dark charcoal base with continuation of the same tan floral PRINT allover. Waistband: separate elasticized trim in dark charcoal; drawstring: separate black cord.
+LOGOS: none
+GARMENT_TYPE: beach shorts
+BACK_VIEW: back is solid dark charcoal with the same allover tan floral print continuing across a single uninterrupted back panel, no visible yoke or color-block seams.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester woven with a soft matte surface, slight crisp hand, subtle structure, quick-dry beach-short texture, and minimal sheen with a fine, clean face texture.
+
+--- GENERATED TEXT ---
+TITLE: Beach Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

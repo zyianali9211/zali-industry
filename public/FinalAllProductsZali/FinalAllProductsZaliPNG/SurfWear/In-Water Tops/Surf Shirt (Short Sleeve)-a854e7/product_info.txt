@@ -1,0 +1,24 @@
+Product: Surf Shirt (Short Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve surf shirt/rashguard-style top with a crew neck, set-in sleeves, and overlock-style seam detailing. The body is a dark performance knit with subtle texture and slight stretch, plus contrasting red piping that arcs across the upper chest and yoke area; the fit appears relaxed but athletic.
+PANEL_MAP: 3 panels: main body black/dark navy, sleeves black/dark navy matching body, upper shoulder/yoke section same base color separated by red piping trim across front and back
+LOGOS: front right chest white logo, back upper yoke large white "Quiksilver" logo
+GARMENT_TYPE: short sleeve surf shirt
+BACK_VIEW: back is mostly solid dark with the same red curved yoke piping, plus a large centered upper-back logo and plain lower back without color blocking.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a fine micro-hex/mesh-like surface texture, lightweight to midweight hand, matte finish with very slight technical sheen, soft drape, and visible stretch suitable for rashguard/surf wear.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Surf Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

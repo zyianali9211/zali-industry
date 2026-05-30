@@ -1,0 +1,24 @@
+Product: Terry Shorts
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Relaxed terry shorts with a soft, casual knit construction, elastic waistband, and white drawcord at center front. The shorts have a simple pull-on shape with curved hem openings and a small printed logo on the lower right leg.
+PANEL_MAP: 1 panel: main body solid olive-green throughout, ribbed elastic waistband in matching olive-green, white center-front drawcord
+LOGOS: small white True Timber logo on lower right leg, no other logos
+GARMENT_TYPE: terry shorts
+BACK_VIEW: back is solid olive-green with the same elastic waistband and no visible logo, continuing the same curved leg openings and side seams.
+LOGO_COLOR: white
+FABRIC: terry knit cotton/poly blend with a soft matte surface, subtle loop-backed athletic sweatshirt texture, medium weight, slightly structured drape, and mild natural stretch; smooth face with faint knit grain rather than a slick synthetic finish
+
+--- GENERATED TEXT ---
+TITLE: Terry Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

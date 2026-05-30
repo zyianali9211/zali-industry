@@ -1,0 +1,24 @@
+Product: Short Sleeve Fishing Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve fishing shirt with a sublimated graphic print, crew neck, and set-in sleeves. The construction appears lightweight and athletic with a smooth, fitted drape rather than a structured woven shirt.
+PANEL_MAP: 4 panels: upper front yoke deep royal blue sweeping diagonally across chest, main front body white with large fish graphic sublimation, left sleeve white with vertical FISHING text and small fishing logo near shoulder, right sleeve white with vertical FISHING text and small fishing logo near shoulder
+LOGOS: left chest fishing emblem, right sleeve fishing emblem, left sleeve vertical FISHING text, right sleeve vertical FISHING text
+GARMENT_TYPE: short sleeve fishing shirt
+BACK_VIEW: back is mostly solid deep royal blue across the upper back with the white body continuing below, likely with a large printed continuation and no major visible back logo.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance knit with a fine, tight surface and matte-to-slightly-sheen finish, soft drape, and printed sublimation graphics; looks breathable and quick-dry rather than woven or textured mesh.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Fishing Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

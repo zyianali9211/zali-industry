@@ -1,0 +1,24 @@
+Product: Long Sleeve Fishing Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve fishing shirt with a crew neckline and straight hem, featuring an all-over sublimated angling graphic on the front and sleeves. The construction appears lightweight and athletic, with a smooth moisture-wicking synthetic knit and a slightly matte surface.
+PANEL_MAP: 3 panels: main body front and back in black-to-blue gradient with graphic print, sleeves in coordinated blue/black gradient graphic print, collar in black ribbed binding
+LOGOS: large chest text graphic “Fishing” across upper front, no other visible logos
+GARMENT_TYPE: long sleeve fishing shirt
+BACK_VIEW: back is mostly solid continuation of the black-to-blue gradient graphic with the same sleeve print, likely without the large fish illustration on the rear.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with fine micro-textured surface, lightweight drape, matte finish with slight synthetic sheen, breathable and quick-dry look, sublimated print on a tightly knit athletic jersey base
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Fishing Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

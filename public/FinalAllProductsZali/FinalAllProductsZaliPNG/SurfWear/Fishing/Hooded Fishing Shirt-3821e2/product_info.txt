@@ -1,0 +1,24 @@
+Product: Hooded Fishing Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Hooded long-sleeve fishing shirt with a relaxed athletic fit, built from lightweight performance fabric and fully covered in a blue camouflage wave print. It has an attached hood, straight hem, and a small zippered utility pocket near the lower side seam; the surface looks smooth and technical rather than knitted or fuzzy.
+PANEL_MAP: 1 panel: all-over blue camo print across hood, body, sleeves, and pocket, with no contrasting color blocking; hood is a separate construction piece, sleeves are set-in, and there is a small vertical zip pocket on the lower right front side
+LOGOS: small logo near left sleeve cuff, no other logos
+GARMENT_TYPE: hooded fishing shirt
+BACK_VIEW: back is all-over matching blue camo with the hood continuing the print and a plain uninterrupted center back body, no visible yoke color change.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance knit with a very fine technical face, matte-to-slightly-pebbled surface, thin breathable drape, and mild stretch; looks quick-dry and UPF-style rather than brushed, fleece, or woven, with a clean printed finish and minimal sheen
+
+--- GENERATED TEXT ---
+TITLE: Hooded Fishing Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

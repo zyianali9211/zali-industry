@@ -1,0 +1,24 @@
+Product: Surf Bikini Bottoms
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Minimal surf bikini bottom with a high-cut leg and low-rise front, constructed from smooth stretch swim fabric with contrast trim at the waistband. The front is a solid teal body with a small white ribbed or textured waistband edge, designed to sit close to the body for a sleek fitted look.
+PANEL_MAP: 2 panels: main body solid teal front and sides, white waistband trim/binding at top edge
+LOGOS: none
+GARMENT_TYPE: surf bikini bottoms
+BACK_VIEW: back is likely a matching solid teal full-coverage seat with the same white waistband trim continuing around, no extra color blocking.
+LOGO_COLOR: white
+FABRIC: smooth swimwear spandex / nylon-elastane tricot with a tight, body-hugging stretch surface, slight satin-like sheen, thin lightweight drape, and subtle elastic texture at the waistband trim
+
+--- GENERATED TEXT ---
+TITLE: Surf Bikini Bottoms
+
+DESCRIPTION:
+Available in smooth swimwear spandex and nylon-elastane tricot.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on waistband, front, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.
