@@ -1,0 +1,24 @@
+Product: Golf Polo
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve golf polo with a traditional soft-point collar, short button placket, and relaxed athletic fit. The garment is covered in an all-over dense floral/confetti print in blue, white, black, and light gray on a dark base, with a small chest logo and clean set-in sleeves.
+PANEL_MAP: 1 panel: single all-over printed body and sleeves in one continuous fabric, no visible color-block panels, self-fabric collar and placket in matching print
+LOGOS: left chest logo (visible, remove), no other logos
+GARMENT_TYPE: golf polo
+BACK_VIEW: back is a continuous all-over printed panel matching the front, with no color-blocking and a plain upper back beneath the collar.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a fine pique-like microtexture, lightweight drape, matte to very slight sheen, and a breathable golf-polo hand feel; surface appears soft, tightly knit, and lightly textured rather than ribbed or brushed.
+
+--- GENERATED TEXT ---
+TITLE: Golf Polo
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Tennis Dress
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless tennis dress with a fitted athletic bodice, mock neck, and a flared skirted lower section. The construction appears to use smooth stretch performance knit on the upper body and a lighter perforated or mesh-like outer skirt overlay with a contrasting underlayer at the hem.
+PANEL_MAP: 4 panels: main bodice coral pink, high mock neck/armhole continuation coral pink, wide white graphic waistband panel with abstract coral/white print around waist, flared skirt coral pink outer layer with pale pink/white hem underlayer visible at bottom
+LOGOS: small white Mizuno logo on right chest, no other logos
+GARMENT_TYPE: tennis dress
+BACK_VIEW: back is predominantly solid coral pink with the same fitted upper bodice and flared skirt, likely with a plain back and no front-style chest logo treatment.
+LOGO_COLOR: white
+FABRIC: smooth polyester-spandex performance knit with a tight, body-hugging stretch surface on the bodice, slight matte-to-soft-sheen finish, and a lightweight perforated or micro-mesh textured skirt overlay that drapes softly and flares away from the body; underhem appears as a smooth lighter knit layer.
+
+--- GENERATED TEXT ---
+TITLE: Tennis Dress
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

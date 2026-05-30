@@ -1,0 +1,24 @@
+Product: High-Waist Leggings
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: High-waist full-length leggings with a wide contoured waistband and a streamlined, body-hugging fit. The construction appears seamless or minimally seamed with a clean center front and no visible pockets, made from a textured stretch knit.
+PANEL_MAP: 1 panel: main body black with integrated wide high-rise waistband, no visible contrast panels
+LOGOS: none
+GARMENT_TYPE: high-waist leggings
+BACK_VIEW: back is solid black with the same high-rise waistband and uninterrupted full-length leg coverage, likely plain with minimal or no visible seam details.
+LOGO_COLOR: white
+FABRIC: ribbed compression spandex / nylon-lycra knit with fine vertical texture, matte to very slight sheen, dense medium-weight body, high stretch recovery, smooth tight surface with a sculpting athletic finish
+
+--- GENERATED TEXT ---
+TITLE: High-Waist Leggings
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

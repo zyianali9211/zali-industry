@@ -1,0 +1,24 @@
+Product: High-Waist Leggings
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: High-waist full-length leggings with a seamless-looking, body-hugging athletic fit and wide contoured waistband. The fabric appears to be a soft compression knit with an allover black-and-white heathered/distressed print and a smooth matte finish.
+PANEL_MAP: 1 panel: all-over black-and-white printed main body with integrated high-rise waistband, no distinct color-block inserts or visible contrast panels
+LOGOS: left side chest area logo visible in reference image background only, not on garment
+GARMENT_TYPE: high-waist leggings
+BACK_VIEW: back view continues the same all-over printed compression knit with a center seam and contoured seat shaping, no added color panels.
+LOGO_COLOR: black
+FABRIC: compression spandex/nylon blend knit with tight smooth surface, matte to very slight sheen, four-way stretch, medium-light weight, and a soft supportive hand; allover marled/distressed print texture that reads mottled and speckled rather than woven.
+
+--- GENERATED TEXT ---
+TITLE: High-Waist Leggings
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

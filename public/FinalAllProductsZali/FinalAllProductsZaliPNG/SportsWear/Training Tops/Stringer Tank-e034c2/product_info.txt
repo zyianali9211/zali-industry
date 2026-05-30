@@ -1,0 +1,24 @@
+Product: Stringer Tank
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless stringer tank with low-cut armholes, narrow racerback-style shoulder straps, and a straight hem. The body is a single all-over printed front panel with contrast trim at the neckline and armholes, giving it a lightweight athletic look.
+PANEL_MAP: 1 panel: main body red with white abstract splatter/line graphic all over, no separate side panels; red binding/trim around neckline and armholes
+LOGOS: centered front chest print/logo reading "RESPECT" with small emblem above, no other visible logos
+GARMENT_TYPE: stringer tank
+BACK_VIEW: back is solid red with continuation of the same print pattern or minimal graphic on the upper back, with narrow racerback straps and plain center body.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester jersey with a soft matte finish, thin athletic drape, and slightly slick printed surface; looks like a breathable stretch knit rather than mesh, with clean edges and minimal texture visible.
+
+--- GENERATED TEXT ---
+TITLE: Stringer Tank
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

@@ -1,0 +1,24 @@
+Product: Weightlifting Singlet
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless weightlifting singlet with a tight, body-hugging compression fit and scoop neckline, built with flat seams and contoured paneling through the torso and legs. Main body is black with a contrasting patterned side insert, and the leg openings are short with a clean finished hem.
+PANEL_MAP: 3 panels: main body black front and back, side inserts on both sides in blue geometric pattern running from underarm/waist down the outer thigh, black binding at neckline and armholes
+LOGOS: large side graphic text on right hip/side panel, no other logos
+GARMENT_TYPE: weightlifting singlet
+BACK_VIEW: back is mostly solid black with the blue patterned side inserts continuing down both sides and a high-coverage racerback-style upper back.
+LOGO_COLOR: white
+FABRIC: smooth polyester-spandex compression knit with a tight, fine-gauge surface, matte-to-slight-sheen finish, medium-heavy supportive feel, high stretch recovery, and clean body-contouring drape rather than loose drape
+
+--- GENERATED TEXT ---
+TITLE: Weightlifting Singlet
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

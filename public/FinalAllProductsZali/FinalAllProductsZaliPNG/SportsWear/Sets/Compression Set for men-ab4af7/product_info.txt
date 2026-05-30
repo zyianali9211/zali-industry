@@ -1,0 +1,24 @@
+Product: Compression Set for men
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Two-piece men’s compression sportswear set in matte black, consisting of a zip-front hooded jacket and fitted bottoms. The garments are constructed with slim, body-contouring seams and contrast light piping that follows the raglan/side panel lines for a technical athletic look.
+PANEL_MAP: 4 panels: main body black, sleeves black, contrast light gray/white piping from shoulder to underarm and down side seams, hood black; bottoms black with no visible color blocking, elastic waistband black.
+LOGOS: waistband text print "COMBAT PRO..." (visible, remove), no other logos
+GARMENT_TYPE: compression set with hooded zip jacket and leggings/shorts variant
+BACK_VIEW: back is solid black with the same contrast piping continuing along the upper shoulder and side seam lines, plain center back with no visible logo.
+LOGO_COLOR: white
+FABRIC: compression spandex / polyester-lycra knit with a smooth tight surface, very fine circular-knit texture, matte-to-slight sheen finish, high stretch, and a close body-hugging drape; looks lightweight, athletic, and moisture-wicking.
+
+--- GENERATED TEXT ---
+TITLE: Men’s Compression Set with Hooded Zip Jacket and Leggings/Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Golf Quarter-Zip
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Long-sleeve golf quarter-zip pullover with a slim athletic fit, stand collar, and short center front zipper. The garment appears to be a lightweight performance knit with an all-over multicolor horizontal pattern, smooth surface, and slight stretch for active wear.
+PANEL_MAP: 1 panel: all-over printed main body and sleeves in continuous pattern, solid self-fabric collar, no visible color-block side panels, no separate cuff or hem panels
+LOGOS: small side seam tag at lower right hem, no other logos
+GARMENT_TYPE: long sleeve golf quarter-zip pullover
+BACK_VIEW: back is the same all-over patterned print in one continuous panel with no visible yoke or contrast inserts, with the pattern continuing across the sleeves and back body
+LOGO_COLOR: black
+FABRIC: smooth lightweight polyester performance knit / interlock with a fine, even surface, soft matte finish, moderate drape, and subtle stretch; the printed surface looks tightly knit and clean, not fuzzy or brushed, with a sporty technical handfeel
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Golf Quarter-Zip Pullover
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

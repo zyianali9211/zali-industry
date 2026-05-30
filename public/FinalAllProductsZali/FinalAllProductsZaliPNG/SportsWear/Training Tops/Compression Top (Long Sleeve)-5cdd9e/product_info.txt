@@ -1,0 +1,24 @@
+Product: Compression Top (Long Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Fitted long sleeve compression top with a crew neckline, raglan-style shoulder construction, and a smooth body-hugging athletic silhouette. The fabric appears lightweight, stretchy, and matte with a very fine knit surface and subtle compression wrinkles at the torso and sleeves.
+PANEL_MAP: 1 panel: main body and sleeves solid black, with raglan seam lines from collar to underarm on both sides, no contrasting color panels
+LOGOS: small white chest logo on left chest, small white logo on right thigh of pants visible, no other logos
+GARMENT_TYPE: long sleeve compression top
+BACK_VIEW: back is solid black with the same raglan sleeve construction and no visible contrast panels, likely plain center back with minimal seam detailing
+LOGO_COLOR: white
+FABRIC: compression spandex / polyester-lycra blend with smooth tight knit surface, matte finish, high stretch recovery, lightweight-to-medium weight, sleek body-contouring drape, subtle sheen only on tensioned areas
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Compression Top
+
+DESCRIPTION:
+Available in compression spandex and polyester-lycra blend.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

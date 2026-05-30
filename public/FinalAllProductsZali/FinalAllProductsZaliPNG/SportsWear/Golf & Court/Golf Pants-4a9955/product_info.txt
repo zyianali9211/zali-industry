@@ -1,0 +1,24 @@
+Product: Golf Pants
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Tailored golf pants with a relaxed straight leg, classic waistband, belt loops, front fly, and slanted side pockets. The construction appears clean and minimally detailed, with a crisp drape and pressed trouser-like silhouette suited for course wear.
+PANEL_MAP: 4 panels: front left leg, front right leg, back left leg, back right leg; waistband matching main fabric, no color-block inserts
+LOGOS: none
+GARMENT_TYPE: golf pants
+BACK_VIEW: back is plain matching plaid across both legs with standard seat shaping and no visible back yoke detail or contrast panels.
+LOGO_COLOR: white
+FABRIC: woven polyester-blend suiting-style golf fabric with a smooth, crisp surface, light to medium weight, and a slightly dry matte finish; fine structured drape with subtle stretch and sharp crease retention. The blue plaid is a yarn-dyed or printed check pattern with thin bright cyan grid lines over a darker navy base.
+
+--- GENERATED TEXT ---
+TITLE: Golf Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

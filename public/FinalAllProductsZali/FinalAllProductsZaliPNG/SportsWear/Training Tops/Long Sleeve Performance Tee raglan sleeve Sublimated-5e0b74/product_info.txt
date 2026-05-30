@@ -1,0 +1,24 @@
+Product: Long Sleeve Performance Tee raglan sleeve Sublimated
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve performance tee with a smooth solid cream main body and raglan sleeves in a light gray digital camouflage sublimated print. The construction appears athletic and fitted with crew neckline, set-in raglan seam lines, and clean hemmed cuffs and bottom hem.
+PANEL_MAP: 3 panels: main front and back body solid cream, left sleeve light gray digital camo, right sleeve light gray digital camo
+LOGOS: none
+GARMENT_TYPE: long sleeve performance tee
+BACK_VIEW: back is solid cream on the main body with matching gray digital camo raglan sleeves continuing across the shoulders and sleeves, no visible center back seam.
+LOGO_COLOR: black
+FABRIC: smooth lightweight polyester performance knit with a soft matte finish, fine micro-interlock or birdseye-like texture, slight stretch, and a dry athletic hand; sleeves show sublimated camouflage print integrated into the fabric surface rather than sitting on top.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Performance Tee
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

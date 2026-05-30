@@ -1,0 +1,24 @@
+Product: Tennis Skirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Tennis skirt with a wide hot-pink solid waistband and a flared, pleated A-line body. The skirt body uses a colorful all-over graphic print with repeated cocktail-glass motifs in a checkerboard layout, and the fabric appears lightweight, smooth, and slightly stretchy with a sporty drape.
+PANEL_MAP: 2 panels: solid hot-pink waistband, printed skirt body with all-over multicolor checkerboard cocktail-glass pattern, no visible contrasting side panels
+LOGOS: none
+GARMENT_TYPE: tennis skirt
+BACK_VIEW: back is the same printed skirt body with uninterrupted checkerboard pattern and a continuous solid pink waistband, with pleats/flare flowing evenly around the hem
+LOGO_COLOR: white
+FABRIC: smooth polyester/spandex performance knit with a slick, fine-grain surface, lightweight construction, moderate stretch, and soft fluid drape; matte-to-slight-sheen finish with crisp print definition and a sporty activewear feel
+
+--- GENERATED TEXT ---
+TITLE: Tennis Skirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

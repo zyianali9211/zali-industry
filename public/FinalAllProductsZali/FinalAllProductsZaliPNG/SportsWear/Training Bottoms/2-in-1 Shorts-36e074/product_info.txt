@@ -1,0 +1,24 @@
+Product: 2-in-1 Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Athletic 2-in-1 shorts with a loose outer short in bright red and an attached white compression liner visible at the leg openings. The outer shell has an elastic waistband with white drawcord and a lightweight, slightly crinkled sporty drape, while the liner appears smooth and stretch-fitted.
+PANEL_MAP: 4 panels: main outer body red front, main outer body red back, white compression liner at lower leg openings on both legs, black/white elastic waistband with white drawcord
+LOGOS: small white chest-style graphic logos near lower front of each leg, no other logos
+GARMENT_TYPE: 2-in-1 shorts
+BACK_VIEW: back is mostly solid red outer short with the white liner extending below the hem openings at the leg ends, with no visible rear logo or extra paneling.
+LOGO_COLOR: white
+FABRIC: lightweight woven polyester athletic shell with a matte-to-slightly-sheen finish, soft crinkled surface, airy drape, and relaxed loose fit; inner liner is smooth stretch knit/compression spandex with a tight, body-hugging, low-sheen surface.
+
+--- GENERATED TEXT ---
+TITLE: 2-in-1 Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

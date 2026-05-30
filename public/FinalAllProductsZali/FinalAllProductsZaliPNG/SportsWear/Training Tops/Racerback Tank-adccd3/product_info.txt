@@ -1,0 +1,24 @@
+Product: Racerback Tank
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Fitted racerback tank with a scoop neckline and narrow shoulder straps, cut close to the body through the bust and waist. The construction appears minimal with clean seams and a smooth, streamlined athletic silhouette.
+PANEL_MAP: 1 panel: solid black/navy main body with no contrast panels, racerback strap construction, same fabric throughout
+LOGOS: small centered back neck logo/mark (visible, remove), no other logos
+GARMENT_TYPE: racerback tank
+BACK_VIEW: back is a solid racerback with a deep scooped armhole line and centered upper back strap, no color blocking or additional panels.
+LOGO_COLOR: white
+FABRIC: smooth stretch knit, likely nylon/spandex or polyester/spandex performance jersey, very fine surface with a matte-to-slightly-satiny finish, tight body-hugging four-way stretch and lightweight drape, no visible texture or mesh.
+
+--- GENERATED TEXT ---
+TITLE: Racerback Tank
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

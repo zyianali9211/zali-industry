@@ -1,0 +1,24 @@
+Product: Gym Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Athletic gym shorts with a loose straight-leg cut, elastic waistband, and a bold yellow-to-black gradient graphic. The shorts appear to use a lightweight smooth synthetic knit with a slightly matte finish and subtle sheen, suitable for training and easy movement.
+PANEL_MAP: 3 panels: main front panel with yellow upper section fading to black lower section, left side panel/insert in black with yellow side stripe, right side panel/insert in black with yellow side stripe
+LOGOS: none
+GARMENT_TYPE: gym shorts
+BACK_VIEW: back is solid black with continuation of the yellow side stripes and a clean elastic waistband, with the gradient graphic limited primarily to the front.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester knit with a soft matte surface, slight athletic sheen, thin drapey hand, and subtle printed geometric texture visible in the dark lower area
+
+--- GENERATED TEXT ---
+TITLE: Gym Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

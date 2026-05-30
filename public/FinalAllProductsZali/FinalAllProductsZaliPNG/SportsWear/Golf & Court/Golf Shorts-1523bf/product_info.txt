@@ -1,0 +1,24 @@
+Product: Golf Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Tailored golf shorts with a flat-front construction, belt loops, front fly with button closure, and clean hemmed leg openings. The fabric appears lightweight and smooth with a slight polished finish, printed all over with small dark blue star motifs.
+PANEL_MAP: 5 panels: main front left leg aqua with all-over dark blue star print, main front right leg aqua with all-over dark blue star print, waistband aqua with belt loops, front fly/placket center, pocket lining/inner waistband dark contrasting trim
+LOGOS: none
+GARMENT_TYPE: golf shorts
+BACK_VIEW: back is plain matching aqua with the same all-over star print, rear yoke and seat seams, and no visible back pockets or logos shown.
+LOGO_COLOR: white
+FABRIC: lightweight woven polyester with a smooth, slightly slick surface and subtle sheen, crisp drape, and minimal texture; appears breathable performance twill/plain weave with a printed finish and light structure rather than stretch knit.
+
+--- GENERATED TEXT ---
+TITLE: Golf Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.
