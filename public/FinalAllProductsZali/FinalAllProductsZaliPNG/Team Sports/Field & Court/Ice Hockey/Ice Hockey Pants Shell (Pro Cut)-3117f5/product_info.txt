@@ -1,0 +1,27 @@
+Product: Ice Hockey Pants Shell (Pro Cut)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Hockey pants shell in a lightweight woven synthetic outer with a smooth, slightly crinkled, semi-matte sheen and loose protective drape. Single-panel front and back body construction with sublimated-looking color accents/striping; lace-up waist and reinforced athletic cut typical of pro hockey shells.
+PANEL_MAP: Front body: one continuous blue panel, with a white side stripe and green stripe along the left outer leg as PRINT only, not separate body panels; small shield emblem printed on lower left leg; large white “CCM” printed on lower right leg. Back body: one continuous blue panel, plain overall with no visible printed graphics from this view. Waist/collar area: black lace-up opening and black inner waistband trim. No cut-and-sew color blocks on the body; visible color changes are surface print only.
+LOGOS: front lower left leg shield emblem, front lower right leg “CCM” logo
+GARMENT_TYPE: ice hockey pants shell
+BACK_VIEW: Back is solid royal blue overall with no visible graphics, continuing the same loose shell construction and waist lace-up closure at the top.
+LOGO_COLOR: white
+FABRIC: Smooth woven polyester shell fabric, lightweight and slightly crisp with a thin protective outer hand. Surface has a mild sheen and visible wrinkling/crinkling from the fabric’s structured yet flexible drape, not knit or fleece; looks durable and abrasion-resistant with a windbreaker-like finish.
+TEXT_AND_GRAPHICS: Front left leg near lower hem: a small shield/crest patch outlined in white and navy, containing a white star above a green mountain silhouette on a dark blue field; patch is approximately small badge size, sitting just above the hem and slightly in from the side seam. Front right leg near lower hem: large white “CCM” wordmark in bold italic sans-serif block letters, horizontally aligned and occupying a medium-large area across the lower right thigh. Left outer side seam: no text, only color striping. No other visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs.
+COLOR_LAYOUT: Royal blue body with a black waistband, a vertical side stripe on the left outer leg in white and green, and white branding on the lower right leg; the shield patch adds dark blue, white, and green.
+TRIM_DETAILS: Wide elastic-looking black waistband with a smooth top edge, lace-up front closure with black laces through silver metal eyelets, and a straight hem with subtle stitching; no cuffs visible.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Pants Shell
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

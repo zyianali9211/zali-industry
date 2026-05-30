@@ -1,0 +1,27 @@
+Product: Baseball Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Baseball uniform set with a fitted short-sleeve jersey and matching athletic pants. The jersey has a smooth performance knit look with bold sublimated vertical pinstripes on the body, contrasting dark sleeves, and a sports-uniform silhouette; the pants are light gray with a tapered athletic fit and striped cuffs.
+PANEL_MAP: Front body: one continuous panel, black/dark base with white vertical pinstripes printed down the full front body (PRINT only, no separate panels). Back body: one continuous panel, black/dark base with white vertical pinstripes printed down the full back body and large red "22" printed center back. Sleeves: separate short-sleeve panels, solid dark/black. Collar: dark ribbed crew neck trim. Pants: light gray athletic pants with printed/dyed dark stripe accents at the lower cuffs.
+LOGOS: none
+GARMENT_TYPE: baseball uniform set
+BACK_VIEW: Back is the same dark pinstriped body treatment with a large centered red number "22", solid dark sleeves, and no additional back graphics beyond the pinstripe print.
+LOGO_COLOR: white
+FABRIC: Smooth polyester athletic knit / jersey with a lightweight, slightly glossy surface, clean synthetic finish, and soft drape; appears breathable and uniform-like rather than textured or brushed.
+TEXT_AND_GRAPHICS: no visible text, numbers, logos, emblems, badges, crests, or printed graphics; jersey body has evenly spaced thin vertical white pinstripes; gloves have small white accent stripes near the fingers and white piping lines on the backs; socks have two horizontal white stripes near the top and two thin black horizontal stripes around the lower legs.
+COLOR_LAYOUT: Black jersey with white vertical pinstripes, light gray pants, black gloves, and black socks with white stripe accents.
+TRIM_DETAILS: Crew neckline with black ribbed collar and white interior visible at the neck opening; short sleeves with plain black cuffs/hem; pants have a gray waistband with belt loops, two-button front closure, and elasticized cuff hems; socks are ribbed at the top.
+
+--- GENERATED TEXT ---
+TITLE: Baseball Uniform Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

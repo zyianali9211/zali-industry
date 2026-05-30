@@ -1,0 +1,27 @@
+Product: Pickleball Polo
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve polo shirt with a structured self-fabric body and contrast dark navy collar/inner placket; clean athletic cut with a three-button placket and standard set-in sleeves. The body is a smooth performance knit with a sublimated teal-to-navy diagonal streak graphic across the lower front, giving a modern sporty look.
+PANEL_MAP: Front body: one continuous panel, teal base with sublimated diagonal streak graphic in black/navy and aqua sweeping upward from lower left to mid-right (PRINT only, no seams between colors). Back body: one continuous panel, likely solid teal with no visible print from the front view. Sleeves: separate short-sleeve panels in solid teal. Collar/neck trim: separate structured collar in dark navy with matching dark placket and inner neck detail.
+LOGOS: left chest logo (present), no other logos
+GARMENT_TYPE: short sleeve polo shirt
+BACK_VIEW: Back is expected to be a clean solid teal continuous panel with no body print, matching teal sleeves and dark navy collar.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit / athletic pique-like jersey with a fine, even surface, soft matte-to-slightly-satin finish, lightweight drape, and clean sharp edges; appears breathable and moisture-wicking rather than fuzzy or textured.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only an all-over abstract diagonal stripe pattern on the lower front body, consisting of layered slanted streaks in dark navy, teal, aqua, and cyan, starting around the mid-torso and becoming densest toward the hem, with no lettering or logos.
+COLOR_LAYOUT: Turquoise/teal body with a dark navy collar and matching dark navy center placket, plus an abstract diagonal stripe graphic concentrated across the lower front in navy and lighter blue tones.
+TRIM_DETAILS: Structured dark navy polo collar with a short dark navy button placket and three matching buttons; short sleeves with clean hemmed cuffs; straight hemline with narrow stitched finishing.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Polo Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

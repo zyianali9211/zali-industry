@@ -1,0 +1,27 @@
+Product: Netball Skirt Set
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Netball skirt set with a clean athletic cut and a fitted, slightly flared skirt silhouette; the visible skirt panel appears to be a smooth performance knit with a matte finish and light stretch. The design uses sublimated color blocking/striping on continuous fabric rather than separate sewn color panels.
+PANEL_MAP: Front body: one continuous front skirt panel, black base with sublimated white diagonal side-block/stripe graphic at the lower left edge (PRINT only, no seam). Back body: one continuous back skirt panel, black base with no visible print on this view. Waistband: separate waistband, black.
+LOGOS: none
+GARMENT_TYPE: netball skirt
+BACK_VIEW: back is plain black with no visible print or seam changes, matching the same smooth athletic fabric and simple waistband construction
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit, lightweight and slightly stretchy, matte surface with a soft slick handfeel and clean drape; appears like a sports tricot/interlock rather than mesh or fleece
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only three bold diagonal white stripe graphics on the lower-left front of the skirt, each stripe angled upward from left to right and evenly spaced, with the widest stripe closest to the center and the shortest stripe at the far left edge.
+COLOR_LAYOUT: Solid black skirt body with three white diagonal stripes concentrated on the lower-left front panel; black waistband and black hem.
+TRIM_DETAILS: Wide black waistband with a smooth, flat top edge; simple straight hem with slight natural curve at the bottom and visible stitching along the lower edge.
+
+--- GENERATED TEXT ---
+TITLE: Netball Skirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

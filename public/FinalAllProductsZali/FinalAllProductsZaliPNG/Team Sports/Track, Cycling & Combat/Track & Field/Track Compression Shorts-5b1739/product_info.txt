@@ -1,0 +1,27 @@
+Product: Track Compression Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Compression shorts in matte black, body-hugging stretch knit with a smooth, tight athletic surface and minimal sheen. Clean cut-and-sew waistband and hem; overall streamlined performance fit with sublimated side graphic detail.
+PANEL_MAP: Front body: one continuous black panel with a large dark gray/charcoal angular "X" graphic printed on the left thigh area (PRINT only, no seam separation). Back body: one continuous black panel, plain black with no visible print. Waistband: separate elastic waistband, black. Legs: integrated into the single front and back body panels, no color-blocked construction panels.
+LOGOS: no visible logos
+GARMENT_TYPE: track compression shorts
+BACK_VIEW: Back is plain black and uninterrupted, with the same smooth compression finish and no visible graphics or seam-separated color panels.
+LOGO_COLOR: white
+FABRIC: compression spandex / nylon-elastane knit with a smooth slick surface, tight four-way stretch, medium-to-high compression, matte finish with slight athletic sheen, and close body-contouring drape.
+TEXT_AND_GRAPHICS: Large matte dark gray abstract geometric “X”/chevron graphic on the left leg, starting at the left outer thigh and extending diagonally across the left front leg toward the lower inner thigh; sharp angular strokes, semi-transparent look, no text, no numbers, no logos, no emblems.
+COLOR_LAYOUT: Solid black shorts with a dark gray tonal geometric graphic only on the left leg; otherwise monochrome black with subtle gray print.
+TRIM_DETAILS: Wide black elastic waistband, smooth flat front, short hemmed leg openings with matching black stitching, no visible pockets, drawstrings, cuff, or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Track Compression Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,27 @@
+Product: Cricket Trousers
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Cricket trousers in dark green with a smooth athletic finish, featuring an elasticated rib-knit waistband and a straight, slightly tapered leg. The fabric appears lightweight and synthetic with a soft matte-to-low-sheen surface and clean drape, suitable for sportswear.
+PANEL_MAP: Front body: one continuous panel, dark green base with no visible color-block panels; yellow/gold star graphic printed on the right thigh (PRINT only). Back body: one continuous panel, solid dark green with no visible print. Waistband: separate ribbed elastic waistband in matching dark green.
+LOGOS: no visible logos
+GARMENT_TYPE: cricket trousers
+BACK_VIEW: Back is plain solid dark green with no visible graphics, continuing the same smooth athletic fabric and straight-leg construction.
+LOGO_COLOR: white
+FABRIC: smooth polyester tricot or polyester performance knit with a fine, even surface, low sheen, lightweight feel, and slight stretch; soft drape with a slick athletic hand and subtle body-contouring finish.
+TEXT_AND_GRAPHICS: Right front thigh: a single solid gold/yellow five-point star emblem, medium size, flat-filled, no outline, positioned slightly above the mid-thigh area near the outer side seam; no text, numbers, wordmarks, badges, crests, or additional graphics visible.
+COLOR_LAYOUT: Dark forest green pants with a contrasting solid gold/yellow star graphic on the right thigh; otherwise uniform single-color body.
+TRIM_DETAILS: Wide elastic waistband with tightly gathered horizontal stitching, straight leg silhouette, and simple stitched hems at the ankle openings; no visible cuffs, drawstrings, or pockets.
+
+--- GENERATED TEXT ---
+TITLE: Cricket Trousers
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

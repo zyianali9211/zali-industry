@@ -1,0 +1,27 @@
+Product: Rugby Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Rugby shorts with a simple athletic cut, elastic waistband, and straight hem. The body appears to be a lightweight woven performance fabric with a matte finish, subtle texture, and structured drape suitable for rugby use.
+PANEL_MAP: Front body: one continuous panel, solid black with no printed color blocks; small white logo print near lower right leg. Back body: one continuous panel, solid black, plain with no print. Waistband: separate elasticated black waistband. No visible side panels or cut-and-sew color sections.
+LOGOS: lower right leg Gilbert logo, no other logos
+GARMENT_TYPE: rugby shorts
+BACK_VIEW: Back is solid black and plain with the same elastic waistband and straight leg openings, with no visible graphics.
+LOGO_COLOR: white
+FABRIC: Lightweight woven polyester performance fabric with a fine subtle crosshatch/mini-ripstop-like texture, matte surface, slight crisp structure, and minimal sheen; looks durable, breathable, and lightly stiff rather than stretchy.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs
+COLOR_LAYOUT: Solid black/dark charcoal garment with uniform coloring throughout and no visible color blocking or contrasting panels.
+TRIM_DETAILS: Elastic waistband with dense gathered ruching and a clean straight leg opening hem; no visible cuffs, drawcords, buttons, zippers, or other trim details.
+
+--- GENERATED TEXT ---
+TITLE: Rugby Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

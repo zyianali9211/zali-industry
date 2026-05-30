@@ -1,0 +1,24 @@
+Product: American Football Game Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: American football game uniform set with a body-hugging cut-and-sew athletic construction, featuring a fitted jersey, matching pants, separate socks and gloves, and a helmet. The main garment fabric appears to be smooth polyester sports knit with a slight sheen, lightweight and durable, with sublimated graphics applied to continuous body panels rather than separate fabric pieces.
+PANEL_MAP: Front jersey has a blue main body panel with sublimated yellow shoulder/upper chest graphics and a large yellow number 16 on the chest; white/light side body inserts run from underarm down the torso. Sleeves are blue with yellow/white graphic accents near the shoulders. Pants are blue main panels with white/light vertical side panels and small yellow accent blocks at the waist; any striping/graphics are printed on the fabric surface, not sewn-on panels. Collar is a short white crew/scoop style, and all visible contrast patterning is sublimation print on continuous panels.
+LOGOS: no visible logos
+GARMENT_TYPE: American football game uniform set
+BACK_VIEW: Back jersey continues the blue body with white/light side inserts and a large yellow 16 centered on the back, with the same sublimated shoulder graphics and a plain continuation through the lower back.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit with a tight surface, lightweight medium-thin feel, slight synthetic sheen, crisp structure, and breathable sports-uniform texture; appears durable and slightly elastic rather than brushed or textured.
+
+--- GENERATED TEXT ---
+TITLE: American Football Game Uniform Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

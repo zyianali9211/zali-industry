@@ -1,0 +1,17 @@
+Product: Softball Jersey (V-Neck)
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve sublimated softball jersey in a smooth lightweight polyester athletic knit with a soft matte finish and slight performance sheen. Construction appears to use one continuous front body panel and one continuous back body panel, with separate set-in sleeves and a separate V-neck collar trim.
+PANEL_MAP: Front body: one continuous panel, white base with sublimated navy/red chest band and large "PRIDE" graphic plus number 23 below, all PRINT only, no cut seam between color areas. Back body: one continuous panel, white base with the same sublimated band styling continuing around the torso, no visible seam breaks in the body graphics. Sleeves: separate panels, navy with red/white trim and a small printed star/graphic on the left sleeve. Collar: separate ribbed V-neck trim, navy with red and white edge detailing.
+LOGOS: small hem patch logo at lower right, left sleeve star/graphic, no highlighted removal marks
+GARMENT_TYPE: softball jersey (V-neck)
+BACK_VIEW: back is mostly plain white with continuation of the printed navy/red chest-band motif wrapped around the upper torso, with no center back seam in the graphics.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic jersey knit, lightweight and breathable with a fine uniform surface, low-pile texture, mild drape, and a subtle performance sheen rather than a glossy shine
+
+--- GENERATED TEXT ---
+(no text generated)

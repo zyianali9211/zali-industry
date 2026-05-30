@@ -1,0 +1,27 @@
+Product: Softball Jersey (2-Button Henley)
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve softball jersey with a 2-button henley neckline and contrasting white ribbed collar. The garment uses sublimated body graphics on a single continuous front panel and a single continuous back panel, with red raglan-style sleeves and side accents against a dark navy body.
+PANEL_MAP: Front body: one continuous dark navy panel with red-and-white sublimation print elements including the “Majors” script, swoosh underline, and “33” number; thin blue contour piping/edge line appears along the raglan seam area, but body color changes are print on the single front panel. Back body: one continuous dark navy panel with red side/sleeve continuation and no major back graphics visible. Sleeves: separate short sleeves, solid red with white cuff trim and thin blue edge accent. Collar: separate white ribbed henley collar with two-button placket.
+LOGOS: lower right hem brand/league patch, left sleeve circular emblem
+GARMENT_TYPE: softball jersey (2-button henley)
+BACK_VIEW: Back is mostly solid dark navy with red sleeve and side continuation, plain center back with no visible text or number.
+LOGO_COLOR: white
+FABRIC: smooth polyester sports jersey knit with a soft matte finish, lightweight drape, and subtle micro-textured surface typical of sublimated athletic uniforms; appears breathable and slightly slick rather than shiny, with a durable performance-knit hand feel.
+TEXT_AND_GRAPHICS: Front chest center: large script wordmark “Majors” in red with a thick white outline, slightly italicized and slanted upward, occupying the upper-middle chest. Lower right chest: number “33” in bold block numerals, red fill with white outline, medium-large size. No other visible text, numbers, logos, emblems, badges, crests, or printed graphics.
+COLOR_LAYOUT: Navy blue body with bright red raglan sleeves and side panels, white collar and sleeve cuff trim, and thin light-blue piping tracing the raglan seams and sleeve edges.
+TRIM_DETAILS: White crew-neck collar with a short center placket and two white buttons, short sleeves with white cuffs edged in blue, and a rounded baseball-style hem with visible topstitching.
+
+--- GENERATED TEXT ---
+TITLE: Softball Jersey 2-Button Henley
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

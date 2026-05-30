@@ -1,0 +1,27 @@
+Product: Roller Derby Jersey (Standard)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless roller derby jersey with a fitted athletic cut and sublimated color-block design on a single continuous front and back body panel. The garment appears to be a smooth synthetic performance knit with a matte-to-slightly-sheen finish, typical of lightweight sports jersey fabric, with black main body, red side/shoulder accents, and white outline trim at the armholes and V-neck.
+PANEL_MAP: Front body: one continuous panel, black base with red side panels and red upper shoulder accents printed on the fabric as sublimation (PRINT only, no separate fabric sections). Back body: one continuous panel, black base with red side panels and red upper shoulder accents printed on the fabric as sublimation (PRINT only, no separate fabric sections), with large printed "388" and "NAME" on center back. Sleeves: none, sleeveless cut with open armholes. Collar: V-neck trim, black with narrow white stitched/printed edge detail.
+LOGOS: front chest derby team graphic/logo centered, no other logos
+GARMENT_TYPE: roller derby jersey
+BACK_VIEW: Back is predominantly black with the same red side and shoulder print continuing down the body, plus the large centered "388" and smaller "NAME" printed on the upper-to-mid back; no additional seams or color-block panels beyond the single body panel construction.
+LOGO_COLOR: white
+FABRIC: Smooth polyester performance jersey knit, lightweight and athletic, with a fine tightly knit surface and slight synthetic sheen. The fabric looks breathable and flexible with clean drape, no visible pile, and a printed sublimation finish integrated into the surface.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs
+COLOR_LAYOUT: Black main body with red side panels and red shoulder yokes, white piping/edge trim around the armholes and V-neck, and a white inner collar insert visible at the neckline.
+TRIM_DETAILS: Sleeveless V-neck jersey with white-trimmed collar and armholes, curved side panel seams, and a straight hem with subtle double-stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Roller Derby Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

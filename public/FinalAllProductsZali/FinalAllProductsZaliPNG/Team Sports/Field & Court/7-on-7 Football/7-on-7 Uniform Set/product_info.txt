@@ -1,0 +1,17 @@
+Product: 7-on-7 Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless hooded sports jersey and matching compression-style shorts, both appearing to use smooth performance polyester/spandex with a sleek low-matte finish and very light stretch. The set is fully sublimated with sharp red and blue geometric slash graphics printed on continuous body panels, not cut-and-sewn color-block pieces.
+PANEL_MAP: Hooded top front body: one continuous panel, black base with red and blue diagonal geometric slash print and small triangle accents (PRINT only, NO seams between colors). Hooded top back body: one continuous panel, black base with continuation of red/blue slash print and large printed number “1” with “TH GOAT” text at upper back (PRINT only). Sleeves: none. Hood/neck trim: separate hood panel with black exterior and blue edge binding/inner trim. Shorts front: one continuous front panel per leg area, black base with red/blue slash print and small printed “1” near hem (PRINT only). Shorts back: one continuous back panel per leg area, black base with continuation of red/blue slash print (PRINT only). Waistband/leg openings: separate blue trim.
+LOGOS: upper back text “TH GOAT” and front/back number “1” as printed graphics, no brand logos
+GARMENT_TYPE: 7-on-7 uniform set
+BACK_VIEW: back is black with the same diagonal red and blue sublimation graphics, centered printed number “1” and “TH GOAT” across the upper back, no center seam change in color
+LOGO_COLOR: white
+FABRIC: smooth sublimated polyester performance knit, lightweight and athletic with a tight fine-knit surface, slight synthetic sheen, clean drape, and a sleek non-brushed finish suitable for sports uniforms
+
+--- GENERATED TEXT ---
+(no text generated)

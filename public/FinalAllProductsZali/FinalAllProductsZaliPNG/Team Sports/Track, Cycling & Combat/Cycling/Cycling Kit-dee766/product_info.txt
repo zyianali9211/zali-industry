@@ -1,0 +1,27 @@
+Product: Cycling Kit
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve cycling jersey with a front full-length zipper, tight athletic race fit, and multi-panel cut-and-sew construction in blue and black. The jersey uses sublimated graphics on a continuous body fabric with contrasting panel blocks and printed sponsor marks; the fabric looks smooth, stretchy, and lightweight with a slight technical sheen typical of performance polyester/spandex.
+PANEL_MAP: Main front body is a blue sublimated continuous panel divided visually by color blocks rather than separate graphics panels: left front torso panel in brighter medium blue, right front torso panel in slightly darker blue, both joined at a centered full-length zipper placket. Across upper chest is a broad white horizontal band running from left chest across to right chest, interrupted by the zipper. Sleeves are separate cut-and-sew panels in matching blue with large white sublimated lettering wrapping over the shoulders/upper sleeves. Side body/underarm areas appear as darker blue to navy insert panels transitioning into the torso, with a fitted lower hem band in blue. Back is likely a similarly paneled blue body with continuation of sleeve graphics and a centered zipper line.
+LOGOS: left chest oval logo, right chest TUDelft wordmark/logo, center chest VIRO wordmark, lower right hem small black/green tag logo.
+GARMENT_TYPE: short sleeve cycling jersey
+BACK_VIEW: Back would be a continuation of the same blue cycling jersey construction with a centered zipper line, fitted race cut, and mostly solid or minimally printed back panels compared with the logo-heavy front.
+LOGO_COLOR: white
+FABRIC: smooth technical polyester or polyester-spandex cycling fabric with a tight knit face, very lightweight drape, subtle sheen, and high stretch; surface appears slick and fine-gauge rather than textured, with sublimation-printed graphics sitting flat into the fabric.
+TEXT_AND_GRAPHICS: Front left sleeve: large white uppercase “ITALIA” in a bold sans-serif block style, diagonally arched along the sleeve from shoulder toward outer upper arm. Front right sleeve: matching large white uppercase “ITALIA” in the same bold sans-serif block style, diagonally arched along the sleeve from shoulder toward outer upper arm. Front chest, upper center: a wide horizontal white stripe spanning across the chest from left side seam to right side seam, with no lettering inside it. No visible numbers, emblems, badges, crests, or other graphics on the jersey or shorts. The socks are plain except for a small white band near the cuff on each sock.
+COLOR_LAYOUT: Predominantly bright and medium royal blue with darker navy side panels and a broad white horizontal chest stripe; matching blue shorts with navy central/front paneling and blue socks with white cuff bands.
+TRIM_DETAILS: Short-sleeve zip-front jersey with a stand collar, centered full-length zipper, clean straight sleeve hems, and a slightly curved jersey hem with a narrow blue waistband-like lower edge; shorts have a fitted athletic cut with smooth hemmed leg openings, and the socks are ribbed at the top with a white stripe near the cuff.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Cycling Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

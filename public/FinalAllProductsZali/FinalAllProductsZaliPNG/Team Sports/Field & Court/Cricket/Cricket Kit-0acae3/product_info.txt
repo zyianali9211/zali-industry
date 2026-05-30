@@ -1,0 +1,27 @@
+Product: Cricket Kit
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve cricket polo jersey and matching track pants shown as a kit; jersey has a single continuous front body and back body with sublimated flame artwork near the hem, plus separate short sleeves and a contrasting polo collar. Fabric appears to be smooth polyester sports knit with a slight sheen, lightweight drape, and athletic quick-dry finish; pants are matching smooth polyester tricot/jersey with a sleek stretch surface.
+PANEL_MAP: Jersey front body: one continuous panel, black base with orange/yellow flame print rising from bottom hem (PRINT only, no sewn color blocks), orange collar, orange sleeve cuffs, small white chest logo and large white chest wordmark. Jersey back body: one continuous panel, black base with flame print at lower hem (PRINT only), orange collar, orange sleeve cuffs, large white “NAME” and “00” centered. Sleeves: separate short-sleeve panels, black with orange cuff trim. Collar: separate polo collar, orange, with short button placket. Pants front: one continuous panel, black base with gold/orange side stripe detail and small white thigh logo. Pants back: one continuous panel, black base with minimal thin orange/yellow yoke line near waist. Cap: black crown with tan/gold brim and accents.
+LOGOS: small SCW logo on front right chest, small SCW logo on front pants right thigh, SCW logo on cap front
+GARMENT_TYPE: cricket kit
+BACK_VIEW: Back jersey is plain black through the upper torso with the same flame print concentrated only at the lower hem, large centered name and number, and no front chest wordmark.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester sports knit / sublimated jersey fabric with a sleek slightly glossy surface, soft athletic drape, mild stretch, and moisture-wicking appearance; pants are smooth polyester tricot/jersey with a clean satin-like sheen and slim athletic fit.
+TEXT_AND_GRAPHICS: Front lower torso of shirt: large printed flame graphic spanning the entire hem area, with multiple tongues of fire rising upward from the bottom edge; colors transition from bright yellow-white at the base to orange and deep red at the tips, with semi-transparent ember specks and wisps, no text or logos. No visible text, numbers, wordmarks, emblems, badges, crests, or additional graphics on the shirt, pants, or cap.
+COLOR_LAYOUT: Black/dark charcoal shirt and pants with vivid orange-gold collar, sleeve cuff, and side stripe accents; shirt has a large orange-red flame print concentrated along the lower half; cap is black with a gold/yellow brim and small gold eyelets/button.
+TRIM_DETAILS: Polo-style collar in bright orange with a short three-button placket at center front, matching orange sleeve cuffs, straight hem on the shirt; pants have an elastic waistband with smooth straight-leg cut and long orange side piping; cap has a curved brim, top button, and stitched ventilation eyelets.
+
+--- GENERATED TEXT ---
+TITLE: Cricket Kit
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

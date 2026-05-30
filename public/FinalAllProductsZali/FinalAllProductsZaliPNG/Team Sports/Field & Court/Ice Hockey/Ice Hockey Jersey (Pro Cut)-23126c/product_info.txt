@@ -1,0 +1,27 @@
+Product: Ice Hockey Jersey (Pro Cut)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Pro-cut ice hockey jersey with a loose, reinforced game-style silhouette, long sleeves, and a V-neck collar with white trim. The body appears to be lightweight sublimated polyester hockey knit with a smooth outer face and slightly textured mesh-like side and shoulder inserts for breathability.
+PANEL_MAP: Front body: one continuous panel, royal blue base with sublimated print graphics including black/navy skyline logo, white/red outlined chest emblem, and red/white curved hem band; all color blocks and stripes are PRINT only, not sewn panels. Back body: one continuous panel, likely royal blue with continuation of the printed team-style color treatment, no visible body seams separating colors. Sleeves: separate long sleeves, royal blue with sublimated red, white, and dark accent graphics plus sleeve badges. Collar: separate white V-neck trim with gray inner neck facing.
+LOGOS: front chest logo/graphic mark, sleeve badges on both sleeves, shoulder patches
+GARMENT_TYPE: ice hockey jersey (pro cut)
+BACK_VIEW: Back is likely mostly solid royal blue with matching sleeve graphics continuing, minimal or no large back number visible, and a plain continuation of the jersey construction.
+LOGO_COLOR: white
+FABRIC: Sublimated polyester hockey jersey knit with a smooth satin-matte surface on the main body, light sheen, and medium-light weight drape. Side panels appear to be darker breathable mesh with a more open, textured knit, while the shoulders and sleeves remain smooth and durable with a sporty, performance-fabric finish.
+TEXT_AND_GRAPHICS: Front center chest: large empty shield/crest emblem with a white interior and a bold red outline with thin white edging, centered below the V-neck; no text inside the shield. Lower torso/front body: dark navy-to-near-black city skyline silhouette spanning horizontally across the chest and upper abdomen, with multiple building shapes and one very tall spire/tower slightly right of center; no text within the skyline. Upper sleeves near shoulders: small white shield-shaped patches outlined in red and blue on both left and right sleeves; no text inside either patch. Diagonal and horizontal striping graphics: thick white bands with red bands and thin blue separators running across both sleeves and the lower front body, purely decorative with no lettering. No visible numbers, wordmarks, names, or readable text.
+COLOR_LAYOUT: Royal blue jersey body and sleeves with white V-neck collar, dark navy/black skyline graphic across the front, a white-and-red shield emblem at center chest, and red-white-blue striped accents on the sleeves and lower front hem area.
+TRIM_DETAILS: White V-neck collar with a smooth plain finish, long set-in sleeves, no visible cuffs, and a slightly curved shirt hem with a visible blue outer hem edge and white inner layer peeking beneath.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

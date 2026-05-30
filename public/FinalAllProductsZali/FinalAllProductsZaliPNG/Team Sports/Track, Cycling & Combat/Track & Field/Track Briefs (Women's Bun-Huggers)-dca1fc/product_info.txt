@@ -1,0 +1,27 @@
+Product: Track Briefs (Women's Bun-Huggers)
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Women’s track briefs / bun-huggers with a high-rise waistband and very brief, high-cut leg opening. Single-piece front and back body construction, smooth body-hugging athletic fit, minimal seams, solid black appearance with a small tonal/gray logo at the wearer’s right front hip.
+PANEL_MAP: Front body: one continuous panel, solid black with a small gray logo printed at the wearer’s right front hip (PRINT only, no separate fabric panels). Back body: one continuous panel, solid black, plain with no visible graphics. Waistband: integrated same-black elastic-style waistband appearance, continuous with body.
+LOGOS: front right hip bunny/rabbit logo (gray), no other logos
+GARMENT_TYPE: women’s track briefs / bun-huggers
+BACK_VIEW: Back is solid black with a plain uninterrupted center and no visible graphics or color blocking.
+LOGO_COLOR: gray
+FABRIC: smooth stretch performance knit, likely polyester/spandex or nylon/spandex tricot, with a tight fine-gauge surface, matte to low-sheen finish, thin lightweight hand, and strong body-hugging elastic recovery.
+TEXT_AND_GRAPHICS: Right front hip: small gray stylized bird/swallow-like logo emblem, minimal flat icon, about thumbnail-sized, no text, no outline, placed just above the leg opening seam. No other visible text, numbers, wordmarks, badges, crests, or printed graphics.
+COLOR_LAYOUT: Solid black/dark charcoal body with slightly darker seam lines and tonal contrast; no color blocking or multicolor panels visible.
+TRIM_DETAILS: Wide smooth high-rise waistband with a clean top edge; curved leg openings with tonal stitched binding and reinforced seam lines; brief-style lower opening with a center front gusset seam and no visible drawstring or hardware.
+
+--- GENERATED TEXT ---
+TITLE: Women’s Track Briefs
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

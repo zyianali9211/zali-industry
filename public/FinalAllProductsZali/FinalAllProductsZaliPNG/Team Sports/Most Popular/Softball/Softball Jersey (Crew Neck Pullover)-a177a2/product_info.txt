@@ -1,0 +1,27 @@
+Product: Softball Jersey (Crew Neck Pullover)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve crew neck softball jersey/pullover with a smooth athletic knit body and standard stitched hems; the garment is fully sublimated with a bright pink-to-cyan gradient front. The surface appears lightweight, slightly glossy, and stretch-friendly, with clean topstitching at the collar, sleeves, and hem.
+PANEL_MAP: Front body: one continuous panel, hot pink at shoulders fading through lavender to bright cyan at hem, with all color transition and tonal effects as PRINT only, no seam breaks between colors. Back body: one continuous panel, matching sublimated gradient print on a single panel. Sleeves: separate short sleeve panels, matching hot pink upper color with continuation of the sublimated look. Collar: separate ribbed crew neck trim in solid hot pink.
+LOGOS: upper left chest small white brand logo, upper right sleeve American flag patch, no other logos
+GARMENT_TYPE: softball jersey (crew neck pullover)
+BACK_VIEW: Back is a single continuous sublimated gradient panel with no visible graphics or numbers, transitioning from hot pink at the shoulders to cyan at the hem.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic jersey knit with a fine, tightly woven surface, lightweight drape, slight sheen, and subtle stretch; looks breathable and moisture-wicking, with crisp sublimation color saturation and a soft matte-to-satin finish.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Bright hot pink top section fading smoothly into pale lavender/magenta midsection and then into vivid cyan/sky blue at the lower body, with matching pink sleeves and no color blocking or printed accents.
+TRIM_DETAILS: Round crew neck with narrow matching pink rib collar, short sleeves with simple hemmed cuffs, and a straight bottom hem with subtle double-stitched finishing.
+
+--- GENERATED TEXT ---
+TITLE: Softball Jersey Crew Neck Pullover
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,27 @@
+Product: Ice Hockey Reversible Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Ice hockey reversible jersey with a loose athletic cut, long sleeves, and V-neck collar. The garment appears to use smooth polyester jersey fabric with a slightly matte finish and lightweight drape, suitable for sublimation printing, with all visible color blocking integrated as print on continuous panels rather than sewn color sections.
+PANEL_MAP: Front body: one continuous panel, dark green base with sublimation print of a wide light blue horizontal chest band and thin gold accent stripes, plus large centered knight mascot and "KNIGHTS" wordmark printed on top. Back body: one continuous panel, dark green base with matching sublimation print continuation of horizontal stripe motif, plain center on the visible back. Sleeves: separate panels, dark green with light blue and gold horizontal stripe print around the upper sleeve area and cuff area. Collar: separate V-neck trim, dark green with gold/cream edging. All color changes and stripes are PRINT only, no separate body panels.
+LOGOS: small brand tag/logo near lower front hem, remove; no other logos
+GARMENT_TYPE: ice hockey reversible jersey
+BACK_VIEW: Back is primarily dark green with the same printed horizontal stripe theme continuing across the upper back and sleeves, with no large back number or name visible.
+LOGO_COLOR: white
+FABRIC: Smooth polyester jersey knit with a lightweight athletic hand, fine flat-knit surface, minimal sheen, and soft drape; looks durable and sublimation-friendly rather than mesh or fleece, with a crisp printed finish on the surface.
+TEXT_AND_GRAPHICS: Center chest: large knight helmet-and-shoulders emblem with a stylized plume, rendered in dark green, silver-gray, white, and tan/gold outlines; directly beneath it, the word “KNIGHTS” in very large italicized collegiate block capitals, white fill with dark green shadow/inset and tan/gold outline, stretched across the lower center chest. No other text, numbers, badges, or graphics visible.
+COLOR_LAYOUT: Deep dark forest green body with a wide light blue horizontal chest-and-sleeve stripe band, all separated and edged by thin tan/gold piping; tan/gold V-neck collar and white inner neck lining.
+TRIM_DETAILS: Tan/gold V-neck collar with a clean finished edge, long sleeves with horizontal stripe accents near the upper arms and forearms, and a straight hem with a subtle stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Reversible Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

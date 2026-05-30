@@ -1,0 +1,17 @@
+Product: Baseball Throwback Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Baseball throwback jersey with a loose athletic fit, short sleeves, and a V-neck collar. The body appears to be smooth sublimated polyester with a soft matte finish and light drape, typical of lightweight sports jersey fabric.
+PANEL_MAP: Front body: one continuous panel, white upper chest with a large maroon “B” logo, then horizontal light blue, black, and maroon stripe bands printed across the body (PRINT only, NO seams between colors), ending in a maroon lower body. Back body: one continuous panel, same sublimated stripe layout carried across the back as printed color bands on a single piece. Sleeves: separate short sleeves, white with printed light blue/black/maroon banding near the cuffs. Collar: separate V-neck trim, black with maroon edge and inner green accent.
+LOGOS: large maroon “B” on right chest area, small winged mark on left chest, small hem logo at lower right
+GARMENT_TYPE: baseball throwback jersey
+BACK_VIEW: back is one continuous sublimated panel with the same horizontal stripe pattern and maroon lower section, no center seam or color-block construction breaks visible.
+LOGO_COLOR: white
+FABRIC: smooth sublimated polyester jersey with a fine knit surface, matte to slightly silky sheen, lightweight and breathable-looking, soft drape, and a standard athletic T-shirt handfeel rather than mesh or fleece.
+
+--- GENERATED TEXT ---
+(no text generated)

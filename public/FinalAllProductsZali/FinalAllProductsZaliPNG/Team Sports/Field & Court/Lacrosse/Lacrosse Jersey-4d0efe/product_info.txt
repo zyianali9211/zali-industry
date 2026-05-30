@@ -1,0 +1,27 @@
+Product: Lacrosse Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sublimated lacrosse jersey with a smooth lightweight polyester sport knit body and separate short sleeves, V-neck collar, and mesh underarm side inserts. The garment has a matte to slightly smooth technical finish with a breathable athletic drape, designed for team sports and moisture-wicking performance.
+PANEL_MAP: Front body: one continuous olive-green panel, with all black/orange diagonal shoulder and side color blocking rendered as sublimation PRINT only; central "CHIEFS" wordmark, number "24," small KB logo, and faint chief/skull background are all PRINT on the same single front panel. Back body: one continuous matching panel, mostly olive-green with continuing sublimated black/orange shoulder and side design elements as PRINT only. Sleeves: separate white sleeve panels with black/orange printed accents and mascot emblems. Collar: separate V-neck trim in olive-green. Mesh side inserts under arms: separate white breathable mesh panels.
+LOGOS: small KB logo at upper center chest, KB/QR size label at lower right front hem, headdress mascot emblems on both sleeves
+GARMENT_TYPE: short sleeve lacrosse jersey
+BACK_VIEW: Back is predominantly olive-green with continuation of the black/orange sublimated shoulder and side accents, no large back number visible, and a plain athletic cut through the center panel.
+LOGO_COLOR: white
+FABRIC: lightweight smooth polyester athletic jersey knit, moisture-wicking and breathable, with a fine flat surface and subtle sheen; white side inserts appear as perforated mesh with visible small holes, while the main body has a soft smooth sublimated print surface and a medium-light drape.
+TEXT_AND_GRAPHICS: Front upper chest, centered just below the V-neck: small “KB” wordmark in black block lettering with a thin orange outline, compact and logo-like. Center chest: large “CHIEFS” wordmark in arched varsity/block serif letters, black fill with orange outline and a thin light inner edge, spanning most of the upper torso. Center mid-chest: large number “24” in bold varsity/block numerals, black fill with orange outline and a thin light inner edge, occupying the central torso prominently. Front lower torso: faint oversized tonal graphic of a skull wearing a feathered headdress, monochrome dark olive/black outline blended into the fabric, centered and extending from lower chest to hem; decorative only, no text. Left sleeve outer side near shoulder: Native American head emblem in profile facing inward, with tan face, black linework, white feather headdress with orange/black accents and orange outline. Right sleeve outer side near shoulder: matching Native American head emblem in profile facing inward, same colors and style. Black jagged lightning/flash graphics with orange accents radiate diagonally along both shoulders, side panels, and lower torso, framing the chest text and number. No other visible text.
+COLOR_LAYOUT: Olive green main body with white mesh side panels and white sleeves, accented by black and orange jagged lightning graphics across the shoulders, sides, and lower body, plus black-and-orange sleeve emblems.
+TRIM_DETAILS: Olive green V-neck collar with clean stitched edge, short sleeves with white mesh panels and printed black/orange striping near the cuffs, and a straight hem with subtle double-stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Lacrosse Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

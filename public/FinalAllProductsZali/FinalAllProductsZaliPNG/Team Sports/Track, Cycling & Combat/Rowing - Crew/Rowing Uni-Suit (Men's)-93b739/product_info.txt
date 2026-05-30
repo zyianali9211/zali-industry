@@ -1,0 +1,27 @@
+Product: Rowing Uni-Suit (Men's)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless men’s rowing uni-suit made from a smooth, body-hugging performance knit with a matte-to-slight-sheen finish. The construction appears to use flatlock seaming and contoured stretch side/rear sections for athletic fit, with all visible color variation on the body being sublimated print rather than separate panels.
+PANEL_MAP: Front body: one continuous panel, deep purple base with printed tonal/mesh-like darker side sections and subtle printed seam/contour lines, no color-block seams. Back body: one continuous panel, continuation of the deep purple base with printed darker side sections, no visible text or graphics. Sleeves: none. Collar: separate narrow bound scoop-neck trim in matching purple.
+LOGOS: none
+GARMENT_TYPE: sleeveless rowing uni-suit
+BACK_VIEW: Back is a matching deep purple continuous panel with the same printed darker side-contour design and plain center back, no cut color sections visible.
+LOGO_COLOR: white
+FABRIC: compression spandex / lycra blend with a smooth tight knit surface, moderate stretch, close body-skimming drape, and a very subtle athletic sheen; side areas read slightly darker and more textured, like sublimated stretch mesh or tonal knit effect.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, graphics, or printed designs
+COLOR_LAYOUT: Solid deep purple athletic garment with slightly darker textured side panels and matching purple center body, plus a white inner lining visible at the neckline.
+TRIM_DETAILS: Scoop neck with narrow purple binding, racerback-style arm openings, curved leg openings, and a straight stitched hem with subtle tonal seam detailing.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Rowing Uni-Suit
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

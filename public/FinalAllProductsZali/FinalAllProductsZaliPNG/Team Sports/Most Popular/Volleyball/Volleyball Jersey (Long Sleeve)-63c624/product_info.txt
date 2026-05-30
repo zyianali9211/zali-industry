@@ -1,0 +1,27 @@
+Product: Volleyball Jersey (Long Sleeve)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve volleyball jersey in a smooth performance knit with a matte-to-slightly-satin finish and light stretch. The garment uses sublimated black, white, and gold graphic blocking on a single continuous front body and back body panel, with separate long sleeves and a black V-neck collar trim.
+PANEL_MAP: Front body: one continuous panel, black base with white upper chest/shoulder area and gold contour lines printed as sublimation only, no seams between color areas. Back body: one continuous panel, primarily black with white/gold graphic continuation expected as print only, no cut color-block seams. Sleeves: separate long sleeves, one black sleeve on left and one white sleeve on right, both smooth performance knit. Collar: separate black V-neck trim. All color blocking on the body is PRINT only.
+LOGOS: no visible brand logos
+GARMENT_TYPE: long sleeve volleyball jersey
+BACK_VIEW: Back is a clean continuation of the sublimated body design, primarily black with minimal print accents and no visible text or seam-divided color panels.
+LOGO_COLOR: gold
+FABRIC: Smooth polyester performance knit / athletic jersey fabric with a fine micro-knit texture, lightweight drape, and matte surface with very slight sheen. Looks breathable and flexible, similar to sublimated sports jersey material, not mesh, not fleece, and not heavy cotton.
+TEXT_AND_GRAPHICS: Front torso: no text, numbers, wordmarks, team names, player names, emblems, badges, or crests. The garment features abstract printed graphics only: a large sweeping gold curved band arcs across the upper chest from mid-right toward center-left, layered above a broad diagonal black/white split; a smaller gold crescent-like slash appears on the left chest near the side seam; two thin gold curved streaks run down the left lower torso; on the right lower torso, two thin gold curved streaks arc upward beside a narrow white diagonal stripe. All graphics are smooth vector-style shapes with no lettering, no outlines, and no visible shading beyond the garment folds.
+COLOR_LAYOUT: White upper chest and sleeves with a black v-neck collar, black left sleeve, and a large black central/lower body panel; gold accent swooshes and curved streaks across the front, plus a narrow white diagonal stripe on the lower right body.
+TRIM_DETAILS: Black ribbed v-neck collar with a clean finished edge, long sleeves with plain hems, and a straight hem at the bottom with subtle stitching; no cuffs or buttons visible.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Volleyball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

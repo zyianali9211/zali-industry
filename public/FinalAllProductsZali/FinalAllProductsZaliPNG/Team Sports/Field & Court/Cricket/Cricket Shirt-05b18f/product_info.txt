@@ -1,0 +1,27 @@
+Product: Cricket Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve cricket shirt with a structured collared neckline and athletic slim fit. The garment is a sublimated design on continuous front and back body panels, using a dark navy base with energetic blue and magenta brush-stroke graphics; sleeves match the body print and the collar is dark navy with pink piping.
+PANEL_MAP: Front body: one continuous panel, dark navy base with blue and magenta diagonal brush-stroke sublimation print across the chest and torso, including the printed “SCOTLAND” wordmark and chest emblems; no cut seams between color areas. Back body: one continuous panel, dark navy base with matching blue and magenta sublimation brush-stroke print continuing over the back. Sleeves: separate short sleeves, matching navy base with the same blue/magenta printed streaks and pink sleeve cuff edging. Collar: separate polo-style collar in dark navy with pink piping/edge detail.
+LOGOS: right chest crest, left chest sponsor/crest mark
+GARMENT_TYPE: cricket shirt
+BACK_VIEW: Back is predominantly dark navy with the same blue and magenta sublimation streaks across the upper and mid-back, with no visible text; plain continuous back panel and matching printed sleeves.
+LOGO_COLOR: white
+FABRIC: smooth polyester sports jersey fabric with a lightweight, tightly knit surface and a slight performance sheen. The texture appears slick and flat rather than textured, with crisp sublimation print clarity and a medium-thin drape suitable for athletic wear.
+TEXT_AND_GRAPHICS: Left chest: small white ICC Men’s Cricket World Cup trophy emblem with the words “ICC MEN’S CRICKET WORLD CUP INDIA 2023” stacked beneath it in compact uppercase sans-serif, all in white, placed just below the left shoulder seam; right chest: white Scotland cricket crest/emblem (stylized thistle inside a circular laurel-like mark), medium size, centered on the upper right chest; center chest: large “SCOTLAND” wordmark in bold uppercase block sans-serif, white with a clean solid fill, spanning across the upper torso; all-over body graphic: diagonal brush-stroke streaks in bright magenta and vivid blue over navy, slashing from upper left to lower right and from upper right to lower left, with distressed paint-splatter edges; no other visible text, numbers, or graphics.
+COLOR_LAYOUT: Navy blue body with bright magenta and electric blue diagonal brush-stroke graphics across the front and sleeves, white text/emblems on the chest, and hot-pink trim at the collar and sleeve cuffs.
+TRIM_DETAILS: Navy polo collar with a hot-pink piping edge and white inner collar facing, short center placket with three dark buttons, hot-pink sleeve cuff trim, and a straight hem with a narrow tonal finish.
+
+--- GENERATED TEXT ---
+TITLE: Cricket Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

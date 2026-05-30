@@ -1,0 +1,27 @@
+Product: Esports Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve esports jersey with single-piece front and back body construction, separate set-in sleeves, and a ribbed V-neck collar. The garment uses a smooth performance polyester knit with sublimated all-over graphics, creating a fitted athletic drape with a slight sheen and crisp printed contrast panels.
+PANEL_MAP: Front body: one continuous white base panel with black sublimation print covering the torso center and lower body, including vertical stripe columns, chevrons, and abstract camo shapes; all color changes are PRINT only, no cut seams between black and white areas. Back body: one continuous white base panel with black sublimation print forming matching vertical stripe columns, central arrow motifs, and abstract camo; all design elements are PRINT only. Sleeves: separate short sleeves, predominantly white with small printed accent graphics and black trim at cuff edges. Collar: separate ribbed V-neck trim in black with thin white accent striping.
+LOGOS: Front chest circular KB Esports crest, front “KHAN BROTHERS” wordmark, back upper circular KB Esports crest, back “KHAN BROTHERS” wordmark, back lower “KB ESPORTS” logo, left sleeve flag graphic, right sleeve badge graphic.
+GARMENT_TYPE: esports jersey
+BACK_VIEW: Back is mostly black sublimated torso with the same white sleeves and black V-neck collar, featuring centered sponsor and team branding down the spine area and no major construction changes from the front.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a fine micro-knit surface, lightweight athletic feel, slight satin sheen, and clean sublimation print clarity; soft hand with moderate stretch and a sleek, breathable esports-jersey texture.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only an all-over geometric abstract black-and-gray pattern made of tall vertical bars, chevrons, angular shards, and fragmented camo-like shapes across the front body and sleeves, with mirrored vertical striping centered on the chest and darker black block forms near the lower torso and side panels.
+COLOR_LAYOUT: White base body with bold black vertical graphic columns and scattered light-gray geometric fragments across the torso and sleeves, plus black collar and black sleeve/hem trim accents.
+TRIM_DETAILS: Short-sleeve V-neck jersey with a black ribbed collar edged by thin white piping, matching black sleeve cuffs with thin white piping, and a straight hem with visible topstitching.
+
+--- GENERATED TEXT ---
+TITLE: Esports Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

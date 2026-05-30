@@ -1,0 +1,27 @@
+Product: Cycling Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve cycling jersey in bright blue technical knit with a slim, body-hugging athletic fit. The garment uses multi-panel cut-and-sew construction with a full center-front zipper, contrasting white sublimated graphics across the chest and sleeves, and darker blue side insert detailing.
+PANEL_MAP: Main front body panel in bright blue technical fabric with a subtle micro-mesh/perforated knit texture and sublimated graphics. Side body inserts in a darker blue/teal tone run from underarm down to hem, including a textured dotted/dimpled side section on the wearer’s right torso. Raglan-style shoulder/sleeve panels in medium blue with vertical pinstripe-like lines and large white sublimated sponsor lettering over the shoulders and upper sleeves. Center-front full zipper with matching blue placket; short stand collar in matching blue. Lower hem band in solid brighter blue.
+LOGOS: left chest vermarc logo, upper center chest TUDelft wordmark, mid chest wtcos emblem, lower center chest VIRO wordmark, lower right hem pr.r label, right side torso vertical VIRO mark
+GARMENT_TYPE: short sleeve cycling jersey
+BACK_VIEW: Back is expected to continue the same blue multi-panel cycling jersey construction with large sublimated sponsor graphics across the back and sleeves, plus a similar fitted hem and side inserts, while the front zipper is absent.
+LOGO_COLOR: white
+FABRIC: Lightweight polyester cycling knit / performance jersey fabric with a fine micro-mesh, slightly perforated surface and smooth synthetic finish. The fabric appears breathable, thin, and stretchy with a soft matte-to-slight-sheen look, using tighter knit body panels and more textured side ventilation sections.
+TEXT_AND_GRAPHICS: Left shoulder/sleeve: large white lowercase “medialanum” wordmark, bold rounded sans-serif, set diagonally from collar toward sleeve cuff; right shoulder/sleeve: matching large white lowercase “medialanum” wordmark, bold rounded sans-serif, diagonally placed with the initial “m” inside a white circular ring near the collar. Upper chest: large “La Gazzetta dello Sport” wordmark in medium-blue tall serif-style lettering centered across the white chest band. Directly beneath it: smaller white text “Tutto il rosa” followed by a small pink circular globe icon, then white text “della vita,” all centered. No other visible text, numbers, emblems, badges, crests, or graphics.
+COLOR_LAYOUT: Bright medium-blue body with a white horizontal chest band, white shoulder/sleeve text and thin white pinstripes on the upper sleeves, plus darker blue side panels and a darker blue dotted-texture panel on the right side.
+TRIM_DETAILS: Short stand collar in blue with a centered full-length zipper down the front, blue sleeve cuffs and hem band, curved jersey hem with a white interior visible at the bottom opening.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Cycling Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

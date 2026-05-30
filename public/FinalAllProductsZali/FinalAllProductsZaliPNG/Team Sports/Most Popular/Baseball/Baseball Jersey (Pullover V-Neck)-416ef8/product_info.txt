@@ -1,0 +1,27 @@
+Product: Baseball Jersey (Pullover V-Neck)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Pullover V-neck baseball jersey with a single continuous front body panel and a single continuous back body panel, plus separate short sleeves and ribbed V-neck trim. Fabric appears to be smooth polyester athletic knit with a soft matte finish, light stretch, and subtle sheen; the body drapes fluidly while the sleeves look slightly more structured.
+PANEL_MAP: Front body: one continuous panel, gray-green base with red dotted print shoulder inserts at left and right upper chest/shoulder areas and dark navy printed sleeves attached separately; all body color changes are PRINT only, no sewn color panels on the torso. Back body: one continuous panel, gray-green base with a wide gray dotted print upper yoke across shoulders and upper back, navy printed sleeves attached separately; lower back remains solid gray-green. Sleeves: separate short sleeve panels, dark navy with white double stitching at cuffs. Collar: separate ribbed V-neck trim, dark navy.
+LOGOS: lower right front hem brand patch/logo, no other logos
+GARMENT_TYPE: pullover V-neck baseball jersey
+BACK_VIEW: Back is mostly gray-green with a dotted printed upper yoke, navy sleeves, centered player name and number, and a plain lower back without additional seam-separated color blocking.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit, medium-light weight, soft matte surface with fine micro-texture, slight athletic sheen, breathable jersey feel, and fluid drape with mild stretch.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only a decorative red halftone dot pattern at the upper left and upper right front shoulders, fading downward and inward from the shoulder seams toward the chest, with the densest dots near the shoulder edges and smaller sparse dots tapering into the upper chest.
+COLOR_LAYOUT: Light gray-green body with dark navy sleeves and matching dark navy V-neck collar; red halftone dot panels accent both upper shoulders, and thin white double stitching is visible near the sleeve cuffs and along the bottom hem.
+TRIM_DETAILS: Deep V-neck collar in dark navy with a white inner facing visible at the neckline; short sleeves with clean cuffs and two rows of white stitching near each cuff; straight hem with a narrow double-stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Pullover V-Neck Baseball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

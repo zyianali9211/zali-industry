@@ -1,0 +1,27 @@
+Product: Ice Hockey Jersey (Standard)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Ice hockey jersey with single continuous front and back body panels, separate long sleeves, and a contrasting V-neck collar. The garment is a sublimated/printed hockey style with bold blue and yellow striping and a large central crest on a light cream base.
+PANEL_MAP: Front body: one continuous cream panel with printed blue/yellow shoulder yoke shapes, printed horizontal chest and waist stripes, and printed large center crest (PRINT only, no separate colored body panels). Back body: one continuous cream panel with continuation of the printed colorway and numbering area implied. Sleeves: separate long sleeves in cream with printed blue/yellow bands around upper arm and near cuffs, plus printed sleeve number graphics. Collar: separate blue V-neck trim.
+LOGOS: front center crest logo, left sleeve number graphic, right sleeve number graphic
+GARMENT_TYPE: ice hockey jersey (standard)
+BACK_VIEW: Back is a continuous cream panel with the same printed blue/yellow striping language carried across the shoulders and lower body, with no visible back crest in view.
+LOGO_COLOR: blue with yellow outline
+FABRIC: smooth polyester hockey jersey knit, medium weight, matte to slightly low-sheen surface with a soft brushed-hand feel visually, breathable athletic drape, fine knit texture typical of sublimated team jerseys.
+TEXT_AND_GRAPHICS: Center chest: large blank shield crest outline with no text inside, positioned mid-chest slightly above the horizontal stripe band; shield has a thick royal blue inner outline and a thin gold outer outline, symmetrical pointed-bottom heraldic shape, medium-large size. No other visible text, numbers, wordmarks, emblems, badges, or graphics.
+COLOR_LAYOUT: Cream/off-white body with royal blue shoulder yoke, royal blue sleeve bands, and a wide royal blue horizontal band near the lower torso, all accented by gold/yellow stripes and outlines.
+TRIM_DETAILS: V-neck collar in royal blue with a clean white inner neckline visible; long sleeves with cuff bands in royal blue; straight hem with a subtle double-stitch finish and no visible buttons or placket.
+
+--- GENERATED TEXT ---
+TITLE: Ice Hockey Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

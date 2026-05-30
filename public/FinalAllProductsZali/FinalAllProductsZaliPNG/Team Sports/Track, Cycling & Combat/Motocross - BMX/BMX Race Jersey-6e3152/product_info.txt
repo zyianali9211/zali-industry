@@ -1,0 +1,27 @@
+Product: BMX Race Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Long-sleeve BMX race jersey with a slim athletic cut, sublimated color-block graphic design, and a V-neck collar. The garment appears to be made from smooth lightweight polyester performance knit with a matte-to-slightly-sheen surface and soft drape, typical of motocross/BMX race wear.
+PANEL_MAP: Front body: one continuous panel, light gray base with black/dark charcoal sublimated shoulder and sleeve-side graphics; central chest shield logo is print on the panel, not a sewn piece. Back body: one continuous panel, matching light gray base with continuing black/dark charcoal sublimated side/shoulder graphics and no separate color-block seams. Sleeves: separate long sleeve panels, mostly black/dark charcoal with sublimated gray stripe bands and vertical “RACE INC.” print graphics. Collar: separate V-neck trim in black/dark charcoal. All stripes, blocks, and graphic elements are sublimation print only.
+LOGOS: front chest “RACE INC.” shield logo, upper left chest “ABC” mark, upper right chest “RIDERFIRST” wordmark, small inside neck brand mark.
+GARMENT_TYPE: BMX race jersey
+BACK_VIEW: Back is mostly light gray with the same black/dark charcoal sublimated sleeve and shoulder continuity, plain center back with no large text visible.
+LOGO_COLOR: black
+FABRIC: Smooth polyester performance jersey knit, lightweight and technical with a fine flat surface, slight synthetic sheen, and soft fluid drape; appears breathable rather than mesh-heavy, with a smooth sublimation-friendly finish and minimal visible texture.
+TEXT_AND_GRAPHICS: Center chest: shield-style crest/logo in dark charcoal/black with a thin outer outline and arched top, containing stacked italic block text “RACE” above “INC.” in bold uppercase sans-serif, with smaller “BMX” at the bottom; all text is dark charcoal/black on a light gray background within the crest. Left sleeve: vertical “RACE INC. III” wordmark in large light gray/white italic uppercase sans-serif, running from upper arm downward toward cuff, with three short vertical bar marks after the wordmark. Right sleeve: matching vertical “RACE INC. III” wordmark in large light gray/white italic uppercase sans-serif, running from upper arm downward toward cuff, with three short vertical bar marks after the wordmark. No other text, numbers, emblems, or graphics.
+COLOR_LAYOUT: Light gray torso with black raglan sleeves and shoulder panels, accented by dark and light gray angular striping that points downward from the chest toward the hem; black collar and sleeve sections contrast against the pale body.
+TRIM_DETAILS: Black V-neck collar with a white inner collar lining visible at the neckline, straight hem, and clean cuffs with no visible ribbing or extra trim.
+
+--- GENERATED TEXT ---
+TITLE: BMX Race Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

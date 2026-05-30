@@ -1,0 +1,24 @@
+Product: 7-on-7 Shorts (Loose Fit)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Loose-fit athletic shorts with a simple pull-on construction, smooth stretch-knit body, and a slightly matte performance finish. The garment uses sublimated graphics on a single continuous front and back panel rather than cut-and-sewn color sections, with a wide elastic waistband and clean hemmed leg openings.
+PANEL_MAP: Front body: one continuous panel, black base with gold printed crown logo and "ELITE" graphic at lower left, plus a vertical gold bar print on lower right (PRINT only, no seams between graphics). Back body: one continuous panel, black base with no visible print. Waistband: separate elastic waistband, black. Leg openings: hemmed edges, black.
+LOGOS: right upper thigh logo ("BATTLE"), lower left leg logo ("ELITE" with crown mark)
+GARMENT_TYPE: 7-on-7 shorts (loose fit)
+BACK_VIEW: back is plain black with no visible graphics or seam changes, continuing the same smooth short construction.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a lightweight, slightly stretchy hand, fine flat surface, and low-sheen matte finish; feels slick and athletic rather than textured or brushed.
+
+--- GENERATED TEXT ---
+TITLE: 7-on-7 Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

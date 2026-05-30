@@ -1,0 +1,27 @@
+Product: Roller Derby Jersey (Sleeveless)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless roller derby jersey with a smooth athletic synthetic jersey body, black contrast neck trim, and a straight-cut athletic silhouette. The main body is a light-to-medium blue sublimated print with darker blue scenic/map-like artwork concentrated along the lower right and bottom hem, plus small sponsor/branding marks near the chest.
+PANEL_MAP: Front body: one continuous panel, light-to-medium blue base with sublimated print elements including the "MOBILE BAY ROLLER DERBY" chest graphic, small chest wordmark/icon, compass emblem, and dark blue coastal/map artwork at the lower right and hem; no cut seams between color areas. Back body: one continuous panel, likely same blue sublimated base with continued print styling, plain center from visible view. Sleeveless armholes are cut into the body, with black neck trim as a separate collar/finish piece.
+LOGOS: small white mascot/logo icon at front upper right chest, compass/star emblem at lower left front, no other logos
+GARMENT_TYPE: sleeveless roller derby jersey
+BACK_VIEW: Back is a plain continuation of the blue sublimated body with no visible large text, with the same athletic sleeveless cut and black neck trim.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic jersey knit with a light, fine-knit surface and matte-to-slightly-smooth finish, medium-light weight, soft drape, and a printed sublimation look rather than textured mesh; appears breathable and flexible with a clean sport-jersey hand feel.
+TEXT_AND_GRAPHICS: Upper chest center: small dark blue roller skate icon, single-color silhouette with white lace/boot detail accents, about thumb-sized relative to the shirt. Mid chest center: large “MOBILE BAY” wordmark in bold collegiate block serif capitals, white, slightly condensed, spanning most of the chest width. Directly below: “ROLLER DERBY” in smaller dark blue uppercase sans-serif/block letters, horizontally centered, flanked left and right by short wing-like horizontal stripe marks in the same dark blue. Below that on center chest: a dark blue compass rose/star emblem, medium size, circular with pointed cardinal arms. Lower half and right side: large monochrome navy-blue scenic/map-style graphic of a coastline with grid/map lines, water, shoreline contours, marsh grass silhouettes, and a small sailboat near the lower center-right; the design extends from the right torso across the bottom hem area and fades into lighter blue on the left. No other text or graphics.
+COLOR_LAYOUT: Light sky blue body with dark navy/black ribbed collar trim and a large tonal-to-navy blue coastal/map graphic concentrated on the lower half and right side, with white text and dark blue secondary text/icons.
+TRIM_DETAILS: Sleeveless athletic tank with a wide round neck opening, dark navy/black ribbed neck band, clean armhole binding in matching light blue, and a straight hem with no visible cuffs or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Roller Derby Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

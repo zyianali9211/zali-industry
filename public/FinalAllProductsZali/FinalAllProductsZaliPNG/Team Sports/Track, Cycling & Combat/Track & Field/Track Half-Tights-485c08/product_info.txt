@@ -1,0 +1,27 @@
+Product: Track Half-Tights
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Compression athletic knit half-tights with a smooth, matte stretch surface and body-hugging fit. The garment appears to use a technical polyester/spandex blend with flatlock seaming and sublimated diagonal stripe graphics on the legs.
+PANEL_MAP: Front body: one continuous black panel, with diagonal gray/white stripe graphics printed on the outer thigh areas (PRINT only, no seams between stripe sections). Back body: one continuous black panel, with continuation of the same diagonal printed stripe graphics on both legs. No sleeves. Waistband: integrated black elastic waistband.
+LOGOS: right upper hip logo, no other logos
+GARMENT_TYPE: track half-tights
+BACK_VIEW: Back is solid black with the same diagonal sublimated stripe pattern continuing down both legs and no visible center graphics.
+LOGO_COLOR: white
+FABRIC: Smooth compression spandex / polyester-lycra knit with a tight fine gauge surface, slight low-sheen finish, elastic and supportive drape, and visible flatlock seam lines; lightweight technical athletic fabric with a sleek, second-skin texture.
+TEXT_AND_GRAPHICS: no visible text, numbers, logos, wordmarks, emblems, badges, crests, or printed graphics; only subtle decorative reflective stripe graphics on each outer thigh, consisting of five thin parallel diagonal bands per side in light gray/silver, slanting upward from the outer side seam toward the center waist, with the longest band highest and the shortest band lowest, medium-small scale and evenly spaced.
+COLOR_LAYOUT: Solid black leggings/shorts body with light gray/silver diagonal stripe accents on both outer thighs and no other color blocking.
+TRIM_DETAILS: Wide smooth high-rise waistband, flatlock seam running vertically down the center front, short above-the-knee leg length with straight hems, and clean stitched edge seams throughout.
+
+--- GENERATED TEXT ---
+TITLE: Track Half-Tights
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

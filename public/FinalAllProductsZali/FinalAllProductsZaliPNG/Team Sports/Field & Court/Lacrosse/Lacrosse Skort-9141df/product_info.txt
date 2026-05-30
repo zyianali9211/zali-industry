@@ -1,0 +1,27 @@
+Product: Lacrosse Skort
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sublimated lacrosse skort with a smooth, lightweight athletic outer shell and a flared A-line silhouette. The surface shows a dark navy geometric allover print with a subtle sheen and soft drape, indicating polyester performance fabric rather than textured knit. The waistband is a separate elastic trim in black with internal branding visible at the top opening.
+PANEL_MAP: Front body: one continuous panel, dark navy base with allover geometric chevron/hex-like sublimation print in lighter blue-gray lines (PRINT only, no seams between color areas). Back body: one continuous panel, matching dark navy base with the same allover geometric sublimation print (PRINT only). Waistband: separate black elastic trim with white internal brand print. No separate side panels visible.
+LOGOS: front lower left hem Lacrossewear logo, inner waistband Lacrossewear logo/text repeat, no highlighted logos
+GARMENT_TYPE: lacrosse skort
+BACK_VIEW: Back is the same continuous printed navy panel with the geometric allover sublimation pattern and no large graphics, with only the black waistband visible at the top.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit / interlock with a lightweight, slightly slick surface, subtle athletic sheen, thin medium-light weight drape, and a clean sublimated print finish; not brushed, not mesh, not ribbed.
+TEXT_AND_GRAPHICS: All-over geometric print covering the entire skirt body: a repeating tessellated pattern of angular, interlocking triangular and trapezoid-like panels in multiple navy-to-medium blue tones, with each panel filled by diagonal stripe linework; no words, numbers, logos, badges, crests, or emblems visible.
+COLOR_LAYOUT: Dark navy blue skirt body with a tonal geometric pattern in lighter blues, plus a black waistband and a white interior facing visible at the top opening.
+TRIM_DETAILS: Wide black elastic waistband at the top with a smooth finish, white inner lining peeking above it, and a clean straight hem with a subtle curved drape at the bottom; no cuffs or buttons visible.
+
+--- GENERATED TEXT ---
+TITLE: Lacrosse Skort
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

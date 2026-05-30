@@ -1,0 +1,17 @@
+Product: Softball Jersey (Full Button)
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Full button softball jersey with a clean athletic fit, short sleeves, and a V-neck style button placket with four buttons. The garment appears to be a smooth sublimated performance polyester with a lightweight, slightly silky finish and soft drape.
+PANEL_MAP: Front body: one continuous panel, white base with printed navy and red piping-style stripe graphics running from the collar down the center placket and around the sleeve cuffs (PRINT only, no seams between colors); large printed "CRUSADERS" across chest and printed number "9" on lower right chest. Back body: one continuous panel, likely white with continuation of printed stripe graphics and no visible cut color-block seams. Sleeves: separate short sleeve panels, white base with printed navy/red cuff band graphics. Collar: separate white V-neck collar/placket trim with four-button closure.
+LOGOS: small sleeve mark on left sleeve, no other logos
+GARMENT_TYPE: full button softball jersey
+BACK_VIEW: back is likely plain white with the same printed piping-style stripe continuation and no large chest graphics, with a smooth uninterrupted center panel.
+LOGO_COLOR: navy
+FABRIC: smooth sublimated polyester interlock / performance knit with a fine flat surface, lightweight athletic feel, mild matte-to-satin sheen, soft structure, and breathable smooth texture rather than open mesh.
+
+--- GENERATED TEXT ---
+(no text generated)

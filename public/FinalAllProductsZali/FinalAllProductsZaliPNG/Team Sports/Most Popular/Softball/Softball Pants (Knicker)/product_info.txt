@@ -1,0 +1,17 @@
+Product: Softball Pants (Knicker)
+Gender: female
+Material: auto
+Side: right
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Knicker-style softball pants with a high elastic waistband and cropped leg length, made from a smooth athletic woven or knit polyester with a slight matte sheen. The fit is loose through the thigh and tapered below the knee, with visible baseball/softball utility styling and reinforced seam construction.
+PANEL_MAP: Front body: one continuous panel, solid red base with a narrow vertical gray reflective-looking stripe printed along the outer leg (PRINT only, NO seams between colors). Back body: one continuous panel, solid red base with continuation of the same printed side stripe visible at the outer leg. Waistband: separate elastic trim, red. No sleeve panels.
+LOGOS: none
+GARMENT_TYPE: softball pants (knicker)
+BACK_VIEW: Back is solid red with the same side stripe print continuing down the outer leg, plain center seat, no visible logo or back yoke separation.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic fabric, medium-light weight, fine even surface with a soft matte finish and slight synthetic sheen, structured enough to hold shape but still flexible, typical team-sport pant fabric.
+
+--- GENERATED TEXT ---
+(no text generated)

@@ -1,0 +1,27 @@
+Product: Hockey Socks (Sublimated)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Tall hockey socks made from a smooth synthetic performance knit with a slightly matte finish and subtle stretch, designed as a sublimated single-piece body. The surface appears thin-to-medium weight with clean edges and no bulky padding, showing printed graphics rather than sewn color blocks.
+PANEL_MAP: Front body: one continuous panel, bright yellow base with printed black halftone dot gradient on lower leg and printed black skyline band near the ankle; all color changes are PRINT only, no separate fabric sections. Back body: one continuous panel, matching yellow base with continuation of printed black gradient and black lower-leg band, no construction seams separating the graphics. Collar/opening: separate top cuff trim, yellow, rolled or folded hem look. Bottom hem/foot opening: narrow dark cuff/edge visible, likely elastic binding.
+LOGOS: no visible brand logos
+GARMENT_TYPE: hockey socks
+BACK_VIEW: Back is the same yellow sublimated body with the black dotted fade and lower black graphic band continuing around the leg, with no additional text or design elements centered on the back.
+LOGO_COLOR: black
+FABRIC: smooth polyester performance knit / sublimated hockey sock fabric with a fine, tight surface, lightly matte appearance, thin-to-medium weight, and modest stretch; looks durable and flexible rather than plush, with crisp printed graphics bonded into the fabric surface.
+TEXT_AND_GRAPHICS: Lower leg/front panel: a black city skyline silhouette graphic spanning the width of the leg, positioned just above the ankle cuff; the skyline includes multiple building shapes with varied rooflines and a tall central tower with an antenna/spire, all rendered as a solid matte black silhouette. Above and behind the skyline: a halftone dot field of black circular dots that increases in size and density toward the bottom, fading to very small sparse dots higher up in the yellow area; no text, numbers, wordmarks, emblems, badges, or crests visible.
+COLOR_LAYOUT: Solid bright yellow upper and mid leg with a black halftone-to-solid graphic transition in the lower third, ending in a full black ankle section and cuff.
+TRIM_DETAILS: Wide folded-over waistband at the top in matching yellow; smooth tapered leg with no visible side stripes or pockets; straight black cuff/hem band at the bottom with a subtle stitched edge.
+
+--- GENERATED TEXT ---
+TITLE: Hockey Socks
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

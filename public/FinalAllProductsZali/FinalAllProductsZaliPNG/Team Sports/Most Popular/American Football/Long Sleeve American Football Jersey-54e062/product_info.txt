@@ -1,0 +1,27 @@
+Product: Long Sleeve American Football Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve American football jersey with a smooth, lightweight athletic knit body and sleeves, featuring a glossy sublimated surface and soft drape. The construction appears to be a single continuous front body panel and single continuous back body panel, with separate long sleeves and ribbed V-neck trim.
+PANEL_MAP: Front body: one continuous blue panel with sublimation print only, including arched “ZAVORA” chest wordmark, center number “5,” and printed white/orange horizontal stripes near shoulders, mid-body, and hem. Back body: one continuous blue panel, likely continuation of the same stripe motif with no separate color panels; any graphics would be sublimation print only. Sleeves: separate long sleeves in matching blue with printed white/orange stripe bands and printed sleeve numbers “9.” Collar: separate ribbed V-neck trim in white with orange outer edge.
+LOGOS: no visible brand logos
+GARMENT_TYPE: long sleeve American football jersey
+BACK_VIEW: Back is solid blue with the same printed stripe treatment continuing across the sleeves and lower body, with no visible back number or name in view.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit with a tight jersey surface, lightweight medium-thin construction, slight sheen, and soft fluid drape; the print appears fully sublimated into the fabric with crisp edges and no visible texture change between colors.
+TEXT_AND_GRAPHICS: Front chest, centered and arched across upper chest: “ZAVORA” in large varsity/block serif letters, white fill with orange outline, slightly tilted/arched to match the chest curve. Front chest, centered below wordmark: large numeral “5” in block varsity style, white fill with orange outline, occupying the mid-torso. Left sleeve near upper arm: numeral “9” in the same block varsity style, white fill with orange outline, medium-large size. Right sleeve near upper arm: numeral “9” in the same block varsity style, white fill with orange outline, medium-large size. No other visible text, logos, badges, crests, or graphics.
+COLOR_LAYOUT: Royal blue body with white and orange horizontal stripe bands across the upper chest, mid-sleeves, and lower torso; white V-neck insert at the collar with orange trim; white number and lettering accents outlined in orange.
+TRIM_DETAILS: V-neck collar with white inner insert and orange piping/edge trim, long sleeves with ribbed cuffs in matching royal blue, and a straight hem with a clean athletic finish; no buttons or additional trim visible.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve American Football Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

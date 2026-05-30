@@ -1,0 +1,24 @@
+Product: Baseball Jersey (Sleeveless)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless baseball jersey with single-piece front and back body construction, open armholes, and a button-front placket. The garment appears to be a lightweight athletic knit with a smooth, matte-to-slightly-sheen surface typical of sublimated polyester sportswear.
+PANEL_MAP: Front body: one continuous panel, black base with orange piping/stripe details printed on the surface (PRINT only, NO seams between colors), front center placket with buttons, and a large printed "SAINTS" baseball graphic. Back body: one continuous panel, black base with continuation of orange printed trim elements only, no separate color-block panels. Sleeves: none, sleeveless construction. Collar: black self-fabric or trim neckline.
+LOGOS: front chest "SAINTS" baseball graphic/logo, no other logos
+GARMENT_TYPE: baseball jersey (sleeveless)
+BACK_VIEW: back is solid black with the orange printed accent lines continuing down the body, plain center back with no large graphic.
+LOGO_COLOR: white
+FABRIC: smooth sublimated polyester knit, lightweight athletic jersey fabric with a flat fine-knit surface, subtle sheen, soft drape, and breathable sport-textile texture, not brushed or fuzzy
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Baseball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

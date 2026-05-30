@@ -1,0 +1,27 @@
+Product: 7-on-7 Shorts (Loose Fit)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Loose-fit athletic shorts with a smooth matte technical polyester look, short inseam, and elastic waistband. The body appears to be a single continuous black fabric with sublimated graphics printed on the surface, plus simple hem finishes and no visible side panel seams.
+PANEL_MAP: Front body: one continuous black panel with sublimated print graphics only (BATTLE badge on upper right thigh, gold crown/ELITE graphic on lower left thigh, gold vertical bar on lower right thigh), no color-block seam construction. Back body: one continuous black panel, plain/mostly unprinted. Waistband: separate elastic waistband, black. Hem finishing: simple stitched hem, black.
+LOGOS: Front upper right thigh BATTLE badge logo; front lower left thigh ELITE crown emblem; no other logos.
+GARMENT_TYPE: 7-on-7 shorts (loose fit)
+BACK_VIEW: Back is plain black with no visible graphics, maintaining the same smooth athletic finish and simple stitched hems.
+LOGO_COLOR: gold
+FABRIC: Smooth polyester performance knit with a soft matte surface, lightweight and slightly slick hand, moderate drape, and subtle stretch. The fabric looks tightly woven/knit rather than mesh, with a clean sublimation-ready finish and minimal visible texture.
+TEXT_AND_GRAPHICS: Front left thigh near lower-left leg: large gold crown emblem with three rounded points and small circular tips above the word “ELITE” in bold italic block capitals, all in metallic gold; the crown sits directly above the text, and both elements are sized as a prominent oversized thigh graphic. Front right thigh upper-mid area: shield-style crest with a gold outline and black interior containing the word “BATTLE” in bold white uppercase block letters with dark edging, centered across the shield; small gold stars arc across the top of the crest with a tiny football icon beneath the stars, all in a compact chest-sized badge. Lower right leg near hem: a single vertical metallic gold stripe, narrow and tall, placed close to the outer side seam. No other visible text, numbers, or graphics.
+COLOR_LAYOUT: Solid black shorts with metallic gold graphics and accents, including a gold crown/ELITE graphic on the left leg, a gold-outlined BATTLE crest on the right leg, and a single gold vertical stripe near the right hem.
+TRIM_DETAILS: Wide black elastic waistband with dense horizontal ribbing and gathered top edge, straight hems at the leg openings, and visible side seams with no cuffs or drawstrings apparent.
+
+--- GENERATED TEXT ---
+TITLE: 7-on-7 Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

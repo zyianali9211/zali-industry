@@ -1,0 +1,27 @@
+Product: Softball Jersey (V-Neck)
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Softball jersey in lightweight smooth polyester athletic knit with a matte-to-slightly-sheen finish and a relaxed drape. The garment has a white V-neck collar with navy and red trim, short sleeves, and sublimated navy/red chest and sleeve bands printed on continuous body panels.
+PANEL_MAP: Front body: one continuous white panel with sublimated navy and red horizontal chest band and sleeve trim graphics printed on the fabric, no cut seams between color areas. Back body: one continuous white panel, plain with no visible text/number in the front view, likely continuing the same sublimated color treatment at the yoke/upper back. Sleeves: separate short sleeves, navy with red and white printed bands and trim. Collar: separate V-neck ribbed trim in white with navy and red edging.
+LOGOS: small lower-right hem brand patch/logo, no other logos
+GARMENT_TYPE: softball jersey (V-neck)
+BACK_VIEW: Back is plain white overall with the same navy/red trim continuity at the collar and sleeves, with no visible number or wordmark in this view.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit, lightweight and breathable with a fine uniform surface, matte finish, soft drape, and a subtle performance sheen typical of sublimated sports jerseys.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only color-block jersey design with one thick navy horizontal chest band and one thick red horizontal chest band, each separated by thin white stripes, plus sleeve stripe accents.
+COLOR_LAYOUT: White body with navy blue sleeves, a navy horizontal stripe across the upper chest, a red horizontal stripe below it, and thin white separating stripes; navy-and-red striped V-neck trim.
+TRIM_DETAILS: V-neck collar with layered navy outer piping and a thin red inner accent, short sleeves with matching striped sleeve cuffs, and a plain straight hem.
+
+--- GENERATED TEXT ---
+TITLE: Softball Jersey V-Neck
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

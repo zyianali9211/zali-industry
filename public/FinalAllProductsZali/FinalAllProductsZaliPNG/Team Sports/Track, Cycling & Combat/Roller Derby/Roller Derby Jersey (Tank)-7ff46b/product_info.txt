@@ -1,0 +1,27 @@
+Product: Roller Derby Jersey (Tank)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless athletic roller derby jersey/tank with a fitted, body-skimming cut and racerback silhouette. Main body appears to be smooth polyester/spandex performance knit with a matte-to-slightly-sheen finish; all red/graphic areas are sublimated print on continuous panels, not separate color-block seams.
+PANEL_MAP: Front body: one continuous black panel with a wide red horizontal sublimation print band across the upper chest; black lower torso continues as the same panel, no seams between color areas. Back body: one continuous black panel with red sublimated print at the upper racerback/shoulder areas and plain black center back; all text and graphics are printed on the single back panel. No sleeves. Collar/neck trim: self-fabric bound racerback opening, black.
+LOGOS: front right chest small STAR/ROSTAR logo, back upper neck small circular crest/emblem
+GARMENT_TYPE: roller derby jersey tank
+BACK_VIEW: Back is mostly black with red sublimated print at the racerback shoulder cutouts, centered back wordmark and large number, with no additional construction panels.
+LOGO_COLOR: white
+FABRIC: Smooth athletic polyester/spandex knit, medium-light weight, tight jersey surface with a clean matte finish and slight sheen in highlights; flexible four-way stretch, sleek and performance-oriented, not brushed or textured.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only a wide horizontal red distressed/brush-textured color band across the upper chest and matching red textured inner racerback side panels beneath the neckline.
+COLOR_LAYOUT: Black sleeveless athletic tank with a wide red textured band across the upper chest and red textured inserts inside the racerback neckline, with the rest of the garment solid black.
+TRIM_DETAILS: Scoop neckline with racerback armholes and black binding throughout; straight hem with double-stitched black finishing and no visible cuffs, placket, or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: roller derby jersey tank
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

@@ -1,0 +1,27 @@
+Product: 7-on-7 Jersey (Sleeveless)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless 7-on-7 jersey with a fitted athletic cut, smooth lightweight synthetic body, and dark separate shoulder/sleeve panels. The main body is sublimated with bold pink and white diagonal graphics over a bright cyan base, finished with hot-pink piping around the armholes and neckline.
+PANEL_MAP: Front body: one continuous cyan panel with sublimation print only; white/pink diagonal bands and graphic accents are printed on the surface, not separate panels. Back body: one continuous cyan panel with sublimation print only; large “00” and diagonal pink/white band are printed on the surface, not separate panels. Sleeves/shoulders: separate dark charcoal/black athletic panels covering the shoulder area. Collar/armhole trim: hot-pink binding trim.
+LOGOS: none
+GARMENT_TYPE: sleeveless jersey
+BACK_VIEW: Back is a continuous cyan panel with the same printed pink-and-white diagonal graphic band and oversized centered “00,” with dark separate shoulder panels and no additional text.
+LOGO_COLOR: white
+FABRIC: Smooth polyester tricot-like athletic knit with a lightweight, slightly glossy surface and tight fine-gauge texture, giving a slick performance-jersey look with moderate drape and stretch.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed text; front features abstract graphic design only: a large diagonal pink-and-white slash band crossing from left mid-torso to lower right torso, a smaller pink-white angular streak near the upper right chest, and pink halftone dot bursts in the upper right chest and lower left hem area, all with sharp tapered points and no lettering.
+COLOR_LAYOUT: Turquoise/cyan body with bright pink trim, black shoulder yoke panels, and white and pink abstract diagonal graphic accents across the front.
+TRIM_DETAILS: Crew neck with bright pink ribbed binding and a white inner collar facing, sleeveless armholes with pink piping, and a straight hem with a visible narrow stitched finish.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

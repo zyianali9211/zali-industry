@@ -1,0 +1,27 @@
+Product: Track Singlet (Standard)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless track singlet made from lightweight smooth polyester performance knit with a soft matte-to-slight-sheen finish and subtle horizontal sublimation texture. Athletic slim cut with scoop neckline and straight hem; body is a single continuous sublimated panel front and back, with no cut-and-sew color-block seams on the torso.
+PANEL_MAP: Front body: one continuous panel, hot pink/magenta base with horizontal streaked sublimation print texture and white printed graphics/logos; side white graphic visible at right edge is PRINT only, not a separate panel. Back body: one continuous panel, same hot pink/magenta sublimated texture continuing across the back with no structural color seams. Sleeves: none. Collar: self-fabric or narrow binding in matching pink/magenta.
+LOGOS: small white stylized “C” logo at left chest, small white stylized “C” logo near lower right front hem, no other brand marks
+GARMENT_TYPE: track singlet
+BACK_VIEW: Back is the same hot pink/magenta sublimated body with a plain center back and no large text, with the white side graphic continuing only at the side edge.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester interlock or tricot performance knit, fine-knit surface with subtle horizontal sublimation streaking, matte finish with slight athletic sheen, thin breathable drape, soft hand, and mild stretch suitable for racing.
+TEXT_AND_GRAPHICS: Right side lower torso: a large white abstract jagged slash/lightning graphic made of multiple sharp diagonal streaks, stacked and fanning upward-left to downward-right; no text, numbers, wordmarks, emblems, badges, crests, or other printed designs visible.
+COLOR_LAYOUT: Bright pink sleeveless tank top body with a subtle heathered texture, contrasted by a white inner front lining visible at the neckline and a white graphic on the lower right side.
+TRIM_DETAILS: Scoop neck with matching bright pink binding, wide sleeveless armholes with matching pink trim, straight hem with narrow stitched finishing.
+
+--- GENERATED TEXT ---
+TITLE: Track Singlet
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

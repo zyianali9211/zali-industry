@@ -1,0 +1,27 @@
+Product: Field Hockey Jersey
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless athletic field hockey jersey in a smooth, lightweight polyester performance knit with a slight sheen and soft drape. The garment is sublimated in red with black side and shoulder accents, and has black binding at the armholes and V-neck collar for a clean cut-and-sew finish.
+PANEL_MAP: Front body: one continuous red panel with sublimated black side accents/curved shoulder areas and no seam between color sections; white “RED LION” and “8” are printed on the same front panel. Back body: one continuous red panel with sublimated black side accents continuing around the torso, no visible rear text or number. Sleeves: sleeveless arm openings with black binding trim, separate edge finishing. Collar: separate black V-neck trim; black armhole piping/binding.
+LOGOS: none
+GARMENT_TYPE: sleeveless field hockey jersey
+BACK_VIEW: Back is plain red with the same sublimated black side accents running down the torso, no text or numbers visible, and black binding at the neck and armholes.
+LOGO_COLOR: white
+FABRIC: Smooth polyester performance knit / athletic tricot-like jersey fabric with a fine flat surface, lightweight hand, soft drape, and slight satin sheen. The texture appears tightly woven/knit and moisture-wicking rather than mesh-like, with clean sublimated print integration and crisp black trim.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Red sleeveless jersey and matching shorts with black side panels and black shoulder/neckline trim, creating a two-tone red-and-black athletic set.
+TRIM_DETAILS: Sleeveless V-neck jersey with black binding around the neck and armholes, straight hem, and elastic waistband shorts with a gathered top edge and clean stitched hems.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Field Hockey Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

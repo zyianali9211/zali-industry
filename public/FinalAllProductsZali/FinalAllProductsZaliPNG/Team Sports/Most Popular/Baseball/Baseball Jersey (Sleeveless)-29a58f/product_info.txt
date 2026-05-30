@@ -1,0 +1,27 @@
+Product: Baseball Jersey (Sleeveless)
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless baseball jersey with a smooth black performance knit body, cut as a simple athletic vest with deep armholes and a button-front placket. The garment uses sublimated/or printed orange piping and graphics on a single continuous front and back body panel, with a contrasting light inner yoke/lining visible at the neck and arm openings.
+PANEL_MAP: Front body: one continuous black panel, with orange piping/stripe details printed on the surface and a large printed baseball-and-“SAINTS” graphic across the upper chest; vertical front placket with buttons is actual construction. Back body: one continuous black panel, plain with no visible graphic from the front view. Sleeves: none, sleeveless cut with separate finished armhole edges. Collar: separate black ribbed/trimmed neckline with light gray inner facing visible.
+LOGOS: none
+GARMENT_TYPE: sleeveless baseball jersey
+BACK_VIEW: Back is plain black with no visible text or graphics, continuing the sleeveless athletic cut and black neckline trim.
+LOGO_COLOR: white
+FABRIC: Smooth polyester athletic knit with a matte to lightly satin finish, medium-light weight, and a soft, clean surface typical of sublimated sports jerseys. The fabric appears tightly woven/knit with slight stretch and a fluid drape, not mesh and not brushed, with crisp printed graphics sitting cleanly on the surface.
+TEXT_AND_GRAPHICS: Front chest center: large arched “SAINTS” wordmark in varsity/block serif letters, black fill with thick white outer outline and thin orange border, spanning across the upper chest from left chest to right chest. Directly below the wordmark, centered on the chest: a large stylized white baseball graphic with orange stitching and orange motion streaks sweeping leftward behind it; the baseball overlaps the center button placket. No other visible text, numbers, logos, or graphics.
+COLOR_LAYOUT: Black jersey body with bright orange piping tracing the neckline and both sides of the center placket, plus black buttons; white interior visible inside the V-neck opening and along the inner armhole edges.
+TRIM_DETAILS: Sleeveless V-neck button-front jersey with five black buttons down the center placket, orange piping on the placket and around the collar, narrow black armhole trim, and a curved baseball-style hem.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Baseball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

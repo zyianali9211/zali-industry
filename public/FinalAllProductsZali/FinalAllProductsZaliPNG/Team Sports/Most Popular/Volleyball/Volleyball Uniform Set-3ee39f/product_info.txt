@@ -1,0 +1,27 @@
+Product: Volleyball Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless volleyball uniform set with a fitted jersey and matching shorts, constructed from smooth athletic knit fabric with a slight sheen and body-hugging drape. The body uses a single continuous front panel and a single continuous back panel, with all navy/white/gold geometric design elements appearing as sublimation print rather than sewn color-block panels.
+PANEL_MAP: Front body: one continuous panel, dark navy base with printed white/gold angled side accents and pointed chevron-like shapes along the lower torso (PRINT only, NO seams between colors). Back body: one continuous panel, dark navy base with printed white/gold angled side accents and pointed lower back graphics (PRINT only). Sleeves: none. Collar/neck trim: white V-neck trim with narrow dark edging, separate trim piece. Shorts front: one continuous panel each leg area, dark navy with small printed number and logo accents. Shorts back: one continuous panel, dark navy, plain aside from matching print style.
+LOGOS: small gold "Z" emblem on front right chest and front right short leg; no other brand logos visible
+GARMENT_TYPE: volleyball jersey and shorts set
+BACK_VIEW: Back is mostly solid navy with the same printed angled side accents continuing from the front and a large centered white 10 under the back "ZALAR SPORTS" wordmark.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit, lightweight and breathable with a subtle sheen, fine tight surface texture, and a slightly slick performance feel typical of sublimated sports uniforms.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; the garment has only geometric side-panel stripe graphics on both the top and shorts. Top front: mirrored angular side designs on left and right torso, each composed of a tall white triangular wedge with a gold diagonal wedge beside it and a narrow navy gap/edge, rising from the lower side seam toward mid-torso; lower front near hem on both sides, smaller mirrored angular stripe motifs in white and gold with sharp diagonal points; all graphics are flat printed shapes with clean edges and no lettering. Shorts front: matching mirrored angular side graphics on both legs, each with a white triangular wedge and gold diagonal wedge along the outer thigh, extending downward toward the hem; no other marks or text.
+COLOR_LAYOUT: Navy blue body on both jersey and shorts with white and gold geometric side accents; the jersey has a white V-neck inset and white shoulder/armhole trim, while the shorts continue the same navy base with matching side striping.
+TRIM_DETAILS: Sleeveless jersey with a V-neck collar featuring a white inset and navy piping, clean armhole bindings, straight hem on the top, and shorts with an elasticized gathered waistband, centered front seam, and slightly curved leg openings.
+
+--- GENERATED TEXT ---
+TITLE: Volleyball Jersey and Shorts Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

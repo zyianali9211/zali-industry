@@ -1,0 +1,27 @@
+Product: BMX Casual Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long-sleeve BMX jersey with single-panel body construction and separate sleeves, made from smooth lightweight synthetic performance knit with a subtle matte-to-satin sheen. The body features sublimated tonal gray/black graphics on continuous front and back panels, with vented perforation detail at the upper yoke/shoulder area and a breathable mesh look at the collar and side inserts.
+PANEL_MAP: Front body: one continuous panel, black base with sublimated gray chest yoke and gray curved band graphics printed on the panel only, no seams between color regions. Back body: one continuous panel, black base with continuation of sublimated tonal graphics, plain center overall. Sleeves: separate panels, black with sublimated gray accent graphics on forearms and small sleeve logo print. Collar: separate black ribbed neck trim with inner mesh/vented look.
+LOGOS: front chest FLY wordmark, mid-chest FLY winged emblem, left sleeve small FLY logo
+GARMENT_TYPE: long sleeve BMX jersey
+BACK_VIEW: Back is mostly solid black with continuation of the tonal sublimated design from the front and no large center text, giving a cleaner, simpler appearance.
+LOGO_COLOR: light gray
+FABRIC: Lightweight synthetic jersey knit, likely polyester performance fabric, with a smooth fine-knit face and a slight satin sheen. The surface reads as slick and athletic rather than cottony, with soft drape, moderate stretch, and breathable perforated/mesh ventilation details at the yoke and collar area.
+TEXT_AND_GRAPHICS: Front body: no visible text, numbers, wordmarks, emblems, badges, crests, or printed lettering. Visible graphics consist of subtle tonal geometric arc graphics in dark charcoal gray: one wide shallow arc band across the upper chest, plus three nested curved arc bands centered on the lower torso, with matching angled triple-stripe motifs near each outer forearm; all graphics are low-contrast, matte, and integrated into the fabric print, with no lettering or symbols.
+COLOR_LAYOUT: Primarily black long-sleeve top with dark gray mesh/speckled shoulder yoke and side panels, charcoal-gray tonal graphics across the chest and sleeves, and a light gray/white inner collar and lower hem insert visible.
+TRIM_DETAILS: Crew neck with black ribbed collar binding, long sleeves with plain black cuffs, and a slightly curved hem with a visible contrasting light inner facing at the bottom.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve BMX Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

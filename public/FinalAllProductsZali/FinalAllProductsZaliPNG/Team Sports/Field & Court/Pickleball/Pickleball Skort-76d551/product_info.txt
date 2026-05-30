@@ -1,0 +1,27 @@
+Product: Pickleball Skort
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Dark forest green pickleball skort with a smooth, matte athletic knit waistband and a pleated skirt lower section. The construction appears to be a single continuous front body panel with a separate gathered/pleated lower skirt attached at the waist seam; no visible pockets, zippers, or hardware.
+PANEL_MAP: Front body: one continuous panel, dark forest green solid with no print; lower skirt portion shows pleated design in the same green, treated as part of the garment construction rather than separate color panels. Back body: one continuous panel, matching dark forest green solid. Waistband: separate wide smooth panel, dark forest green. No visible color blocking or sublimation print.
+LOGOS: none
+GARMENT_TYPE: pickleball skort
+BACK_VIEW: Back is plain dark forest green with the same smooth waistband and pleated lower skirt continuing around, no visible graphics or contrast panels.
+LOGO_COLOR: white
+FABRIC: smooth polyester or nylon-spandex athletic knit with a matte-to-low-sheen surface, medium-light weight, soft drape, and light stretch. The waistband looks more compression-like and sleek, while the skirt portion appears lightweight and flowy with crisp pleat retention.
+TEXT_AND_GRAPHICS: no visible text, numbers, logos, emblems, badges, crests, or printed graphics
+COLOR_LAYOUT: Solid dark forest green garment with no visible color blocking, prints, or contrasting panels.
+TRIM_DETAILS: Wide smooth high-rise waistband with a clean straight top edge; below it a sharply pleated skirt section with a softly curved lower hem and no visible cuffs, buttons, zippers, or decorative trim.
+
+--- GENERATED TEXT ---
+TITLE: Pickleball Skort
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: BasketBall kit
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless basketball jersey and matching shorts in a smooth athletic knit, with a lightweight, slightly matte finish and a clean sport-jersey drape. The set uses sublimated gradient and stripe graphics on continuous body panels, with no visible cut-and-sew color blocking between the printed design areas.
+PANEL_MAP: Front body: one continuous panel, red-to-black gradient with large printed TEAM 08 graphic on chest and printed side stripe/flare graphics (PRINT only, NO seams between colors). Back body: one continuous panel, matching red/black gradient with large printed stripe motif, plain from front graphic standpoint, no separate color panels. Sleeves: none. Collar: separate V-neck trim, black/red.
+LOGOS: TEAM 08 chest graphic (center chest)
+GARMENT_TYPE: basketball kit
+BACK_VIEW: Back is mostly a red-to-black gradient with the same printed side/flame stripe motif continuing across the torso, no back number or extra seam-defined color panels visible.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit / mesh-look jersey fabric with a lightweight, dry hand, fine surface texture, subtle sheen, and breathable sportswear drape
+
+--- GENERATED TEXT ---
+TITLE: Basketball Kit
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

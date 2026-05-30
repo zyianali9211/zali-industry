@@ -1,0 +1,27 @@
+Product: Rugby Jersey
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve rugby jersey in a teal/blue-green technical knit with a slim athletic fit and subtle body-mapped cut-and-sew construction. The main torso is a continuous sublimated panel with darker mottled micro-texture, while the sleeves and side hem areas use contrasting printed pattern panels; crew neck collar in matching teal.
+PANEL_MAP: Main front body panel in teal as one continuous sublimated fabric panel with subtle darker speckled/mesh-like print across the torso; raglan-style upper shoulder/sleeve construction with separate short sleeves in teal featuring dark navy sublimated geometric/abstract pattern from shoulder to cuff; side insert/side seam panels visible along lower torso in teal with darker printed pattern peeking at the hem/side, indicating multi-panel cut-and-sew body shaping; matching teal crew collar rib/neck band. Back is expected to continue with the same central body panel and patterned sleeves/side inserts, with no visible printed sponsor on back.
+LOGOS: left chest Castore logo, right chest rose crest, center chest O2 sponsor mark.
+GARMENT_TYPE: rugby jersey
+BACK_VIEW: Back would likely be a plain teal central body with the same patterned short sleeves and side inserts, with no visible front sponsor graphics and a matching teal collar.
+LOGO_COLOR: white
+FABRIC: Smooth technical polyester performance knit with a fine micro-mesh/jersey surface, lightweight to medium weight, matte to low-sheen finish, and a tight close-knit texture that suggests stretch and moisture-wicking athletic fabric. The print appears sublimated directly into the fabric, with no raised ink or applique, and the material drapes cleanly with a structured sportswear hand feel.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Teal/turquoise body with dark navy patterned raglan sleeves and side panels, featuring a subtle allover dotted texture on the front torso.
+TRIM_DETAILS: Crew neck with matching teal binding and a white inner collar lining; short sleeves with matching teal sleeve hems, straight hemmed bottom, and visible tonal seam construction along the raglan and side panel edges.
+
+--- GENERATED TEXT ---
+TITLE: Rugby Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

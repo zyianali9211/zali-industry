@@ -1,0 +1,17 @@
+Product: Softball Belted Pants
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Softball pants with a fitted athletic cut, belt loops, and a structured waistband with a hook-and-loop waist tab and double snap closure. The fabric appears to be a smooth mid-weight stretch polyester/spandex knit with a matte-to-slightly-satin finish, designed for mobility and durability.
+PANEL_MAP: Front body: one continuous panel in solid dark gray, with visible sewn seam lines at the knee and inseam/side shaping; any tonal variation is lighting, not color-block print. Back body: one continuous panel in solid dark gray with matching seam construction and no printed graphics. Waistband/belt area: separate structured waistband panel with belt loops and closure tab, dark gray; leg openings with elasticized hems.
+LOGOS: none
+GARMENT_TYPE: softball belted pants
+BACK_VIEW: Back is solid dark gray with continuous pant leg construction, no graphics or contrast print, and the same seam placement carried through the knees and lower legs.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with a dense, slightly stretchy surface, matte finish, and subtle soft-hand texture; medium weight with clean drape and mild athletic sheen, not brushed or fleece-like.
+
+--- GENERATED TEXT ---
+(no text generated)

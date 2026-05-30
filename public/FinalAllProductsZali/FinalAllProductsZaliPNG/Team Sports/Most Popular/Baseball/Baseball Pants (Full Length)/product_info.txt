@@ -1,0 +1,17 @@
+Product: Baseball Pants (Full Length)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Full-length baseball pants with a structured athletic fit, mid-rise waistband, and stitched seam detailing at the knee and thigh. The fabric appears to be a smooth, durable synthetic sports twill/polyester with a matte-to-slightly-satin surface and light body, designed for mobility and abrasion resistance.
+PANEL_MAP: Front body: one continuous panel in light gray with a printed red/yellow vertical side stripe along the outer leg (PRINT only, NO separate color panels). Back body: one continuous panel in light gray with continuation of the printed side stripe. Waistband: separate structured self-fabric waistband with belt loops and button closure.
+LOGOS: none
+GARMENT_TYPE: baseball pants (full length)
+BACK_VIEW: back is light gray and mostly plain with continuation of the same printed side stripe along the outer leg, no additional graphics visible.
+LOGO_COLOR: black
+FABRIC: smooth polyester sports twill / performance woven with a fine micro-textured surface, medium-light weight, crisp structure, slight matte sheen, and clean drape with subtle wrinkle resistance
+
+--- GENERATED TEXT ---
+(no text generated)

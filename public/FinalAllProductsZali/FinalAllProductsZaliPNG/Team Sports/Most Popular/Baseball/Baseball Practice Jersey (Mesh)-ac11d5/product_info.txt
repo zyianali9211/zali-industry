@@ -1,0 +1,26 @@
+Product: Baseball Practice Jersey (Mesh)
+Gender: male
+Material: mesh
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Mesh baseball practice jersey with a loose athletic fit, short raglan sleeves, and a V-neck collar. The garment is primarily dark navy blue with lighter blue and white accent striping, using sublimated graphics on a continuous body panel.
+PANEL_MAP: Front body: one continuous navy mesh panel with sublimated lighter blue and white chest graphics/striping printed on the surface, no cut color-block seams. Back body: one continuous navy mesh panel, no visible print or graphics. Sleeves: separate short raglan-style panels in dark navy mesh with a printed light blue and white sleeve stripe near the cuff. Collar: separate V-neck trim in dark navy with thin light blue and white edge striping.
+LOGOS: inside back neck woven label/logo, small and centered; left lower front hem badge logo, small; no other logos
+GARMENT_TYPE: baseball practice jersey
+BACK_VIEW: Back is plain dark navy mesh with the same V-neck collar and raglan sleeve construction, no visible text or large graphics.
+LOGO_COLOR: white
+TEXT_AND_GRAPHICS: Front chest and body: no text, numbers, wordmarks, emblems, badges, crests, or printed logos; only geometric printed/paneled design elements. A wide light-blue chevron band spans across the upper chest from left to right, centered below the collar, with a narrower white chevron stripe directly beneath it. On both lower front sides, mirrored angular side panels begin near the chest and taper downward toward the hem: each panel is light blue with a thin white inner edge and a darker navy border line, forming a sharp elongated V/boomerang shape. Sleeve cuffs each have a horizontal light-blue stripe with a thin white stripe adjacent to it wrapping around the outer sleeve near the hem; no lettering.
+COLOR_LAYOUT: Dark navy blue body with light blue and white chevron graphics across the chest and mirrored side panels, plus matching light-blue/white stripe accents on both sleeves.
+TRIM_DETAILS: V-neck collar with layered trim in dark navy, white, and light blue; short sleeves with striped cuff detail; straight hem with no visible side vents or buttons.
+
+--- GENERATED TEXT ---
+TITLE: Baseball Practice Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,27 @@
+Product: Softball Pants (Full Length)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Full-length softball pants with a slim athletic fit, straight leg tapering to an elasticized ankle opening, and a fitted waistband with belt loops. The body appears to be smooth performance knit with a matte finish and a slightly compressive drape, designed for durability and stretch.
+PANEL_MAP: Front body: one continuous light gray panel, with a vertical red stripe and adjacent thin navy stripe printed down the outer leg from hip to hem (PRINT only, no separate seam). Back body: one continuous light gray panel, with matching printed side-leg stripe continuation. Waistband: separate dark navy waistband with belt loops. Ankles: elasticized cuffs in matching fabric.
+LOGOS: none
+GARMENT_TYPE: full length softball pants
+BACK_VIEW: Back is plain light gray with the printed side-leg stripe continuing down the outer leg, no visible back yoke or graphics.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit / athletic double-knit with a fine, tightly woven surface, matte to low-sheen finish, medium weight, slight stretch, and a clean durable hand suitable for sports pants
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Light gray pants body with navy waistband and narrow navy side stripes bordered by wider red outer stripes running down both outer seams.
+TRIM_DETAILS: Wide navy elastic-style waistband with two belt loops visible at the front; elasticized leg openings with subtle gathered hems; no cuffs, buttons, or additional trim visible.
+
+--- GENERATED TEXT ---
+TITLE: Full Length Softball Pants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

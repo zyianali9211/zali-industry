@@ -1,0 +1,27 @@
+Product: Netball Dress
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless netball dress with a fitted athletic silhouette and scoop/rounded neckline, made from smooth stretch performance fabric with a slight synthetic sheen. The body is sublimated with bold graphic starburst artwork and high-contrast yellow/white/gray accents on a black base, with black binding at the neck and armholes.
+PANEL_MAP: Front body: one continuous black front panel with sublimation print only, featuring diagonal yellow/white/gray starburst graphics and small chest logo/wordmark prints; left side includes a printed yellow side insert effect, but it is print on the single front panel, not a separate sewn panel. Back body: one continuous black back panel with sublimation print only, including large printed "DREAMOX" chest wordmark, small upper-back logo, and starburst graphics; the yellow side section with vertical "DREAMFOX" text is print only, not a separate panel. Sleeves: none. Collar: black binding trim around neckline and armholes.
+LOGOS: small chest logo at front center upper chest, small chest logo at back center upper back, no other logos
+GARMENT_TYPE: netball dress
+BACK_VIEW: Back is a continuous black athletic panel with the same sublimated starburst graphics and a printed yellow side-rib effect carrying vertical "DREAMFOX" text, with no cut-and-sewn color blocking.
+LOGO_COLOR: yellow
+FABRIC: smooth polyester/spandex performance knit with a tight, fine surface and slight satin-like sheen, lightweight and body-skimming with four-way stretch.
+TEXT_AND_GRAPHICS: Front of garment features an all-over abstract starburst graphic print with no readable text, numbers, wordmarks, emblems, badges, or crests. The print consists of multiple sharp angular streaks and rays in yellow, white, and light gray radiating diagonally across the black body, with several star shapes: one large white multi-point star near the upper right chest, one smaller yellow five-point star above it near the right shoulder, one smaller yellow five-point star around mid-chest left-of-center, one smaller yellow five-point star on the right mid-torso, and one smaller white five-point star on the right mid-torso below it. A large explosive starburst focal graphic sits at the lower right torso/hip area, combining yellow, white, and gray pointed rays extending outward. No other text or graphics are visible.
+COLOR_LAYOUT: Black main body with contrasting yellow side panel on the lower left side, white inner front neck/upper chest panel, and scattered yellow, white, and gray graphic streaks and stars across the front.
+TRIM_DETAILS: Sleeveless scoop-neck athletic dress/tank with black binding around the neckline and armholes, a smooth straight hem, and visible topstitching along the hem; no cuffs or buttons.
+
+--- GENERATED TEXT ---
+TITLE: Netball Dress
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,17 @@
+Product: Flag Football Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Athletic shorts with a loose sports cut, likely lightweight and quick-drying, featuring a smooth matte synthetic surface and an elastic waist. The body appears to be sublimated/printed with bold graphic elements rather than pieced color-block construction, and the fabric reads as thin woven polyester tricot or performance mesh-knit with a soft, breathable drape.
+PANEL_MAP: Front body: one continuous panel, black base with red side graphic/ornament and red-outlined “21” print on lower left leg (PRINT only, NO seams between colors). Back body: one continuous panel, black base with matching sublimated graphic continuation or plain black back, no separate color panels. Waistband: separate elastic waistband, black.
+LOGOS: front left leg number “21” print, right leg red graphic mark, no other logos
+GARMENT_TYPE: flag football shorts
+BACK_VIEW: back is likely plain black with the same continuous body construction and no visible seam-separated color blocking, only any sublimated print continuing around the side.
+LOGO_COLOR: white
+FABRIC: lightweight performance polyester with a smooth, slightly matte surface, thin woven or tricot-like hand, minimal sheen, breathable athletic texture, and a soft drape typical of quick-dry sports shorts
+
+--- GENERATED TEXT ---
+(no text generated)

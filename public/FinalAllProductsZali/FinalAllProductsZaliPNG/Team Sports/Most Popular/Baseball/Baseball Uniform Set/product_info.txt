@@ -1,0 +1,17 @@
+Product: Baseball Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Baseball uniform set with a fitted short-sleeve jersey and matching pants, shown as a sublimated design on continuous body panels with no visible cut-and-sew color blocking on the torso. The jersey has a smooth athletic surface with vertical pinstripe graphics and a bold front graphic, while the pants are lightweight athletic knit with a matte, slightly smooth finish and striped ankle trim.
+PANEL_MAP: Front body: one continuous panel, black base with vertical gray/white pinstripes printed down the body and a red/orange chest graphic printed over the center (PRINT only, no seam between colors). Back body: one continuous panel, black base with matching printed vertical pinstripes and large red/orange number printed on the back. Sleeves: separate short sleeve panels, black with printed pinstripes continuing from body. Collar: white contrast crew neck trim, separate piece. Pants: light gray continuous panels with black striped cuff detail printed/applied at the ankles.
+LOGOS: left chest logo/graphic (remove), back number 22 (remove), no other logos
+GARMENT_TYPE: baseball uniform set
+BACK_VIEW: back is black with the same printed vertical pinstripes and a large red/orange number centered on the upper back, with plain continuous construction and no extra panel breaks.
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic knit with a fine, even surface, light sheen, medium-light weight, and soft drape; jersey side looks tightly knit and slightly glossy while the pants appear matte and smooth with a flexible sportswear hand.
+
+--- GENERATED TEXT ---
+(no text generated)

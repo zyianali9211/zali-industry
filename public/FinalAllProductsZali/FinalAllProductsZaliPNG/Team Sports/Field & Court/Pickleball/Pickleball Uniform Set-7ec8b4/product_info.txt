@@ -1,0 +1,27 @@
+Product: Pickleball Uniform Set
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve athletic jersey top with matching shorts, both in a sublimated green zebra-stripe print on a smooth performance knit. The set has a sporty, lightweight, slightly matte finish with contrasting neon yellow trim at the collar, sleeve cuffs, waistband, and side accents.
+PANEL_MAP: Front body: one continuous panel, dark green base with light and medium green zebra-stripe print across entire body (PRINT only, no cut seams in the graphics), neon yellow printed/trimmed shoulder accents, neon yellow ribbed collar and sleeve cuffs as separate trim pieces. Back body: one continuous panel, matching green zebra-stripe sublimation print over entire back. Shorts: one continuous front panel and one continuous back panel, matching zebra-stripe print with neon yellow side inserts/printed side accents and neon yellow hem trim; waistband is separate elastic ribbed piece in dark green.
+LOGOS: center chest pickleball mascot badge, no other brand logos
+GARMENT_TYPE: pickleball uniform set
+BACK_VIEW: Back is plain matching green zebra-stripe sublimation print with no large graphic, maintaining the same neon yellow trim at collar, sleeve cuffs, waistband, and shorts side accents.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit jersey, lightweight and breathable with a fine micro-knit surface, matte to low-sheen finish, soft drape, and slight athletic stretch; the print sits flat on the fabric with crisp sublimation coloration and no visible texture from the graphics.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics beyond the all-over abstract zebra-like stripe pattern; the pattern consists of light lime-green wavy horizontal stripes across the dark green jersey and shorts, medium-to-large scale, evenly distributed, with no lettering or logos.
+COLOR_LAYOUT: Dark forest green base with bright lime-green zebra stripe pattern, plus vivid neon yellow trim panels at the shoulders, sleeve cuffs, shorts side panels, and shorts hems.
+TRIM_DETAILS: Crew neck collar in neon yellow with a white inner neck insert, short sleeves with neon yellow cuff bands, and shorts with an elastic waistband in dark green with gathered shirring and neon yellow side inserts and hem edging.
+
+--- GENERATED TEXT ---
+TITLE: Pickleball Uniform Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

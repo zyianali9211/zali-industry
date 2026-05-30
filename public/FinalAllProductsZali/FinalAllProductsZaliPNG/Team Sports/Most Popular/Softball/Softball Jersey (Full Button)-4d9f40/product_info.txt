@@ -1,0 +1,27 @@
+Product: Softball Jersey (Full Button)
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: White full-button softball jersey with a smooth, lightweight athletic knit and clean drape. Front has contrast navy and red sublimated trim around the collar, button placket, sleeve hems, and vertical center striping; overall looks like a modern polyester baseball jersey with a slight matte finish.
+PANEL_MAP: Front body: one continuous white panel with sublimated navy/red vertical center stripes and curved collar trim printed on the surface; no cut-and-sew color blocking on the body. Back body: one continuous white panel, likely plain or with continuation of the front stripe theme, no separate colored body panels. Sleeves: separate white short sleeves with printed navy/red sleeve cuff bands. Collar: separate white V-neck/button placket trim piece with printed navy/red edging.
+LOGOS: left sleeve logo mark, no other logos
+GARMENT_TYPE: full-button softball jersey
+BACK_VIEW: Back is a plain white continuous panel with no visible text, with matching white sleeves and navy/red printed cuff trim.
+LOGO_COLOR: navy
+FABRIC: smooth polyester athletic knit with a soft matte surface, lightweight to medium-light weight, slight sheen, and a fluid drape; likely interlock or closed-hole performance jersey fabric with a very fine, even surface and minimal texture.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: White jersey body with a centered vertical button placket area framed by two navy-blue vertical stripes and thin red piping; matching navy-blue and red striping appears on both sleeve cuffs and around the V-neck opening.
+TRIM_DETAILS: V-neck collar with layered trim in navy blue and red over white; five small white front buttons down the center placket; short sleeves with striped cuff bands; rounded shirttail hem with a slight curve.
+
+--- GENERATED TEXT ---
+TITLE: Full-Button Softball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

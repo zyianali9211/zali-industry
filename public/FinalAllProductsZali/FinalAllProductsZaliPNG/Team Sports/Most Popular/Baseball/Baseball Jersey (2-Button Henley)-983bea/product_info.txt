@@ -1,0 +1,27 @@
+Product: Baseball Jersey (2-Button Henley)
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: 2-button baseball jersey Henley with a smooth athletic knit body, short set-in sleeves, and a ribbed-looking red collar/placket area. The garment is fully sublimated with a white main front panel, gray shoulder yoke accents, coral-red side/body accents, and black under-sleeve blocks; all color changes on the body are print on continuous panels, not sewn color-block pieces.
+PANEL_MAP: Front body: one continuous panel, white base with sublimated gray shoulder cap areas, coral-red side/accent fields, and thin gray edge striping printed on the panel; no actual seam separation between color areas. Back body: one continuous panel, matching sublimated white base with gray and coral-red printed side accents continuing from the front, no visible back graphics. Sleeves: separate panels, coral-red outer sleeves with black under-sleeve sections and narrow white/red printed stripe detail near the upper sleeve. Collar: separate ribbed-looking red Henley collar with short 2-button placket.
+LOGOS: front right chest black chain/infinity-style logo, no other visible brand marks.
+GARMENT_TYPE: baseball jersey (2-button henley)
+BACK_VIEW: Back is a plain sublimated continuation of the front color-block layout with no text or graphics, keeping the white center body and coral-gray side accents.
+LOGO_COLOR: black
+FABRIC: smooth polyester athletic knit with a soft matte finish, lightweight and breathable-looking, slight jersey texture, good drape, and a faint performance sheen; surface appears slick rather than brushed or textured mesh.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only solid-color garment panels and trim.
+COLOR_LAYOUT: White main body with bright red sleeves and side panels, medium gray shoulder yoke and side inserts, and black lower sleeve panels accented by thin white diagonal stripes.
+TRIM_DETAILS: Red rib-knit crew collar with a short centered red placket featuring two white buttons; straight hem with no visible cuff trim and clean finished sleeve hems.
+
+--- GENERATED TEXT ---
+TITLE: Baseball Jersey 2-Button Henley
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

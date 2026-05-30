@@ -1,0 +1,27 @@
+Product: Field Hockey Jersey
+Gender: female
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless field hockey jersey with a fitted athletic cut, smooth lightweight performance knit construction, and sublimated red/black/white graphics on the body. The garment has a scoop neckline with dark trim and a close-to-body drape typical of synthetic sport jerseys.
+PANEL_MAP: Front body: one continuous panel, red base with sublimated black side panel graphic on the wearer’s left and white diagonal slash graphics plus white sponsor text printed on the panel (PRINT only, no sewn color blocks). Back body: one continuous panel, primarily red with continued sublimated graphic treatment. Sleeves: none, sleeveless construction. Collar/neck trim: separate dark navy/black binding around armholes and neckline.
+LOGOS: left chest logo, right chest logo
+GARMENT_TYPE: sleeveless field hockey jersey
+BACK_VIEW: Back is likely a plain red continuous panel with minimal or no graphics, maintaining the same athletic fit and dark binding at the neck and armholes.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit, lightweight and slightly matte with a tight jersey surface, soft drape, and subtle athletic sheen from the synthetic fibers
+TEXT_AND_GRAPHICS: Front body: no visible text, numbers, wordmarks, emblems, badges, crests, or lettering. Left lower side panel: abstract black-to-red geometric graphic made of small halftone dots at the far left edge transitioning into vertical and diagonal block-line fragments and rectangular bars toward the center-left; no readable text. Right lower body: multiple sharp diagonal streak graphics in white and pale pink/red slanting upward from lower center-right toward mid-right and upper-right, varying in thickness from thin hairline to medium bands; no readable text.
+COLOR_LAYOUT: Bright red main body with a dark navy/black side panel on the left, dark navy/black binding around the collar and armholes, and white inner collar facing; the lower left and right front sections feature black/red and white/pink diagonal graphic accents.
+TRIM_DETAILS: Scoop neck and broad sleeveless arm openings finished with dark navy/black binding, straight hem with subtle double-stitching, and no visible cuffs or buttons.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Field Hockey Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

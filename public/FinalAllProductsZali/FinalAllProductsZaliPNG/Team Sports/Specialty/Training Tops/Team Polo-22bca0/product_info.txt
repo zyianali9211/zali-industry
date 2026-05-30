@@ -1,0 +1,27 @@
+Product: Team Polo
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve team polo in bright red with a classic structured polo collar and button placket. The body appears to be smooth performance polyester pique/jersey with a soft matte finish and light athletic drape; white accent stripes are printed/placed on the shoulders and sleeves as part of the design.
+PANEL_MAP: Front body: one continuous red panel, with all white side/shoulder striping and sponsor graphics applied as print on the panel, not separate colored panels. Back body: one continuous red panel, no visible printed graphics from this view. Sleeves: separate short-sleeve panels in red with white printed accent stripes and sponsor text. Collar: separate red polo collar with matching red button placket.
+LOGOS: left chest hp logo, right chest Ferrari crest, upper left chest Puma logo, mid-left Shell logo, mid-right UniCredit logo, lower right CEVA LOGISTICS wordmark, sleeve sponsor logos
+GARMENT_TYPE: short sleeve polo shirt
+BACK_VIEW: Back is plain red with no visible graphics, continuing the same red body and sleeve construction with a simple athletic finish.
+LOGO_COLOR: white
+FABRIC: smooth performance polyester knit, likely pique-inspired or fine jersey, with a clean matte surface, very slight synthetic sheen, lightweight feel, and soft fluid drape; appears breathable and sport-oriented rather than cotton-heavy.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Solid bright red body with white and red diagonal shoulder/sleeve striping on both sleeves; no other color blocking on the torso.
+TRIM_DETAILS: Red pointed polo collar with a short center button placket and three matching red buttons; short sleeves; straight hem with a narrow stitched bottom band.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Polo Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

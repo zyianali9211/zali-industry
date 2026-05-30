@@ -1,0 +1,27 @@
+Product: Volleyball Jersey (Cap Sleeve)
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless/ cap-sleeve volleyball jersey in a fitted athletic cut, made from smooth sublimated performance knit with a soft matte-to-slight-sheen finish and light stretch. The main body is a single continuous front and back panel with printed color blocking and graphics; blue shoulder/cap sections and black body areas are surface print, not sewn color panels.
+PANEL_MAP: Front body: one continuous panel, black base with blue shoulder/cap-sleeve area and blue side accent streaks printed on the fabric (PRINT only, NO sewn color-block seams). Back body: one continuous panel, matching black base with continuation of the blue printed accents and shoulder color from the front. Sleeves: cap-sleeve style shoulder coverage integrated into the front/back body shape, with blue printed shoulder areas. Collar: black V-neck trim, separate binding piece.
+LOGOS: small white brand-style emblem on left upper chest, no other logos
+GARMENT_TYPE: volleyball jersey (cap sleeve)
+BACK_VIEW: Back is predominantly black with continuation of the blue printed shoulder/side accents, no large graphics or text visible, clean athletic rear view.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance knit with sublimated print, fine-knit surface, lightweight and breathable, slight athletic sheen, soft hand, and stretch typical of moisture-wicking sports jerseys.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; the garment only has decorative curved stripe graphics—three thin blue swoosh-like arcs and one thicker black curved band on each side panel, running vertically from upper chest/shoulder area down toward the hem, mirrored left and right; the center torso is plain black with no text.
+COLOR_LAYOUT: Royal blue shoulder and side panels with a large black central body panel, accented by thin blue and black curved stripe graphics along both sides; white visible only inside the V-neck opening.
+TRIM_DETAILS: Sleeveless jersey with a black V-neck collar and black neckline trim, finished armholes with matching black edging, and a straight hem with subtle double-stitched seam detail.
+
+--- GENERATED TEXT ---
+TITLE: Volleyball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

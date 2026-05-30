@@ -1,0 +1,17 @@
+Product: Baseball Practice Pants
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Baseball practice pants in a smooth, lightweight athletic woven fabric with a matte finish and slight structure, shown with a matching belt and tapered leg shape. The construction appears clean and minimal, with reinforced knee areas and no visible graphic detailing beyond the tonal panel shaping.
+PANEL_MAP: Front body: one continuous panel in solid gray, with tonal reinforced knee areas as construction/overlay shaping, no printed stripes or color blocks. Back body: one continuous panel in solid gray, with matching tonal knee reinforcement and no visible print. Belt/waistband: separate self-fabric waistband with integrated belt.
+LOGOS: none
+GARMENT_TYPE: baseball practice pants
+BACK_VIEW: back is solid gray with the same tonal knee reinforcement and plain center seat, no visible graphics or seam breaks from color changes
+LOGO_COLOR: white
+FABRIC: smooth polyester athletic twill or double-knit style fabric with a matte, lightly structured surface, medium weight, clean drape, and subtle low-sheen finish; looks durable and slightly rigid rather than soft or brushed
+
+--- GENERATED TEXT ---
+(no text generated)

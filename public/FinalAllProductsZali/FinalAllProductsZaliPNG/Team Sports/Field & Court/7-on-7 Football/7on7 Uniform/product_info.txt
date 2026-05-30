@@ -1,0 +1,17 @@
+Product: 7on7 Uniform
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless basketball uniform set with a hooded pullover jersey and matching shorts, both appearing to be lightweight sublimated athletic polyester. The garment has a smooth, slightly matte technical surface with a loose drape, and the main body graphics are printed directly onto continuous fabric panels rather than cut-and-sewn color blocks.
+PANEL_MAP: Front body: one continuous panel, gold/yellow base with large printed "KINGS" graphic and printed number "1" on chest, plus printed flame-like accent below; Back body: one continuous panel, gold/yellow base with printed "KINGS" graphic and printed number "1" and small printed text near lower back; Sleeves: none; Collar/hood trim: separate hooded opening/trim in matching gold/yellow; Shorts: separate lower garment panels with printed team graphics and number, all color/design elements are PRINT only, no separate color-block seams.
+LOGOS: no visible brand logos
+GARMENT_TYPE: sleeveless hooded basketball jersey with matching shorts
+BACK_VIEW: back is gold/yellow with large printed team name and number centered, mostly plain otherwise, with no structural color seams across the body.
+LOGO_COLOR: black
+FABRIC: lightweight sublimated polyester athletic fabric with smooth tightly-knit surface, matte to slight low-sheen finish, thin and airy hand feel, and soft drape typical of basketball uniforms; appears breathable and quick-dry rather than textured or brushed.
+
+--- GENERATED TEXT ---
+(no text generated)

@@ -1,0 +1,27 @@
+Product: Rowing Uni-Suit (Women's)
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless rowing uni-suit made from a smooth, body-hugging stretch performance knit with a matte-to-lightly satin finish. The upper torso is sublimated with a dark blue base and orange/yellow line-art cityscape graphic across the chest, while the lower shorts area is solid deep navy/black for a streamlined race cut.
+PANEL_MAP: Front body: one continuous panel, dark blue sublimated upper body with orange/yellow cityscape print across chest and solid deep navy lower body; all color changes and graphics are PRINT only, no construction seams between design zones. Back body: one continuous panel, likely solid dark blue/black or matching simple continuation with no visible print elements. Sleeves: none. Collar/neck trim: separate bound trim around the neckline and arm openings, dark navy.
+LOGOS: small left upper chest emblem mark (not highlighted), no other logos
+GARMENT_TYPE: sleeveless rowing uni-suit
+BACK_VIEW: Back is a plain dark blue/black continuous panel with no visible graphics, maintaining the same fitted racing silhouette and simple bound neckline/arm openings.
+LOGO_COLOR: white
+FABRIC: Smooth polyester-spandex performance knit, very fine-knit surface with a sleek matte finish and slight athletic sheen. Fabric appears lightweight, stretchy, and compressive with clean drape and minimal texture, suitable for aerodynamic rowing racewear.
+TEXT_AND_GRAPHICS: Front torso, centered across the upper-mid chest to lower chest: a detailed monochrome line-art skyline illustration in thin orange-gold outlines, featuring multiple high-rise buildings and one very tall central tower with a spire; across the lower portion of the graphic, a cable-stayed bridge spans from center-right toward the far right; beneath the skyline, a horizontal water-reflection band in the same orange-gold line art shows mirrored building lights and rippling reflections. No visible text, numbers, wordmarks, emblems, badges, or crests elsewhere on the garment.
+COLOR_LAYOUT: Dark navy body with a large orange-gold skyline and bridge graphic across the chest and upper waist; white contrast fabric visible inside the armholes and neckline.
+TRIM_DETAILS: Scoop neckline and broad racerback-style arm openings finished with narrow dark navy binding; straight leg openings with dark navy hem binding and white interior visible at the lower leg hems; no cuffs or placket.
+
+--- GENERATED TEXT ---
+TITLE: Sleeveless Rowing Uni-Suit
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

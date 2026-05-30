@@ -1,0 +1,27 @@
+Product: Ice Hockey Jersey (Goalie Cut)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Goalie-cut ice hockey jersey with a loose, oversized athletic silhouette and long raglan sleeves. The garment appears to be made from a lightweight, smooth polyester performance knit with a subtle micro-mesh/hex texture and a soft matte-to-slightly-satin finish, fully sublimated with printed graphics and color blocking.
+PANEL_MAP: Front body: one continuous panel, royal blue base with black shoulder cap areas and black/white horizontal hem stripes printed on the lower body; central chest crest graphic is PRINT only, not sewn-on. Back body: one continuous panel, matching royal blue base with printed black shoulder/upper areas and lower black/white stripe pattern continuation, no separate color panels. Sleeves: separate long sleeves, royal blue with printed black shoulder tops and black/white stripe bands near forearms and cuffs. Collar: separate white V-neck trim, ribbed-looking but clean and smooth.
+LOGOS: no visible brand logos
+GARMENT_TYPE: goalie cut ice hockey jersey
+BACK_VIEW: Back is mostly solid royal blue with the same printed black shoulder and lower stripe treatment continuing around the body, plain center back with no visible text or graphics.
+LOGO_COLOR: white
+FABRIC: lightweight polyester hockey jersey knit with a fine micro-mesh/waffle texture, smooth synthetic surface, medium-thin drape, and a subtle performance sheen; appears breathable, durable, and slightly structured rather than stretchy compression fabric.
+TEXT_AND_GRAPHICS: no visible text, numbers, or graphics
+COLOR_LAYOUT: Royal blue body with black shoulder yoke and black sleeve upper sections, plus white and black horizontal stripe bands on both sleeves and three horizontal bands near the lower body hem.
+TRIM_DETAILS: White V-neck collar with a clean ribbed neckline, long sleeves with striped bands and black cuff ends, and a straight hem with a layered ribbed finish.
+
+--- GENERATED TEXT ---
+TITLE: Goalie Cut Ice Hockey Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: American Football Jersey (Game Cut)
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: American football game-cut jersey and matching football pants in a navy and gold team colorway, built from multiple cut-and-sew athletic panels with heavy contrast yokes, side inserts, and reinforced stitched sections. The jersey uses sublimated/printed visual striping and numbers on continuous body panels rather than separate sewn graphic pieces, with perforated stretch mesh zones for ventilation and a structured pro-style fit.
+PANEL_MAP: Jersey: navy main front body panel with large gold sublimated number 12 outlined in white on the chest; gold shoulder/yoke panels across the top with navy-and-white number detail near both shoulders; navy V-neck collar insert with gold collar stand; navy side body panels with integrated perforated mesh vent sections under the arms and along the ribs; darker navy center-lower body panel with subtle perforation/mesh texture; short sleeves in navy with gold shoulder caps and white side piping/stripe accents; all graphics are print/sublimation on continuous panels. Pants: gold main front leg panels with centered seam lines and zig-zag reinforcement stitching; perforated gold side inserts from hip to hem; sculpted knee reinforcement panels stitched into the front thighs/shins; elastic waistband in gold; no separate color-blocked logos as construction pieces, only applied marks.
+LOGOS: NFL shield at center chest, Rams wordmark at upper chest, NFL shield on pants left front, Nike swoosh on pants right front, no highlighted removal marks
+GARMENT_TYPE: american football jersey (game cut)
+BACK_VIEW: Back is predominantly navy with continuation of gold shoulder/yoke treatment and similar perforated side panels, likely plain back body with no large number visible on this view.
+LOGO_COLOR: white
+FABRIC: Smooth polyester athletic tricot / mesh blend with a slightly glossy, tight-knit surface and medium weight, combining opaque smooth jersey sections with perforated breathable mesh inserts. The fabric has a structured, durable pro-football hand feel, moderate stretch, and subtle sheen, with stitched panel seams and sublimated graphics sitting flat on the surface.
+
+--- GENERATED TEXT ---
+TITLE: American Football Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

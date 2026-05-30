@@ -1,0 +1,27 @@
+Product: Reveradsble JErsey Basketball
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless basketball jersey with a V-neck and black collar trim, made from smooth lightweight athletic polyester mesh or performance jersey. Front is a single continuous panel with a red-to-black gradient print and thin diagonal pinstripe graphic overlay; armholes and neck are trimmed for a sporty reversible look.
+PANEL_MAP: Front body: one continuous panel, red base with black gradient and thin diagonal stripe print overlay (PRINT only, no seams between colors). Back body: one continuous panel, matching reversible side likely black with red graphic accents, plain center except for printed branding if present. Sleeves: none. Collar: black V-neck trim, separate piece.
+LOGOS: front chest left infinity-like logo, no other visible logos
+GARMENT_TYPE: reversible basketball jersey
+BACK_VIEW: Back is a single continuous panel with simpler reversible styling, likely mostly solid black with minimal printed accents and no center wordmark.
+LOGO_COLOR: black
+FABRIC: smooth lightweight polyester athletic jersey / mesh with a soft matte finish and subtle technical sheen, medium-light drape, breathable sportswear surface, no fuzz or pile, printed graphics lay flat on the fabric.
+TEXT_AND_GRAPHICS: no visible text, numbers, wordmarks, emblems, badges, crests, or printed graphics; only subtle tonal diagonal pinstripe pattern across the body, running from upper left to lower right, with thin red lines over the red-to-black gradient fabric
+COLOR_LAYOUT: Red upper body fading into dark charcoal/black lower body with black trim at the neck and armholes; subtle diagonal red pinstripes overlay the entire front.
+TRIM_DETAILS: Sleeveless V-neck jersey with black ribbed collar and black armhole binding, straight hem, and no visible cuffs, buttons, or additional trim.
+
+--- GENERATED TEXT ---
+TITLE: Reversible Basketball Jersey
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.
