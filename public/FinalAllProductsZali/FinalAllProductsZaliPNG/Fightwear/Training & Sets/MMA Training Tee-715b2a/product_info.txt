@@ -1,0 +1,24 @@
+Product: MMA Training Tee
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve athletic training tee with a fitted, performance cut and smooth body-skimming silhouette. The shirt appears to use a lightweight stretch knit with a clean matte surface, minimal seams, and a crew neckline for MMA training mobility.
+PANEL_MAP: 1 panel: solid white main body and sleeves, no visible color blocking or contrast inserts; self-fabric crew collar; no visible hem or cuff panels
+LOGOS: left chest logo (not highlighted, keep), right shoulder text "DYNASTY" (not highlighted, keep)
+GARMENT_TYPE: short sleeve training tee
+BACK_VIEW: Back is solid white with no graphics, continuing the same fitted raglan-style or set-in athletic construction and plain center back.
+LOGO_COLOR: black
+FABRIC: lightweight smooth polyester performance knit / interlock jersey with a fine, uniform surface, matte to slightly satin finish, soft drape, and subtle four-way stretch; looks breathable and moisture-wicking rather than thick or textured
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Training Tee
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

@@ -1,0 +1,24 @@
+Product: Wrestling Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Athletic wrestling shorts with a loose, above-knee cut, elastic waistband, and straight hem. The fabric appears lightweight and smooth with a slight sheen, likely a woven polyester performance short with a soft technical finish and printed graphics.
+PANEL_MAP: 3 panels: main body black, large right-front side graphic panel with red/white/yellow abstract print, thin neon yellow vertical side stripe on right side seam
+LOGOS: small red hex logo near left waistband, white text logo on left front thigh, no other logos
+GARMENT_TYPE: wrestling shorts
+BACK_VIEW: back is mostly solid black with the graphic not fully wrapping, likely a plain back panel and continued side stripe along one side seam.
+LOGO_COLOR: white
+FABRIC: lightweight smooth polyester performance fabric with a fine plain weave or satin-like athletic finish, low-to-moderate sheen, crisp drape, and a thin, non-bulky hand; surface looks slick and breathable rather than textured, with printed graphics sitting cleanly on top.
+
+--- GENERATED TEXT ---
+TITLE: Wrestling Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

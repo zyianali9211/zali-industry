@@ -1,0 +1,17 @@
+Product: Sleeveless Rashguard
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless rashguard with a close-to-body athletic cut, crew neckline, and flatlock-style seam detailing along the shoulders, armholes, side body, and hem. The fabric appears smooth, lightweight, and slightly glossy like stretch polyester/spandex performance knit, designed for a snug water-sport fit.
+PANEL_MAP: 1 panel: main body solid taupe/gray-beige with no contrasting side panels, self-fabric bindings at neckline and armholes, tonal seam lines at shoulders and right side body, small red chest accent.
+LOGOS: small red chest mark centered slightly left of upper chest, no other logos
+GARMENT_TYPE: sleeveless rashguard
+BACK_VIEW: back is solid taupe/gray-beige with continued tonal seam construction and plain center back, no visible logo.
+LOGO_COLOR: white
+FABRIC: smooth compression polyester-spandex knit with a tight fine-gauge surface, slight satin sheen, thin lightweight hand, high stretch and body-hugging drape, with clean flatlock seam appearance and no visible texture pile.
+
+--- GENERATED TEXT ---
+(no text generated)

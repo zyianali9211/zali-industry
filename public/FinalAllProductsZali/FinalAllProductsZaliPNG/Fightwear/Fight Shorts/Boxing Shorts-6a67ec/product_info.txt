@@ -1,0 +1,24 @@
+Product: Boxing Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Boxing shorts with a wide elasticated black waistband and loose satin body, designed with a lightweight, shiny drape and contrast trim. The construction is simple and athletic, with a vertical side stripe and wide leg openings finished with a black hem band.
+PANEL_MAP: 4 panels: black waistband, red main body, white vertical side stripe on left outer leg extending from waistband to hem with a thin black edge, black hem bands around both leg openings
+LOGOS: green hill logo patch on waistband front center, green hill logo patch on left thigh, no other logos
+GARMENT_TYPE: boxing shorts
+BACK_VIEW: back is mostly solid red satin with the black waistband continuing across the top and black hem bands at the leg openings, with no visible side logo patch on the back.
+LOGO_COLOR: white
+FABRIC: smooth satin polyester with a glossy reflective surface, lightweight woven face, soft fluid drape, and slight sheen highlights across the body; waistband appears ribbed elastic knit with a matte textured finish.
+
+--- GENERATED TEXT ---
+TITLE: Boxing Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

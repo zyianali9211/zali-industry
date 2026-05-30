@@ -1,0 +1,24 @@
+Product: K1 Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Relaxed-fit Muay Thai/K1 shorts with a very wide smocked elastic waistband in white and a loose, mid-thigh black body. The shorts use a glossy satin-like woven fabric with a smooth surface and soft drape, plus heavy embroidered/printed graphics on the front leg and waistband patch.
+PANEL_MAP: 2 panels: white shirred elastic waistband across the top, black main body from waistband to hem; white trim/insert at the side leg slit on the visible side
+LOGOS: front waistband patch logo (not highlighted), large front left-leg graphic/logo, no other logos
+GARMENT_TYPE: K1 shorts
+BACK_VIEW: Back is plain black with the same white elastic shirred waistband and no large back graphics, with simple hem and side seam construction.
+LOGO_COLOR: white
+FABRIC: satin weave polyester or nylon-satin blend with a smooth, slightly glossy sheen, lightweight athletic drape, soft fluid hand, and a subtly rippling surface; waistband is thick gathered elastic shirring with matte stretch texture.
+
+--- GENERATED TEXT ---
+TITLE: K1 Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

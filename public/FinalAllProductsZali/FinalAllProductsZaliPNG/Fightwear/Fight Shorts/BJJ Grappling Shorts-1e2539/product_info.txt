@@ -1,0 +1,24 @@
+Product: BJJ Grappling Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: BJJ grappling shorts with a black/dark charcoal main body, olive green accent panels, and an elastic waistband with a front closure. The construction appears lightweight and athletic with reinforced seams, side slit hem, and a matte performance finish typical of fight shorts.
+PANEL_MAP: 5 panels: main body black/dark charcoal front and back, olive green waistband yoke at front, olive green inner crotch/gusset panel, olive green vertical side inset running from waistband to hem on one side, black side/outer leg panel with slit opening
+LOGOS: multiple printed logos on front right leg and waistband, no highlighted removal marks visible
+GARMENT_TYPE: BJJ grappling shorts
+BACK_VIEW: back is mostly solid black/dark charcoal with minimal paneling, likely continuing the waistband and side seam structure with a plain rear body and small olive accent paneling only at the yoke/gusset area
+LOGO_COLOR: olive green
+FABRIC: smooth lightweight woven polyester / nylon performance fabric with a subtle matte-to-low-sheen surface, thin crisp drape, and fine ripstop-like texture that reads durable and abrasion-resistant rather than stretchy; waistband appears elastic with a gathered athletic finish
+
+--- GENERATED TEXT ---
+TITLE: BJJ Grappling Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

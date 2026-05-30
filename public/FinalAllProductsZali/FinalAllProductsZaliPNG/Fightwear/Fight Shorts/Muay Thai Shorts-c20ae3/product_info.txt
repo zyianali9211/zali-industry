@@ -1,0 +1,24 @@
+Product: Muay Thai Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Muay Thai shorts with a very high smocked elastic waistband and loose athletic cut, featuring a glossy satin-like shell body with contrast graphic print on one leg and a plain darker panel on the other. Construction includes reinforced side leg openings and visible waistband gathering for flexibility and movement.
+PANEL_MAP: 3 panels: black gathered waistband, left leg solid dark navy/black satin panel with white logo, right leg printed panel with dark base, red/white/gray dragon-cloud graphic; black trim at leg hems
+LOGOS: front waistband center logo ("OC FIGHTWEAR"), left leg logo near upper thigh, right leg partial logo/mark within printed graphic, no other logos
+GARMENT_TYPE: Muay Thai shorts
+BACK_VIEW: back is predominantly solid dark navy/black with the same gathered waistband and simpler continuation of the leg shape, with less graphic coverage than the front.
+LOGO_COLOR: white
+FABRIC: smooth lightweight satin polyester with a glossy sheen, soft drape, and slight crinkled texture in the elastic waistband; body fabric appears thin, slippery, and quick-dry with a satin finish rather than matte mesh.
+
+--- GENERATED TEXT ---
+TITLE: Muay Thai shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

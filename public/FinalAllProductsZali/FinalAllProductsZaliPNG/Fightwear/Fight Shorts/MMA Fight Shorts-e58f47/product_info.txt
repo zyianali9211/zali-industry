@@ -1,0 +1,24 @@
+Product: MMA Fight Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: MMA fight shorts with a wide black elastic waistband and a blue front closure patch, featuring an all-over angular red and navy graphic print with diagonal stripe accents. The construction appears lightweight and athletic with a structured but flexible body, flat seams, and a loose fight-short drape.
+PANEL_MAP: 6 panels: black waistband across top, blue center front waistband closure patch, main left front panel red/navy geometric print, main right front panel red/navy geometric print, left side panel with diagonal stripe accent running from hip to hem, right side panel with diagonal stripe accent running from hip to hem
+LOGOS: GymHUR logo on front waistband patch, no other logos
+GARMENT_TYPE: MMA fight shorts
+BACK_VIEW: back is mostly a continuation of the red and navy geometric print with the black waistband extending across the top and a plain rear seat/crotch construction.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester performance fabric, matte-to-slightly-satin surface, tightly woven athletic twill-like texture, medium-light weight with crisp structure and subtle stretch, printed with sharp sublimated graphics and clean seam definition
+
+--- GENERATED TEXT ---
+TITLE: MMA Fight Shorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

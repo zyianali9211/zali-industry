@@ -1,0 +1,24 @@
+Product: Vale Tudo Shorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Tight-fitting vale tudo shorts with a high black elastic waistband and a contoured compression body. The construction appears to use multiple printed side/front panels with bold graphic camouflage-style artwork and a short inseam with flat hemmed leg openings.
+PANEL_MAP: 6 panels: black logo elastic waistband; left front upper panel khaki/black graphic print; center front black graphic panel; right front upper panel khaki/black graphic print; left side/outer thigh panel continuous into front graphic print; right side/outer thigh panel continuous into front graphic print
+LOGOS: waistband VENUM wordmarks and snake-head logos repeated around waist, small left front thigh text mark, small right thigh snake-head logo
+GARMENT_TYPE: vale tudo shorts
+BACK_VIEW: back is likely a continuous black-based compression seat with matching khaki/black graphic wraparound on the side panels and a plain center-back seam for support.
+LOGO_COLOR: black
+FABRIC: compression spandex / lycra with a smooth tight-knit surface, slight matte-to-satin athletic sheen, high elasticity, and body-hugging four-way stretch; lightweight performance fabric with printed graphics and clean, flat seams
+
+--- GENERATED TEXT ---
+TITLE: Vale Tudo Shorts
+
+DESCRIPTION:
+Available in compression spandex and lycra.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on panels, waistband, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

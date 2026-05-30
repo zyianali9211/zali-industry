@@ -1,0 +1,24 @@
+Product: short sleeve rashguard
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve rashguard with a fitted, athletic compression silhouette and raglan-style sleeves. The body is solid black with contrasting black sleeves covered in a small white dot/speckle pattern, plus printed logos on the chest and sleeve.
+PANEL_MAP: 3 panels: main front body solid black, raglan sleeves black with white micro-dot pattern from neckline to sleeve cuffs, narrow side/back continuation panels in matching black patterned fabric running under the arm and along the torso
+LOGOS: white chest logo on left chest, yellow "KINGZ ORIGINALS" logo on right sleeve (highlighted, remove), white "KNGZ" text on upper left sleeve
+GARMENT_TYPE: short sleeve rashguard
+BACK_VIEW: back is mostly solid black center panel with patterned black sleeves and side/back wrap panels continuing the dot print, with no large back graphic.
+LOGO_COLOR: white
+FABRIC: smooth polyester-spandex compression knit with a tight, slick surface and slight synthetic sheen, body-hugging stretch, and a lightweight athletic drape; sleeves appear the same fabric printed with a dense white micro-dot pattern, giving a technical rashguard look rather than a textured mesh or fleece.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Rashguard
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

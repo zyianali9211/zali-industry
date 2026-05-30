@@ -1,0 +1,24 @@
+Product: Spats & Shorts Set
+Gender: female
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Two-piece athletic spats and shorts set with a fitted base layer legging and a loose-over-short top layer. The shorts are mid-thigh, lightweight, and slightly structured with a soft matte athletic finish, while the spats are body-hugging with a smooth stretch surface and minimal visible seams.
+PANEL_MAP: 3 panels: main shorts body bright blue, darker blue compression spats/leggings underneath, black waistband
+LOGOS: small white logo on right shorts leg, no other logos
+GARMENT_TYPE: spats & shorts set
+BACK_VIEW: back is solid bright blue shorts with matching dark blue full-length spats continuing underneath, plain center back with no visible contrast paneling.
+LOGO_COLOR: white
+FABRIC: shorts appear to be smooth lightweight polyester performance knit with a matte finish and soft drape; spats are compression spandex / lycra with a tight, smooth, slightly glossy surface, four-way stretch, and body-contouring fit
+
+--- GENERATED TEXT ---
+TITLE: Spats & Shorts Set
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

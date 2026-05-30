@@ -1,0 +1,24 @@
+Product: Wrestling Singlet
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: One-piece wrestling singlet with a deep scoop front and wide racerback-style shoulder straps, cut very close to the body for a compression fit. The garment is primarily bright royal blue with white binding around the neckline and arm openings, and a small printed logo on the lower leg.
+PANEL_MAP: 1 main front/body panel royal blue with white trim at neckline and armholes; 1 lower left leg panel continuation in royal blue; 1 lower right leg panel continuation in royal blue; no visible side color-block panels or contrasting back panels
+LOGOS: lower right front leg logo in white (not highlighted), no other logos
+GARMENT_TYPE: wrestling singlet
+BACK_VIEW: back is solid royal blue with continued white binding along the straps and armholes, with a high-coverage open racerback-style cut and no visible center back seam from this angle
+LOGO_COLOR: white
+FABRIC: smooth compression spandex / lycra knit with a tight, fine-gauge surface, slight athletic sheen, and body-hugging four-way stretch drape; fabric appears thin, flexible, and performance-oriented with no visible pile or texture reading from the photo
+
+--- GENERATED TEXT ---
+TITLE: Wrestling Singlet
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.
