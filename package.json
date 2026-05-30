@@ -4,6 +4,7 @@
   "description": "",
   "main": "nav.js",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
     "argparse": "^2.0.1",
