@@ -903,10 +903,15 @@
             allImgs.unshift(prod.primaryImageKey);
           }
 
+          function getPngUrl(url) {
+            if (!url) return url;
+            return url.replace('FinalAllProductsZali/Downloads/', 'FinalAllProductsZali/FinalAllProductsZaliPNG/').replace(/\.webp$/i, '.png');
+          }
+
           let mainImgHtml;
           const firstKey = allImgs[0];
           if (firstKey) {
-            mainImgHtml = `<img id="main-product-img" src="${window.optImg(imgs[firstKey], 1000)}" alt="${esc(prod.name)}" />`;
+            mainImgHtml = `<img id="main-product-img" src="${window.optImg(getPngUrl(imgs[firstKey]), 1000)}" alt="${esc(prod.name)}" />`;
           } else {
             mainImgHtml = `<div class="main-img-placeholder">${PLACEHOLDER_SVG}</div>`;
           }
@@ -914,7 +919,7 @@
           let thumbsHtml = '';
           let preloadHtml = '<div style="display:none;" aria-hidden="true">';
           allImgs.forEach((k, i) => {
-            const highResUrl = esc(window.optImg(imgs[k], 1000));
+            const highResUrl = esc(window.optImg(getPngUrl(imgs[k]), 1000));
             preloadHtml += `<img src="${highResUrl}" />`;
             thumbsHtml += `<div class="thumb ${i === 0 ? 'active' : ''}" data-img="${highResUrl}" data-label="${esc(IMG_LABELS[k] || k)}" onclick="switchImg(this)">
         <img src="${esc(window.optImg(imgs[k], 200))}" alt="${esc(IMG_LABELS[k] || prod.name)}" loading="lazy" />
