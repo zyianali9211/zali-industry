@@ -694,12 +694,21 @@
       }
     </style>
   
-<!-- Favicon & OpenGraph -->
+<!-- Favicon & OpenGraph (updated dynamically by JS for each product) -->
+<link rel="canonical" href="https://zaliindustry.com/product-detail.html" id="canonical-tag" />
 <link rel="icon" type="image/svg+xml" href="logo.svg" />
-<meta property="og:title" content="ZALI Industries - Custom Apparel Manufacturer" />
-<meta property="og:description" content="Custom sublimated Fitnesswear, fightwear, and casual apparel. Manufactured direct in Sialkot, Pakistan." />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="zali-logo.png" />
+<meta property="og:title" content="ZALI Industries — Custom Apparel Manufacturer" id="og-title" />
+<meta property="og:description" content="Custom sublimated apparel manufactured in Sialkot, Pakistan. MOQ from 25 pieces, no middlemen." id="og-desc" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="https://zaliindustry.com/product-detail.html" id="og-url" />
+<meta property="og:image" content="https://zaliindustry.com/zali-logo.png" id="og-image" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ZALI Industries — Custom Apparel" id="tw-title" />
+<meta name="twitter:description" content="Factory-direct custom apparel from Sialkot, Pakistan." id="tw-desc" />
+<meta name="twitter:image" content="https://zaliindustry.com/zali-logo.png" id="tw-image" />
+
+<!-- Product Structured Data (injected dynamically by JS after product loads) -->
+<script id="product-schema" type="application/ld+json">{}</script>
 
 </head>
   <body class="bb-page">
@@ -1093,6 +1102,48 @@
         ${buildInfo(prod)}
       </div>
       ${buildRelated(prod)}`;
+
+          // ── Inject Product JSON-LD schema for Google / SEO ───────────
+          const imageUrls = Object.values(prod.images || {})
+            .filter(Boolean)
+            .map(p => `https://zaliindustry.com/${p}`);
+          const primaryImg = imageUrls[0] || 'https://zaliindustry.com/zali-logo.png';
+          const productUrl = `https://zaliindustry.com/product-detail.html?id=${encodeURIComponent(prod.id)}`;
+          const productName = prod.title || prod.name;
+
+          const schema = {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": productName,
+            "description": `Custom ${productName} manufactured in Sialkot, Pakistan by ZALI Industries. MOQ ${prod.moq || 25} pieces. Available with sublimation, DTF, and screen print.`,
+            "image": imageUrls,
+            "brand": { "@type": "Brand", "name": "ZALI Industries" },
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "ZALI Industries",
+              "url": "https://zaliindustry.com"
+            },
+            "category": `${prod.category} > ${prod.subcategory}`,
+            "offers": {
+              "@type": "Offer",
+              "url": productUrl,
+              "availability": "https://schema.org/InStock",
+              "seller": { "@type": "Organization", "name": "ZALI Industries" }
+            }
+          };
+          document.getElementById('product-schema').textContent = JSON.stringify(schema);
+
+          // Update OG/Twitter meta dynamically
+          const setMeta = (id, val) => { const el = document.getElementById(id); if (el) el.setAttribute('content', val); };
+          setMeta('og-title', `${productName} — ZALI Industries`);
+          setMeta('og-desc', `Custom ${productName}. MOQ ${prod.moq || 25} pieces. Factory-direct from Sialkot, Pakistan.`);
+          setMeta('og-url', productUrl);
+          setMeta('og-image', primaryImg);
+          setMeta('tw-title', `${productName} — ZALI Industries`);
+          setMeta('tw-desc', `Custom ${productName}. MOQ ${prod.moq || 25} pieces.`);
+          setMeta('tw-image', primaryImg);
+          const canonical = document.getElementById('canonical-tag');
+          if (canonical) canonical.setAttribute('href', productUrl);
 
           // Init lens magnifier after DOM is ready
           initZoom();

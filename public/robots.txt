@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zaliindustry.com/sitemap.xml
+Sitemap: https://zaliindustry.com/image-sitemap.xml
