@@ -1,0 +1,24 @@
+Product: V-Neck T-Shirt short sleeve sublimated t-shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short sleeve V-neck sublimated athletic T-shirt with a fitted, sporty cut and strong color-block graphic construction. The front features a large center chest bulldog graphic and curved side paneling; overall fabric appears lightweight and smooth with a printed polyester sportswear finish.
+PANEL_MAP: 7 panels: main front body sky blue, black V-neck collar trim, white sleeve ends with light blue/black angular accents on both sleeves, black side panels running from underarm to lower hem on both sides, white lower side/gusset panels at the hem on both sides, central back body likely sky blue continuation, black piping/side accent lines along torso front
+LOGOS: center chest bulldog graphic with "BULL DOGS" text, no other logos
+GARMENT_TYPE: V-neck short sleeve sublimated t-shirt
+BACK_VIEW: Back is likely mostly solid sky blue with the same black side panel accents continuing down the torso and no front chest graphic.
+LOGO_COLOR: white
+FABRIC: smooth lightweight polyester tricot-like sublimated sports fabric with a soft matte-to-slightly satin surface, fine knit texture, thin drape, and quick-dry athletic feel; appears moderately stretchy but not compression-tight.
+
+--- GENERATED TEXT ---
+TITLE: V-Neck Short Sleeve Sublimated T-Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

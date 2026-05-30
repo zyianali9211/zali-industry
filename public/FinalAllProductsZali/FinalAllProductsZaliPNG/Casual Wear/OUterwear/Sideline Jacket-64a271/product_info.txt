@@ -1,0 +1,24 @@
+Product: Sideline Jacket
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Longline hooded sideline jacket with a full front zipper, lightly insulated construction, and a straight relaxed fit. The outer surface appears smooth and slightly matte, with subtle quilted/stitched horizontal shaping across the chest and a clean sporty silhouette.
+PANEL_MAP: 4 panels: main body black, sleeves black, hood black, front zipper placket/center closure black
+LOGOS: white Nike swoosh on left chest
+GARMENT_TYPE: longline hooded sideline jacket
+BACK_VIEW: back is solid black with the hood continuing across the neckline and a clean plain center back, with no visible logo.
+LOGO_COLOR: white
+FABRIC: smooth woven polyester shell with a lightly crisp, windbreaker-like handfeel and subtle matte sheen; appears medium-weight with soft structure and faint insulated loft, not shiny, with a smooth non-textured surface.
+
+--- GENERATED TEXT ---
+TITLE: Longline Hooded Sideline Jacket
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

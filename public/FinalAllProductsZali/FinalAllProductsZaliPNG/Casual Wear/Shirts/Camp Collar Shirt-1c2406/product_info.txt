@@ -1,0 +1,24 @@
+Product: Camp Collar Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve camp collar shirt with a relaxed boxy fit, straight hem, and full center-front button placket. The shirt is made from a lightweight woven fabric with a soft drape and an allover dark brown/black tropical leaf print, giving it a casual resort look.
+PANEL_MAP: 1 panel: all-over printed main body and sleeves in dark brown/black leaf pattern, continuous across front, back, collar, and sleeves; no contrasting color blocking
+LOGOS: none
+GARMENT_TYPE: camp collar shirt
+BACK_VIEW: Back is a plain continuous version of the same allover leaf print with no yoke color change, no visible back vent, and the print uninterrupted across the rear body.
+LOGO_COLOR: black
+FABRIC: lightweight woven rayon or viscose-style resort shirt fabric with a smooth matte surface, soft fluid drape, and fine tight weave; thin, breathable, and non-structured with no visible texture beyond the printed pattern
+
+--- GENERATED TEXT ---
+TITLE: Camp Collar Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

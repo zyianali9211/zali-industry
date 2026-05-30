@@ -1,0 +1,24 @@
+Product: crew neck full sleeve sublimated t-shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve crew neck sports t-shirt with a fitted athletic cut and raglan-style contrasting sleeves. The body is mostly dark with a sublimated red patterned yoke/upper chest and sleeves, and the fabric appears lightweight and smooth with a soft matte finish.
+PANEL_MAP: 4 panels: main body dark charcoal/black front and back, red sublimated upper chest and shoulder yoke, matching red patterned long sleeves, black crew neck collar with light trim
+LOGOS: center chest graphic/wordmark print, no other logos
+GARMENT_TYPE: crew neck full sleeve sublimated t-shirt
+BACK_VIEW: Back is mostly solid dark charcoal/black with continuation of the red sublimated sleeve pattern at the shoulders and a plain upper-back yoke without the front graphic.
+LOGO_COLOR: white
+FABRIC: smooth polyester performance jersey with a lightweight knit, soft matte surface, slight stretch, and clean drape; sublimated print sits flat on the fabric with no visible pile or texture.
+
+--- GENERATED TEXT ---
+TITLE: crew neck full sleeve sublimated t-shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

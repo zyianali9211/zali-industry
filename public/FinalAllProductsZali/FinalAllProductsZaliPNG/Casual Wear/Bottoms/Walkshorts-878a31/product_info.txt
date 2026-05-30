@@ -1,0 +1,24 @@
+Product: Walkshorts
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sport walkshorts with a boardshort-style construction: fixed waistband with lace-up front, front fly seam, side hand pockets, and contrast black binding along the waistband, side seams, and hem. The body fabric appears to be a smooth lightweight synthetic with a matte-to-slightly-satin finish and a soft drape, suitable for athletic or swim-adjacent wear.
+PANEL_MAP: 5 panels: main front left leg burgundy/red, main front right leg burgundy/red, black waistband/casing across top, black side panels/binding running from waistband down outer leg seams to hem, black hem binding around both leg openings
+LOGOS: large front right leg RAW logo print, circular AUTHENTIC/RAW BRAZIL style mark beside it, small vertical text "NATURAL ROLLING PAPERS" on front right leg
+GARMENT_TYPE: walkshorts
+BACK_VIEW: back is plain burgundy/red with the same black waistband, black outer seam binding, and black hem binding, without the front logo graphics.
+LOGO_COLOR: black
+FABRIC: smooth lightweight woven polyester or polyester-blend boardshort fabric, fine plain weave with a clean surface, low sheen, thin and quick-dry looking, slightly crisp hand with soft fluid drape, minimal texture and no visible pile.
+
+--- GENERATED TEXT ---
+TITLE: Walkshorts
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

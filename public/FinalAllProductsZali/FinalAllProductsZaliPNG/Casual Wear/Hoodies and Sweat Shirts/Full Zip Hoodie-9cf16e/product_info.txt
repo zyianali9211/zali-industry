@@ -1,0 +1,24 @@
+Product: Full Zip Hoodie
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Full zip hoodie with a black main body and hood, front zipper closure, drawstring hood, and ribbed cuffs and hem. One sleeve features a bold multicolor graphic print while the rest of the garment remains solid black, giving it a mixed athletic-streetwear look.
+PANEL_MAP: 3 panels: main body black, hood black with matching printed lining/trim accents, left sleeve multicolor graphic print from shoulder to cuff; black rib cuffs and hem, black zipper placket, white drawcords
+LOGOS: small white/red chest logo on left chest, no other logos
+GARMENT_TYPE: full zip hoodie
+BACK_VIEW: back is solid black with no visible graphic print, continuing the hood and sleeve construction with plain back body and matching rib hem/cuffs.
+LOGO_COLOR: white
+FABRIC: smooth polyester knit or tricot-like sweatshirt fabric with a soft matte surface and slight synthetic sheen, medium weight, clean drape, and a smooth outer face rather than a fuzzy fleece pile; printed sleeve uses the same base fabric with a glossy multicolor graphic overlay.
+
+--- GENERATED TEXT ---
+TITLE: Full Zip Hoodie
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

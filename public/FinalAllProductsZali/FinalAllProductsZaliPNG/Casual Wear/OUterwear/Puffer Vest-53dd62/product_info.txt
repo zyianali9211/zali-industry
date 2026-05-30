@@ -1,0 +1,24 @@
+Product: Puffer Vest
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Sleeveless puffer vest with a high stand collar, front zipper, and horizontal quilted baffles filled for a padded insulated look. The body uses a color-blocked graphic design with angular diagonal striping across the chest and torso, giving it a sporty, performance outerwear appearance.
+PANEL_MAP: 4 panels: black left shoulder/upper chest and left side body, white main front body center and lower right body, green diagonal accent panels across upper chest and mid-torso, black trim/side paneling along right edge and collar; front zipper in center
+LOGOS: none
+GARMENT_TYPE: puffer vest
+BACK_VIEW: Back is mostly solid with the same quilted puffer construction, continuing the black/white/green color-block treatment more simply without the front’s diagonal graphic emphasis.
+LOGO_COLOR: black
+FABRIC: smooth woven polyester shell with a lightly satin sheen, lightweight crisp outer surface, visible stitched horizontal quilted channels, and a padded insulated loft that gives it a structured but slightly puffy drape
+
+--- GENERATED TEXT ---
+TITLE: Puffer Vest
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Long Sleeve Aloha Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Long sleeve aloha shirt with a relaxed resort fit, button-front construction, pointed collar, and standard shirt cuffs. The fabric appears lightweight and soft with a smooth matte finish, draping loosely rather than holding structure; the print is all-over tropical floral with pale lavender flowers and white leaf outlines on a light blue ground.
+PANEL_MAP: 4 panels: front body light blue printed fabric with center button placket, back body light blue printed fabric, left sleeve light blue printed fabric, right sleeve light blue printed fabric
+LOGOS: none
+GARMENT_TYPE: long sleeve aloha shirt
+BACK_VIEW: back is solid continuation of the same all-over floral print with no yoke contrast, plain center back, and matching sleeves.
+LOGO_COLOR: white
+FABRIC: lightweight woven rayon or rayon-blend resort shirting with a smooth soft hand, matte surface, fluid drape, and slight airy looseness; no visible knit texture, crisp print definition, and a shirt-weight feel.
+
+--- GENERATED TEXT ---
+TITLE: Long Sleeve Aloha Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

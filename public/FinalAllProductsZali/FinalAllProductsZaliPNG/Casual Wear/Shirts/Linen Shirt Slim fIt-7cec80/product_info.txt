@@ -1,0 +1,24 @@
+Product: Linen Shirt Slim fIt
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Slim-fit long sleeve button-up shirt with a pointed collar, full front button placket, and standard cuffed sleeves. The shirt uses an all-over tonal floral leaf print in light blue on a dark blue base, with a lightly structured, tailored drape.
+PANEL_MAP: 4 panels: front body with central button placket, left sleeve, right sleeve, back body; all panels share the same blue floral print, no contrasting color blocking
+LOGOS: none
+GARMENT_TYPE: slim fit long sleeve button-up shirt
+BACK_VIEW: back is plain continuation of the same all-over floral print with a clean center back seam and no visible yoke contrast
+LOGO_COLOR: white
+FABRIC: lightweight woven linen or linen-blend shirting with a crisp matte surface, visible fine natural slub, breathable texture, and a slightly dry handfeel; soft but structured drape with minimal sheen
+
+--- GENERATED TEXT ---
+TITLE: Slim Fit Long Sleeve Button-Up Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

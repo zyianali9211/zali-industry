@@ -1,0 +1,24 @@
+Product: Softshell Jacket
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Hooded softshell jacket with full front zip, stand collar, and adjustable hood. The body is clean and minimally paneled, with multiple zippered pockets and a slightly structured, weather-resistant look.
+PANEL_MAP: 4 panels: main body royal blue front and back, matching blue sleeves, matching blue hood, black zipper trims/pocket welts with no contrasting color blocking
+LOGOS: none
+GARMENT_TYPE: softshell jacket
+BACK_VIEW: back is solid royal blue with a horizontal yoke seam across the upper back and plain hood continuation, no visible back logo or extra panels
+LOGO_COLOR: white
+FABRIC: smooth softshell polyester blend with a tight woven face, matte-to-slightly-satin surface, medium-weight structured drape, subtle stretch, and a lightly technical weather-resistant finish; exterior looks smooth and clean rather than fuzzy or shiny, with faint ripstop-like texture visible in the side view
+
+--- GENERATED TEXT ---
+TITLE: Softshell Jacket
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

@@ -1,0 +1,24 @@
+Product: Quarter-Zip Polo
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Navy quarter-zip polo with a structured spread collar, short sleeves, and a short metal zipper placket at the center front. The fabric appears lightweight and smooth with a subtle vertical micro-texture, giving it a refined athletic knit look and a clean drape.
+PANEL_MAP: 1 panel: solid navy body and sleeves, no visible color blocking or contrast panels, same fabric continues through collar and placket
+LOGOS: none
+GARMENT_TYPE: quarter-zip polo
+BACK_VIEW: back is solid navy with the same smooth knit texture and no visible seam details or contrast panels, continuing the simple athletic polo construction
+LOGO_COLOR: white
+FABRIC: smooth performance knit polyester pique or jersey with a fine vertical micro-rib texture, matte to very slight sheen, lightweight and breathable, soft drape with subtle stretch and a polished athletic finish
+
+--- GENERATED TEXT ---
+TITLE: quarter-zip polo
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

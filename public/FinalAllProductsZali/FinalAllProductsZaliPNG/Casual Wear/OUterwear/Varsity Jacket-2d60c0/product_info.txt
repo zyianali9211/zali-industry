@@ -1,0 +1,24 @@
+Product: Varsity Jacket
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Classic varsity jacket with a deep green wool-like main body and contrasting cream long sleeves. It has a ribbed striped collar, cuffs, and hem, plus a snap-front closure and a large chenille-style chest letter patch.
+PANEL_MAP: 3 panels: main body deep green, sleeves cream/off-white, rib trim striped green/white at collar cuffs and hem
+LOGOS: left chest large chenille letter patch, no other logos
+GARMENT_TYPE: varsity jacket
+BACK_VIEW: back is solid deep green with cream sleeves continuing through the shoulders and a plain center back, with ribbed striped hem and collar details.
+LOGO_COLOR: white
+FABRIC: wool melton or wool-blend varsity body with a dense, slightly fuzzy matte surface and structured medium-heavy drape; sleeves appear smooth cotton fleece or brushed sweatshirt knit with a softer matte finish and subtle volume, rib trims are elastic rib knit with clear white striping.
+
+--- GENERATED TEXT ---
+TITLE: Varsity Jacket
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

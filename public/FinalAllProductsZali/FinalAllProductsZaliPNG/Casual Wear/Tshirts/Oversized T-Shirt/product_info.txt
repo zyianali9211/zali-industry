@@ -1,0 +1,24 @@
+Product: Oversized T-Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Oversized short-sleeve T-shirt with a relaxed boxy silhouette, dropped shoulders, and a straight hem. The construction appears simple and clean with a ribbed crew neckline and no visible pockets, trims, or decorative stitching.
+PANEL_MAP: 3 panels: main front body navy, left sleeve navy, right sleeve navy; ribbed crew collar navy; back mirrors front in solid navy with no color-blocking
+LOGOS: none
+GARMENT_TYPE: oversized T-shirt
+BACK_VIEW: Back is solid navy with the same relaxed boxy fit and straight hem, with no visible back yoke, paneling, or graphics.
+LOGO_COLOR: white
+FABRIC: smooth polyester jersey or cotton-poly jersey knit with a fine, even surface, soft matte finish, medium-light weight drape, and minimal visible texture; fabric hangs cleanly with a slightly structured but relaxed hand.
+
+--- GENERATED TEXT ---
+TITLE: Oversized T-Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

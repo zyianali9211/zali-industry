@@ -1,0 +1,24 @@
+Product: Aloha Polo
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve aloha polo with a classic 3-button placket, spread collar, and straight hem. The garment appears to be a lightweight smooth knit with an allover tonal floral print and a soft, slightly slick performance finish.
+PANEL_MAP: 1 panel: all-over dark charcoal/black main body with integrated light gray floral print; collar and short sleeves in matching printed fabric, no contrasting side panels or color blocking
+LOGOS: none
+GARMENT_TYPE: short sleeve polo shirt
+BACK_VIEW: back is solid continuation of the same allover floral print with no visible yoke color break, plain center back, and matching printed collar stand.
+LOGO_COLOR: white
+FABRIC: smooth polyester knit with a fine jersey-like surface, lightweight drape, slight satin-matte sheen, and a soft performance feel; the fabric looks wrinkle-resistant with subtle stretch and a clean, non-textured face.
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Polo Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

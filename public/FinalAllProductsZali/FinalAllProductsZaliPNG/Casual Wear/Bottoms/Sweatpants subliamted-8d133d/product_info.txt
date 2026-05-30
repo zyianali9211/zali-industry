@@ -1,0 +1,24 @@
+Product: Sweatpants subliamted
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Wide-leg sweatpants with an all-over sublimated abstract pink, purple, and white print. The pants have an elastic waistband with visible stitching and a relaxed drape, made from a smooth midweight knit that reads like polyester fleece or brushed athletic sweatshirt fabric.
+PANEL_MAP: 1 panel: all-over sublimated printed main body from waistband to hem, elastic waistband matching print, no visible side inserts, no contrast cuffs
+LOGOS: none
+GARMENT_TYPE: sublimated sweatpants
+BACK_VIEW: back is the same all-over sublimated print with continuous wide-leg construction and no visible back yoke or contrast panels.
+LOGO_COLOR: white
+FABRIC: midweight polyester fleece / sweatshirt knit with a smooth printed face, matte surface, soft slightly plush hand, relaxed drape, and visible sublimated color saturation; looks warm and cozy rather than shiny or slick
+
+--- GENERATED TEXT ---
+TITLE: Sublimated Sweatpants
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

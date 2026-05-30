@@ -1,0 +1,24 @@
+Product: Cropped Hoodie
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Cropped full-zip hoodie with a fitted, body-skimming silhouette, long sleeves, attached hood, and ribbed hem/cuffs. Fabric appears smooth and matte with a medium-weight athletic knit finish, giving a clean sporty look rather than a plush fleece look.
+PANEL_MAP: 3 panels: main body black front and back, matching black sleeves, black hood; no color blocking, ribbed hem/cuffs in matching black
+LOGOS: none
+GARMENT_TYPE: cropped hoodie
+BACK_VIEW: back is solid black with the same hood and cropped hem, likely a plain center back with no visible contrast panels.
+LOGO_COLOR: white
+FABRIC: smooth polyester or polyester-spandex knit with a soft matte surface, medium weight, slight stretch, clean drape, and subtle athletic sweatshirt texture rather than brushed pile or terry.
+
+--- GENERATED TEXT ---
+TITLE: Cropped Hoodie
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

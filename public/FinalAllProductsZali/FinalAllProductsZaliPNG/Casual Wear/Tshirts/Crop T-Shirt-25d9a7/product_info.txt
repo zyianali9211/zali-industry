@@ -1,0 +1,24 @@
+Product: Crop T-Shirt
+Gender: female
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Cropped short-sleeve t-shirt with a relaxed straight fit, crew neckline, and clean hemmed edges. Fabric appears lightweight and smooth with a soft matte finish and slight drape, typical of a fine jersey knit.
+PANEL_MAP: 1 panel: solid sage green main body with matching sleeves and neckline, no contrasting panels
+LOGOS: none
+GARMENT_TYPE: crop t-shirt
+BACK_VIEW: back is solid sage green with the same plain cropped construction and no visible design breaks
+LOGO_COLOR: black
+FABRIC: smooth lightweight cotton jersey or cotton-modal jersey knit with a soft matte surface, fine close-knit texture, thin breathable hand, and gentle fluid drape
+
+--- GENERATED TEXT ---
+TITLE: crop t-shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

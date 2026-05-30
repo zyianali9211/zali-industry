@@ -1,0 +1,24 @@
+Product: Mandarin Collar Aloha
+Gender: male
+Material: auto
+Side: left
+Mood: cool neutral
+
+--- DETECTED ---
+DESCRIPTION: Short-sleeve aloha shirt with a mandarin collar, straight hem, and full front button closure. The shirt appears to be made from a lightweight woven fabric with a crisp, slightly structured drape and smooth surface, printed in a white base with orange/yellow floral and abstract tropical accents.
+PANEL_MAP: 1 panel: all-over white body with continuous orange/yellow printed tropical pattern; mandarin collar same fabric/print; front placket same fabric/print; sleeves same fabric/print; no contrasting side or back panels
+LOGOS: none
+GARMENT_TYPE: short sleeve mandarin collar aloha shirt
+BACK_VIEW: back is plain continuous all-over print with no yoke contrast, no visible back paneling, and the print pattern extending across the full back.
+LOGO_COLOR: black
+FABRIC: lightweight woven cotton or cotton-poly aloha shirting with a smooth matte finish, fine tight weave, crisp hand, and soft airy drape; non-stretch, shirtweight fabric with visible printed tropical pattern and minimal sheen
+
+--- GENERATED TEXT ---
+TITLE: Short Sleeve Mandarin Collar Aloha Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

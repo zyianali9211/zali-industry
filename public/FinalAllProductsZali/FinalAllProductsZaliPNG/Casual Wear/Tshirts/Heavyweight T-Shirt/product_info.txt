@@ -1,0 +1,24 @@
+Product: Heavyweight T-Shirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Oversized heavyweight T-shirt with a relaxed boxy silhouette, dropped shoulders, and wide short sleeves. Clean minimal construction with a ribbed crew neckline and straight hem, showing a dense opaque drape.
+PANEL_MAP: 1 panel: solid white main body with matching white sleeves and collar, no color blocking or insert panels
+LOGOS: none
+GARMENT_TYPE: heavyweight t-shirt
+BACK_VIEW: back is solid white with the same oversized cut and plain center, no visible yoke or back seam detail
+LOGO_COLOR: black
+FABRIC: heavyweight smooth cotton jersey with a dense matte surface, tight knit appearance, substantial opaque hand, soft but structured drape, and minimal visible texture
+
+--- GENERATED TEXT ---
+TITLE: Heavyweight T-Shirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 20 units.

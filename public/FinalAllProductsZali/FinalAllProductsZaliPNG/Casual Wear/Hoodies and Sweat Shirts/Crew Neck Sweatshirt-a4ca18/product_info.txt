@@ -1,0 +1,24 @@
+Product: Crew Neck Sweatshirt
+Gender: male
+Material: auto
+Side: left
+Mood: soft daylight
+
+--- DETECTED ---
+DESCRIPTION: Long-sleeve crew neck sweatshirt with a relaxed straight fit, ribbed crew collar, ribbed cuffs, and ribbed hem band in white. The body is navy with bold graphic print placement on the chest, sleeves, and lower front, giving it a sporty streetwear look.
+PANEL_MAP: 3 panels: main body navy front and back, contrasting white rib collar, white rib cuffs and white rib hem band; printed red/white graphic stripes running vertically down both sleeves; large white chest graphic across lower front
+LOGOS: small white "XP" logo on right chest, no other logos
+GARMENT_TYPE: crew neck sweatshirt
+BACK_VIEW: back is solid navy with continuation of the sleeve stripe graphics on both sleeves and no large front chest print, plain across center back.
+LOGO_COLOR: white
+FABRIC: medium-weight brushed fleece sweatshirt knit with a soft matte surface, smooth outer face, and slightly plush insulating interior; substantial drape with low sheen and classic cotton-poly sweatshirt hand feel.
+
+--- GENERATED TEXT ---
+TITLE: Crew Neck Sweatshirt
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.

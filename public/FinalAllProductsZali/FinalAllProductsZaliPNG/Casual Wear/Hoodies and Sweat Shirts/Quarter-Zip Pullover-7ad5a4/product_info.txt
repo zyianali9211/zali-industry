@@ -1,0 +1,24 @@
+Product: Quarter-Zip Pullover 
+Gender: male
+Material: auto
+Side: left
+Mood: warm soft
+
+--- DETECTED ---
+DESCRIPTION: Navy quarter-zip pullover with a clean, minimal construction, long sleeves, standing collar, and a short center-front zipper. The silhouette is relaxed with ribbed-looking cuffs and hem, and the fabric appears like a smooth medium-weight knit with a soft matte finish.
+PANEL_MAP: 3 panels: main body navy front and back, sleeves navy, collar/navy matching body, with ribbed hem and ribbed cuffs in matching navy
+LOGOS: none
+GARMENT_TYPE: quarter-zip pullover
+BACK_VIEW: back is solid navy with no visible yoke or contrast panels, same standing collar and matching ribbed hem/cuffs.
+LOGO_COLOR: white
+FABRIC: smooth polyester knit or double-knit fleece with a soft matte surface, medium weight, slight structure and clean drape, no visible pile or texture, subtle athletic stretch with a polished uniform finish
+
+--- GENERATED TEXT ---
+TITLE: Quarter-Zip Pullover
+
+DESCRIPTION:
+Available in polyester and cotton.
+Sublimation, DTF, DTG, and screen printing available.
+Full color customization, logos, graphics, and text on chest, sleeves, back, or hem.
+Youth and adult sizing available, 2T to 9XL.
+MOQ: 25 units.
