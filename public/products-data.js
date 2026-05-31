@@ -255,6 +255,32 @@ window.ZALI_CATALOG = {
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/04_model_front.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/05_model_torso.webp"
               }
+            },
+            {
+              "id": "Half Sleeve T-shirt",
+              "name": "Crew Neck Half Sleeve T-shirt",
+              "folderName": null,
+              "category": "Casual Wear",
+              "categoryId": "casual-wear",
+              "subcategory": "Tshirts",
+              "subcategoryId": "casual-wear-tshirts",
+              "gender": "male",
+              "title": "",
+              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
+              "garmentType": "",
+              "fabric": "",
+              "printMethods": "Sublimation, DTF, DTG, and screen printing",
+              "sizeRange": "2T to 9XL",
+              "leadTime": "7-9 Days",
+              "moq": 20,
+              "is_featured": false,
+              "primaryImageKey": "ghost_front",
+              "images": {
+                "ghost_front": "images/uploads/1780230460612-518308119.png",
+                "ghost_back": "images/uploads/1780230460630-973737372.png",
+                "detail": "images/uploads/1780230460643-272396114.png",
+                "model_torso": "images/uploads/1780230384934-401371954.png"
+              }
             }
           ]
         },

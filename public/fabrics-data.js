@@ -82,5 +82,23 @@ window.ZALI_FABRICS = [
     "swatchClass": "s9",
     "tag": "Heritage",
     "image": null
+  },
+  {
+    "id": "Rib",
+    "family": "01 · Polyester Family",
+    "familyDesc": "Our most-used fabric type for sublimation. Polyester takes ink permanently at the molecular level, which means zero fade, zero cracking, and full color saturation across complex prints.",
+    "name": " Striped Rib Knit",
+    "spec": "",
+    "description": "",
+    "bestFor": "Collar, Cuffs, Armhole",
+    "metaLabel": "Stretch",
+    "metaValue": "4-Way",
+    "swatchClass": "",
+    "tag": "",
+    "image": [
+      "images/uploads/1780093542696-40656742.png",
+      "images/uploads/1780093542733-770019673.png",
+      "images/uploads/1780093542750-803810121.png"
+    ]
   }
 ];
