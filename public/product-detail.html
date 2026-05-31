@@ -996,7 +996,7 @@
         ${buildGallery(prod)}
         <div class="pdp-info">
           <div class="pdp-cat"><span class="tri tri-sm"></span> ${esc(prod.category)} &middot; ${esc(prod.subcategory)}</div>
-          <h1>${esc(prod.title || prod.name)}</h1>
+          <h1>${esc(prod.name)}</h1>
           <p class="pdp-tagline">${esc(prod.description || 'Custom-built to your brand. Full color sublimation, DTF, or screen print. Sample first, bulk to follow.')}</p>
 
           <div class="spec-grid">
@@ -1089,7 +1089,7 @@
 
           // Update page meta
           document.getElementById('page-title').textContent =
-            `${prod.title || prod.name}, ZALI Industries`;
+            `${prod.name}, ZALI Industries`;
           document
             .getElementById('page-desc')
             .setAttribute(
@@ -1109,7 +1109,7 @@
             .map(p => `https://zaliindustry.com/${p}`);
           const primaryImg = imageUrls[0] || 'https://zaliindustry.com/zali-logo.png';
           const productUrl = `https://zaliindustry.com/product-detail.html?id=${encodeURIComponent(prod.id)}`;
-          const productName = prod.title || prod.name;
+          const productName = prod.name;
 
           const schema = {
             "@context": "https://schema.org",
