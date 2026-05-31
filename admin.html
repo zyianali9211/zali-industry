@@ -268,6 +268,7 @@
   <button onclick="switchTab('subcategories')">Subcategories</button>
   <button onclick="switchTab('fabrics')">Fabrics</button>
   <button onclick="switchTab('featured')">Featured Homepage</button>
+  <button onclick="switchTab('product-order')">Product Order</button>
 </div>
 
 <div class="container">
@@ -343,6 +344,33 @@
     <table>
       <thead><tr><th>ID</th><th>Name</th><th>Category</th><th>Actions</th></tr></thead>
       <tbody id="featured-list"></tbody>
+    </table>
+  </div>
+
+  <!-- PRODUCT ORDER TAB -->
+  <div id="product-order-tab" class="tab-content">
+    <div class="top-bar">
+      <h2>Product Order</h2>
+      <p style="margin:0; color: var(--text-soft); font-size:14px;">Choose a category and subcategory to reorder the products shown on the website.</p>
+    </div>
+    <div style="display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap;">
+      <div style="display:flex; flex-direction:column; gap:6px;">
+        <label style="font-size:13px; font-weight:600; color:var(--text-soft);">Category</label>
+        <select id="po_cat" onchange="onPoCategChange()" style="padding:10px 14px; border:1px solid var(--border); border-radius:8px; font-size:14px; min-width:200px;">
+          <option value="">Select Category...</option>
+        </select>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px;">
+        <label style="font-size:13px; font-weight:600; color:var(--text-soft);">Subcategory</label>
+        <select id="po_sub" onchange="renderProductOrder()" style="padding:10px 14px; border:1px solid var(--border); border-radius:8px; font-size:14px; min-width:200px;">
+          <option value="">Select Subcategory...</option>
+        </select>
+      </div>
+    </div>
+    <div id="po_hint" style="color:var(--text-soft); font-size:14px; padding:20px 0;">Select a category and subcategory to see its products.</div>
+    <table id="po_table" style="display:none;">
+      <thead><tr><th>#</th><th>Product ID</th><th>Name</th><th>Gender</th><th>MOQ</th><th>Reorder</th></tr></thead>
+      <tbody id="po-product-list"></tbody>
     </table>
   </div>
 
@@ -712,11 +740,16 @@
     const sCat = document.getElementById('s_cat');
     const pCat = document.getElementById('p_cat');
     const pSub = document.getElementById('p_sub');
+    const poCat = document.getElementById('po_cat');
     
     let catHtml = '<option value="">Select Category...</option>';
     catalogData.categories.forEach(c => catHtml += `<option value="${c.id}">${c.name}</option>`);
     sCat.innerHTML = catHtml;
     pCat.innerHTML = catHtml;
+    // Keep current selection in Product Order dropdowns
+    const prevCat = poCat.value;
+    poCat.innerHTML = catHtml;
+    if (prevCat) poCat.value = prevCat;
     
     pCat.onchange = () => {
       let subHtml = '<option value="">Select Subcategory...</option>';
@@ -745,6 +778,61 @@
     featSelect.innerHTML = featHtml;
   }
 
+  function onPoCategChange() {
+    const poCat = document.getElementById('po_cat');
+    const poSub = document.getElementById('po_sub');
+    let subHtml = '<option value="">Select Subcategory...</option>';
+    catalogData.subcategories.filter(s => s.categoryId === poCat.value).forEach(s => {
+      subHtml += `<option value="${s.id}">${s.name}</option>`;
+    });
+    poSub.innerHTML = subHtml;
+    // Hide the table until a subcategory is picked
+    document.getElementById('po_table').style.display = 'none';
+    document.getElementById('po_hint').style.display = '';
+    document.getElementById('po_hint').textContent = 'Now select a subcategory to see its products.';
+  }
+
+  function renderProductOrder() {
+    const subId = document.getElementById('po_sub').value;
+    const hint = document.getElementById('po_hint');
+    const table = document.getElementById('po_table');
+    const tbody = document.getElementById('po-product-list');
+
+    if (!subId) {
+      table.style.display = 'none';
+      hint.style.display = '';
+      return;
+    }
+
+    const products = catalogData.products.filter(p => p.subcategoryId === subId);
+
+    if (products.length === 0) {
+      table.style.display = 'none';
+      hint.style.display = '';
+      hint.textContent = 'No products found in this subcategory.';
+      return;
+    }
+
+    hint.style.display = 'none';
+    table.style.display = '';
+    tbody.innerHTML = '';
+
+    products.forEach((p, i) => {
+      tbody.innerHTML += `<tr>
+        <td>${i + 1}</td>
+        <td style="font-family:monospace; font-size:12px;">${p.id}</td>
+        <td>${p.name}</td>
+        <td>${p.gender || '-'}</td>
+        <td>${p.moq}</td>
+        <td>
+          <button class="btn" style="padding: 4px 10px; margin-right: 4px;" onclick="moveItem('products', ${i}, -1)" ${i === 0 ? 'disabled' : ''}>↑</button>
+          <button class="btn" style="padding: 4px 10px;" onclick="moveItem('products', ${i}, 1)" ${i === products.length - 1 ? 'disabled' : ''}>↓</button>
+        </td>
+      </tr>`;
+    });
+  }
+
+
   function filterProducts() {
     const term = document.getElementById('productSearch').value.toLowerCase();
     const rows = document.querySelectorAll('#product-list tr');
@@ -770,6 +858,23 @@
   }
 
   async function moveItem(type, index, direction) {
+    if (type === 'products') {
+      // Product reordering: work within the currently selected subcategory
+      const subId = document.getElementById('po_sub').value;
+      const list = catalogData.products.filter(p => p.subcategoryId === subId);
+      if (index + direction < 0 || index + direction >= list.length) return;
+      const newOrder = list.map(p => p.id);
+      const temp = newOrder[index];
+      newOrder[index] = newOrder[index + direction];
+      newOrder[index + direction] = temp;
+      await fetch('/api/products/reorder', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ order: newOrder })
+      });
+      loadData().then(() => renderProductOrder());
+      return;
+    }
     const list = type === 'categories' ? catalogData.categories : catalogData.subcategories;
     if (index + direction < 0 || index + direction >= list.length) return;
     
