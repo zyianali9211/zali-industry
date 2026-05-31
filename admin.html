@@ -516,7 +516,7 @@
       </div>
 
       <div class="form-row">
-        <div class="form-group"><label>Lead Time</label><input type="text" id="p_leadTime" placeholder="e.g. 12 – 18 days (bulk)"></div>
+        <div class="form-group"><label>Lead Time</label><input type="text" id="p_leadTime" value="7 to 12 days" placeholder="e.g. 12 – 18 days (bulk)"></div>
         <div class="form-group"><label>Fabric</label><select id="p_fabric"></select></div>
       </div>
 
@@ -650,7 +650,7 @@
     document.getElementById('p_title').value = p.title || '';
     document.getElementById('p_printMethods').value = p.printMethods || '';
     document.getElementById('p_sizeRange').value = p.sizeRange || '';
-    document.getElementById('p_leadTime').value = p.leadTime || '';
+    document.getElementById('p_leadTime').value = p.leadTime || '7 to 12 days';
     document.getElementById('p_fabric').value = p.fabric || '';
     document.getElementById('p_desc').value = p.description || '';
 
