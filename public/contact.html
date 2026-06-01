@@ -753,7 +753,7 @@
 
           <form
             class="form-card-main"
-            action="https://formsubmit.co/zali.industry@gmail.com"
+            action="https://formsubmit.co/info@zaliindustry.com"
             method="POST"
             enctype="multipart/form-data"
           >
@@ -1096,14 +1096,7 @@
                 </select>
               </div>
 
-              <div
-                class="submit-row"
-                style="
-                  flex-direction: column;
-                  align-items: flex-start;
-                  gap: 12px;
-                "
-              >
+              <div class="submit-row" style="width: 100%;">
                 <span class="submit-note"
                   ><span
                     class="tri tri-sm"
@@ -1114,9 +1107,18 @@
                   ></span>
                   Reply within 24 hours</span
                 >
-                <button type="submit" class="btn btn-primary btn-lg">
-                  Submit Quote Request <span class="arrow">→</span>
-                </button>
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                  <button
+                    type="button"
+                    class="btn btn-outline btn-lg"
+                    id="btn-close-details"
+                  >
+                    Hide Details <span class="arrow">↑</span>
+                  </button>
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    Submit Quote Request <span class="arrow">→</span>
+                  </button>
+                </div>
               </div>
             </div>
             <!-- /#advanced-details -->
@@ -1378,6 +1380,31 @@
           btnAddDetails.addEventListener('click', function () {
             advancedDetails.classList.add('expanded');
             step1SubmitRow.style.display = 'none';
+          });
+        }
+
+        var btnCloseDetails = document.getElementById('btn-close-details');
+        if (btnCloseDetails && advancedDetails && step1SubmitRow) {
+          btnCloseDetails.addEventListener('click', function () {
+            advancedDetails.classList.remove('expanded');
+            step1SubmitRow.style.display = 'flex';
+            
+            // Clear inputs inside advancedDetails
+            advancedDetails.querySelectorAll('input, select, textarea').forEach(function(el) {
+              if (el.type === 'checkbox' || el.type === 'radio') {
+                el.checked = false;
+              } else if (el.tagName === 'SELECT') {
+                el.selectedIndex = 0;
+              } else {
+                el.value = '';
+              }
+            });
+            
+            // Reset file drop text if any
+            var fileDropText = advancedDetails.querySelector('.file-drop-text');
+            if (fileDropText) {
+              fileDropText.innerHTML = '<strong>Click to upload</strong> or drag and drop';
+            }
           });
         }
 
