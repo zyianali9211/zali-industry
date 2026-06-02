@@ -573,8 +573,10 @@
     const row = document.createElement('div');
     row.className = 'img-row';
 
+    const cleanKey = key ? key.replace(/(_+)\d+$/, '') : '';
+
     const optHtml = IMG_TYPE_OPTIONS.map(([v,l]) =>
-      `<option value="${v}"${key === v ? ' selected' : ''}>${l}</option>`
+      `<option value="${v}"${cleanKey === v ? ' selected' : ''}>${l}</option>`
     ).join('');
 
     const thumbHtml = existingPath
@@ -932,10 +934,11 @@
 
     // Collect images from dynamic rows in list order
     const images = {};
+    const keyCounts = {};
     let primaryImageKey = '';
     const imgRows = document.querySelectorAll('#img-rows-container .img-row');
     for (const row of imgRows) {
-      const key = row.querySelector('.img-type-select').value;
+      const baseKey = row.querySelector('.img-type-select').value;
       const fileInput = row.querySelector('.img-file-input');
       const existingPath = row.querySelector('.img-existing-path').value;
       let path = existingPath || null;
@@ -945,9 +948,16 @@
         const data = await res.json();
         path = data.path;
       }
-      if (path && key) {
-        images[key] = path;
-        if (!primaryImageKey) primaryImageKey = key;
+      if (path && baseKey) {
+        let finalKey = baseKey;
+        if (images.hasOwnProperty(baseKey)) {
+          if (!keyCounts[baseKey]) {
+            keyCounts[baseKey] = 1;
+          }
+          finalKey = `${baseKey}_${keyCounts[baseKey]++}`;
+        }
+        images[finalKey] = path;
+        if (!primaryImageKey) primaryImageKey = finalKey;
       }
     }
 

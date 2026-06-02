@@ -893,8 +893,10 @@
           allImgs.forEach((k, i) => {
             const highResUrl = esc(window.optImg(getPngUrl(imgs[k]), 1000));
             preloadHtml += `<img src="${highResUrl}" />`;
-            thumbsHtml += `<div class="thumb ${i === 0 ? 'active' : ''}" data-img="${highResUrl}" data-label="${esc(IMG_LABELS[k] || k)}" onclick="switchImg(this)">
-        <img src="${esc(window.optImg(imgs[k], 200))}" alt="${esc(IMG_LABELS[k] || prod.name)}" loading="lazy" />
+            const cleanKey = k.replace(/(_+)\d+$/, '');
+            const label = IMG_LABELS[cleanKey] || k;
+            thumbsHtml += `<div class="thumb ${i === 0 ? 'active' : ''}" data-img="${highResUrl}" data-label="${esc(label)}" onclick="switchImg(this)">
+        <img src="${esc(window.optImg(imgs[k], 200))}" alt="${esc(label)}" loading="lazy" />
       </div>`;
           });
           preloadHtml += '</div>';
