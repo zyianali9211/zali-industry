@@ -21,21 +21,54 @@
   }
 
   @media (min-width: 981px) {
-    .sec-sticky-layout {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 65px;
-      align-items: start;
+    /* Compact layout to keep title and content visible together on screen */
+    #categories-sec, #featured-sec, #print-methods {
+      padding: 24px 0 !important;
     }
-    .sec-sticky-layout .sec-head {
-      position: sticky;
-      top: 100px;
-      margin-bottom: 0;
-      z-index: 10;
+    #categories-sec .sec-head, #featured-sec .sec-head, #print-methods .sec-head {
+      margin-bottom: 12px !important;
     }
-    .sec-sticky-layout .sec-head div[style*="justify-content:flex-end"] {
-      justify-content: flex-start !important;
-      margin-top: 20px !important;
+    
+    /* 1. Categories Section (4 columns instead of 3, 2 rows total) */
+    #categories-sec .cat-grid {
+      grid-template-columns: repeat(4, 1fr) !important;
+      gap: 8px !important;
+    }
+    #categories-sec .cat {
+      aspect-ratio: 1.6 !important;
+    }
+    #categories-sec .cat-content {
+      padding: 10px !important;
+    }
+    #categories-sec .cat-title {
+      font-size: 18px !important;
+    }
+
+    /* 2. Featured Essentials Section (more compact product cards) */
+    #featured-sec .feat-grid {
+      gap: 12px !important;
+    }
+    #featured-sec .prod-img {
+      aspect-ratio: 1.15/1 !important;
+    }
+    #featured-sec .prod-info {
+      padding: 10px 12px !important;
+    }
+
+    /* 3. Print Methods Section (square cards instead of tall portrait) */
+    #print-methods .method-bigs {
+      gap: 8px !important;
+      margin-bottom: 12px !important;
+    }
+    #print-methods .method-big {
+      aspect-ratio: 1/1 !important;
+    }
+    #print-methods .method-big-title {
+      font-size: 18px !important;
+      margin-bottom: 6px !important;
+    }
+    #print-methods .method-big-content {
+      padding: 12px !important;
     }
   }
 
@@ -918,8 +951,8 @@
 </section>
 
 <!-- CATEGORIES -->
-<section class="sec">
-  <div class="container sec-sticky-layout">
+<section class="sec" id="categories-sec">
+  <div class="container">
     <div class="sec-head" style="display:block;">
       <div class="left" style="max-width:760px;">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> 01 / Range</span>
@@ -1006,8 +1039,8 @@
 </section>
 
 <!-- FEATURED PRODUCTS -->
-<section class="sec">
-  <div class="container sec-sticky-layout">
+<section class="sec" id="featured-sec">
+  <div class="container">
     <div class="sec-head" style="display:block;">
       <div class="left">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> 02 / Selected</span>
@@ -1046,7 +1079,7 @@
 
 <!-- PRINT METHODS -->
 <section class="sec" id="print-methods">
-  <div class="container sec-sticky-layout">
+  <div class="container">
     <div class="sec-head" style="display:block;">
       <div class="left">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> 03 / Capability</span>
