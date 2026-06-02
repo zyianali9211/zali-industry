@@ -14,8 +14,34 @@ window.ZALI_CATALOG = {
           "slug": "tshirts",
           "products": [
             {
+              "id": "Half Sleeve T-shirt",
+              "name": "Crew Neck Half Sleeve T-shirt",
+              "folderName": null,
+              "category": "Casual Wear",
+              "categoryId": "casual-wear",
+              "subcategory": "Tshirts",
+              "subcategoryId": "casual-wear-tshirts",
+              "gender": "male",
+              "title": "",
+              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
+              "garmentType": "",
+              "fabric": "",
+              "printMethods": "Sublimation, DTF, DTG, and screen printing",
+              "sizeRange": "2T to 9XL",
+              "leadTime": "7-9 Days",
+              "moq": 20,
+              "is_featured": false,
+              "primaryImageKey": "ghost_front",
+              "images": {
+                "ghost_front": "images/uploads/1780230460612-518308119.png",
+                "ghost_back": "images/uploads/1780230460630-973737372.png",
+                "detail": "images/uploads/1780230460643-272396114.png",
+                "model_torso": "images/uploads/1780230384934-401371954.png"
+              }
+            },
+            {
               "id": "casual-wear-tshirts-crew-neck-full-sleeve-sublimated-t-shirt-14bb50",
-              "name": "crew neck full sleeve sublimated t-shirt",
+              "name": "Crew Neck Full Sleeve T-shirt",
               "folderName": "crew neck full sleeve sublimated t-shirt-14bb50",
               "category": "Casual Wear",
               "categoryId": "casual-wear",
@@ -25,19 +51,19 @@ window.ZALI_CATALOG = {
               "title": "crew neck full sleeve sublimated t-shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "crew neck full sleeve sublimated t-shirt",
-              "fabric": "smooth polyester performance jersey with a lightweight knit, soft matte surface, slight stretch, and clean drape; sublimated print sits flat on the fabric with no visible pile or texture.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/03_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/05_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/05_model_torso.webp"
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/crew%20neck%20full%20sleeve%20sublimated%20t-shirt-14bb50/01_detail.webp"
               }
             },
             {
@@ -80,19 +106,19 @@ window.ZALI_CATALOG = {
               "title": "crop t-shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "crop t-shirt",
-              "fabric": "smooth lightweight cotton jersey or cotton-modal jersey knit with a soft matte surface, fine close-knit texture, thin breathable hand, and gentle fluid drape",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_torso",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/01_detail.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/05_model_torso.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/02_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/03_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/05_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Crop%20T-Shirt-25d9a7/01_detail.webp"
               }
             },
             {
@@ -107,19 +133,19 @@ window.ZALI_CATALOG = {
               "title": "Heavyweight T-Shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "heavyweight t-shirt",
-              "fabric": "heavyweight smooth cotton jersey with a dense matte surface, tight knit appearance, substantial opaque hand, soft but structured drape, and minimal visible texture",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_torso",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/01_detail.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/05_model_torso.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/03_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/05_model_torso.webp"
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Heavyweight%20T-Shirt/01_detail.webp"
               }
             },
             {
@@ -176,7 +202,7 @@ window.ZALI_CATALOG = {
             },
             {
               "id": "casual-wear-tshirts-long-sleeve-v-neck-t-shirt-f2ea3e",
-              "name": "Long Sleeve v-neck T-Shirt",
+              "name": "V-Neck T-Shirt Long Sleeve",
               "folderName": "Long Sleeve v-neck T-Shirt-f2ea3e",
               "category": "Casual Wear",
               "categoryId": "casual-wear",
@@ -186,20 +212,20 @@ window.ZALI_CATALOG = {
               "title": "Long Sleeve V-Neck T-Shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "long sleeve v-neck T-shirt",
-              "fabric": "smooth polyester performance knit, lightweight and slightly stretchy with a fine micro-rib/mesh-like surface, matte-to-low-sheen finish, soft drape, and subtle athletic jersey texture typical of sublimated fitnesswear",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/02_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/06_model_torso.webp",
+                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/05_model_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/03_ghost_back.webp",
                 "ghost_side": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/04_ghost_side.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/05_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/06_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Long%20Sleeve%20v-neck%20T-Shirt-f2ea3e/01_detail.webp"
               }
             },
             {
@@ -214,24 +240,24 @@ window.ZALI_CATALOG = {
               "title": "Oversized T-Shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "oversized T-shirt",
-              "fabric": "smooth polyester jersey or cotton-poly jersey knit with a fine, even surface, soft matte finish, medium-light weight drape, and minimal visible texture; fabric hangs cleanly with a slightly structured but relaxed hand.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/02_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/03_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/05_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/05_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/Oversized%20T-Shirt/01_detail.webp"
               }
             },
             {
               "id": "casual-wear-tshirts-v-neck-t-shirt-short-sleeve-sublimated-t-shirt",
-              "name": "V-Neck T-Shirt short sleeve sublimated t-shirt",
+              "name": "V-Neck T-Shirt Short Sleeve",
               "folderName": "V-Neck T-Shirt short sleeve sublimated t-shirt",
               "category": "Casual Wear",
               "categoryId": "casual-wear",
@@ -241,45 +267,19 @@ window.ZALI_CATALOG = {
               "title": "V-Neck Short Sleeve Sublimated T-Shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "V-neck short sleeve sublimated t-shirt",
-              "fabric": "smooth lightweight polyester tricot-like sublimated sports fabric with a soft matte-to-slightly satin surface, fine knit texture, thin drape, and quick-dry athletic feel; appears moderately stretchy but not compression-tight.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 20,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/01_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/03_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "Half Sleeve T-shirt",
-              "name": "Crew Neck Half Sleeve T-shirt",
-              "folderName": null,
-              "category": "Casual Wear",
-              "categoryId": "casual-wear",
-              "subcategory": "Tshirts",
-              "subcategoryId": "casual-wear-tshirts",
-              "gender": "male",
-              "title": "",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
-              "garmentType": "",
               "fabric": "",
-              "printMethods": "Sublimation, DTF, DTG, and screen printing",
-              "sizeRange": "2T to 9XL",
-              "leadTime": "7-9 Days",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
               "primaryImageKey": "ghost_front",
               "images": {
-                "ghost_front": "images/uploads/1780230460612-518308119.png",
-                "ghost_back": "images/uploads/1780230460630-973737372.png",
-                "detail": "images/uploads/1780230460643-272396114.png",
-                "model_torso": "images/uploads/1780230384934-401371954.png"
+                "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/02_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/05_model_torso.webp",
+                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/04_model_front.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Tshirts/V-Neck%20T-Shirt%20short%20sleeve%20sublimated%20t-shirt/01_detail.webp"
               }
             }
           ]
@@ -291,7 +291,7 @@ window.ZALI_CATALOG = {
           "products": [
             {
               "id": "casual-wear-polos-aloha-polo-07f7d6",
-              "name": "Aloha Polo",
+              "name": "Aloha Polo Shirt",
               "folderName": "Aloha Polo-07f7d6",
               "category": "Casual Wear",
               "categoryId": "casual-wear",
@@ -301,19 +301,19 @@ window.ZALI_CATALOG = {
               "title": "Short Sleeve Polo Shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "short sleeve polo shirt",
-              "fabric": "smooth polyester knit with a fine jersey-like surface, lightweight drape, slight satin-matte sheen, and a soft performance feel; the fabric looks wrinkle-resistant with subtle stretch and a clean, non-textured face.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/03_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/05_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/05_model_torso.webp"
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Aloha%20Polo-07f7d6/01_detail.webp"
               }
             },
             {
@@ -346,7 +346,7 @@ window.ZALI_CATALOG = {
             },
             {
               "id": "casual-wear-polos-performance-polo-subliamtion-tight-fit",
-              "name": "Performance Polo subliamtion tight fit",
+              "name": "Performance Polo",
               "folderName": "Performance Polo subliamtion tight fit",
               "category": "Casual Wear",
               "categoryId": "casual-wear",
@@ -356,19 +356,19 @@ window.ZALI_CATALOG = {
               "title": "Performance Polo",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "performance polo",
-              "fabric": "smooth polyester performance pique or micro-mesh knit with a fine waffle-like texture, lightweight and breathable, matte to low-sheen finish, soft drape with slight stretch and a sporty, moisture-wicking look",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/03_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/05_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/05_model_torso.webp"
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Performance%20Polo%20subliamtion%20tight%20fit/01_detail.webp"
               }
             },
             {
@@ -576,19 +576,19 @@ window.ZALI_CATALOG = {
               "title": "Short Sleeve Mandarin Collar Aloha Shirt",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "short sleeve mandarin collar aloha shirt",
-              "fabric": "lightweight woven cotton or cotton-poly aloha shirting with a smooth matte finish, fine tight weave, crisp hand, and soft airy drape; non-stretch, shirtweight fabric with visible printed tropical pattern and minimal sheen",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_torso",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/01_detail.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/06_model_torso.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/03_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/06_model_torso.webp"
+                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/03_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Shirts/Mandarin%20Collar%20Aloha-ca98b3/01_detail.webp"
               }
             },
             {
@@ -786,33 +786,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "casual-wear-hoodies-and-sweat-shirts-pullover-hoodie-6ca11e",
-              "name": "Pullover Hoodie",
-              "folderName": "Pullover Hoodie-6ca11e",
-              "category": "Casual Wear",
-              "categoryId": "casual-wear",
-              "subcategory": "Hoodies and Sweat Shirts",
-              "subcategoryId": "casual-wear-hoodies-and-sweat-shirts",
-              "gender": "male",
-              "title": "Pullover Hoodie",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "pullover hoodie",
-              "fabric": "medium-weight smooth polyester knit with a soft matte finish, slight sporty sheen, and structured drape; surface appears tight-knit and jersey-like rather than fuzzy, with lightweight sweatshirt/track-top feel and clean printed color-block edges",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": true,
-              "primaryImageKey": null,
-              "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Hoodies%20and%20Sweat%20Shirts/Pullover%20Hoodie-6ca11e/01_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Hoodies%20and%20Sweat%20Shirts/Pullover%20Hoodie-6ca11e/02_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Hoodies%20and%20Sweat%20Shirts/Pullover%20Hoodie-6ca11e/03_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Hoodies%20and%20Sweat%20Shirts/Pullover%20Hoodie-6ca11e/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Hoodies%20and%20Sweat%20Shirts/Pullover%20Hoodie-6ca11e/05_model_torso.webp"
-              }
-            },
-            {
               "id": "casual-wear-hoodies-and-sweat-shirts-quarter-zip-pullover-7ad5a4",
               "name": "Quarter-Zip Pullover",
               "folderName": "Quarter-Zip Pullover-7ad5a4",
@@ -875,7 +848,7 @@ window.ZALI_CATALOG = {
             },
             {
               "id": "casual-wear-bottoms-sweatpants-subliamted-8d133d",
-              "name": "Sweatpants subliamted",
+              "name": "Sweatpants",
               "folderName": "Sweatpants subliamted-8d133d",
               "category": "Casual Wear",
               "categoryId": "casual-wear",
@@ -888,7 +861,7 @@ window.ZALI_CATALOG = {
               "fabric": "",
               "printMethods": "",
               "sizeRange": "",
-              "leadTime": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
               "primaryImageKey": "ghost_front",
@@ -1307,7 +1280,7 @@ window.ZALI_CATALOG = {
             },
             {
               "id": "fitnesswear-training-tops-hlaf-sleeve-performance-tee-08e48c",
-              "name": "Hlaf Sleeve Performance Tee",
+              "name": "Performance Tee Half Sleeve ",
               "folderName": "Hlaf Sleeve Performance Tee-08e48c",
               "category": "FitnessWear",
               "categoryId": "fitnesswear",
@@ -1317,24 +1290,24 @@ window.ZALI_CATALOG = {
               "title": "Half Sleeve Performance Tee",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "half sleeve performance tee",
-              "fabric": "smooth polyester performance knit with a fine, tight jersey surface, lightweight and slightly stretchy, matte to very low-sheen finish, clean athletic drape with minimal visible texture and a close-to-body fit",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/03_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/05_model_torso.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/01_flat_lay.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/05_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Hlaf%20Sleeve%20Performance%20Tee-08e48c/02_detail.webp"
               }
             },
             {
               "id": "fitnesswear-training-tops-long-sleeve-performance-tee-raglan-sleeve-sublimated-5e0b74",
-              "name": "Long Sleeve Performance Tee raglan sleeve Sublimated",
+              "name": "Performance Tee Long Sleeve",
               "folderName": "Long Sleeve Performance Tee raglan sleeve Sublimated-5e0b74",
               "category": "FitnessWear",
               "categoryId": "fitnesswear",
@@ -1344,19 +1317,19 @@ window.ZALI_CATALOG = {
               "title": "Long Sleeve Performance Tee",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 20 units.",
               "garmentType": "long sleeve performance tee",
-              "fabric": "smooth lightweight polyester performance knit with a soft matte finish, fine micro-interlock or birdseye-like texture, slight stretch, and a dry athletic hand; sleeves show sublimated camouflage print integrated into the fabric surface rather than sitting on top.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 20,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/03_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/05_model_torso.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/01_flat_lay.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/05_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Long%20Sleeve%20Performance%20Tee%20raglan%20sleeve%20Sublimated-5e0b74/02_detail.webp"
               }
             },
             {
@@ -1504,6 +1477,33 @@ window.ZALI_CATALOG = {
           "slug": "training-bottoms",
           "products": [
             {
+              "id": "fitnesswear-training-bottoms-2-in-1-shorts-36e074",
+              "name": "2-in-1 Shorts",
+              "folderName": "2-in-1 Shorts-36e074",
+              "category": "FitnessWear",
+              "categoryId": "fitnesswear",
+              "subcategory": "Training Bottoms",
+              "subcategoryId": "fitnesswear-training-bottoms",
+              "gender": "male",
+              "title": "2-in-1 Shorts",
+              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
+              "garmentType": "2-in-1 shorts",
+              "fabric": "lightweight woven polyester athletic shell with a matte-to-slightly-sheen finish, soft crinkled surface, airy drape, and relaxed loose fit; inner liner is smooth stretch knit/compression spandex with a tight, body-hugging, low-sheen surface.",
+              "printMethods": null,
+              "sizeRange": null,
+              "leadTime": null,
+              "moq": 25,
+              "is_featured": false,
+              "primaryImageKey": null,
+              "images": {
+                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/01_flat_lay.webp",
+                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/02_detail.webp",
+                "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/03_ghost_front.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/04_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/05_model_torso.webp"
+              }
+            },
+            {
               "id": "fitnesswear-training-bottoms-2-in-1-shorts-women-d75ad1",
               "name": "2 in 1 shorts women",
               "folderName": "2 in 1 shorts women-d75ad1",
@@ -1529,33 +1529,6 @@ window.ZALI_CATALOG = {
                 "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2%20in%201%20shorts%20women-d75ad1/04_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2%20in%201%20shorts%20women-d75ad1/05_model_action.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2%20in%201%20shorts%20women-d75ad1/06_model_torso.webp"
-              }
-            },
-            {
-              "id": "fitnesswear-training-bottoms-2-in-1-shorts-36e074",
-              "name": "2-in-1 Shorts",
-              "folderName": "2-in-1 Shorts-36e074",
-              "category": "FitnessWear",
-              "categoryId": "fitnesswear",
-              "subcategory": "Training Bottoms",
-              "subcategoryId": "fitnesswear-training-bottoms",
-              "gender": "male",
-              "title": "2-in-1 Shorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "2-in-1 shorts",
-              "fabric": "lightweight woven polyester athletic shell with a matte-to-slightly-sheen finish, soft crinkled surface, airy drape, and relaxed loose fit; inner liner is smooth stretch knit/compression spandex with a tight, body-hugging, low-sheen surface.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/2-in-1%20Shorts-36e074/05_model_torso.webp"
               }
             },
             {
@@ -1745,34 +1718,6 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/Gym%20Shorts-29daac/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/Gym%20Shorts-29daac/04_ghost_back.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/Gym%20Shorts-29daac/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "fitnesswear-training-bottoms-high-waist-leggings-1fc993",
-              "name": "High-Waist Leggings",
-              "folderName": "High-Waist Leggings-1fc993",
-              "category": "FitnessWear",
-              "categoryId": "fitnesswear",
-              "subcategory": "Training Bottoms",
-              "subcategoryId": "fitnesswear-training-bottoms",
-              "gender": "female",
-              "title": "High-Waist Leggings",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "high-waist leggings",
-              "fabric": "ribbed compression spandex / nylon-lycra knit with fine vertical texture, matte to very slight sheen, dense medium-weight body, high stretch recovery, smooth tight surface with a sculpting athletic finish",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/High-Waist%20Leggings-1fc993/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/High-Waist%20Leggings-1fc993/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/High-Waist%20Leggings-1fc993/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/High-Waist%20Leggings-1fc993/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/High-Waist%20Leggings-1fc993/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Bottoms/High-Waist%20Leggings-1fc993/06_model_torso.webp"
               }
             },
             {
@@ -2186,20 +2131,19 @@ window.ZALI_CATALOG = {
               "title": "Bra and Leggings Set",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "bra and leggings set",
-              "fabric": "compression spandex / polyester-blend stretch knit with a smooth tight surface, matte-to-slightly-soft sheen, medium-light weight, body-conforming four-way stretch, and allover printed tie-dye camouflage effect with no visible pile or mesh texture",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/04_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/06_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/06_model_torso.webp"
+                "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/01_flat_lay.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/FitnessWear/Sets/Bra%20&%20Leggings%20Set-c41b49/04_ghost_back.webp"
               }
             },
             {
@@ -2312,20 +2256,19 @@ window.ZALI_CATALOG = {
               "title": "Boxing Shorts",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "boxing shorts",
-              "fabric": "smooth satin polyester with a glossy reflective surface, lightweight woven face, soft fluid drape, and slight sheen highlights across the body; waistband appears ribbed elastic knit with a matte textured finish.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_action",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/04_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/05_model_action.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/06_model_bottom.webp"
+                "ghost_front": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/03_ghost_front.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/06_model_bottom.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/01_flat_lay.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/Boxing%20Shorts-6a67ec/04_ghost_back.webp"
               }
             },
             {
@@ -2340,20 +2283,19 @@ window.ZALI_CATALOG = {
               "title": "K1 Shorts",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "K1 shorts",
-              "fabric": "satin weave polyester or nylon-satin blend with a smooth, slightly glossy sheen, lightweight athletic drape, soft fluid hand, and a subtly rippling surface; waistband is thick gathered elastic shirring with matte stretch texture.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_bottom",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/02_detail.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/06_model_bottom.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/04_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/05_model_action.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/06_model_bottom.webp"
+                "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/K1%20Shorts-437831/01_flat_lay.webp"
               }
             },
             {
@@ -2564,33 +2506,6 @@ window.ZALI_CATALOG = {
           "slug": "sets",
           "products": [
             {
-              "id": "fightwear-sets-spats-shorts-set-103ad4",
-              "name": "Spats & Shorts Set",
-              "folderName": "Spats & Shorts Set-103ad4",
-              "category": "Fightwear",
-              "categoryId": "fightwear",
-              "subcategory": "Sets",
-              "subcategoryId": "fightwear-sets",
-              "gender": "female",
-              "title": "Spats & Shorts Set",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "spats & shorts set",
-              "fabric": "shorts appear to be smooth lightweight polyester performance knit with a matte finish and soft drape; spats are compression spandex / lycra with a tight, smooth, slightly glossy surface, four-way stretch, and body-contouring fit",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/05_model_bottom.webp"
-              }
-            },
-            {
               "id": "fightwear-sets-spats-e76673",
               "name": "Spats",
               "folderName": "Spats-e76673",
@@ -2615,6 +2530,33 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats-e76673/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats-e76673/04_ghost_back.webp",
                 "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats-e76673/05_model_bottom.webp"
+              }
+            },
+            {
+              "id": "fightwear-sets-spats-shorts-set-103ad4",
+              "name": "Spats & Shorts Set",
+              "folderName": "Spats & Shorts Set-103ad4",
+              "category": "Fightwear",
+              "categoryId": "fightwear",
+              "subcategory": "Sets",
+              "subcategoryId": "fightwear-sets",
+              "gender": "female",
+              "title": "Spats & Shorts Set",
+              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
+              "garmentType": "spats & shorts set",
+              "fabric": "shorts appear to be smooth lightweight polyester performance knit with a matte finish and soft drape; spats are compression spandex / lycra with a tight, smooth, slightly glossy surface, four-way stretch, and body-contouring fit",
+              "printMethods": null,
+              "sizeRange": null,
+              "leadTime": null,
+              "moq": 25,
+              "is_featured": false,
+              "primaryImageKey": null,
+              "images": {
+                "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/01_flat_lay.webp",
+                "detail": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/02_detail.webp",
+                "ghost_front": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/03_ghost_front.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/04_ghost_back.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Fightwear/Sets/Spats%20&%20Shorts%20Set-103ad4/05_model_bottom.webp"
               }
             }
           ]
@@ -2749,7 +2691,7 @@ window.ZALI_CATALOG = {
           "products": [
             {
               "id": "surfwear-in-water-tops-hawaiian-print-rashguard-317918",
-              "name": "Hawaiian Print Rashguard",
+              "name": "Rashguard Short Sleeve",
               "folderName": "Hawaiian Print Rashguard-317918",
               "category": "SurfWear",
               "categoryId": "surfwear",
@@ -2759,25 +2701,25 @@ window.ZALI_CATALOG = {
               "title": "Short Sleeve Rashguard",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "short sleeve rashguard",
-              "fabric": "compression spandex / polyester-lycra rashguard knit with smooth tight surface, slight matte-to-satin athletic sheen, very thin lightweight body, strong four-way stretch, close body drape, and flatlocked seam construction",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/04_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/06_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/06_model_torso.webp"
+                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/01_flat_lay.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/04_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-317918/02_detail.webp"
               }
             },
             {
               "id": "surfwear-in-water-tops-hawaiian-print-rashguard-5c672d",
-              "name": "Hawaiian Print Rashguard",
+              "name": "Rashguard Long Sleeve",
               "folderName": "Hawaiian Print Rashguard-5c672d",
               "category": "SurfWear",
               "categoryId": "surfwear",
@@ -2787,20 +2729,20 @@ window.ZALI_CATALOG = {
               "title": "Long Sleeve Rashguard",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "long sleeve rashguard",
-              "fabric": "smooth compression spandex / nylon-elastane rashguard knit with a tight, fine-gauge surface, matte-to-slight-sheen finish, very close body-hugging stretch, and a sleek athletic drape with no visible texture or pile",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/04_ghost_back.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/06_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/06_model_torso.webp"
+                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/01_flat_lay.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/04_ghost_back.webp",
+                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/02_detail.webp"
               }
             },
             {
@@ -2828,33 +2770,6 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey/04_ghost_back.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "surfwear-in-water-tops-paddling-jersey-7613d3",
-              "name": "Paddling Jersey",
-              "folderName": "Paddling Jersey-7613d3",
-              "category": "SurfWear",
-              "categoryId": "surfwear",
-              "subcategory": "In-Water Tops",
-              "subcategoryId": "surfwear-in-water-tops",
-              "gender": "female",
-              "title": "Long Sleeve Paddling Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "long sleeve paddling jersey",
-              "fabric": "lightweight synthetic performance knit, likely smooth polyester/spandex blend with a fine micro-texture and matte-to-slightly satiny finish, thin drape, quick-dry athletic hand, and mild stretch body fabric with printed sleeve panels that look equally smooth and soft rather than mesh or fleece",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey-7613d3/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey-7613d3/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey-7613d3/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey-7613d3/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Paddling%20Jersey-7613d3/05_model_torso.webp"
               }
             },
             {
@@ -3003,61 +2918,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "surfwear-in-water-bottoms-boardshorts",
-              "name": "BoardShorts",
-              "folderName": "BoardShorts",
-              "category": "SurfWear",
-              "categoryId": "surfwear",
-              "subcategory": "In-Water Bottoms",
-              "subcategoryId": "surfwear-in-water-bottoms",
-              "gender": "male",
-              "title": "Board Shorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "board shorts",
-              "fabric": "smooth polyester boardshort fabric / woven swim fabric, lightweight and quick-dry, with a fine flat weave, subtle crisp structure, and low-sheen surface; feels slightly structured rather than stretchy, with clean drape and sublimated print sitting flat on the surface",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/BoardShorts/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/BoardShorts/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/BoardShorts/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/BoardShorts/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/BoardShorts/05_model_bottom.webp"
-              }
-            },
-            {
-              "id": "surfwear-in-water-bottoms-boardshorts-1d8e7e",
-              "name": "Boardshorts",
-              "folderName": "Boardshorts-1d8e7e",
-              "category": "SurfWear",
-              "categoryId": "surfwear",
-              "subcategory": "In-Water Bottoms",
-              "subcategoryId": "surfwear-in-water-bottoms",
-              "gender": "male",
-              "title": "Boardshorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "boardshorts",
-              "fabric": "smooth woven boardshort fabric, likely lightweight polyester or polyester-blend with a matte to slightly low-sheen finish, crisp structure, and quick-dry handfeel; surface looks flat and tightly woven rather than knits, with clean printed graphics and minimal texture.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-1d8e7e/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-1d8e7e/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-1d8e7e/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-1d8e7e/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-1d8e7e/05_model_action.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-1d8e7e/06_model_bottom.webp"
-              }
-            },
-            {
               "id": "surfwear-in-water-bottoms-boardshorts-94d303",
               "name": "Boardshorts",
               "folderName": "Boardshorts-94d303",
@@ -3069,25 +2929,24 @@ window.ZALI_CATALOG = {
               "title": "Boardshorts",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "boardshorts",
-              "fabric": "smooth woven polyester boardshort fabric / microfiber-like swim short shell with a fine matte-to-slight-sheen surface, lightweight crisp hand, subtle structure, and water-friendly quick-dry drape; printed graphics are sharp and opaque with minimal texture visible.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/04_ghost_back.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/06_model_bottom.webp",
                 "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/05_model_action.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/06_model_bottom.webp"
+                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/01_flat_lay.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-94d303/04_ghost_back.webp"
               }
             },
             {
               "id": "surfwear-in-water-bottoms-boardshorts-d75c34",
-              "name": "Boardshorts",
+              "name": "Elastic Boardshorts",
               "folderName": "Boardshorts-d75c34",
               "category": "SurfWear",
               "categoryId": "surfwear",
@@ -3097,20 +2956,19 @@ window.ZALI_CATALOG = {
               "title": "Boardshorts",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "boardshorts",
-              "fabric": "smooth woven polyester boardshort fabric with a lightweight slightly crisp hand, faint satin sheen, quick-dry surface, and soft but structured drape; the texture appears tightly woven and non-brushed with minimal visible grain",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_action",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/04_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/05_model_action.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/06_model_bottom.webp"
+                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/03_ghost_front.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/06_model_bottom.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/01_flat_lay.webp",
+                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Boardshorts-d75c34/02_detail.webp"
               }
             },
             {
@@ -3208,19 +3066,18 @@ window.ZALI_CATALOG = {
               "title": "Surf Bikini Bottoms",
               "description": "Available in smooth swimwear spandex and nylon-elastane tricot.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on waistband, front, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "surf bikini bottoms",
-              "fabric": "smooth swimwear spandex / nylon-elastane tricot with a tight, body-hugging stretch surface, slight satin-like sheen, thin lightweight drape, and subtle elastic texture at the waistband trim",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/05_model_action.webp"
+                "model_action": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/05_model_action.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/01_flat_lay.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Bottoms/Surf%20Bikini%20Bottoms-715040/04_ghost_back.webp"
               }
             },
             {
@@ -3392,33 +3249,6 @@ window.ZALI_CATALOG = {
                 "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/04_ghost_back.webp",
                 "model_action": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/05_model_action.webp",
                 "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/06_model_bottom.webp"
-              }
-            },
-            {
-              "id": "surfwear-beach-lifestyle-boardshorts",
-              "name": "BoardShorts",
-              "folderName": "BoardShorts",
-              "category": "SurfWear",
-              "categoryId": "surfwear",
-              "subcategory": "Beach Lifestyle",
-              "subcategoryId": "surfwear-beach-lifestyle",
-              "gender": "male",
-              "title": "Board Shorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "board shorts",
-              "fabric": "smooth polyester boardshort fabric / woven swim fabric, lightweight and quick-dry, with a fine flat weave, subtle crisp structure, and low-sheen surface; feels slightly structured rather than stretchy, with clean drape and sublimated print sitting flat on the surface",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/BoardShorts/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/BoardShorts/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/BoardShorts/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/BoardShorts/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/BoardShorts/05_model_bottom.webp"
               }
             },
             {
@@ -3825,33 +3655,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-7-on-7-football-7-on-7-jersey-sleeveless",
-              "name": "7-on-7 Jersey (Sleeveless)",
-              "folderName": "7-on-7 Jersey (Sleeveless)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "7-on-7 Football",
-              "subcategoryId": "team-sports-7-on-7-football",
-              "gender": "male",
-              "title": "Sleeveless 7-on-7 Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "sleeveless 7-on-7 jersey",
-              "fabric": "smooth polyester athletic mesh or interlock knit with a light sheen, medium-light weight, clean surface, and slight body-hugging drape typical of sublimated sports jerseys",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)/05_model_torso.webp"
-              }
-            },
-            {
               "id": "team-sports-7-on-7-football-7-on-7-jersey-sleeveless-c6827e",
               "name": "7-on-7 Jersey (Sleeveless)",
               "folderName": "7-on-7 Jersey (Sleeveless)-c6827e",
@@ -3876,33 +3679,6 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)-c6827e/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)-c6827e/04_ghost_back.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Jersey%20(Sleeveless)-c6827e/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-7-on-7-football-7-on-7-shorts-loose-fit",
-              "name": "7-on-7 Shorts (Loose Fit)",
-              "folderName": "7-on-7 Shorts (Loose Fit)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "7-on-7 Football",
-              "subcategoryId": "team-sports-7-on-7-football",
-              "gender": "male",
-              "title": "7-on-7 Shorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "7-on-7 shorts (loose fit)",
-              "fabric": "smooth polyester performance knit with a lightweight, slightly stretchy hand, fine flat surface, and low-sheen matte finish; feels slick and athletic rather than textured or brushed.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Shorts%20(Loose%20Fit)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Shorts%20(Loose%20Fit)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Shorts%20(Loose%20Fit)/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Shorts%20(Loose%20Fit)/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Shorts%20(Loose%20Fit)/05_model_bottom.webp"
               }
             },
             {
@@ -3933,34 +3709,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-7-on-7-football-7-on-7-uniform-set",
-              "name": "7-on-7 Uniform Set",
-              "folderName": "7-on-7 Uniform Set",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "7-on-7 Football",
-              "subcategoryId": "team-sports-7-on-7-football",
-              "gender": "male",
-              "title": "7-on-7 Uniform Set",
-              "description": "",
-              "garmentType": "7-on-7 uniform set",
-              "fabric": "smooth sublimated polyester performance knit, lightweight and athletic with a tight fine-knit surface, slight synthetic sheen, clean drape, and a sleek non-brushed finish suitable for sports uniforms",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Uniform%20Set/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Uniform%20Set/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Uniform%20Set/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Uniform%20Set/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Uniform%20Set/05_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7-on-7%20Uniform%20Set/06_model_torso.webp"
-              }
-            },
-            {
               "id": "team-sports-7-on-7-football-7on7-uniform",
               "name": "7on7 Uniform",
               "folderName": "7on7 Uniform",
@@ -3972,19 +3720,17 @@ window.ZALI_CATALOG = {
               "title": "7on7 Uniform",
               "description": "",
               "garmentType": "sleeveless hooded basketball jersey with matching shorts",
-              "fabric": "lightweight sublimated polyester athletic fabric with smooth tightly-knit surface, matte to slight low-sheen finish, thin and airy hand feel, and soft drape typical of basketball uniforms; appears breathable and quick-dry rather than textured or brushed.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "flat_lay",
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7on7%20Uniform/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7on7%20Uniform/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7on7%20Uniform/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7on7%20Uniform/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7on7%20Uniform/05_model_front.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/7-on-7%20Football/7on7%20Uniform/02_detail.webp"
               }
             }
           ],
@@ -4052,34 +3798,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-american-football-american-football-jersey-pro-cut",
-              "name": "American Football Jersey (Pro Cut)",
-              "folderName": "American Football Jersey (Pro Cut)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "American Football",
-              "subcategoryId": "team-sports-american-football",
-              "gender": "male",
-              "title": "American Football Jersey Pro Cut",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "american football jersey (pro cut)",
-              "fabric": "smooth polyester athletic tricot / mesh-knit with a fine micro-textured surface, lightweight-to-medium weight, slightly glossy synthetic finish, breathable performance drape, and a structured but flexible hand typical of sublimated football jerseys.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)/06_model_torso.webp"
-              }
-            },
-            {
               "id": "team-sports-american-football-american-football-jersey-pro-cut-a9c9eb",
               "name": "American Football Jersey (Pro Cut)",
               "folderName": "American Football Jersey (Pro Cut)-a9c9eb",
@@ -4091,20 +3809,19 @@ window.ZALI_CATALOG = {
               "title": "American Football Jersey (Pro Cut)",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "American Football Jersey (Pro Cut)",
-              "fabric": "Smooth polyester performance knit / football jersey mesh with a tight, slightly pebbled micro-texture, lightweight medium-thickness feel, and subtle athletic sheen. Fabric looks breathable and stretchy with structured drape, especially across the shoulders and chest, consistent with sublimated sports jersey material.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/03_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/06_model_torso.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/01_flat_lay.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/06_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/02_detail.webp"
               }
             },
             {
@@ -4216,34 +3933,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-american-football-long-sleeve-american-football-jersey",
-              "name": "Long Sleeve American Football Jersey",
-              "folderName": "Long Sleeve American Football Jersey",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "American Football",
-              "subcategoryId": "team-sports-american-football",
-              "gender": "male",
-              "title": "Long Sleeve American Football Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "long sleeve American football jersey",
-              "fabric": "smooth lightweight polyester athletic jersey knit, fine flat-knit surface, matte to low-sheen finish, soft drape with breathable fitnesswear hand feel, slight stretch and clean printed graphic saturation",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/Long%20Sleeve%20American%20Football%20Jersey/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/Long%20Sleeve%20American%20Football%20Jersey/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/Long%20Sleeve%20American%20Football%20Jersey/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/Long%20Sleeve%20American%20Football%20Jersey/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/Long%20Sleeve%20American%20Football%20Jersey/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/Long%20Sleeve%20American%20Football%20Jersey/06_model_torso.webp"
-              }
-            },
-            {
               "id": "team-sports-american-football-long-sleeve-american-football-jersey-54e062",
               "name": "Long Sleeve American Football Jersey",
               "folderName": "Long Sleeve American Football Jersey-54e062",
@@ -4291,70 +3980,17 @@ window.ZALI_CATALOG = {
               "title": "Baseball Jersey 2-Button Henley",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "baseball jersey (2-button henley)",
-              "fabric": "smooth polyester athletic knit with a soft matte finish, lightweight and breathable-looking, slight jersey texture, good drape, and a faint performance sheen; surface appears slick rather than brushed or textured mesh.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-baseball-baseball-jersey-2-button-henley-983bea",
-              "name": "Baseball Jersey (2-Button Henley)",
-              "folderName": "Baseball Jersey (2-Button Henley)-983bea",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Baseball",
-              "subcategoryId": "team-sports-baseball",
-              "gender": "male",
-              "title": "Baseball Jersey 2-Button Henley",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "baseball jersey (2-button henley)",
-              "fabric": "smooth polyester athletic knit with a soft matte finish, lightweight and breathable-looking, slight jersey texture, good drape, and a faint performance sheen; surface appears slick rather than brushed or textured mesh.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)-983bea/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)-983bea/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)-983bea/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)-983bea/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)-983bea/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-baseball-baseball-jersey-full-button",
-              "name": "Baseball Jersey (Full Button)",
-              "folderName": "Baseball Jersey (Full Button)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Baseball",
-              "subcategoryId": "team-sports-baseball",
-              "gender": "male",
-              "title": "Baseball Jersey (Full Button)",
-              "description": "",
-              "garmentType": "full button baseball jersey",
-              "fabric": "smooth lightweight athletic polyester tricot/interlock with a slight glossy finish, soft drape, and fine knit texture; surface appears slick and uniform with subtle sheen rather than matte cotton.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Full%20Button)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Full%20Button)/02_detail.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(2-Button%20Henley)/02_detail.webp"
               }
             },
             {
@@ -4396,73 +4032,17 @@ window.ZALI_CATALOG = {
               "title": "Baseball Jersey Pullover V-Neck",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "baseball jersey (pullover v-neck)",
-              "fabric": "smooth polyester athletic jersey knit with fine micro-texture, lightweight drape, low sheen, breathable sport fabric feel, and soft printed surface typical of sublimation on performance wear",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "flat_lay",
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-baseball-baseball-jersey-pullover-v-neck-416ef8",
-              "name": "Baseball Jersey (Pullover V-Neck)",
-              "folderName": "Baseball Jersey (Pullover V-Neck)-416ef8",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Baseball",
-              "subcategoryId": "team-sports-baseball",
-              "gender": "male",
-              "title": "Pullover V-Neck Baseball Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "pullover V-neck baseball jersey",
-              "fabric": "smooth polyester performance knit, medium-light weight, soft matte surface with fine micro-texture, slight athletic sheen, breathable jersey feel, and fluid drape with mild stretch.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)-416ef8/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)-416ef8/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)-416ef8/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)-416ef8/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)-416ef8/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-baseball-baseball-jersey-sleeveless",
-              "name": "Baseball Jersey (Sleeveless)",
-              "folderName": "Baseball Jersey (Sleeveless)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Baseball",
-              "subcategoryId": "team-sports-baseball",
-              "gender": "male",
-              "title": "Sleeveless Baseball Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "baseball jersey (sleeveless)",
-              "fabric": "smooth sublimated polyester knit, lightweight athletic jersey fabric with a flat fine-knit surface, subtle sheen, soft drape, and breathable sport-textile texture, not brushed or fuzzy",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Sleeveless)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Sleeveless)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Sleeveless)/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Sleeveless)/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Sleeveless)/05_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Pullover%20V-Neck)/02_detail.webp"
               }
             },
             {
@@ -4504,19 +4084,19 @@ window.ZALI_CATALOG = {
               "title": "Baseball Pants (Full Length)",
               "description": "",
               "garmentType": "baseball pants (full length)",
-              "fabric": "smooth polyester sports twill / performance woven with a fine micro-textured surface, medium-light weight, crisp structure, slight matte sheen, and clean drape with subtle wrinkle resistance",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_bottom",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/02_detail.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/05_model_bottom.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/03_ghost_front.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/01_flat_lay.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/05_model_bottom.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Full%20Length)/02_detail.webp"
               }
             },
             {
@@ -4531,19 +4111,19 @@ window.ZALI_CATALOG = {
               "title": "Baseball Pants (Knicker)",
               "description": "",
               "garmentType": "baseball pants (knicker)",
-              "fabric": "smooth polyester performance knit / double-knit tricot-like fabric with a fine micro-textured surface, medium-light weight, matte to very slight sheen, clean drape, and subtle stretch recovery; appears durable and breathable rather than fuzzy or woven.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "model_bottom",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/02_detail.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/05_model_bottom.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/03_ghost_front.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/01_flat_lay.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/05_model_bottom.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Pants%20(Knicker)/02_detail.webp"
               }
             },
             {
@@ -4559,45 +4139,16 @@ window.ZALI_CATALOG = {
               "description": "",
               "garmentType": "baseball practice jersey (mesh)",
               "fabric": "",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "flat_lay",
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-baseball-baseball-practice-jersey-mesh-ac11d5",
-              "name": "Baseball Practice Jersey (Mesh)",
-              "folderName": "Baseball Practice Jersey (Mesh)-ac11d5",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Baseball",
-              "subcategoryId": "team-sports-baseball",
-              "gender": "male",
-              "title": "Baseball Practice Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "baseball practice jersey",
-              "fabric": "",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)-ac11d5/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)-ac11d5/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)-ac11d5/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)-ac11d5/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)-ac11d5/05_model_torso.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Practice%20Jersey%20(Mesh)/02_detail.webp"
               }
             },
             {
@@ -4665,44 +4216,18 @@ window.ZALI_CATALOG = {
               "title": "Baseball Throwback Jersey",
               "description": "",
               "garmentType": "baseball throwback jersey",
-              "fabric": "smooth sublimated polyester jersey with a fine knit surface, matte to slightly silky sheen, lightweight and breathable-looking, soft drape, and a standard athletic T-shirt handfeel rather than mesh or fleece.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/03_ghost_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/05_model_torso.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-baseball-baseball-uniform-set",
-              "name": "Baseball Uniform Set",
-              "folderName": "Baseball Uniform Set",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Baseball",
-              "subcategoryId": "team-sports-baseball",
-              "gender": "male",
-              "title": "Baseball Uniform Set",
-              "description": "",
-              "garmentType": "baseball uniform set",
-              "fabric": "smooth polyester athletic knit with a fine, even surface, light sheen, medium-light weight, and soft drape; jersey side looks tightly knit and slightly glossy while the pants appear matte and smooth with a flexible fitnesswear hand.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Uniform%20Set/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Uniform%20Set/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Uniform%20Set/03_ghost_front.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Throwback%20Jersey/02_detail.webp"
               }
             },
             {
@@ -4799,35 +4324,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-basketball-reveradsble-jersey-basketball",
-              "name": "Reveradsble JErsey Basketball",
-              "folderName": "Reveradsble JErsey Basketball",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Basketball",
-              "subcategoryId": "team-sports-basketball",
-              "gender": "male",
-              "title": "Sleeveless Basketball Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "sleeveless basketball jersey",
-              "fabric": "smooth lightweight performance polyester with a slick athletic finish, fine-knit surface, subtle sheen, and fluid drape typical of sublimated basketball jerseys",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/06_model_torso.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball/07_model_bottom.webp"
-              }
-            },
-            {
               "id": "team-sports-basketball-reveradsble-jersey-basketball-70d849",
               "name": "Reveradsble JErsey Basketball",
               "folderName": "Reveradsble JErsey Basketball-70d849",
@@ -4839,20 +4335,19 @@ window.ZALI_CATALOG = {
               "title": "Reversible Basketball Jersey",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "reversible basketball jersey",
-              "fabric": "smooth polyester mesh or smooth athletic polyester knit with a soft matte-to-slightly-sheen finish, lightweight drape, and breathable fitnesswear handfeel; surface appears tightly knitted and printed cleanly, not textured like fleece or rib fabric.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/04_ghost_back.webp",
+                "ghost_front": "images/uploads/1780410470791-275881119.png",
+                "model_bottom": "images/uploads/1780410470806-730962208.png",
+                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/06_model_torso.webp",
                 "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/05_model_action.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Basketball/Reveradsble%20JErsey%20Basketball-70d849/06_model_torso.webp"
+                "detail": "images/uploads/1780410299870-564432058.png"
               }
             },
             {
@@ -5197,32 +4692,6 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Jersey/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Jersey/04_ghost_back.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Jersey/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-flag-football-flag-football-set",
-              "name": "Flag Football Set",
-              "folderName": "Flag Football Set",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Flag Football",
-              "subcategoryId": "team-sports-flag-football",
-              "gender": "male",
-              "title": "Flag Football Set",
-              "description": "",
-              "garmentType": "sleeveless flag football jersey and shorts set",
-              "fabric": "smooth lightweight polyester athletic knit, fine surface texture with a soft matte-to-slight-sheen finish, thin breathable drape, sublimation-friendly synthetic performance fabric with moderate stretch and clean print saturation",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Set/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Set/03_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Set/04_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Field%20&%20Court/Flag%20Football/Flag%20Football%20Set/05_ghost_back.webp"
               }
             },
             {
@@ -6488,46 +5957,18 @@ window.ZALI_CATALOG = {
               "title": "Soccer Shorts",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "soccer shorts",
-              "fabric": "smooth polyester interlock or tricot-like sports knit with a fine flat surface, lightweight feel, soft matte finish, slight synthetic sheen, and fluid drape suitable for sublimated athletic shorts",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/03_ghost_front.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/05_model_bottom.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/05_model_bottom.webp"
-              }
-            },
-            {
-              "id": "team-sports-soccer-soccer-shorts-4c5628",
-              "name": "Soccer Shorts",
-              "folderName": "Soccer Shorts-4c5628",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Soccer",
-              "subcategoryId": "team-sports-soccer",
-              "gender": "male",
-              "title": "Soccer Shorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "soccer shorts",
-              "fabric": "smooth polyester performance knit with a fine flat surface, light sheen, and fluid drape; appears thin, breathable, and slightly stretchy rather than brushed or textured.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts-4c5628/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts-4c5628/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts-4c5628/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts-4c5628/04_ghost_back.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts-4c5628/05_model_bottom.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Soccer/Soccer%20Shorts/02_detail.webp"
               }
             }
           ],
@@ -6538,29 +5979,6 @@ window.ZALI_CATALOG = {
           "name": "Softball",
           "slug": "softball",
           "products": [
-            {
-              "id": "team-sports-softball-softball-belted-pants",
-              "name": "Softball Belted Pants",
-              "folderName": "Softball Belted Pants",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Belted Pants",
-              "description": "",
-              "garmentType": "softball belted pants",
-              "fabric": "smooth polyester performance knit with a dense, slightly stretchy surface, matte finish, and subtle soft-hand texture; medium weight with clean drape and mild athletic sheen, not brushed or fleece-like.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Belted%20Pants/01_flat_lay.webp"
-              }
-            },
             {
               "id": "team-sports-softball-softball-belted-pants-c86f31",
               "name": "Softball Belted Pants",
@@ -6589,30 +6007,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-softball-softball-jersey-2-button-henley",
-              "name": "Softball Jersey (2-Button Henley)",
-              "folderName": "Softball Jersey (2-Button Henley)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Jersey (2-Button Henley)",
-              "description": "",
-              "garmentType": "softball jersey (2-button henley)",
-              "fabric": "smooth polyester athletic knit with a lightweight performance feel, matte to very low-sheen surface, fine tight jersey face, soft drape, and slight stretch typical of sublimated team uniforms.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(2-Button%20Henley)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(2-Button%20Henley)/02_detail.webp"
-              }
-            },
-            {
               "id": "team-sports-softball-softball-jersey-2-button-henley-74a983",
               "name": "Softball Jersey (2-Button Henley)",
               "folderName": "Softball Jersey (2-Button Henley)-74a983",
@@ -6637,29 +6031,6 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(2-Button%20Henley)-74a983/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(2-Button%20Henley)-74a983/04_ghost_back.webp",
                 "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(2-Button%20Henley)-74a983/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-softball-softball-jersey-crew-neck-pullover",
-              "name": "Softball Jersey (Crew Neck Pullover)",
-              "folderName": "Softball Jersey (Crew Neck Pullover)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Jersey (Crew Neck Pullover)",
-              "description": "",
-              "garmentType": "softball jersey (crew neck pullover)",
-              "fabric": "smooth polyester performance knit with a soft matte-to-slight-sheen surface, lightweight drape, subtle fine-knit texture, and breathable athletic handfeel; looks like moisture-wicking jersey fabric with light stretch.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Crew%20Neck%20Pullover)/01_flat_lay.webp"
               }
             },
             {
@@ -6701,67 +6072,16 @@ window.ZALI_CATALOG = {
               "title": "Softball Jersey (Full Button)",
               "description": "",
               "garmentType": "full button softball jersey",
-              "fabric": "smooth sublimated polyester interlock / performance knit with a fine flat surface, lightweight athletic feel, mild matte-to-satin sheen, soft structure, and breathable smooth texture rather than open mesh.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "flat_lay",
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)/03_ghost_front.webp"
-              }
-            },
-            {
-              "id": "team-sports-softball-softball-jersey-full-button-4d9f40",
-              "name": "Softball Jersey (Full Button)",
-              "folderName": "Softball Jersey (Full Button)-4d9f40",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Full-Button Softball Jersey",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "full-button softball jersey",
-              "fabric": "smooth polyester athletic knit with a soft matte surface, lightweight to medium-light weight, slight sheen, and a fluid drape; likely interlock or closed-hole performance jersey fabric with a very fine, even surface and minimal texture.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)-4d9f40/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)-4d9f40/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)-4d9f40/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)-4d9f40/04_ghost_back.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)-4d9f40/05_model_torso.webp"
-              }
-            },
-            {
-              "id": "team-sports-softball-softball-jersey-sleeveless",
-              "name": "Softball Jersey (Sleeveless)",
-              "folderName": "Softball Jersey (Sleeveless)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Jersey (Sleeveless)",
-              "description": "",
-              "garmentType": "sleeveless softball jersey",
-              "fabric": "smooth polyester performance knit with a fine jersey texture, lightweight athletic drape, slight soft sheen, and a smooth face suitable for sublimation printing; thin, breathable, and lightly structured rather than heavy or brushed.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Sleeveless)/01_flat_lay.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(Full%20Button)/02_detail.webp"
               }
             },
             {
@@ -6792,29 +6112,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-softball-softball-jersey-v-neck",
-              "name": "Softball Jersey (V-Neck)",
-              "folderName": "Softball Jersey (V-Neck)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Jersey (V-Neck)",
-              "description": "",
-              "garmentType": "softball jersey (V-neck)",
-              "fabric": "smooth polyester athletic jersey knit, lightweight and breathable with a fine uniform surface, low-pile texture, mild drape, and a subtle performance sheen rather than a glossy shine",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Jersey%20(V-Neck)/01_flat_lay.webp"
-              }
-            },
-            {
               "id": "team-sports-softball-softball-jersey-v-neck-32d400",
               "name": "Softball Jersey (V-Neck)",
               "folderName": "Softball Jersey (V-Neck)-32d400",
@@ -6842,29 +6139,6 @@ window.ZALI_CATALOG = {
               }
             },
             {
-              "id": "team-sports-softball-softball-pants-full-length",
-              "name": "Softball Pants (Full Length)",
-              "folderName": "Softball Pants (Full Length)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Pants (Full Length)",
-              "description": "",
-              "garmentType": "full-length softball pants",
-              "fabric": "smooth polyester athletic knit with a fine, tightly woven surface, soft matte hand, slight sheen in highlights, medium-weight drape, and light stretch for sport mobility",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)/01_flat_lay.webp"
-              }
-            },
-            {
               "id": "team-sports-softball-softball-pants-full-length-101880",
               "name": "Softball Pants (Full Length)",
               "folderName": "Softball Pants (Full Length)-101880",
@@ -6876,43 +6150,19 @@ window.ZALI_CATALOG = {
               "title": "Full Length Softball Pants",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "full length softball pants",
-              "fabric": "smooth polyester performance knit / athletic double-knit with a fine, tightly woven surface, matte to low-sheen finish, medium weight, slight stretch, and a clean durable hand suitable for sports pants",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/02_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/03_ghost_front.webp",
+                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/01_flat_lay.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/04_ghost_back.webp",
                 "ghost_side": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/05_ghost_side.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/06_model_bottom.webp"
-              }
-            },
-            {
-              "id": "team-sports-softball-softball-pants-knicker",
-              "name": "Softball Pants (Knicker)",
-              "folderName": "Softball Pants (Knicker)",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Softball",
-              "subcategoryId": "team-sports-softball",
-              "gender": "female",
-              "title": "Softball Pants (Knicker)",
-              "description": "",
-              "garmentType": "softball pants (knicker)",
-              "fabric": "smooth polyester athletic fabric, medium-light weight, fine even surface with a soft matte finish and slight synthetic sheen, structured enough to hold shape but still flexible, typical team-sport pant fabric.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Knicker)/01_flat_lay.webp"
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Softball/Softball%20Pants%20(Full%20Length)-101880/02_detail.webp"
               }
             },
             {
@@ -6978,35 +6228,6 @@ window.ZALI_CATALOG = {
           "name": "Track & Field",
           "slug": "track-field",
           "products": [
-            {
-              "id": "team-sports-track-field-track-field-uniform-set-d4e569",
-              "name": "Track & Field Uniform Set",
-              "folderName": "Track & Field Uniform Set-d4e569",
-              "category": "Team Sports",
-              "categoryId": "team-sports",
-              "subcategory": "Track & Field",
-              "subcategoryId": "team-sports-track-field",
-              "gender": "male",
-              "title": "Track and Field Singlet and Shorts Set",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "track and field singlet and shorts set",
-              "fabric": "smooth polyester tricot or performance knit with a fine, tightly knit surface, matte-to-slightly-satin sheen, lightweight athletic hand feel, and soft fluid drape; appears breathable and stretch-capable with a clean sublimated finish.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/05_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/07_model_torso.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/08_model_bottom.webp"
-              }
-            },
             {
               "id": "team-sports-track-field-track-briefs-sprint-4ca670",
               "name": "Track Briefs (Sprint)",
@@ -7086,6 +6307,35 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20Compression%20Shorts-5b1739/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20Compression%20Shorts-5b1739/04_ghost_back.webp",
                 "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20Compression%20Shorts-5b1739/05_model_bottom.webp"
+              }
+            },
+            {
+              "id": "team-sports-track-field-track-field-uniform-set-d4e569",
+              "name": "Track & Field Uniform Set",
+              "folderName": "Track & Field Uniform Set-d4e569",
+              "category": "Team Sports",
+              "categoryId": "team-sports",
+              "subcategory": "Track & Field",
+              "subcategoryId": "team-sports-track-field",
+              "gender": "male",
+              "title": "Track and Field Singlet and Shorts Set",
+              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
+              "garmentType": "track and field singlet and shorts set",
+              "fabric": "smooth polyester tricot or performance knit with a fine, tightly knit surface, matte-to-slightly-satin sheen, lightweight athletic hand feel, and soft fluid drape; appears breathable and stretch-capable with a clean sublimated finish.",
+              "printMethods": null,
+              "sizeRange": null,
+              "leadTime": null,
+              "moq": 25,
+              "is_featured": false,
+              "primaryImageKey": null,
+              "images": {
+                "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/01_flat_lay.webp",
+                "detail": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/02_detail.webp",
+                "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/03_ghost_front.webp",
+                "ghost_back": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/04_ghost_back.webp",
+                "model_action": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/05_model_front.webp",
+                "model_torso": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/07_model_torso.webp",
+                "model_bottom": "FinalAllProductsZali/Downloads/Team%20Sports/Track,%20Cycling%20&%20Combat/Track%20&%20Field/Track%20&%20Field%20Uniform%20Set-d4e569/08_model_bottom.webp"
               }
             },
             {
