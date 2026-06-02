@@ -80,9 +80,9 @@ button {
 .container {
   max-width: var(--container);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 50px;
 }
-@media (max-width: 720px) {
+@media (max-width: 980px) {
   .container {
     padding: 0 20px;
   }
@@ -1071,7 +1071,18 @@ footer {
   color: var(--bg);
 }
 .foot-social a:hover {
-  background: var(--accent);
+  background: transparent;
+}
+.foot-social a[aria-label="Instagram"]:hover {
+  color: #e4405f;
+  border-color: #e4405f;
+}
+.foot-social a[aria-label="WhatsApp"]:hover {
+  color: #25d366;
+  border-color: #25d366;
+}
+.foot-social a[aria-label="Email"]:hover {
+  color: var(--accent);
   border-color: var(--accent);
 }
 .foot-col h5 {

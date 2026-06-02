@@ -64,7 +64,7 @@ async function regenerateCatalog() {
       db.all('SELECT * FROM subcategories ORDER BY sort_order ASC, id ASC', [], (err, subcategories) => {
         if (err) return reject(err);
         
-        db.all('SELECT * FROM products', [], (err, products) => {
+        db.all('SELECT * FROM products ORDER BY sort_order ASC, id ASC', [], (err, products) => {
           if (err) return reject(err);
           
           db.all('SELECT * FROM fabrics', [], (err, fabrics) => {
@@ -361,6 +361,25 @@ app.delete('/api/products/:id', isAuthenticated, (req, res) => {
   db.run(`DELETE FROM products WHERE id = ?`, [req.params.id], function(err) {
     if (err) return res.status(500).send(err.message);
     regenerateCatalog().then(() => res.json({ success: true }));
+  });
+});
+
+// Product Reorder
+app.put('/api/products/reorder', isAuthenticated, (req, res) => {
+  const { order } = req.body; // Array of product IDs in new order
+  if (!order || !Array.isArray(order)) return res.status(400).send('Invalid order array');
+
+  let completed = 0;
+  let hasError = false;
+  order.forEach((id, index) => {
+    db.run(`UPDATE products SET sort_order = ? WHERE id = ?`, [index, id], (err) => {
+      if (err) hasError = true;
+      completed++;
+      if (completed === order.length) {
+        if (hasError) return res.status(500).send('Error updating some items');
+        regenerateCatalog().then(() => res.json({ success: true }));
+      }
+    });
   });
 });
 
