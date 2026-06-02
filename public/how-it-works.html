@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>How It Works � ZALI Industries</title>
+<title>How It Works &mdash; ZALI Industries</title>
 <meta name="description" content="From your first message to delivered bulk: a transparent walkthrough of how ZALI Industries makes your apparel." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,79 +15,90 @@
   .timeline::before {
     content: '';
     position: absolute;
-    left: 24px; top: 0; bottom: 0;
+    left: 18px; top: 0; bottom: 0;
     width: 2px;
     background: var(--bg-line);
   }
   @media (max-width: 720px) { .timeline::before { left: 16px; } }
   .ts {
     display: grid;
-    grid-template-columns: 60px 1fr;
-    gap: 32px;
-    margin-bottom: 48px;
+    grid-template-columns: 44px 1fr;
+    gap: 22px;
+    margin-bottom: 28px;
     position: relative;
     align-items: start;
   }
-  @media (max-width: 720px) { .ts { grid-template-columns: 40px 1fr; gap: 16px; } }
+  @media (max-width: 720px) { .ts { grid-template-columns: 34px 1fr; gap: 14px; margin-bottom: 20px; } }
   .ts-num {
-    width: 50px;
-    height: 50px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     background: var(--ink);
     color: var(--bg);
     font-family: var(--mono);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     display: grid;
     place-items: center;
     z-index: 2;
     position: relative;
   }
-  @media (max-width: 720px) { .ts-num { width: 34px; height: 34px; font-size: 11px; } }
+  @media (max-width: 720px) { .ts-num { width: 30px; height: 30px; font-size: 10px; } }
   .ts-content {
     background: var(--white);
     border: 1px solid var(--bg-line);
-    padding: 30px 32px 32px;
+    padding: 22px 24px 24px;
     transition: border-color 0.2s;
   }
   .ts-content:hover { border-color: var(--ink); }
-  @media (max-width: 720px) { .ts-content { padding: 22px 20px; } }
+  @media (max-width: 720px) { .ts-content { padding: 18px 16px; } }
   .ts-tag {
     font-family: var(--mono);
     font-size: 10px;
     font-weight: 600;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 8px;
+    flex-wrap: wrap;
+  }
+  .ts-optional {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    border: 1px solid var(--bg-line);
+    border-radius: 2px;
+    padding: 2px 7px;
   }
   .ts-content h3 {
     font-family: var(--display);
-    font-size: clamp(26px, 3vw, 36px);
+    font-size: clamp(20px, 2.2vw, 26px);
     font-weight: 400;
-    line-height: 1.05;
+    line-height: 1.08;
     letter-spacing: -0.02em;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
   }
   .ts-content h3 em { font-style: italic; color: var(--accent); }
   .ts-content > p {
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.55;
     color: var(--ink-soft);
-    margin-bottom: 22px;
-    max-width: 680px;
+    margin-bottom: 16px;
+    max-width: 640px;
   }
   .ts-meta-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-    padding: 18px 20px;
+    gap: 12px;
+    padding: 14px 16px;
     background: var(--bg-soft);
-    margin-bottom: 22px;
   }
   @media (max-width: 720px) { .ts-meta-grid { grid-template-columns: 1fr; gap: 10px; } }
   .ts-meta-item .lbl {
@@ -103,6 +114,14 @@
     font-size: 13px;
     color: var(--ink);
     font-weight: 500;
+  }
+  /* Bump step text up on mobile so it reads comfortably on phones */
+  @media (max-width: 720px) {
+    .ts-content h3 { font-size: 24px; margin-bottom: 12px; }
+    .ts-content > p { font-size: 16px; line-height: 1.6; margin-bottom: 18px; }
+    .ts-meta-item .lbl { font-size: 10px; }
+    .ts-meta-item .val { font-size: 15px; }
+    .ts-tag { font-size: 11px; }
   }
   .ts-deliv {
     display: grid;
@@ -138,7 +157,7 @@
   .qc-card {
     background: var(--white);
     border: 1px solid var(--bg-line);
-    padding: 26px 24px;
+    padding: 20px 20px;
     transition: all 0.25s;
   }
   .qc-card:hover { border-color: var(--ink); }
@@ -146,8 +165,8 @@
     font-family: var(--mono);
     font-size: 10px;
     color: var(--accent);
-    letter-spacing: 0.14em;
-    margin-bottom: 18px;
+    letter-spacing: 0.12em;
+    margin-bottom: 14px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -155,26 +174,30 @@
   }
   .qc-card h4 {
     font-family: var(--display);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.15;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     letter-spacing: -0.01em;
   }
   .qc-card p {
-    font-size: 13px;
+    font-size: 12.5px;
     color: var(--ink-soft);
     line-height: 1.5;
+  }
+  @media (max-width: 720px) {
+    .qc-card h4 { font-size: 20px; }
+    .qc-card p { font-size: 15px; line-height: 1.55; }
   }
 
   /* TRACK PICKER */
   .track-picker {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
     border: 1px solid var(--bg-line);
     background: var(--white);
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     position: sticky;
     top: 0;
     z-index: 50;
@@ -186,7 +209,7 @@
     background: transparent;
     border: none;
     border-right: 1px solid var(--bg-line);
-    padding: 24px 18px;
+    padding: 16px 16px;
     cursor: pointer;
     font-family: var(--body);
     text-align: left;
@@ -201,40 +224,44 @@
   .track-btn.active .track-btn-num { color: var(--accent); }
   .track-btn-num {
     font-family: var(--mono);
-    font-size: 10px;
-    letter-spacing: 0.18em;
+    font-size: 9px;
+    letter-spacing: 0.16em;
     font-weight: 700;
     color: var(--accent);
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     display: block;
   }
   .track-btn-label {
     font-family: var(--display);
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.01em;
   }
   .track-btn-meta {
-    font-size: 11px;
+    font-size: 10px;
     color: var(--ink-mute);
-    margin-top: 4px;
+    margin-top: 3px;
     font-weight: 400;
   }
   .track-btn.active .track-btn-meta { color: rgba(255,255,255,0.6); }
-  @media (max-width: 720px) {
-    /* Stay 3-up on mobile, compact, all 3 tabs visible in a row */
-    .track-picker { grid-template-columns: repeat(3, 1fr); margin-bottom: 28px; }
+  @media (max-width: 860px) {
+    /* 2x2 grid for 4 tabs on tablet/mobile */
+    .track-picker { grid-template-columns: repeat(2, 1fr); margin-bottom: 24px; }
     .track-btn {
       border-right: 1px solid var(--bg-line);
-      border-bottom: none;
-      padding: 12px 8px;
+      border-bottom: 1px solid var(--bg-line);
+      padding: 12px 12px;
       text-align: center;
     }
-    .track-btn:last-child { border-right: none; border-bottom: none; }
-    .track-btn-num { font-size: 8px; letter-spacing: 0.12em; margin-bottom: 3px; }
-    .track-btn-label { font-size: 13px; line-height: 1.1; }
+    .track-btn:nth-child(2n) { border-right: none; }
+    .track-btn:nth-child(3), .track-btn:nth-child(4) { border-bottom: none; }
+    .track-btn-num { font-size: 8px; letter-spacing: 0.1em; margin-bottom: 3px; }
+    .track-btn-label { font-size: 15px; line-height: 1.1; }
     .track-btn-meta { display: none; }
+  }
+  @media (max-width: 380px) {
+    .track-btn-label { font-size: 13px; }
   }
 
   /* TRACK PANES */
@@ -245,62 +272,65 @@
   .track-intro {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    gap: 60px;
-    margin-bottom: 56px;
-    padding-bottom: 56px;
+    gap: 44px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
     border-bottom: 1px solid var(--bg-line);
   }
   .track-intro h2 {
     font-family: var(--display);
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 500;
-    line-height: 1.02;
+    line-height: 1.04;
     letter-spacing: -0.025em;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
   }
   .track-intro h2 em { font-style: italic; color: var(--accent); }
   .track-intro p {
-    font-size: 17px;
+    font-size: 15px;
     color: var(--ink-soft);
     line-height: 1.55;
-    max-width: 520px;
+    max-width: 480px;
   }
   @media (max-width: 980px) {
-    .track-intro { grid-template-columns: 1fr; gap: 32px; padding-bottom: 40px; margin-bottom: 40px; }
-    .track-intro h2 { font-size: 40px; }
+    .track-intro { grid-template-columns: 1fr; gap: 24px; padding-bottom: 32px; margin-bottom: 32px; }
+    .track-intro h2 { font-size: 32px; }
+  }
+  @media (max-width: 720px) {
+    .track-intro p { font-size: 16px; line-height: 1.6; }
   }
 
   /* COMMITMENT / APPROACH BOX */
   .commit-box {
     background: var(--bg-soft);
     border-left: 3px solid var(--accent);
-    padding: 36px 40px;
-    margin-bottom: 56px;
+    padding: 26px 30px;
+    margin-bottom: 40px;
   }
   .commit-box .eyebrow {
     font-family: var(--mono);
     font-size: 10px;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.16em;
     color: var(--accent);
     font-weight: 700;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
     text-transform: uppercase;
   }
   .commit-box h3 {
     font-family: var(--display);
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.015em;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
   }
   .commit-box h3 em { font-style: italic; color: var(--accent); }
   .commit-box > p {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--ink-soft);
-    line-height: 1.6;
-    margin-bottom: 24px;
-    max-width: 760px;
+    line-height: 1.55;
+    margin-bottom: 18px;
+    max-width: 720px;
   }
   .commit-list {
     list-style: none;
@@ -310,41 +340,43 @@
     column-gap: 40px;
   }
   .commit-list li {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--ink-soft);
-    padding: 8px 0 8px 24px;
+    padding: 6px 0 6px 22px;
     position: relative;
     break-inside: avoid;
-    line-height: 1.5;
+    line-height: 1.45;
   }
   .commit-list li::before {
     content: '\25B2';
     position: absolute;
     left: 0;
-    top: 8px;
+    top: 7px;
     color: var(--accent);
-    font-size: 9px;
+    font-size: 8px;
   }
   @media (max-width: 720px) {
     .commit-box { padding: 24px 22px; }
     .commit-box h3 { font-size: 24px; }
+    .commit-box > p { font-size: 16px; line-height: 1.6; }
     .commit-list { columns: 1; }
+    .commit-list li { font-size: 15px; line-height: 1.5; }
   }
 
   /* MOQ CALLOUT (for Teams + Brands) */
   .moq-callout {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 32px;
+    grid-template-columns: 1fr 2.4fr;
+    gap: 28px;
     align-items: center;
     background: var(--ink);
     color: var(--white);
-    padding: 32px 40px;
-    margin-bottom: 56px;
+    padding: 24px 32px;
+    margin-bottom: 40px;
   }
   .moq-callout .moq-num {
     font-family: var(--display);
-    font-size: 72px;
+    font-size: 52px;
     font-weight: 400;
     line-height: 0.95;
     letter-spacing: -0.03em;
@@ -353,51 +385,54 @@
   .moq-callout .moq-num em { font-style: italic; }
   .moq-callout .moq-body h4 {
     font-family: var(--display);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.15;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     letter-spacing: -0.01em;
   }
   .moq-callout .moq-body p {
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(255,255,255,0.7);
-    line-height: 1.55;
+    line-height: 1.5;
   }
   @media (max-width: 720px) {
-    .moq-callout { grid-template-columns: 1fr; padding: 24px 22px; gap: 16px; }
-    .moq-callout .moq-num { font-size: 56px; }
+    .moq-callout { grid-template-columns: 1fr; padding: 20px 22px; gap: 12px; }
+    .moq-callout .moq-num { font-size: 44px; }
+    .moq-callout .moq-body h4 { font-size: 22px; }
+    .moq-callout .moq-body p { font-size: 15px; line-height: 1.55; }
   }
 
   /* TRACK CTA BOX */
   .track-cta {
     background: var(--ink);
     color: var(--white);
-    padding: 36px 40px;
-    margin-top: 32px;
+    padding: 28px 32px;
+    margin-top: 24px;
   }
   .track-cta .eyebrow {
     font-family: var(--mono);
     font-size: 10px;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.16em;
     color: var(--accent);
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-transform: uppercase;
   }
   .track-cta h4 {
     font-family: var(--display);
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.015em;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
   .track-cta p {
     font-size: 14px;
     color: rgba(255,255,255,0.7);
-    margin-bottom: 22px;
-    max-width: 560px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    max-width: 540px;
   }
   .track-cta-btn {
     display: inline-block;
@@ -416,6 +451,7 @@
   @media (max-width: 720px) {
     .track-cta { padding: 24px 22px; }
     .track-cta h4 { font-size: 22px; }
+    .track-cta p { font-size: 15px; line-height: 1.55; }
   }
 
   /* FAQ ACCORDION */
@@ -427,13 +463,13 @@
   }
   .faq-acc summary {
     cursor: pointer;
-    padding: 22px 0;
+    padding: 18px 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: var(--display);
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 1.3;
     letter-spacing: -0.005em;
@@ -565,7 +601,7 @@
         <h1>How it <em>works.</em></h1>
       </div>
       <div>
-        <p class="lead">Three ways to work with us, one factory behind all of it. Whether you're a brand, a sourcing agent, or a team kitting your roster, pick your track below and we'll walk you through exactly what happens from first message to delivered goods.</p>
+        <p class="lead">Four ways to work with us, one factory behind all of it. Whether you're an individual ordering for an event, a brand, a sourcing agent, or a team kitting your roster, pick your track below and we'll walk you through exactly what happens from first message to delivered goods.</p>
       </div>
     </div>
   </div>
@@ -577,31 +613,136 @@
 
     <!-- Tabs -->
     <div class="track-picker" id="trackPicker">
-      <a href="#brands" class="track-btn active" data-track="brands">
+      <a href="#individuals" class="track-btn active" data-track="individuals">
         <span class="track-btn-num">01 / For</span>
+        <span class="track-btn-label">Individuals</span>
+        <span class="track-btn-meta">Events, gifts &amp; personal use</span>
+      </a>
+      <a href="#brands" class="track-btn" data-track="brands">
+        <span class="track-btn-num">02 / For</span>
         <span class="track-btn-label">Brands</span>
         <span class="track-btn-meta">OEM &amp; white-label production</span>
       </a>
       <a href="#suppliers" class="track-btn" data-track="suppliers">
-        <span class="track-btn-num">02 / For</span>
+        <span class="track-btn-num">03 / For</span>
         <span class="track-btn-label">Suppliers</span>
         <span class="track-btn-meta">Agents, sourcing, trading co.</span>
       </a>
       <a href="#teams" class="track-btn" data-track="teams">
-        <span class="track-btn-num">03 / For</span>
+        <span class="track-btn-num">04 / For</span>
         <span class="track-btn-label">Teams</span>
         <span class="track-btn-meta">Clubs, gyms, schools</span>
       </a>
     </div>
 
     <!-- -------------------------------------------- -->
-    <!-- ?????????????? BRANDS PANE ???????????????? -->
+    <!-- ============== INDIVIDUALS PANE ============= -->
     <!-- -------------------------------------------- -->
-    <div class="track-pane active" data-pane="brands" id="brands">
+    <div class="track-pane active" data-pane="individuals" id="individuals">
 
       <div class="track-intro">
         <div>
-          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 01 / For Brands</span>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 01 / For Individuals</span>
+          <h2 style="margin-top: 12px;">Custom gear for <em>your idea.</em></h2>
+        </div>
+        <div>
+          <p>Ordering for a family event, a small business, a one-off gift, or just yourself? You don't need to be a brand or a team. Tell us what you want, we'll handle the rest.</p>
+        </div>
+      </div>
+
+      <div class="moq-callout">
+        <div class="moq-num">20<em>+</em></div>
+        <div class="moq-body">
+          <h4>Start from 20 pieces.</h4>
+          <p>The same fabric, print, and finish we give our biggest brands &mdash; just at a size that suits a single event or a small run. Mix sizes freely.</p>
+        </div>
+      </div>
+
+      <div class="sec-head">
+        <div class="left">
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> The Process</span>
+          <h2 class="sec-h2">Four simple <em>steps.</em></h2>
+          <p class="sec-desc">No tech pack, no jargon, no commitment to start. You tell us the idea, we walk you through everything else.</p>
+        </div>
+      </div>
+
+      <div class="timeline" style="margin-top: 24px;">
+
+        <div class="ts">
+          <div class="ts-num">01</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Tell us what you want</div>
+            <h3>Share your <em>idea.</em></h3>
+            <p>Message us with what you're making, roughly how many, and any design references &mdash; a logo, a colour, a photo, even a rough sketch. We reply within 24 hours with a free quote.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Reply</div><div class="val">Within 24 hours</div></div>
+              <div class="ts-meta-item"><div class="lbl">Channel</div><div class="val">WhatsApp &middot; Email</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free quote</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">02</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Mockup &amp; sample <span class="ts-optional">Sample optional</span></div>
+            <h3>See it before <em>you commit.</em></h3>
+            <p>We send a digital mockup so you can check the design, colours, and placement. Want to feel the fabric first? A physical sample is optional, and its cost comes off your final order.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Mockup</div><div class="val">1-2 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Revisions</div><div class="val">Until you're happy</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sample</div><div class="val">Optional &middot; refunded on order</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">03</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Approve &amp; pay</div>
+            <h3>Give the <em>green light.</em></h3>
+            <p>Happy with the design? Confirm your sizes and pay to start production. We keep you posted with progress photos so you always know where your order stands.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Production</div><div class="val">1-2 weeks</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sizes</div><div class="val">Mix freely</div></div>
+              <div class="ts-meta-item"><div class="lbl">Updates</div><div class="val">Progress photos</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ts">
+          <div class="ts-num">04</div>
+          <div class="ts-content">
+            <div class="ts-tag"><span class="tri tri-sm"></span> Receive your order</div>
+            <h3>Delivered to <em>your door.</em></h3>
+            <p>Your finished pieces ship straight to you with full tracking. Duties are prepaid, so the price we quote is the price you pay &mdash; no surprise fees on delivery.</p>
+            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Air to US/UK</div><div class="val">5-8 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Shipping</div><div class="val">DDP &middot; duties prepaid</div></div>
+              <div class="ts-meta-item"><div class="lbl">Tracking</div><div class="val">Door to door</div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="track-cta">
+        <div class="eyebrow"><span class="tri tri-sm"></span> Ready to Start?</div>
+        <h4>Get a free quote today.</h4>
+        <p>Send us your idea &mdash; a colour, a logo, or just a sport and a quantity &mdash; and we'll come back with a quote and a mockup. No commitment to ask.</p>
+        <a href="contact.html#quote-form" class="track-cta-btn">Request a Quote &rarr;</a>
+      </div>
+
+    </div>
+
+    <!-- -------------------------------------------- -->
+    <!-- ================ BRANDS PANE ================ -->
+    <!-- -------------------------------------------- -->
+    <div class="track-pane" data-pane="brands" id="brands">
+
+      <div class="track-intro">
+        <div>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 02 / For Brands</span>
           <h2 style="margin-top: 12px;">We build. You brand.<br><em>Everyone wins.</em></h2>
         </div>
         <div>
@@ -639,22 +780,18 @@
         </div>
       </div>
 
-      <div class="timeline" style="margin-top: 40px;">
+      <div class="timeline" style="margin-top: 24px;">
 
         <div class="ts">
           <div class="ts-num">01</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 0 &middot; Discovery</div>
-            <h3>Submit your <em>brief.</em></h3>
-            <p>Send design files, tech packs, brand references, or even a mood board. Doesn't matter how rough, we work with whatever you have. WhatsApp or email, reply within 24 hours every business day.</p>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Brief &amp; quote</div>
+            <h3>Send your <em>brief.</em></h3>
+            <p>Share design files, a tech pack, or just references &mdash; however rough. Within 24 hours you get a detailed quote covering unit cost, timeline, and shipping. No hidden charges.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">24 hour reply</div></div>
-              <div class="ts-meta-item"><div class="lbl">Channel</div><div class="val">WhatsApp &middot; Email</div></div>
+              <div class="ts-meta-item"><div class="lbl">Reply</div><div class="val">Within 24 hours</div></div>
+              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF quote</div></div>
               <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free &middot; No commitment</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Initial response from your project lead</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Clarifying questions if your brief needs them</div>
             </div>
           </div>
         </div>
@@ -662,18 +799,13 @@
         <div class="ts">
           <div class="ts-num">02</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 1-3 &middot; Quote &amp; Confirmation</div>
-            <h3>Quote &amp; <em>confirmation.</em></h3>
-            <p>Within 24 hours, a detailed quote covering unit cost, sampling fee, estimated production timeline, and shipping options. No hidden charges. Once you confirm, we move to sampling.</p>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Digital mockup</div>
+            <h3>Approve the <em>mockup.</em></h3>
+            <p>Before any fabric is cut, we produce a full digital mockup &mdash; front, back, and detail views. You review, request changes, and approve. Most clients finalise in one or two rounds.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">12-24 hours</div></div>
-              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF quote</div></div>
-              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Per-piece quote at multiple MOQ tiers</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Fabric and print method recommendations</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Realistic lead time and ship-by date</div>
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">1-2 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Revisions</div><div class="val">Unlimited</div></div>
+              <div class="ts-meta-item"><div class="lbl">Colour</div><div class="val">Pantone-matched</div></div>
             </div>
           </div>
         </div>
@@ -681,18 +813,13 @@
         <div class="ts">
           <div class="ts-num">03</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 3-5 &middot; Digital Mockup</div>
-            <h3>Digital <em>mockup.</em></h3>
-            <p>Before any fabric is cut, we produce a full digital mockup, front, back, and detail views. You review, request changes, and approve. Most clients finalize in one or two rounds.</p>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Physical sample <span class="ts-optional">Optional</span></div>
+            <h3>Check a real <em>sample.</em></h3>
+            <p>Optional but recommended: we produce a pre-production sample and ship it so you can feel the fabric, check the fit, and verify print quality before bulk. The sample cost is refunded against your order.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">1-2 days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF, JPEG + 3D render on request</div></div>
-              <div class="ts-meta-item"><div class="lbl">Revisions</div><div class="val">Unlimited</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Front, back, detail views</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Print placement and scale check</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Color reference against Pantone if specified</div>
+              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">10-15 working days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">$80-150 per sample</div></div>
+              <div class="ts-meta-item"><div class="lbl">Refund</div><div class="val">100% on bulk order</div></div>
             </div>
           </div>
         </div>
@@ -700,57 +827,13 @@
         <div class="ts">
           <div class="ts-num">04</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 5-15 &middot; Physical Sample</div>
-            <h3>Physical <em>sample.</em></h3>
-            <p>Once the mockup is approved, we produce a physical pre-production sample and ship it for review. Feel the fabric, check the fit, verify print quality before committing to bulk. Sample cost is refunded against your bulk order.</p>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Production &amp; delivery</div>
+            <h3>Made, packed &amp; <em>shipped.</em></h3>
+            <p>Bulk runs through our in-house line with QC at every stage and progress photos along the way. Finished goods are packed to your spec and shipped DDP with full tracking &mdash; duties prepaid.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">10-15 working days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">$80-150 per sample</div></div>
-              <div class="ts-meta-item"><div class="lbl">Refund</div><div class="val">100% on bulk order</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Pre-production sample (PPS) shipped DDP</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Spec sheet detailing every dimension</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Optional revisions before bulk approval</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="ts">
-          <div class="ts-num">05</div>
-          <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 15-35 &middot; Bulk Production</div>
-            <h3>Bulk <em>production.</em></h3>
-            <p>Sample approved? Production begins. Your order moves through our in-house line, sublimation printing, cutting, stitching, and finishing, with quality checks at every stage. Timelines run 7-12 working days depending on order size.</p>
-            <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">7-12 working days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Updates</div><div class="val">WhatsApp progress photos</div></div>
-              <div class="ts-meta-item"><div class="lbl">Deposit</div><div class="val">50% to start, 50% before ship</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Sublimation print run completed</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Cutting and sewing in-house</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Trim, label, and finishing</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Progress photos at each stage</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="ts">
-          <div class="ts-num">06</div>
-          <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 35+ &middot; Packaging &amp; Dispatch</div>
-            <h3>Packaging &amp; <em>dispatch.</em></h3>
-            <p>Every unit is finished, folded, and packed to your specification, polybag, retail hanger, custom box, or plain bulk packing. We ship via DHL, FedEx or UPS, or sea freight depending on your timeline and budget. Full tracking from dispatch to delivery.</p>
-            <div class="ts-meta-grid">
+              <div class="ts-meta-item"><div class="lbl">Production</div><div class="val">7-12 working days</div></div>
               <div class="ts-meta-item"><div class="lbl">Air to US/UK</div><div class="val">5-8 days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Air to EU/AUS</div><div class="val">7-10 days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Sea (1000+ pcs)</div><div class="val">25-40 days</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> DDP shipping (duties prepaid)</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Tracking number and ETA</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Export docs, customs, and duties handled</div>
+              <div class="ts-meta-item"><div class="lbl">Deposit</div><div class="val">50% start, 50% pre-ship</div></div>
             </div>
           </div>
         </div>
@@ -773,7 +856,7 @@
 
       <div class="track-intro">
         <div>
-          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 02 / For Suppliers</span>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 03 / For Suppliers</span>
           <h2 style="margin-top: 12px;">A factory you can send <em>your clients to.</em></h2>
         </div>
         <div>
@@ -803,23 +886,18 @@
         </div>
       </div>
 
-      <div class="timeline" style="margin-top: 40px;">
+      <div class="timeline" style="margin-top: 24px;">
 
         <div class="ts">
           <div class="ts-num">01</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 0-2 &middot; Brief</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Brief</div>
             <h3>Send the <em>brief.</em></h3>
-            <p>Forward your client's tech pack, artwork, and quantity. We quote within 16 hours with full pricing, timeline, and shipping options broken down clearly, ready for you to forward, mark up, or rebrand.</p>
+            <p>Forward your client's tech pack, artwork, and quantity. We quote within 16 hours with full pricing, timeline, and shipping &mdash; ready for you to forward, mark up, or rebrand. NDA signed on request.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">16 hours</div></div>
+              <div class="ts-meta-item"><div class="lbl">Reply</div><div class="val">16 hours</div></div>
               <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">Clean white-label PDF</div></div>
               <div class="ts-meta-item"><div class="lbl">NDA</div><div class="val">Signed on request</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Ex-factory pricing in your margin zone</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Timeline + shipping breakdown</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Optional white-label formatting</div>
             </div>
           </div>
         </div>
@@ -827,18 +905,13 @@
         <div class="ts">
           <div class="ts-num">02</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 2-15 &middot; Confirm &amp; Sample</div>
-            <h3>We confirm &amp; <em>sample.</em></h3>
-            <p>Digital mockup first, physical sample on request. Your client approves, we hold production until you give us the green light. Nothing moves to bulk without explicit confirmation.</p>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Mockup &amp; sample <span class="ts-optional">Sample optional</span></div>
+            <h3>Confirm &amp; <em>sample.</em></h3>
+            <p>Digital mockup first; a physical sample is optional on request. Your client approves and nothing moves to bulk without your explicit green light.</p>
             <div class="ts-meta-grid">
               <div class="ts-meta-item"><div class="lbl">Mockup</div><div class="val">1-2 days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Sample</div><div class="val">10-15 days</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sample</div><div class="val">Optional &middot; 10-15 days</div></div>
               <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">$80-150 per sample</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Digital mockup + physical PPS</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Spec sheet for client signoff</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> No bulk start without your green light</div>
             </div>
           </div>
         </div>
@@ -846,18 +919,13 @@
         <div class="ts">
           <div class="ts-num">03</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 15-35 &middot; Production &amp; QC</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Production &amp; QC</div>
             <h3>Production &amp; <em>QC.</em></h3>
-            <p>Full in-house production in Sialkot with documented quality checks at every stage. We send production photos and QC reports at key milestones, ready for you to forward to your client without any rebranding work.</p>
+            <p>Full in-house production with documented quality checks at every stage. We send production photos and QC reports in a forward-ready format &mdash; branded or plain, no logo strip needed.</p>
             <div class="ts-meta-grid">
               <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">7-12 working days</div></div>
               <div class="ts-meta-item"><div class="lbl">Reports</div><div class="val">PDF, branded or plain</div></div>
-              <div class="ts-meta-item"><div class="lbl">QC</div><div class="val">4-point check, every piece</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Documented QC reports per batch</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Production photos at key milestones</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Forward-ready format (no logo strip needed)</div>
+              <div class="ts-meta-item"><div class="lbl">QC</div><div class="val">4-point, every piece</div></div>
             </div>
           </div>
         </div>
@@ -865,18 +933,13 @@
         <div class="ts">
           <div class="ts-num">04</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 35+ &middot; Ship</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Ship</div>
             <h3>Ship to you or <em>direct.</em></h3>
-            <p>We can ship to your warehouse or direct to your client, depending on your preference and brand visibility requirements. Plain or custom-branded packaging. Tracking + delivery confirmation to whoever you specify.</p>
+            <p>We ship to your warehouse or drop-ship direct to your client &mdash; plain, branded, or white-label packaging, with no ZALI branding on the docs. DDP with tracking to whoever you specify.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Routes</div><div class="val">Your warehouse or end client</div></div>
-              <div class="ts-meta-item"><div class="lbl">Packaging</div><div class="val">Plain, branded, or white-label</div></div>
+              <div class="ts-meta-item"><div class="lbl">Routes</div><div class="val">Warehouse or end client</div></div>
+              <div class="ts-meta-item"><div class="lbl">Packaging</div><div class="val">Plain or white-label</div></div>
               <div class="ts-meta-item"><div class="lbl">Docs</div><div class="val">No ZALI branding</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> DDP shipping to anywhere</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Drop-ship direct to end client</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Plain packaging if discretion is needed</div>
             </div>
           </div>
         </div>
@@ -899,7 +962,7 @@
 
       <div class="track-intro">
         <div>
-          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 03 / For Teams</span>
+          <span class="sec-eyebrow"><span class="tri tri-sm"></span> 04 / For Teams</span>
           <h2 style="margin-top: 12px;">Custom kit for your team. <em>No minimums that kill the budget.</em></h2>
         </div>
         <div>
@@ -937,22 +1000,18 @@
         </div>
       </div>
 
-      <div class="timeline" style="margin-top: 40px;">
+      <div class="timeline" style="margin-top: 24px;">
 
         <div class="ts">
           <div class="ts-num">01</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 0-1 &middot; Tell Us</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Tell us what you need</div>
             <h3>Tell us <em>what you need.</em></h3>
-            <p>Drop us a message with your sport, estimated quantity, and any design ideas. Even a rough logo and color reference is enough to get started. No tech pack required, we'll handle the technical side.</p>
+            <p>Message us with your sport, rough quantity, and any design ideas &mdash; even a logo and a colour reference is enough. No tech pack required; we handle the technical side and reply with a free quote.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">12 hour reply</div></div>
-              <div class="ts-meta-item"><div class="lbl">Need</div><div class="val">Logo + color reference</div></div>
+              <div class="ts-meta-item"><div class="lbl">Reply</div><div class="val">Within 16 hours</div></div>
+              <div class="ts-meta-item"><div class="lbl">Need</div><div class="val">Logo + colour reference</div></div>
               <div class="ts-meta-item"><div class="lbl">Cost</div><div class="val">Free quote</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Initial quote within 16 hours</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Sport-specific recommendations</div>
             </div>
           </div>
         </div>
@@ -960,18 +1019,13 @@
         <div class="ts">
           <div class="ts-num">02</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 1-5 &middot; Design</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Design &amp; mockup</div>
             <h3>We design &amp; <em>mockup.</em></h3>
-            <p>Our team creates a digital mockup of your kit. You review, give feedback, and we revise until it's exactly how you want it. Most teams finalize in one or two rounds.</p>
+            <p>We create a digital mockup of your kit with player number and name placement previewed. You give feedback and we revise until it's exactly right &mdash; most teams finalise in one or two rounds.</p>
             <div class="ts-meta-grid">
               <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">1-2 days</div></div>
-              <div class="ts-meta-item"><div class="lbl">Rounds</div><div class="val">Unlimited</div></div>
-              <div class="ts-meta-item"><div class="lbl">Format</div><div class="val">PDF mockup with all views</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Front, back, sleeve mockups</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Player number + name placement preview</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Free revisions until you're happy</div>
+              <div class="ts-meta-item"><div class="lbl">Revisions</div><div class="val">Unlimited</div></div>
+              <div class="ts-meta-item"><div class="lbl">Views</div><div class="val">Front, back, sleeve</div></div>
             </div>
           </div>
         </div>
@@ -979,18 +1033,13 @@
         <div class="ts">
           <div class="ts-num">03</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 5-30 &middot; Production</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Confirm &amp; produce <span class="ts-optional">Sample optional</span></div>
             <h3>Confirm &amp; we <em>produce.</em></h3>
-            <p>Once the design is approved, we collect final size quantities and player names/numbers, then begin production. Typical timeline is 1-2 weeks depending on order size.</p>
+            <p>Approve the design, send final sizes and player names/numbers, and we begin. A physical sample is optional before bulk. Names and numbers are sublimated in &mdash; never vinyl &mdash; with 4-point QC on every piece.</p>
             <div class="ts-meta-grid">
-              <div class="ts-meta-item"><div class="lbl">Time</div><div class="val">1-2 weeks</div></div>
+              <div class="ts-meta-item"><div class="lbl">Production</div><div class="val">1-2 weeks</div></div>
               <div class="ts-meta-item"><div class="lbl">Sizes</div><div class="val">Mixed sets supported</div></div>
-              <div class="ts-meta-item"><div class="lbl">Updates</div><div class="val">Photos at print + finishing</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Player numbers + names sublimated in</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> 4-point QC on every piece</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Individual size packaging</div>
+              <div class="ts-meta-item"><div class="lbl">Sample</div><div class="val">Optional before bulk</div></div>
             </div>
           </div>
         </div>
@@ -998,18 +1047,13 @@
         <div class="ts">
           <div class="ts-num">04</div>
           <div class="ts-content">
-            <div class="ts-tag"><span class="tri tri-sm"></span> Day 30+ &middot; Delivered</div>
+            <div class="ts-tag"><span class="tri tri-sm"></span> Delivered</div>
             <h3>Delivered <em>to you.</em></h3>
-            <p>Your kit ships direct to your address, individually packaged and ready to hand out. We ship internationally, wherever your team is based. Tracking number provided as soon as it leaves our floor.</p>
+            <p>Your kit ships direct, individually wrapped and ready to hand out &mdash; sorted by size or by player name on request. Worldwide DDP with tracking, duties prepaid, no surprise fees.</p>
             <div class="ts-meta-grid">
               <div class="ts-meta-item"><div class="lbl">Routes</div><div class="val">Worldwide DDP</div></div>
-              <div class="ts-meta-item"><div class="lbl">Packaging</div><div class="val">Individual polybags per piece</div></div>
-              <div class="ts-meta-item"><div class="lbl">Sort</div><div class="val">By size or by player name</div></div>
-            </div>
-            <div class="ts-deliv">
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Individually wrapped, ready to hand out</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Sort by size or by player on request</div>
-              <div class="ts-deliv-item"><span class="check">&#x25B2;</span> Duties prepaid, no surprise fees</div>
+              <div class="ts-meta-item"><div class="lbl">Packaging</div><div class="val">Individual polybags</div></div>
+              <div class="ts-meta-item"><div class="lbl">Sort</div><div class="val">By size or player</div></div>
             </div>
           </div>
         </div>
@@ -1170,7 +1214,7 @@
     <div class="foot-grid">
       <div class="foot-brand">
         <div class="logo"><img src="logo.svg" alt="ZALI Industries"></div>
-        <div class="foot-tag">Industries � Sialkot, Pakistan</div>
+        <div class="foot-tag">Industries &middot; Sialkot, Pakistan</div>
         <p class="foot-desc">A factory-direct manufacturer of sublimated performance apparel. Built by hand, by people we know, in the world's capital of Fitnesswear.</p>
                     <div class="foot-social">
               <a href="https://www.instagram.com/zali_industry" target="_blank" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -1209,7 +1253,7 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <div>� 2026 ZALI Industries � All Rights Reserved</div>
+      <div>&copy; 2026 ZALI Industries &middot; All Rights Reserved</div>
       <div>
         <a href="#">Terms of Sale</a>
         <a href="#">Terms of Use</a>
@@ -1219,14 +1263,8 @@
   </div>
 </footer>
 
-
-
-
-
 <!-- MOBILE DRAWER -->
 <!-- MOBILE MENU DRAWER (3-level drilldown, mobile only) -->
-
-
 
 <script>
 (function(){
@@ -1250,7 +1288,6 @@
   });
 })();
 </script>
-
 
 <!-- TRACK PICKER SCRIPT -->
 <script>
@@ -1286,16 +1323,16 @@
 
   // Initial activation from URL hash
   var hash = window.location.hash.replace('#', '');
-  if (hash === 'suppliers' || hash === 'brands' || hash === 'teams') {
+  if (hash === 'suppliers' || hash === 'brands' || hash === 'teams' || hash === 'individuals') {
     activate(hash, false);
   } else {
-    activate('brands', false);
+    activate('individuals', false);
   }
 
   // Listen for hash changes (e.g., user clicks a #teams link elsewhere on the page)
   window.addEventListener('hashchange', function() {
     var h = window.location.hash.replace('#', '');
-    if (h === 'suppliers' || h === 'brands' || h === 'teams') {
+    if (h === 'suppliers' || h === 'brands' || h === 'teams' || h === 'individuals') {
       activate(h, true);
     }
   });
@@ -1346,9 +1383,7 @@
 })();
 </script>
 
-
 <script src="products-data.js"></script>
 <script src="nav.js"></script>
 </body>
 </html>
-

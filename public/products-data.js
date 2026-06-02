@@ -831,19 +831,18 @@ window.ZALI_CATALOG = {
               "title": "Joggers",
               "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
               "garmentType": "joggers",
-              "fabric": "medium-weight heathered fleece-knit or French terry-style sweatshirt fabric with a smooth outer face, soft matte finish, subtle marl speckling, relaxed drape, and light casual stretch",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
+              "fabric": "",
+              "printMethods": "",
+              "sizeRange": "",
+              "leadTime": "7 to 12 days",
               "moq": 25,
               "is_featured": false,
-              "primaryImageKey": null,
+              "primaryImageKey": "ghost_front",
               "images": {
-                "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/01_detail.webp",
                 "ghost_front": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/02_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/03_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/04_model_front.webp",
-                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/05_model_torso.webp"
+                "model_torso": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/05_model_torso.webp",
+                "model_action": "FinalAllProductsZali/Downloads/Casual%20Wear/Bottoms/Joggers-0cecba/04_model_front.webp"
               }
             },
             {
