@@ -20,6 +20,25 @@
     }
   }
 
+  @media (min-width: 981px) {
+    .sec-sticky-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 65px;
+      align-items: start;
+    }
+    .sec-sticky-layout .sec-head {
+      position: sticky;
+      top: 100px;
+      margin-bottom: 0;
+      z-index: 10;
+    }
+    .sec-sticky-layout .sec-head div[style*="justify-content:flex-end"] {
+      justify-content: flex-start !important;
+      margin-top: 20px !important;
+    }
+  }
+
   .hero {
     position: relative;
     padding: 36px 0 40px;
@@ -900,7 +919,7 @@
 
 <!-- CATEGORIES -->
 <section class="sec">
-  <div class="container">
+  <div class="container sec-sticky-layout">
     <div class="sec-head" style="display:block;">
       <div class="left" style="max-width:760px;">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> 01 / Range</span>
@@ -988,7 +1007,7 @@
 
 <!-- FEATURED PRODUCTS -->
 <section class="sec">
-  <div class="container">
+  <div class="container sec-sticky-layout">
     <div class="sec-head" style="display:block;">
       <div class="left">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> 02 / Selected</span>
@@ -1027,7 +1046,7 @@
 
 <!-- PRINT METHODS -->
 <section class="sec" id="print-methods">
-  <div class="container">
+  <div class="container sec-sticky-layout">
     <div class="sec-head" style="display:block;">
       <div class="left">
         <span class="sec-eyebrow"><span class="tri tri-sm"></span> 03 / Capability</span>
