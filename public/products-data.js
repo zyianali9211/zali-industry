@@ -414,7 +414,7 @@ window.ZALI_CATALOG = {
               "sizeRange": null,
               "leadTime": null,
               "moq": 25,
-              "is_featured": false,
+              "is_featured": true,
               "primaryImageKey": null,
               "images": {
                 "detail": "FinalAllProductsZali/Downloads/Casual%20Wear/Polos/Short%20Sleeve%20Polo-6a3016/01_detail.webp",
@@ -1183,7 +1183,7 @@ window.ZALI_CATALOG = {
               "sizeRange": null,
               "leadTime": null,
               "moq": 25,
-              "is_featured": true,
+              "is_featured": false,
               "primaryImageKey": null,
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/FitnessWear/Training%20Tops/Compression%20Top%20(Long%20Sleeve)-5cdd9e/01_flat_lay.webp",
@@ -2232,7 +2232,7 @@ window.ZALI_CATALOG = {
               "sizeRange": "",
               "leadTime": "",
               "moq": 25,
-              "is_featured": true,
+              "is_featured": false,
               "primaryImageKey": "ghost_front",
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/Fightwear/Fight%20Shorts/BJJ%20Grappling%20Shorts-1e2539/01_flat_lay.webp",
@@ -2733,7 +2733,7 @@ window.ZALI_CATALOG = {
               "sizeRange": "",
               "leadTime": "7 to 12 days",
               "moq": 25,
-              "is_featured": false,
+              "is_featured": true,
               "primaryImageKey": "ghost_front",
               "images": {
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/In-Water%20Tops/Hawaiian%20Print%20Rashguard-5c672d/03_ghost_front.webp",
@@ -3185,7 +3185,7 @@ window.ZALI_CATALOG = {
               "sizeRange": null,
               "leadTime": null,
               "moq": 25,
-              "is_featured": true,
+              "is_featured": false,
               "primaryImageKey": null,
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Aloha%20Camp%20Shirt-601371/01_flat_lay.webp",
@@ -3220,34 +3220,6 @@ window.ZALI_CATALOG = {
                 "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20WalkShorts/03_ghost_front.webp",
                 "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20WalkShorts/04_ghost_back.webp",
                 "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20WalkShorts/05_model_bottom.webp"
-              }
-            },
-            {
-              "id": "surfwear-beach-lifestyle-beach-walkshorts-dd7f2e",
-              "name": "Beach Walkshorts",
-              "folderName": "Beach Walkshorts-dd7f2e",
-              "category": "SurfWear",
-              "categoryId": "surfwear",
-              "subcategory": "Beach Lifestyle",
-              "subcategoryId": "surfwear-beach-lifestyle",
-              "gender": "male",
-              "title": "Beach Walkshorts",
-              "description": "Available in polyester and cotton.\nSublimation, DTF, DTG, and screen printing available.\nFull color customization, logos, graphics, and text on chest, sleeves, back, or hem.\nYouth and adult sizing available, 2T to 9XL.\nMOQ: 25 units.",
-              "garmentType": "beach walkshorts",
-              "fabric": "lightweight woven beachshort fabric, likely smooth polyester or polyester-blend with a soft washed finish; the surface appears matte to low-sheen, lightly textured, and slightly crinkled/rumpled with a relaxed drape rather than stiff structure. The leopard panel looks printed on a similar thin woven base, while the dark panel reads like garment-washed woven cotton/poly with a soft, lived-in hand.",
-              "printMethods": null,
-              "sizeRange": null,
-              "leadTime": null,
-              "moq": 25,
-              "is_featured": false,
-              "primaryImageKey": null,
-              "images": {
-                "flat_lay": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/01_flat_lay.webp",
-                "detail": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/02_detail.webp",
-                "ghost_front": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/03_ghost_front.webp",
-                "ghost_back": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/04_ghost_back.webp",
-                "model_action": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/05_model_action.webp",
-                "model_bottom": "FinalAllProductsZali/Downloads/SurfWear/Beach%20Lifestyle/Beach%20Walkshorts-dd7f2e/06_model_bottom.webp"
               }
             },
             {
@@ -3813,7 +3785,7 @@ window.ZALI_CATALOG = {
               "sizeRange": "",
               "leadTime": "7 to 12 days",
               "moq": 25,
-              "is_featured": false,
+              "is_featured": true,
               "primaryImageKey": "ghost_front",
               "images": {
                 "ghost_front": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/American%20Football/American%20Football%20Jersey%20(Pro%20Cut)-a9c9eb/03_ghost_front.webp",
@@ -4009,7 +3981,7 @@ window.ZALI_CATALOG = {
               "sizeRange": null,
               "leadTime": null,
               "moq": 25,
-              "is_featured": false,
+              "is_featured": true,
               "primaryImageKey": null,
               "images": {
                 "flat_lay": "FinalAllProductsZali/Downloads/Team%20Sports/Most%20Popular/Baseball/Baseball%20Jersey%20(Full%20Button)-05cecb/01_flat_lay.webp",
