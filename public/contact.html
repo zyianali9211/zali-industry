@@ -753,17 +753,26 @@
 
           <form
             class="form-card-main"
-            action="https://formsubmit.co/zali.industry@gmail.com"
+            action="https://api.web3forms.com/submit"
             method="POST"
             enctype="multipart/form-data"
           >
-            <!-- Formsubmit config -->
+            <!-- Web3Forms Config -->
             <input
               type="hidden"
-              name="_subject"
+              name="access_key"
+              value="dbad02cb-c997-4531-9f9d-b14fa0af1074"
+            />
+            <input
+              type="hidden"
+              name="subject"
               value="New Quote Request from ZALI Website"
             />
-            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="from_name"
+              value="ZALI Website"
+            />
 
             <h3 class="form-section-title">
               <span class="form-step">Step 01</span> About You
