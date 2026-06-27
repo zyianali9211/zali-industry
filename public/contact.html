@@ -1440,34 +1440,37 @@
               },
             })
               .then(function (response) {
-                if (response.ok) {
-                  contactForm.reset();
+                return response.json().then(function (data) {
+                  if (response.ok) {
+                    contactForm.reset();
 
-                  // Reset file drop text
-                  var fileDropText = document.querySelector('.file-drop-text');
-                  if (fileDropText) {
-                    fileDropText.innerHTML =
-                      '<strong>Click to upload</strong> or drag and drop';
+                    // Reset file drop text
+                    var fileDropText = document.querySelector('.file-drop-text');
+                    if (fileDropText) {
+                      fileDropText.innerHTML =
+                        '<strong>Click to upload</strong> or drag and drop';
+                    }
+
+                    // Hide advanced details if open
+                    if (advancedDetails)
+                      advancedDetails.classList.remove('expanded');
+                    if (step1SubmitRow) step1SubmitRow.style.display = 'flex';
+
+                    // Show toast
+                    toast.style.opacity = '1';
+                    toast.style.transform = 'translateY(0)';
+
+                    setTimeout(function () {
+                      toast.style.opacity = '0';
+                      toast.style.transform = 'translateY(20px)';
+                    }, 4000);
+                  } else {
+                    alert('Oops! ' + (data.message || 'There was a problem submitting your form'));
                   }
-
-                  // Hide advanced details if open
-                  if (advancedDetails)
-                    advancedDetails.classList.remove('expanded');
-                  if (step1SubmitRow) step1SubmitRow.style.display = 'flex';
-
-                  // Show toast
-                  toast.style.opacity = '1';
-                  toast.style.transform = 'translateY(0)';
-
-                  setTimeout(function () {
-                    toast.style.opacity = '0';
-                    toast.style.transform = 'translateY(20px)';
-                  }, 4000);
-                } else {
-                  alert('Oops! There was a problem submitting your form');
-                }
+                });
               })
               .catch(function (error) {
+                console.error(error);
                 alert('Oops! There was a problem submitting your form');
               })
               .finally(function () {
