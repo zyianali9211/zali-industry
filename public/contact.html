@@ -1060,13 +1060,12 @@
                     <strong>Click to upload</strong> or drag and drop
                   </div>
                   <div class="file-drop-help">
-                    PDF · AI · PSD · PNG · JPG · ZIP · up to 50MB
+                    PDF · AI · PSD · PNG · JPG · ZIP · up to 5MB (ZIP for multiple files)
                   </div>
                   <input
                     type="file"
                     id="file-upload"
-                    name="Attachment"
-                    multiple
+                    name="attachment"
                     accept=".pdf,.ai,.psd,.png,.jpg,.jpeg,.zip"
                     style="display: none"
                     onchange="
@@ -1074,10 +1073,7 @@
                         this.parentElement.querySelector(
                           '.file-drop-text',
                         ).innerHTML =
-                          '<strong>Selected:</strong> ' +
-                          (this.files.length > 1
-                            ? this.files.length + ' files'
-                            : this.files[0].name);
+                          '<strong>Selected:</strong> ' + this.files[0].name;
                       }
                     "
                   />
